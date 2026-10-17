@@ -1,4 +1,6 @@
 from src.constraints import validate_state
+from src.package import ORIENTATIONS
+from src.placement import Placement
 
 
 def candidate_positions(problem, package, orientation):
@@ -56,3 +58,52 @@ def iter_valid_neighbors(problem, state):
             cand.placements[j].position = list(pi) if pi is not None else None
             if is_new_valid(problem, cand, seen):
                 yield cand
+
+# Ambil satu tetangga acak yang valid dari state
+def sample_random_neighbor(problem, state, rng, max_attempts=50):
+    pkgs = problem.package_map
+    ids = list(state.placements)
+    seen = {state.key()}
+    operators = [0, 1, 2]
+    rng.shuffle(operators)
+
+    for op in operators:
+        for _ in range(max_attempts):
+            if op == 0:
+                # Move
+                pid = rng.choice(ids)
+                cur = state.placements[pid]
+                positions = list(candidate_positions(problem, pkgs[pid], cur.orientation))
+                if not positions:
+                    continue
+                pos = rng.choice(positions)
+                cand = state.copy()
+                cand.placements[pid].position = pos
+                if is_new_valid(problem, cand, seen):
+                    return cand
+
+            elif op == 1:
+                # Rotate
+                pid = rng.choice(ids)
+                axis = rng.choice(("x", "y", "z"))
+                cand = state.copy()
+                cand.placements[pid].rotate(axis)
+                if is_new_valid(problem, cand, seen):
+                    return cand
+
+            else:
+                # Swap
+                if len(ids) < 2:
+                    continue
+                i, j = rng.sample(ids, 2)
+                pi = state.placements[i].position
+                pj = state.placements[j].position
+                if pi is None and pj is None:
+                    continue
+                cand = state.copy()
+                cand.placements[i].position = list(pj) if pj is not None else None
+                cand.placements[j].position = list(pi) if pi is not None else None
+                if is_new_valid(problem, cand, seen):
+                    return cand
+
+    return None
