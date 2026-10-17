@@ -1,0 +1,7332 @@
+{
+ "truck": {
+  "dimensions": {
+   "w": 20,
+   "l": 20,
+   "h": 20
+  },
+  "max_capacity": 6000
+ },
+ "packages": [
+  {
+   "id": "small_119",
+   "dimensions": {
+    "w": 2,
+    "l": 3,
+    "h": 4
+   },
+   "value": 32,
+   "weight": 20,
+   "is_fragile": false,
+   "eta": 6
+  },
+  {
+   "id": "small_035",
+   "dimensions": {
+    "w": 3,
+    "l": 3,
+    "h": 3
+   },
+   "value": 129,
+   "weight": 15,
+   "is_fragile": false,
+   "eta": 5
+  },
+  {
+   "id": "tiny_074",
+   "dimensions": {
+    "w": 1,
+    "l": 2,
+    "h": 1
+   },
+   "value": 22,
+   "weight": 7,
+   "is_fragile": false,
+   "eta": 3
+  },
+  {
+   "id": "tiny_096",
+   "dimensions": {
+    "w": 1,
+    "l": 1,
+    "h": 1
+   },
+   "value": 52,
+   "weight": 8,
+   "is_fragile": false,
+   "eta": 4
+  },
+  {
+   "id": "tiny_141",
+   "dimensions": {
+    "w": 1,
+    "l": 1,
+    "h": 2
+   },
+   "value": 41,
+   "weight": 6,
+   "is_fragile": false,
+   "eta": 5
+  },
+  {
+   "id": "tiny_005",
+   "dimensions": {
+    "w": 2,
+    "l": 1,
+    "h": 2
+   },
+   "value": 10,
+   "weight": 9,
+   "is_fragile": false,
+   "eta": 5
+  },
+  {
+   "id": "dense_iron_039",
+   "dimensions": {
+    "w": 2,
+    "l": 2,
+    "h": 4
+   },
+   "value": 65,
+   "weight": 287,
+   "is_fragile": false,
+   "eta": 0
+  },
+  {
+   "id": "light_gold_030",
+   "dimensions": {
+    "w": 4,
+    "l": 3,
+    "h": 3
+   },
+   "value": 332,
+   "weight": 2,
+   "is_fragile": false,
+   "eta": 2
+  },
+  {
+   "id": "small_131",
+   "dimensions": {
+    "w": 2,
+    "l": 4,
+    "h": 2
+   },
+   "value": 142,
+   "weight": 20,
+   "is_fragile": false,
+   "eta": 3
+  },
+  {
+   "id": "medium_050",
+   "dimensions": {
+    "w": 4,
+    "l": 7,
+    "h": 6
+   },
+   "value": 455,
+   "weight": 228,
+   "is_fragile": false,
+   "eta": 7
+  },
+  {
+   "id": "small_003",
+   "dimensions": {
+    "w": 4,
+    "l": 3,
+    "h": 4
+   },
+   "value": 104,
+   "weight": 57,
+   "is_fragile": true,
+   "eta": 10
+  },
+  {
+   "id": "light_gold_017",
+   "dimensions": {
+    "w": 3,
+    "l": 3,
+    "h": 3
+   },
+   "value": 597,
+   "weight": 1,
+   "is_fragile": false,
+   "eta": 1
+  },
+  {
+   "id": "light_gold_015",
+   "dimensions": {
+    "w": 3,
+    "l": 4,
+    "h": 4
+   },
+   "value": 505,
+   "weight": 4,
+   "is_fragile": false,
+   "eta": 1
+  },
+  {
+   "id": "fragile_001",
+   "dimensions": {
+    "w": 5,
+    "l": 3,
+    "h": 5
+   },
+   "value": 249,
+   "weight": 20,
+   "is_fragile": true,
+   "eta": 5
+  },
+  {
+   "id": "tiny_067",
+   "dimensions": {
+    "w": 2,
+    "l": 2,
+    "h": 2
+   },
+   "value": 58,
+   "weight": 15,
+   "is_fragile": false,
+   "eta": 1
+  },
+  {
+   "id": "large_014",
+   "dimensions": {
+    "w": 12,
+    "l": 11,
+    "h": 7
+   },
+   "value": 740,
+   "weight": 535,
+   "is_fragile": true,
+   "eta": 7
+  },
+  {
+   "id": "fragile_017",
+   "dimensions": {
+    "w": 2,
+    "l": 2,
+    "h": 5
+   },
+   "value": 291,
+   "weight": 7,
+   "is_fragile": true,
+   "eta": 0
+  },
+  {
+   "id": "tiny_004",
+   "dimensions": {
+    "w": 1,
+    "l": 2,
+    "h": 1
+   },
+   "value": 27,
+   "weight": 14,
+   "is_fragile": false,
+   "eta": 2
+  },
+  {
+   "id": "medium_073",
+   "dimensions": {
+    "w": 4,
+    "l": 6,
+    "h": 5
+   },
+   "value": 161,
+   "weight": 46,
+   "is_fragile": false,
+   "eta": 0
+  },
+  {
+   "id": "fragile_010",
+   "dimensions": {
+    "w": 5,
+    "l": 5,
+    "h": 2
+   },
+   "value": 290,
+   "weight": 33,
+   "is_fragile": true,
+   "eta": 2
+  },
+  {
+   "id": "large_021",
+   "dimensions": {
+    "w": 7,
+    "l": 10,
+    "h": 12
+   },
+   "value": 1173,
+   "weight": 376,
+   "is_fragile": false,
+   "eta": 5
+  },
+  {
+   "id": "tiny_138",
+   "dimensions": {
+    "w": 2,
+    "l": 1,
+    "h": 1
+   },
+   "value": 34,
+   "weight": 11,
+   "is_fragile": false,
+   "eta": 2
+  },
+  {
+   "id": "small_039",
+   "dimensions": {
+    "w": 3,
+    "l": 3,
+    "h": 3
+   },
+   "value": 28,
+   "weight": 43,
+   "is_fragile": false,
+   "eta": 7
+  },
+  {
+   "id": "fragile_023",
+   "dimensions": {
+    "w": 4,
+    "l": 2,
+    "h": 5
+   },
+   "value": 103,
+   "weight": 12,
+   "is_fragile": true,
+   "eta": 3
+  },
+  {
+   "id": "dense_iron_016",
+   "dimensions": {
+    "w": 4,
+    "l": 2,
+    "h": 2
+   },
+   "value": 62,
+   "weight": 187,
+   "is_fragile": false,
+   "eta": 0
+  },
+  {
+   "id": "fragile_020",
+   "dimensions": {
+    "w": 2,
+    "l": 4,
+    "h": 4
+   },
+   "value": 229,
+   "weight": 40,
+   "is_fragile": true,
+   "eta": 5
+  },
+  {
+   "id": "medium_075",
+   "dimensions": {
+    "w": 4,
+    "l": 4,
+    "h": 6
+   },
+   "value": 319,
+   "weight": 179,
+   "is_fragile": false,
+   "eta": 4
+  },
+  {
+   "id": "small_046",
+   "dimensions": {
+    "w": 3,
+    "l": 4,
+    "h": 2
+   },
+   "value": 51,
+   "weight": 17,
+   "is_fragile": false,
+   "eta": 3
+  },
+  {
+   "id": "dense_iron_007",
+   "dimensions": {
+    "w": 3,
+    "l": 2,
+    "h": 4
+   },
+   "value": 76,
+   "weight": 505,
+   "is_fragile": false,
+   "eta": 9
+  },
+  {
+   "id": "flat_plate_019",
+   "dimensions": {
+    "w": 9,
+    "l": 8,
+    "h": 1
+   },
+   "value": 174,
+   "weight": 19,
+   "is_fragile": false,
+   "eta": 5
+  },
+  {
+   "id": "fragile_025",
+   "dimensions": {
+    "w": 5,
+    "l": 3,
+    "h": 3
+   },
+   "value": 145,
+   "weight": 11,
+   "is_fragile": true,
+   "eta": 4
+  },
+  {
+   "id": "trap_fixed_orient",
+   "dimensions": {
+    "w": 10,
+    "l": 10,
+    "h": 10
+   },
+   "value": 500,
+   "weight": 200,
+   "is_fragile": false,
+   "eta": 3
+  },
+  {
+   "id": "tiny_157",
+   "dimensions": {
+    "w": 1,
+    "l": 1,
+    "h": 1
+   },
+   "value": 8,
+   "weight": 13,
+   "is_fragile": false,
+   "eta": 1
+  },
+  {
+   "id": "small_016",
+   "dimensions": {
+    "w": 2,
+    "l": 3,
+    "h": 2
+   },
+   "value": 27,
+   "weight": 25,
+   "is_fragile": false,
+   "eta": 10
+  },
+  {
+   "id": "tiny_011",
+   "dimensions": {
+    "w": 2,
+    "l": 1,
+    "h": 1
+   },
+   "value": 41,
+   "weight": 15,
+   "is_fragile": false,
+   "eta": 1
+  },
+  {
+   "id": "small_108",
+   "dimensions": {
+    "w": 2,
+    "l": 4,
+    "h": 3
+   },
+   "value": 34,
+   "weight": 34,
+   "is_fragile": true,
+   "eta": 6
+  },
+  {
+   "id": "dense_iron_015",
+   "dimensions": {
+    "w": 3,
+    "l": 4,
+    "h": 3
+   },
+   "value": 17,
+   "weight": 574,
+   "is_fragile": false,
+   "eta": 9
+  },
+  {
+   "id": "medium_002",
+   "dimensions": {
+    "w": 6,
+    "l": 5,
+    "h": 5
+   },
+   "value": 390,
+   "weight": 239,
+   "is_fragile": false,
+   "eta": 8
+  },
+  {
+   "id": "tiny_104",
+   "dimensions": {
+    "w": 1,
+    "l": 1,
+    "h": 1
+   },
+   "value": 45,
+   "weight": 4,
+   "is_fragile": false,
+   "eta": 0
+  },
+  {
+   "id": "tiny_014",
+   "dimensions": {
+    "w": 2,
+    "l": 1,
+    "h": 1
+   },
+   "value": 60,
+   "weight": 2,
+   "is_fragile": false,
+   "eta": 1
+  },
+  {
+   "id": "small_090",
+   "dimensions": {
+    "w": 4,
+    "l": 2,
+    "h": 2
+   },
+   "value": 45,
+   "weight": 31,
+   "is_fragile": false,
+   "eta": 7
+  },
+  {
+   "id": "dense_iron_026",
+   "dimensions": {
+    "w": 2,
+    "l": 3,
+    "h": 2
+   },
+   "value": 38,
+   "weight": 375,
+   "is_fragile": false,
+   "eta": 3
+  },
+  {
+   "id": "flat_plate_018",
+   "dimensions": {
+    "w": 18,
+    "l": 9,
+    "h": 1
+   },
+   "value": 82,
+   "weight": 26,
+   "is_fragile": false,
+   "eta": 0
+  },
+  {
+   "id": "medium_071",
+   "dimensions": {
+    "w": 5,
+    "l": 6,
+    "h": 7
+   },
+   "value": 400,
+   "weight": 73,
+   "is_fragile": false,
+   "eta": 6
+  },
+  {
+   "id": "tiny_146",
+   "dimensions": {
+    "w": 1,
+    "l": 2,
+    "h": 2
+   },
+   "value": 58,
+   "weight": 3,
+   "is_fragile": false,
+   "eta": 3
+  },
+  {
+   "id": "large_020",
+   "dimensions": {
+    "w": 7,
+    "l": 10,
+    "h": 7
+   },
+   "value": 644,
+   "weight": 787,
+   "is_fragile": false,
+   "eta": 12
+  },
+  {
+   "id": "medium_047",
+   "dimensions": {
+    "w": 4,
+    "l": 5,
+    "h": 7
+   },
+   "value": 130,
+   "weight": 181,
+   "is_fragile": false,
+   "eta": 2
+  },
+  {
+   "id": "tiny_084",
+   "dimensions": {
+    "w": 1,
+    "l": 2,
+    "h": 1
+   },
+   "value": 55,
+   "weight": 10,
+   "is_fragile": false,
+   "eta": 2
+  },
+  {
+   "id": "light_gold_000",
+   "dimensions": {
+    "w": 3,
+    "l": 3,
+    "h": 3
+   },
+   "value": 703,
+   "weight": 2,
+   "is_fragile": false,
+   "eta": 1
+  },
+  {
+   "id": "small_149",
+   "dimensions": {
+    "w": 2,
+    "l": 4,
+    "h": 2
+   },
+   "value": 78,
+   "weight": 18,
+   "is_fragile": false,
+   "eta": 9
+  },
+  {
+   "id": "tiny_101",
+   "dimensions": {
+    "w": 2,
+    "l": 1,
+    "h": 1
+   },
+   "value": 14,
+   "weight": 3,
+   "is_fragile": false,
+   "eta": 2
+  },
+  {
+   "id": "fragile_022",
+   "dimensions": {
+    "w": 3,
+    "l": 2,
+    "h": 5
+   },
+   "value": 190,
+   "weight": 34,
+   "is_fragile": true,
+   "eta": 1
+  },
+  {
+   "id": "light_gold_007",
+   "dimensions": {
+    "w": 4,
+    "l": 3,
+    "h": 3
+   },
+   "value": 367,
+   "weight": 5,
+   "is_fragile": false,
+   "eta": 0
+  },
+  {
+   "id": "tiny_026",
+   "dimensions": {
+    "w": 1,
+    "l": 2,
+    "h": 1
+   },
+   "value": 55,
+   "weight": 8,
+   "is_fragile": false,
+   "eta": 1
+  },
+  {
+   "id": "tiny_059",
+   "dimensions": {
+    "w": 2,
+    "l": 2,
+    "h": 1
+   },
+   "value": 24,
+   "weight": 5,
+   "is_fragile": false,
+   "eta": 4
+  },
+  {
+   "id": "tiny_071",
+   "dimensions": {
+    "w": 1,
+    "l": 1,
+    "h": 2
+   },
+   "value": 31,
+   "weight": 6,
+   "is_fragile": false,
+   "eta": 3
+  },
+  {
+   "id": "tiny_158",
+   "dimensions": {
+    "w": 1,
+    "l": 1,
+    "h": 1
+   },
+   "value": 42,
+   "weight": 4,
+   "is_fragile": false,
+   "eta": 1
+  },
+  {
+   "id": "large_017",
+   "dimensions": {
+    "w": 7,
+    "l": 7,
+    "h": 7
+   },
+   "value": 755,
+   "weight": 333,
+   "is_fragile": true,
+   "eta": 12
+  },
+  {
+   "id": "small_113",
+   "dimensions": {
+    "w": 3,
+    "l": 3,
+    "h": 3
+   },
+   "value": 116,
+   "weight": 29,
+   "is_fragile": true,
+   "eta": 10
+  },
+  {
+   "id": "medium_004",
+   "dimensions": {
+    "w": 4,
+    "l": 6,
+    "h": 7
+   },
+   "value": 496,
+   "weight": 207,
+   "is_fragile": true,
+   "eta": 4
+  },
+  {
+   "id": "small_082",
+   "dimensions": {
+    "w": 3,
+    "l": 4,
+    "h": 3
+   },
+   "value": 100,
+   "weight": 16,
+   "is_fragile": false,
+   "eta": 8
+  },
+  {
+   "id": "small_139",
+   "dimensions": {
+    "w": 2,
+    "l": 4,
+    "h": 2
+   },
+   "value": 39,
+   "weight": 57,
+   "is_fragile": false,
+   "eta": 0
+  },
+  {
+   "id": "dense_iron_032",
+   "dimensions": {
+    "w": 2,
+    "l": 3,
+    "h": 2
+   },
+   "value": 60,
+   "weight": 253,
+   "is_fragile": false,
+   "eta": 10
+  },
+  {
+   "id": "medium_005",
+   "dimensions": {
+    "w": 7,
+    "l": 5,
+    "h": 6
+   },
+   "value": 383,
+   "weight": 232,
+   "is_fragile": false,
+   "eta": 10
+  },
+  {
+   "id": "dense_iron_037",
+   "dimensions": {
+    "w": 3,
+    "l": 3,
+    "h": 3
+   },
+   "value": 67,
+   "weight": 442,
+   "is_fragile": false,
+   "eta": 0
+  },
+  {
+   "id": "small_132",
+   "dimensions": {
+    "w": 2,
+    "l": 4,
+    "h": 3
+   },
+   "value": 92,
+   "weight": 29,
+   "is_fragile": false,
+   "eta": 10
+  },
+  {
+   "id": "tiny_023",
+   "dimensions": {
+    "w": 2,
+    "l": 1,
+    "h": 1
+   },
+   "value": 19,
+   "weight": 2,
+   "is_fragile": false,
+   "eta": 4
+  },
+  {
+   "id": "medium_028",
+   "dimensions": {
+    "w": 4,
+    "l": 4,
+    "h": 6
+   },
+   "value": 431,
+   "weight": 95,
+   "is_fragile": false,
+   "eta": 2
+  },
+  {
+   "id": "dense_iron_000",
+   "dimensions": {
+    "w": 2,
+    "l": 4,
+    "h": 4
+   },
+   "value": 50,
+   "weight": 440,
+   "is_fragile": false,
+   "eta": 9
+  },
+  {
+   "id": "dense_iron_027",
+   "dimensions": {
+    "w": 4,
+    "l": 2,
+    "h": 2
+   },
+   "value": 17,
+   "weight": 193,
+   "is_fragile": false,
+   "eta": 8
+  },
+  {
+   "id": "flat_plate_008",
+   "dimensions": {
+    "w": 10,
+    "l": 18,
+    "h": 1
+   },
+   "value": 114,
+   "weight": 22,
+   "is_fragile": true,
+   "eta": 1
+  },
+  {
+   "id": "small_030",
+   "dimensions": {
+    "w": 3,
+    "l": 4,
+    "h": 3
+   },
+   "value": 84,
+   "weight": 7,
+   "is_fragile": false,
+   "eta": 3
+  },
+  {
+   "id": "small_063",
+   "dimensions": {
+    "w": 2,
+    "l": 3,
+    "h": 4
+   },
+   "value": 100,
+   "weight": 17,
+   "is_fragile": false,
+   "eta": 7
+  },
+  {
+   "id": "small_058",
+   "dimensions": {
+    "w": 3,
+    "l": 2,
+    "h": 4
+   },
+   "value": 123,
+   "weight": 24,
+   "is_fragile": false,
+   "eta": 0
+  },
+  {
+   "id": "dense_iron_011",
+   "dimensions": {
+    "w": 3,
+    "l": 4,
+    "h": 2
+   },
+   "value": 35,
+   "weight": 327,
+   "is_fragile": false,
+   "eta": 2
+  },
+  {
+   "id": "small_042",
+   "dimensions": {
+    "w": 4,
+    "l": 2,
+    "h": 3
+   },
+   "value": 86,
+   "weight": 50,
+   "is_fragile": false,
+   "eta": 9
+  },
+  {
+   "id": "medium_034",
+   "dimensions": {
+    "w": 7,
+    "l": 5,
+    "h": 6
+   },
+   "value": 414,
+   "weight": 83,
+   "is_fragile": false,
+   "eta": 5
+  },
+  {
+   "id": "light_gold_025",
+   "dimensions": {
+    "w": 3,
+    "l": 4,
+    "h": 2
+   },
+   "value": 282,
+   "weight": 8,
+   "is_fragile": false,
+   "eta": 1
+  },
+  {
+   "id": "tiny_062",
+   "dimensions": {
+    "w": 1,
+    "l": 2,
+    "h": 1
+   },
+   "value": 56,
+   "weight": 4,
+   "is_fragile": false,
+   "eta": 0
+  },
+  {
+   "id": "tiny_088",
+   "dimensions": {
+    "w": 2,
+    "l": 2,
+    "h": 2
+   },
+   "value": 59,
+   "weight": 4,
+   "is_fragile": false,
+   "eta": 0
+  },
+  {
+   "id": "tiny_144",
+   "dimensions": {
+    "w": 2,
+    "l": 1,
+    "h": 1
+   },
+   "value": 45,
+   "weight": 11,
+   "is_fragile": true,
+   "eta": 3
+  },
+  {
+   "id": "tiny_028",
+   "dimensions": {
+    "w": 1,
+    "l": 1,
+    "h": 2
+   },
+   "value": 51,
+   "weight": 6,
+   "is_fragile": false,
+   "eta": 0
+  },
+  {
+   "id": "small_032",
+   "dimensions": {
+    "w": 3,
+    "l": 4,
+    "h": 3
+   },
+   "value": 118,
+   "weight": 26,
+   "is_fragile": false,
+   "eta": 7
+  },
+  {
+   "id": "medium_074",
+   "dimensions": {
+    "w": 7,
+    "l": 6,
+    "h": 6
+   },
+   "value": 185,
+   "weight": 230,
+   "is_fragile": true,
+   "eta": 4
+  },
+  {
+   "id": "tiny_184",
+   "dimensions": {
+    "w": 1,
+    "l": 1,
+    "h": 2
+   },
+   "value": 52,
+   "weight": 7,
+   "is_fragile": false,
+   "eta": 3
+  },
+  {
+   "id": "small_045",
+   "dimensions": {
+    "w": 4,
+    "l": 3,
+    "h": 3
+   },
+   "value": 60,
+   "weight": 50,
+   "is_fragile": false,
+   "eta": 10
+  },
+  {
+   "id": "tiny_129",
+   "dimensions": {
+    "w": 2,
+    "l": 1,
+    "h": 2
+   },
+   "value": 7,
+   "weight": 3,
+   "is_fragile": false,
+   "eta": 4
+  },
+  {
+   "id": "medium_020",
+   "dimensions": {
+    "w": 7,
+    "l": 5,
+    "h": 6
+   },
+   "value": 223,
+   "weight": 169,
+   "is_fragile": false,
+   "eta": 6
+  },
+  {
+   "id": "tiny_110",
+   "dimensions": {
+    "w": 1,
+    "l": 2,
+    "h": 2
+   },
+   "value": 49,
+   "weight": 7,
+   "is_fragile": false,
+   "eta": 4
+  },
+  {
+   "id": "tiny_130",
+   "dimensions": {
+    "w": 1,
+    "l": 2,
+    "h": 1
+   },
+   "value": 38,
+   "weight": 15,
+   "is_fragile": false,
+   "eta": 5
+  },
+  {
+   "id": "medium_048",
+   "dimensions": {
+    "w": 5,
+    "l": 5,
+    "h": 5
+   },
+   "value": 464,
+   "weight": 204,
+   "is_fragile": false,
+   "eta": 10
+  },
+  {
+   "id": "tiny_161",
+   "dimensions": {
+    "w": 2,
+    "l": 1,
+    "h": 1
+   },
+   "value": 21,
+   "weight": 1,
+   "is_fragile": false,
+   "eta": 3
+  },
+  {
+   "id": "tiny_154",
+   "dimensions": {
+    "w": 1,
+    "l": 2,
+    "h": 1
+   },
+   "value": 58,
+   "weight": 8,
+   "is_fragile": false,
+   "eta": 2
+  },
+  {
+   "id": "small_023",
+   "dimensions": {
+    "w": 2,
+    "l": 4,
+    "h": 4
+   },
+   "value": 41,
+   "weight": 38,
+   "is_fragile": false,
+   "eta": 1
+  },
+  {
+   "id": "small_080",
+   "dimensions": {
+    "w": 4,
+    "l": 2,
+    "h": 3
+   },
+   "value": 148,
+   "weight": 54,
+   "is_fragile": false,
+   "eta": 7
+  },
+  {
+   "id": "flat_plate_006",
+   "dimensions": {
+    "w": 18,
+    "l": 14,
+    "h": 1
+   },
+   "value": 104,
+   "weight": 26,
+   "is_fragile": false,
+   "eta": 0
+  },
+  {
+   "id": "medium_013",
+   "dimensions": {
+    "w": 6,
+    "l": 6,
+    "h": 5
+   },
+   "value": 469,
+   "weight": 293,
+   "is_fragile": false,
+   "eta": 3
+  },
+  {
+   "id": "fragile_015",
+   "dimensions": {
+    "w": 3,
+    "l": 5,
+    "h": 5
+   },
+   "value": 200,
+   "weight": 10,
+   "is_fragile": true,
+   "eta": 4
+  },
+  {
+   "id": "tiny_156",
+   "dimensions": {
+    "w": 2,
+    "l": 2,
+    "h": 1
+   },
+   "value": 30,
+   "weight": 5,
+   "is_fragile": false,
+   "eta": 0
+  },
+  {
+   "id": "fragile_003",
+   "dimensions": {
+    "w": 4,
+    "l": 3,
+    "h": 5
+   },
+   "value": 231,
+   "weight": 21,
+   "is_fragile": true,
+   "eta": 0
+  },
+  {
+   "id": "tiny_024",
+   "dimensions": {
+    "w": 1,
+    "l": 1,
+    "h": 1
+   },
+   "value": 9,
+   "weight": 12,
+   "is_fragile": false,
+   "eta": 1
+  },
+  {
+   "id": "small_041",
+   "dimensions": {
+    "w": 3,
+    "l": 2,
+    "h": 2
+   },
+   "value": 26,
+   "weight": 52,
+   "is_fragile": false,
+   "eta": 8
+  },
+  {
+   "id": "tiny_002",
+   "dimensions": {
+    "w": 1,
+    "l": 1,
+    "h": 2
+   },
+   "value": 19,
+   "weight": 8,
+   "is_fragile": false,
+   "eta": 0
+  },
+  {
+   "id": "small_020",
+   "dimensions": {
+    "w": 2,
+    "l": 2,
+    "h": 2
+   },
+   "value": 127,
+   "weight": 45,
+   "is_fragile": false,
+   "eta": 7
+  },
+  {
+   "id": "small_107",
+   "dimensions": {
+    "w": 3,
+    "l": 4,
+    "h": 3
+   },
+   "value": 49,
+   "weight": 48,
+   "is_fragile": false,
+   "eta": 9
+  },
+  {
+   "id": "tiny_097",
+   "dimensions": {
+    "w": 2,
+    "l": 1,
+    "h": 1
+   },
+   "value": 23,
+   "weight": 4,
+   "is_fragile": false,
+   "eta": 2
+  },
+  {
+   "id": "tiny_006",
+   "dimensions": {
+    "w": 2,
+    "l": 1,
+    "h": 1
+   },
+   "value": 7,
+   "weight": 11,
+   "is_fragile": false,
+   "eta": 2
+  },
+  {
+   "id": "large_028",
+   "dimensions": {
+    "w": 12,
+    "l": 8,
+    "h": 9
+   },
+   "value": 1392,
+   "weight": 257,
+   "is_fragile": false,
+   "eta": 7
+  },
+  {
+   "id": "small_015",
+   "dimensions": {
+    "w": 3,
+    "l": 2,
+    "h": 3
+   },
+   "value": 33,
+   "weight": 30,
+   "is_fragile": false,
+   "eta": 3
+  },
+  {
+   "id": "tiny_047",
+   "dimensions": {
+    "w": 2,
+    "l": 1,
+    "h": 1
+   },
+   "value": 47,
+   "weight": 2,
+   "is_fragile": false,
+   "eta": 4
+  },
+  {
+   "id": "medium_057",
+   "dimensions": {
+    "w": 4,
+    "l": 4,
+    "h": 4
+   },
+   "value": 209,
+   "weight": 284,
+   "is_fragile": true,
+   "eta": 9
+  },
+  {
+   "id": "fragile_026",
+   "dimensions": {
+    "w": 4,
+    "l": 5,
+    "h": 5
+   },
+   "value": 391,
+   "weight": 20,
+   "is_fragile": true,
+   "eta": 2
+  },
+  {
+   "id": "small_120",
+   "dimensions": {
+    "w": 2,
+    "l": 4,
+    "h": 2
+   },
+   "value": 34,
+   "weight": 13,
+   "is_fragile": false,
+   "eta": 4
+  },
+  {
+   "id": "fragile_011",
+   "dimensions": {
+    "w": 4,
+    "l": 2,
+    "h": 3
+   },
+   "value": 253,
+   "weight": 38,
+   "is_fragile": true,
+   "eta": 5
+  },
+  {
+   "id": "tiny_149",
+   "dimensions": {
+    "w": 2,
+    "l": 2,
+    "h": 2
+   },
+   "value": 42,
+   "weight": 7,
+   "is_fragile": false,
+   "eta": 2
+  },
+  {
+   "id": "medium_043",
+   "dimensions": {
+    "w": 6,
+    "l": 4,
+    "h": 7
+   },
+   "value": 234,
+   "weight": 218,
+   "is_fragile": false,
+   "eta": 1
+  },
+  {
+   "id": "light_gold_027",
+   "dimensions": {
+    "w": 2,
+    "l": 3,
+    "h": 2
+   },
+   "value": 332,
+   "weight": 10,
+   "is_fragile": false,
+   "eta": 3
+  },
+  {
+   "id": "tiny_126",
+   "dimensions": {
+    "w": 2,
+    "l": 1,
+    "h": 2
+   },
+   "value": 39,
+   "weight": 8,
+   "is_fragile": false,
+   "eta": 4
+  },
+  {
+   "id": "small_114",
+   "dimensions": {
+    "w": 2,
+    "l": 4,
+    "h": 3
+   },
+   "value": 50,
+   "weight": 16,
+   "is_fragile": false,
+   "eta": 6
+  },
+  {
+   "id": "medium_035",
+   "dimensions": {
+    "w": 5,
+    "l": 6,
+    "h": 4
+   },
+   "value": 193,
+   "weight": 231,
+   "is_fragile": false,
+   "eta": 8
+  },
+  {
+   "id": "tiny_172",
+   "dimensions": {
+    "w": 2,
+    "l": 2,
+    "h": 2
+   },
+   "value": 60,
+   "weight": 15,
+   "is_fragile": false,
+   "eta": 2
+  },
+  {
+   "id": "flat_plate_007",
+   "dimensions": {
+    "w": 12,
+    "l": 13,
+    "h": 1
+   },
+   "value": 56,
+   "weight": 19,
+   "is_fragile": false,
+   "eta": 0
+  },
+  {
+   "id": "tiny_150",
+   "dimensions": {
+    "w": 1,
+    "l": 2,
+    "h": 1
+   },
+   "value": 44,
+   "weight": 15,
+   "is_fragile": false,
+   "eta": 2
+  },
+  {
+   "id": "dense_iron_008",
+   "dimensions": {
+    "w": 2,
+    "l": 4,
+    "h": 4
+   },
+   "value": 27,
+   "weight": 343,
+   "is_fragile": false,
+   "eta": 4
+  },
+  {
+   "id": "light_gold_035",
+   "dimensions": {
+    "w": 4,
+    "l": 2,
+    "h": 4
+   },
+   "value": 249,
+   "weight": 2,
+   "is_fragile": false,
+   "eta": 0
+  },
+  {
+   "id": "small_024",
+   "dimensions": {
+    "w": 4,
+    "l": 4,
+    "h": 4
+   },
+   "value": 25,
+   "weight": 29,
+   "is_fragile": false,
+   "eta": 0
+  },
+  {
+   "id": "tiny_145",
+   "dimensions": {
+    "w": 2,
+    "l": 1,
+    "h": 1
+   },
+   "value": 23,
+   "weight": 6,
+   "is_fragile": false,
+   "eta": 1
+  },
+  {
+   "id": "medium_058",
+   "dimensions": {
+    "w": 7,
+    "l": 4,
+    "h": 4
+   },
+   "value": 456,
+   "weight": 215,
+   "is_fragile": false,
+   "eta": 6
+  },
+  {
+   "id": "tiny_180",
+   "dimensions": {
+    "w": 1,
+    "l": 2,
+    "h": 2
+   },
+   "value": 47,
+   "weight": 7,
+   "is_fragile": false,
+   "eta": 3
+  },
+  {
+   "id": "tiny_176",
+   "dimensions": {
+    "w": 1,
+    "l": 1,
+    "h": 2
+   },
+   "value": 49,
+   "weight": 13,
+   "is_fragile": false,
+   "eta": 2
+  },
+  {
+   "id": "medium_062",
+   "dimensions": {
+    "w": 5,
+    "l": 7,
+    "h": 7
+   },
+   "value": 211,
+   "weight": 84,
+   "is_fragile": false,
+   "eta": 2
+  },
+  {
+   "id": "light_gold_010",
+   "dimensions": {
+    "w": 2,
+    "l": 3,
+    "h": 2
+   },
+   "value": 377,
+   "weight": 10,
+   "is_fragile": false,
+   "eta": 1
+  },
+  {
+   "id": "dense_iron_022",
+   "dimensions": {
+    "w": 3,
+    "l": 2,
+    "h": 2
+   },
+   "value": 51,
+   "weight": 151,
+   "is_fragile": false,
+   "eta": 4
+  },
+  {
+   "id": "tiny_073",
+   "dimensions": {
+    "w": 2,
+    "l": 2,
+    "h": 1
+   },
+   "value": 27,
+   "weight": 5,
+   "is_fragile": false,
+   "eta": 3
+  },
+  {
+   "id": "tiny_015",
+   "dimensions": {
+    "w": 2,
+    "l": 1,
+    "h": 2
+   },
+   "value": 29,
+   "weight": 10,
+   "is_fragile": false,
+   "eta": 4
+  },
+  {
+   "id": "small_017",
+   "dimensions": {
+    "w": 2,
+    "l": 2,
+    "h": 2
+   },
+   "value": 93,
+   "weight": 58,
+   "is_fragile": false,
+   "eta": 2
+  },
+  {
+   "id": "tiny_043",
+   "dimensions": {
+    "w": 1,
+    "l": 2,
+    "h": 2
+   },
+   "value": 21,
+   "weight": 15,
+   "is_fragile": false,
+   "eta": 0
+  },
+  {
+   "id": "light_gold_037",
+   "dimensions": {
+    "w": 4,
+    "l": 2,
+    "h": 2
+   },
+   "value": 209,
+   "weight": 5,
+   "is_fragile": false,
+   "eta": 0
+  },
+  {
+   "id": "medium_077",
+   "dimensions": {
+    "w": 6,
+    "l": 5,
+    "h": 6
+   },
+   "value": 495,
+   "weight": 92,
+   "is_fragile": false,
+   "eta": 10
+  },
+  {
+   "id": "light_gold_002",
+   "dimensions": {
+    "w": 3,
+    "l": 2,
+    "h": 3
+   },
+   "value": 696,
+   "weight": 9,
+   "is_fragile": false,
+   "eta": 0
+  },
+  {
+   "id": "fragile_029",
+   "dimensions": {
+    "w": 3,
+    "l": 4,
+    "h": 2
+   },
+   "value": 260,
+   "weight": 40,
+   "is_fragile": true,
+   "eta": 4
+  },
+  {
+   "id": "small_148",
+   "dimensions": {
+    "w": 4,
+    "l": 2,
+    "h": 2
+   },
+   "value": 147,
+   "weight": 59,
+   "is_fragile": false,
+   "eta": 5
+  },
+  {
+   "id": "small_038",
+   "dimensions": {
+    "w": 2,
+    "l": 2,
+    "h": 4
+   },
+   "value": 132,
+   "weight": 7,
+   "is_fragile": true,
+   "eta": 3
+  },
+  {
+   "id": "small_026",
+   "dimensions": {
+    "w": 4,
+    "l": 4,
+    "h": 4
+   },
+   "value": 46,
+   "weight": 54,
+   "is_fragile": false,
+   "eta": 5
+  },
+  {
+   "id": "light_gold_028",
+   "dimensions": {
+    "w": 3,
+    "l": 3,
+    "h": 3
+   },
+   "value": 204,
+   "weight": 1,
+   "is_fragile": false,
+   "eta": 2
+  },
+  {
+   "id": "tiny_090",
+   "dimensions": {
+    "w": 2,
+    "l": 2,
+    "h": 1
+   },
+   "value": 36,
+   "weight": 4,
+   "is_fragile": false,
+   "eta": 2
+  },
+  {
+   "id": "tiny_078",
+   "dimensions": {
+    "w": 2,
+    "l": 2,
+    "h": 1
+   },
+   "value": 35,
+   "weight": 1,
+   "is_fragile": false,
+   "eta": 0
+  },
+  {
+   "id": "tiny_118",
+   "dimensions": {
+    "w": 1,
+    "l": 2,
+    "h": 2
+   },
+   "value": 8,
+   "weight": 4,
+   "is_fragile": false,
+   "eta": 4
+  },
+  {
+   "id": "large_003",
+   "dimensions": {
+    "w": 9,
+    "l": 12,
+    "h": 11
+   },
+   "value": 796,
+   "weight": 675,
+   "is_fragile": false,
+   "eta": 15
+  },
+  {
+   "id": "tiny_160",
+   "dimensions": {
+    "w": 1,
+    "l": 1,
+    "h": 1
+   },
+   "value": 13,
+   "weight": 1,
+   "is_fragile": false,
+   "eta": 1
+  },
+  {
+   "id": "dense_iron_017",
+   "dimensions": {
+    "w": 2,
+    "l": 3,
+    "h": 3
+   },
+   "value": 18,
+   "weight": 187,
+   "is_fragile": false,
+   "eta": 6
+  },
+  {
+   "id": "tiny_098",
+   "dimensions": {
+    "w": 1,
+    "l": 2,
+    "h": 1
+   },
+   "value": 8,
+   "weight": 9,
+   "is_fragile": false,
+   "eta": 1
+  },
+  {
+   "id": "small_145",
+   "dimensions": {
+    "w": 3,
+    "l": 3,
+    "h": 2
+   },
+   "value": 115,
+   "weight": 30,
+   "is_fragile": false,
+   "eta": 3
+  },
+  {
+   "id": "tiny_003",
+   "dimensions": {
+    "w": 2,
+    "l": 2,
+    "h": 2
+   },
+   "value": 14,
+   "weight": 4,
+   "is_fragile": false,
+   "eta": 2
+  },
+  {
+   "id": "small_115",
+   "dimensions": {
+    "w": 2,
+    "l": 4,
+    "h": 2
+   },
+   "value": 20,
+   "weight": 53,
+   "is_fragile": true,
+   "eta": 4
+  },
+  {
+   "id": "fragile_027",
+   "dimensions": {
+    "w": 5,
+    "l": 3,
+    "h": 3
+   },
+   "value": 291,
+   "weight": 37,
+   "is_fragile": true,
+   "eta": 5
+  },
+  {
+   "id": "small_044",
+   "dimensions": {
+    "w": 4,
+    "l": 3,
+    "h": 2
+   },
+   "value": 101,
+   "weight": 47,
+   "is_fragile": false,
+   "eta": 1
+  },
+  {
+   "id": "tiny_091",
+   "dimensions": {
+    "w": 2,
+    "l": 2,
+    "h": 1
+   },
+   "value": 38,
+   "weight": 4,
+   "is_fragile": true,
+   "eta": 5
+  },
+  {
+   "id": "tiny_061",
+   "dimensions": {
+    "w": 1,
+    "l": 1,
+    "h": 2
+   },
+   "value": 37,
+   "weight": 11,
+   "is_fragile": false,
+   "eta": 2
+  },
+  {
+   "id": "medium_031",
+   "dimensions": {
+    "w": 7,
+    "l": 7,
+    "h": 4
+   },
+   "value": 460,
+   "weight": 149,
+   "is_fragile": false,
+   "eta": 1
+  },
+  {
+   "id": "medium_067",
+   "dimensions": {
+    "w": 6,
+    "l": 5,
+    "h": 7
+   },
+   "value": 391,
+   "weight": 255,
+   "is_fragile": false,
+   "eta": 10
+  },
+  {
+   "id": "tiny_115",
+   "dimensions": {
+    "w": 2,
+    "l": 2,
+    "h": 2
+   },
+   "value": 26,
+   "weight": 6,
+   "is_fragile": false,
+   "eta": 1
+  },
+  {
+   "id": "small_126",
+   "dimensions": {
+    "w": 2,
+    "l": 3,
+    "h": 2
+   },
+   "value": 125,
+   "weight": 31,
+   "is_fragile": false,
+   "eta": 2
+  },
+  {
+   "id": "small_040",
+   "dimensions": {
+    "w": 3,
+    "l": 3,
+    "h": 2
+   },
+   "value": 55,
+   "weight": 38,
+   "is_fragile": false,
+   "eta": 5
+  },
+  {
+   "id": "large_013",
+   "dimensions": {
+    "w": 9,
+    "l": 10,
+    "h": 9
+   },
+   "value": 545,
+   "weight": 292,
+   "is_fragile": true,
+   "eta": 9
+  },
+  {
+   "id": "tiny_190",
+   "dimensions": {
+    "w": 1,
+    "l": 1,
+    "h": 1
+   },
+   "value": 38,
+   "weight": 9,
+   "is_fragile": false,
+   "eta": 2
+  },
+  {
+   "id": "tiny_171",
+   "dimensions": {
+    "w": 2,
+    "l": 1,
+    "h": 1
+   },
+   "value": 42,
+   "weight": 9,
+   "is_fragile": false,
+   "eta": 5
+  },
+  {
+   "id": "tiny_085",
+   "dimensions": {
+    "w": 2,
+    "l": 2,
+    "h": 1
+   },
+   "value": 37,
+   "weight": 11,
+   "is_fragile": false,
+   "eta": 3
+  },
+  {
+   "id": "small_021",
+   "dimensions": {
+    "w": 2,
+    "l": 3,
+    "h": 4
+   },
+   "value": 24,
+   "weight": 45,
+   "is_fragile": false,
+   "eta": 3
+  },
+  {
+   "id": "fragile_033",
+   "dimensions": {
+    "w": 3,
+    "l": 5,
+    "h": 3
+   },
+   "value": 341,
+   "weight": 23,
+   "is_fragile": true,
+   "eta": 0
+  },
+  {
+   "id": "tiny_128",
+   "dimensions": {
+    "w": 2,
+    "l": 1,
+    "h": 2
+   },
+   "value": 7,
+   "weight": 6,
+   "is_fragile": false,
+   "eta": 5
+  },
+  {
+   "id": "trap_dense_gold_half",
+   "dimensions": {
+    "w": 20,
+    "l": 20,
+    "h": 10
+   },
+   "value": 2600,
+   "weight": 3000,
+   "is_fragile": false,
+   "eta": 10
+  },
+  {
+   "id": "small_130",
+   "dimensions": {
+    "w": 2,
+    "l": 3,
+    "h": 2
+   },
+   "value": 105,
+   "weight": 24,
+   "is_fragile": false,
+   "eta": 0
+  },
+  {
+   "id": "tiny_116",
+   "dimensions": {
+    "w": 2,
+    "l": 2,
+    "h": 2
+   },
+   "value": 47,
+   "weight": 7,
+   "is_fragile": false,
+   "eta": 4
+  },
+  {
+   "id": "light_gold_021",
+   "dimensions": {
+    "w": 2,
+    "l": 2,
+    "h": 3
+   },
+   "value": 428,
+   "weight": 5,
+   "is_fragile": false,
+   "eta": 2
+  },
+  {
+   "id": "small_013",
+   "dimensions": {
+    "w": 2,
+    "l": 4,
+    "h": 4
+   },
+   "value": 51,
+   "weight": 23,
+   "is_fragile": true,
+   "eta": 2
+  },
+  {
+   "id": "dense_iron_030",
+   "dimensions": {
+    "w": 4,
+    "l": 2,
+    "h": 4
+   },
+   "value": 78,
+   "weight": 414,
+   "is_fragile": false,
+   "eta": 10
+  },
+  {
+   "id": "tiny_020",
+   "dimensions": {
+    "w": 1,
+    "l": 1,
+    "h": 1
+   },
+   "value": 10,
+   "weight": 12,
+   "is_fragile": false,
+   "eta": 0
+  },
+  {
+   "id": "tiny_017",
+   "dimensions": {
+    "w": 1,
+    "l": 2,
+    "h": 1
+   },
+   "value": 51,
+   "weight": 15,
+   "is_fragile": false,
+   "eta": 4
+  },
+  {
+   "id": "tiny_029",
+   "dimensions": {
+    "w": 1,
+    "l": 1,
+    "h": 2
+   },
+   "value": 13,
+   "weight": 7,
+   "is_fragile": false,
+   "eta": 3
+  },
+  {
+   "id": "small_136",
+   "dimensions": {
+    "w": 3,
+    "l": 4,
+    "h": 2
+   },
+   "value": 147,
+   "weight": 40,
+   "is_fragile": false,
+   "eta": 10
+  },
+  {
+   "id": "tiny_148",
+   "dimensions": {
+    "w": 2,
+    "l": 2,
+    "h": 1
+   },
+   "value": 55,
+   "weight": 7,
+   "is_fragile": true,
+   "eta": 4
+  },
+  {
+   "id": "medium_078",
+   "dimensions": {
+    "w": 4,
+    "l": 5,
+    "h": 4
+   },
+   "value": 122,
+   "weight": 46,
+   "is_fragile": false,
+   "eta": 7
+  },
+  {
+   "id": "small_101",
+   "dimensions": {
+    "w": 4,
+    "l": 4,
+    "h": 4
+   },
+   "value": 22,
+   "weight": 21,
+   "is_fragile": false,
+   "eta": 3
+  },
+  {
+   "id": "small_011",
+   "dimensions": {
+    "w": 3,
+    "l": 3,
+    "h": 3
+   },
+   "value": 117,
+   "weight": 37,
+   "is_fragile": false,
+   "eta": 2
+  },
+  {
+   "id": "tiny_042",
+   "dimensions": {
+    "w": 1,
+    "l": 1,
+    "h": 1
+   },
+   "value": 22,
+   "weight": 5,
+   "is_fragile": false,
+   "eta": 5
+  },
+  {
+   "id": "small_002",
+   "dimensions": {
+    "w": 3,
+    "l": 3,
+    "h": 4
+   },
+   "value": 120,
+   "weight": 13,
+   "is_fragile": false,
+   "eta": 1
+  },
+  {
+   "id": "tiny_051",
+   "dimensions": {
+    "w": 2,
+    "l": 2,
+    "h": 2
+   },
+   "value": 57,
+   "weight": 13,
+   "is_fragile": false,
+   "eta": 1
+  },
+  {
+   "id": "dense_iron_012",
+   "dimensions": {
+    "w": 2,
+    "l": 4,
+    "h": 4
+   },
+   "value": 47,
+   "weight": 378,
+   "is_fragile": false,
+   "eta": 3
+  },
+  {
+   "id": "fragile_005",
+   "dimensions": {
+    "w": 2,
+    "l": 3,
+    "h": 3
+   },
+   "value": 248,
+   "weight": 27,
+   "is_fragile": true,
+   "eta": 4
+  },
+  {
+   "id": "tiny_178",
+   "dimensions": {
+    "w": 1,
+    "l": 1,
+    "h": 1
+   },
+   "value": 29,
+   "weight": 7,
+   "is_fragile": false,
+   "eta": 1
+  },
+  {
+   "id": "tiny_117",
+   "dimensions": {
+    "w": 2,
+    "l": 1,
+    "h": 2
+   },
+   "value": 21,
+   "weight": 6,
+   "is_fragile": false,
+   "eta": 3
+  },
+  {
+   "id": "tiny_038",
+   "dimensions": {
+    "w": 1,
+    "l": 2,
+    "h": 2
+   },
+   "value": 25,
+   "weight": 15,
+   "is_fragile": false,
+   "eta": 0
+  },
+  {
+   "id": "fragile_019",
+   "dimensions": {
+    "w": 4,
+    "l": 5,
+    "h": 4
+   },
+   "value": 311,
+   "weight": 12,
+   "is_fragile": true,
+   "eta": 5
+  },
+  {
+   "id": "medium_017",
+   "dimensions": {
+    "w": 7,
+    "l": 5,
+    "h": 6
+   },
+   "value": 292,
+   "weight": 183,
+   "is_fragile": false,
+   "eta": 6
+  },
+  {
+   "id": "small_065",
+   "dimensions": {
+    "w": 3,
+    "l": 2,
+    "h": 2
+   },
+   "value": 110,
+   "weight": 8,
+   "is_fragile": true,
+   "eta": 7
+  },
+  {
+   "id": "large_022",
+   "dimensions": {
+    "w": 9,
+    "l": 10,
+    "h": 8
+   },
+   "value": 370,
+   "weight": 828,
+   "is_fragile": false,
+   "eta": 7
+  },
+  {
+   "id": "flat_plate_016",
+   "dimensions": {
+    "w": 10,
+    "l": 16,
+    "h": 1
+   },
+   "value": 114,
+   "weight": 11,
+   "is_fragile": true,
+   "eta": 5
+  },
+  {
+   "id": "dense_iron_003",
+   "dimensions": {
+    "w": 2,
+    "l": 3,
+    "h": 4
+   },
+   "value": 27,
+   "weight": 560,
+   "is_fragile": false,
+   "eta": 5
+  },
+  {
+   "id": "medium_042",
+   "dimensions": {
+    "w": 4,
+    "l": 7,
+    "h": 5
+   },
+   "value": 317,
+   "weight": 92,
+   "is_fragile": false,
+   "eta": 10
+  },
+  {
+   "id": "medium_045",
+   "dimensions": {
+    "w": 7,
+    "l": 5,
+    "h": 5
+   },
+   "value": 205,
+   "weight": 145,
+   "is_fragile": false,
+   "eta": 9
+  },
+  {
+   "id": "light_gold_011",
+   "dimensions": {
+    "w": 4,
+    "l": 3,
+    "h": 4
+   },
+   "value": 481,
+   "weight": 7,
+   "is_fragile": false,
+   "eta": 2
+  },
+  {
+   "id": "small_105",
+   "dimensions": {
+    "w": 4,
+    "l": 2,
+    "h": 2
+   },
+   "value": 40,
+   "weight": 38,
+   "is_fragile": false,
+   "eta": 5
+  },
+  {
+   "id": "fragile_008",
+   "dimensions": {
+    "w": 3,
+    "l": 2,
+    "h": 5
+   },
+   "value": 382,
+   "weight": 35,
+   "is_fragile": true,
+   "eta": 5
+  },
+  {
+   "id": "small_099",
+   "dimensions": {
+    "w": 3,
+    "l": 4,
+    "h": 2
+   },
+   "value": 67,
+   "weight": 13,
+   "is_fragile": false,
+   "eta": 3
+  },
+  {
+   "id": "dense_iron_001",
+   "dimensions": {
+    "w": 3,
+    "l": 4,
+    "h": 3
+   },
+   "value": 27,
+   "weight": 401,
+   "is_fragile": false,
+   "eta": 0
+  },
+  {
+   "id": "light_gold_014",
+   "dimensions": {
+    "w": 4,
+    "l": 2,
+    "h": 3
+   },
+   "value": 265,
+   "weight": 6,
+   "is_fragile": false,
+   "eta": 2
+  },
+  {
+   "id": "tiny_162",
+   "dimensions": {
+    "w": 1,
+    "l": 1,
+    "h": 2
+   },
+   "value": 33,
+   "weight": 13,
+   "is_fragile": false,
+   "eta": 4
+  },
+  {
+   "id": "small_069",
+   "dimensions": {
+    "w": 4,
+    "l": 3,
+    "h": 4
+   },
+   "value": 91,
+   "weight": 57,
+   "is_fragile": false,
+   "eta": 10
+  },
+  {
+   "id": "tiny_013",
+   "dimensions": {
+    "w": 2,
+    "l": 2,
+    "h": 2
+   },
+   "value": 28,
+   "weight": 4,
+   "is_fragile": false,
+   "eta": 1
+  },
+  {
+   "id": "large_026",
+   "dimensions": {
+    "w": 9,
+    "l": 8,
+    "h": 7
+   },
+   "value": 953,
+   "weight": 811,
+   "is_fragile": false,
+   "eta": 8
+  },
+  {
+   "id": "tiny_053",
+   "dimensions": {
+    "w": 2,
+    "l": 2,
+    "h": 1
+   },
+   "value": 12,
+   "weight": 15,
+   "is_fragile": false,
+   "eta": 1
+  },
+  {
+   "id": "large_005",
+   "dimensions": {
+    "w": 11,
+    "l": 9,
+    "h": 12
+   },
+   "value": 319,
+   "weight": 543,
+   "is_fragile": true,
+   "eta": 12
+  },
+  {
+   "id": "small_106",
+   "dimensions": {
+    "w": 4,
+    "l": 2,
+    "h": 2
+   },
+   "value": 149,
+   "weight": 17,
+   "is_fragile": false,
+   "eta": 2
+  },
+  {
+   "id": "medium_026",
+   "dimensions": {
+    "w": 5,
+    "l": 6,
+    "h": 6
+   },
+   "value": 275,
+   "weight": 273,
+   "is_fragile": false,
+   "eta": 8
+  },
+  {
+   "id": "light_gold_022",
+   "dimensions": {
+    "w": 3,
+    "l": 4,
+    "h": 3
+   },
+   "value": 674,
+   "weight": 2,
+   "is_fragile": false,
+   "eta": 0
+  },
+  {
+   "id": "dense_iron_024",
+   "dimensions": {
+    "w": 3,
+    "l": 2,
+    "h": 3
+   },
+   "value": 19,
+   "weight": 307,
+   "is_fragile": false,
+   "eta": 7
+  },
+  {
+   "id": "medium_072",
+   "dimensions": {
+    "w": 5,
+    "l": 4,
+    "h": 5
+   },
+   "value": 144,
+   "weight": 262,
+   "is_fragile": true,
+   "eta": 9
+  },
+  {
+   "id": "medium_011",
+   "dimensions": {
+    "w": 5,
+    "l": 5,
+    "h": 7
+   },
+   "value": 186,
+   "weight": 111,
+   "is_fragile": false,
+   "eta": 4
+  },
+  {
+   "id": "small_134",
+   "dimensions": {
+    "w": 2,
+    "l": 3,
+    "h": 3
+   },
+   "value": 125,
+   "weight": 7,
+   "is_fragile": false,
+   "eta": 3
+  },
+  {
+   "id": "small_073",
+   "dimensions": {
+    "w": 2,
+    "l": 3,
+    "h": 4
+   },
+   "value": 101,
+   "weight": 15,
+   "is_fragile": false,
+   "eta": 9
+  },
+  {
+   "id": "tiny_048",
+   "dimensions": {
+    "w": 1,
+    "l": 1,
+    "h": 1
+   },
+   "value": 56,
+   "weight": 13,
+   "is_fragile": false,
+   "eta": 3
+  },
+  {
+   "id": "medium_040",
+   "dimensions": {
+    "w": 4,
+    "l": 5,
+    "h": 6
+   },
+   "value": 116,
+   "weight": 180,
+   "is_fragile": false,
+   "eta": 4
+  },
+  {
+   "id": "small_117",
+   "dimensions": {
+    "w": 3,
+    "l": 3,
+    "h": 2
+   },
+   "value": 90,
+   "weight": 17,
+   "is_fragile": false,
+   "eta": 1
+  },
+  {
+   "id": "tiny_046",
+   "dimensions": {
+    "w": 1,
+    "l": 2,
+    "h": 1
+   },
+   "value": 32,
+   "weight": 3,
+   "is_fragile": true,
+   "eta": 2
+  },
+  {
+   "id": "tiny_191",
+   "dimensions": {
+    "w": 1,
+    "l": 1,
+    "h": 1
+   },
+   "value": 14,
+   "weight": 5,
+   "is_fragile": false,
+   "eta": 4
+  },
+  {
+   "id": "tiny_152",
+   "dimensions": {
+    "w": 1,
+    "l": 1,
+    "h": 2
+   },
+   "value": 36,
+   "weight": 2,
+   "is_fragile": true,
+   "eta": 4
+  },
+  {
+   "id": "tiny_087",
+   "dimensions": {
+    "w": 2,
+    "l": 1,
+    "h": 2
+   },
+   "value": 44,
+   "weight": 13,
+   "is_fragile": false,
+   "eta": 3
+  },
+  {
+   "id": "small_129",
+   "dimensions": {
+    "w": 4,
+    "l": 2,
+    "h": 2
+   },
+   "value": 68,
+   "weight": 56,
+   "is_fragile": false,
+   "eta": 10
+  },
+  {
+   "id": "medium_059",
+   "dimensions": {
+    "w": 5,
+    "l": 7,
+    "h": 4
+   },
+   "value": 217,
+   "weight": 236,
+   "is_fragile": true,
+   "eta": 1
+  },
+  {
+   "id": "small_094",
+   "dimensions": {
+    "w": 3,
+    "l": 3,
+    "h": 2
+   },
+   "value": 94,
+   "weight": 7,
+   "is_fragile": true,
+   "eta": 9
+  },
+  {
+   "id": "medium_030",
+   "dimensions": {
+    "w": 5,
+    "l": 5,
+    "h": 7
+   },
+   "value": 302,
+   "weight": 54,
+   "is_fragile": false,
+   "eta": 3
+  },
+  {
+   "id": "small_067",
+   "dimensions": {
+    "w": 2,
+    "l": 3,
+    "h": 4
+   },
+   "value": 113,
+   "weight": 53,
+   "is_fragile": false,
+   "eta": 0
+  },
+  {
+   "id": "medium_052",
+   "dimensions": {
+    "w": 5,
+    "l": 7,
+    "h": 5
+   },
+   "value": 353,
+   "weight": 177,
+   "is_fragile": false,
+   "eta": 4
+  },
+  {
+   "id": "medium_079",
+   "dimensions": {
+    "w": 7,
+    "l": 5,
+    "h": 5
+   },
+   "value": 118,
+   "weight": 254,
+   "is_fragile": false,
+   "eta": 3
+  },
+  {
+   "id": "dense_iron_006",
+   "dimensions": {
+    "w": 2,
+    "l": 2,
+    "h": 4
+   },
+   "value": 60,
+   "weight": 555,
+   "is_fragile": false,
+   "eta": 7
+  },
+  {
+   "id": "small_028",
+   "dimensions": {
+    "w": 4,
+    "l": 3,
+    "h": 4
+   },
+   "value": 66,
+   "weight": 56,
+   "is_fragile": true,
+   "eta": 7
+  },
+  {
+   "id": "dense_iron_031",
+   "dimensions": {
+    "w": 2,
+    "l": 2,
+    "h": 3
+   },
+   "value": 27,
+   "weight": 235,
+   "is_fragile": false,
+   "eta": 3
+  },
+  {
+   "id": "small_124",
+   "dimensions": {
+    "w": 4,
+    "l": 3,
+    "h": 4
+   },
+   "value": 101,
+   "weight": 49,
+   "is_fragile": false,
+   "eta": 2
+  },
+  {
+   "id": "tiny_188",
+   "dimensions": {
+    "w": 2,
+    "l": 2,
+    "h": 1
+   },
+   "value": 32,
+   "weight": 14,
+   "is_fragile": false,
+   "eta": 3
+  },
+  {
+   "id": "small_081",
+   "dimensions": {
+    "w": 4,
+    "l": 2,
+    "h": 4
+   },
+   "value": 55,
+   "weight": 38,
+   "is_fragile": false,
+   "eta": 5
+  },
+  {
+   "id": "large_007",
+   "dimensions": {
+    "w": 7,
+    "l": 8,
+    "h": 12
+   },
+   "value": 873,
+   "weight": 295,
+   "is_fragile": true,
+   "eta": 7
+  },
+  {
+   "id": "tiny_052",
+   "dimensions": {
+    "w": 1,
+    "l": 2,
+    "h": 2
+   },
+   "value": 22,
+   "weight": 14,
+   "is_fragile": true,
+   "eta": 2
+  },
+  {
+   "id": "large_006",
+   "dimensions": {
+    "w": 12,
+    "l": 9,
+    "h": 7
+   },
+   "value": 720,
+   "weight": 742,
+   "is_fragile": false,
+   "eta": 13
+  },
+  {
+   "id": "tiny_113",
+   "dimensions": {
+    "w": 1,
+    "l": 2,
+    "h": 1
+   },
+   "value": 53,
+   "weight": 13,
+   "is_fragile": false,
+   "eta": 4
+  },
+  {
+   "id": "tiny_134",
+   "dimensions": {
+    "w": 1,
+    "l": 2,
+    "h": 1
+   },
+   "value": 53,
+   "weight": 11,
+   "is_fragile": false,
+   "eta": 0
+  },
+  {
+   "id": "medium_022",
+   "dimensions": {
+    "w": 4,
+    "l": 6,
+    "h": 4
+   },
+   "value": 155,
+   "weight": 167,
+   "is_fragile": false,
+   "eta": 5
+  },
+  {
+   "id": "small_102",
+   "dimensions": {
+    "w": 4,
+    "l": 2,
+    "h": 3
+   },
+   "value": 98,
+   "weight": 15,
+   "is_fragile": false,
+   "eta": 8
+  },
+  {
+   "id": "medium_066",
+   "dimensions": {
+    "w": 7,
+    "l": 4,
+    "h": 5
+   },
+   "value": 355,
+   "weight": 76,
+   "is_fragile": false,
+   "eta": 0
+  },
+  {
+   "id": "fragile_018",
+   "dimensions": {
+    "w": 4,
+    "l": 3,
+    "h": 5
+   },
+   "value": 254,
+   "weight": 28,
+   "is_fragile": true,
+   "eta": 1
+  },
+  {
+   "id": "tiny_137",
+   "dimensions": {
+    "w": 1,
+    "l": 1,
+    "h": 1
+   },
+   "value": 44,
+   "weight": 14,
+   "is_fragile": false,
+   "eta": 5
+  },
+  {
+   "id": "large_023",
+   "dimensions": {
+    "w": 9,
+    "l": 10,
+    "h": 10
+   },
+   "value": 1427,
+   "weight": 690,
+   "is_fragile": true,
+   "eta": 8
+  },
+  {
+   "id": "small_053",
+   "dimensions": {
+    "w": 4,
+    "l": 3,
+    "h": 2
+   },
+   "value": 84,
+   "weight": 17,
+   "is_fragile": false,
+   "eta": 8
+  },
+  {
+   "id": "flat_plate_001",
+   "dimensions": {
+    "w": 17,
+    "l": 17,
+    "h": 1
+   },
+   "value": 104,
+   "weight": 26,
+   "is_fragile": false,
+   "eta": 2
+  },
+  {
+   "id": "medium_039",
+   "dimensions": {
+    "w": 7,
+    "l": 7,
+    "h": 7
+   },
+   "value": 312,
+   "weight": 267,
+   "is_fragile": false,
+   "eta": 1
+  },
+  {
+   "id": "medium_023",
+   "dimensions": {
+    "w": 4,
+    "l": 7,
+    "h": 6
+   },
+   "value": 320,
+   "weight": 94,
+   "is_fragile": true,
+   "eta": 4
+  },
+  {
+   "id": "tiny_049",
+   "dimensions": {
+    "w": 1,
+    "l": 2,
+    "h": 2
+   },
+   "value": 56,
+   "weight": 11,
+   "is_fragile": false,
+   "eta": 1
+  },
+  {
+   "id": "tiny_164",
+   "dimensions": {
+    "w": 2,
+    "l": 2,
+    "h": 1
+   },
+   "value": 8,
+   "weight": 8,
+   "is_fragile": false,
+   "eta": 3
+  },
+  {
+   "id": "tiny_140",
+   "dimensions": {
+    "w": 2,
+    "l": 2,
+    "h": 2
+   },
+   "value": 34,
+   "weight": 14,
+   "is_fragile": false,
+   "eta": 3
+  },
+  {
+   "id": "large_029",
+   "dimensions": {
+    "w": 10,
+    "l": 9,
+    "h": 8
+   },
+   "value": 660,
+   "weight": 442,
+   "is_fragile": false,
+   "eta": 11
+  },
+  {
+   "id": "flat_plate_012",
+   "dimensions": {
+    "w": 15,
+    "l": 16,
+    "h": 1
+   },
+   "value": 90,
+   "weight": 22,
+   "is_fragile": true,
+   "eta": 5
+  },
+  {
+   "id": "medium_006",
+   "dimensions": {
+    "w": 7,
+    "l": 4,
+    "h": 6
+   },
+   "value": 226,
+   "weight": 77,
+   "is_fragile": true,
+   "eta": 2
+  },
+  {
+   "id": "small_049",
+   "dimensions": {
+    "w": 3,
+    "l": 3,
+    "h": 4
+   },
+   "value": 38,
+   "weight": 13,
+   "is_fragile": false,
+   "eta": 10
+  },
+  {
+   "id": "tiny_198",
+   "dimensions": {
+    "w": 1,
+    "l": 1,
+    "h": 1
+   },
+   "value": 20,
+   "weight": 12,
+   "is_fragile": false,
+   "eta": 3
+  },
+  {
+   "id": "dense_iron_035",
+   "dimensions": {
+    "w": 4,
+    "l": 3,
+    "h": 2
+   },
+   "value": 58,
+   "weight": 226,
+   "is_fragile": false,
+   "eta": 9
+  },
+  {
+   "id": "medium_000",
+   "dimensions": {
+    "w": 6,
+    "l": 4,
+    "h": 4
+   },
+   "value": 450,
+   "weight": 183,
+   "is_fragile": false,
+   "eta": 9
+  },
+  {
+   "id": "small_111",
+   "dimensions": {
+    "w": 4,
+    "l": 2,
+    "h": 4
+   },
+   "value": 35,
+   "weight": 9,
+   "is_fragile": false,
+   "eta": 7
+  },
+  {
+   "id": "tiny_196",
+   "dimensions": {
+    "w": 2,
+    "l": 2,
+    "h": 1
+   },
+   "value": 33,
+   "weight": 15,
+   "is_fragile": false,
+   "eta": 5
+  },
+  {
+   "id": "large_012",
+   "dimensions": {
+    "w": 10,
+    "l": 9,
+    "h": 10
+   },
+   "value": 547,
+   "weight": 748,
+   "is_fragile": false,
+   "eta": 6
+  },
+  {
+   "id": "small_086",
+   "dimensions": {
+    "w": 2,
+    "l": 4,
+    "h": 4
+   },
+   "value": 117,
+   "weight": 30,
+   "is_fragile": false,
+   "eta": 2
+  },
+  {
+   "id": "tiny_105",
+   "dimensions": {
+    "w": 1,
+    "l": 1,
+    "h": 1
+   },
+   "value": 15,
+   "weight": 1,
+   "is_fragile": false,
+   "eta": 5
+  },
+  {
+   "id": "small_133",
+   "dimensions": {
+    "w": 3,
+    "l": 3,
+    "h": 3
+   },
+   "value": 147,
+   "weight": 34,
+   "is_fragile": true,
+   "eta": 7
+  },
+  {
+   "id": "tiny_167",
+   "dimensions": {
+    "w": 2,
+    "l": 2,
+    "h": 2
+   },
+   "value": 37,
+   "weight": 10,
+   "is_fragile": false,
+   "eta": 5
+  },
+  {
+   "id": "fragile_000",
+   "dimensions": {
+    "w": 3,
+    "l": 4,
+    "h": 3
+   },
+   "value": 263,
+   "weight": 31,
+   "is_fragile": true,
+   "eta": 0
+  },
+  {
+   "id": "light_gold_038",
+   "dimensions": {
+    "w": 4,
+    "l": 3,
+    "h": 4
+   },
+   "value": 340,
+   "weight": 7,
+   "is_fragile": false,
+   "eta": 0
+  },
+  {
+   "id": "small_110",
+   "dimensions": {
+    "w": 3,
+    "l": 2,
+    "h": 4
+   },
+   "value": 75,
+   "weight": 42,
+   "is_fragile": true,
+   "eta": 6
+  },
+  {
+   "id": "dense_iron_014",
+   "dimensions": {
+    "w": 3,
+    "l": 3,
+    "h": 4
+   },
+   "value": 58,
+   "weight": 235,
+   "is_fragile": false,
+   "eta": 7
+  },
+  {
+   "id": "trap_heavy_cheap",
+   "dimensions": {
+    "w": 4,
+    "l": 4,
+    "h": 4
+   },
+   "value": 10,
+   "weight": 2000,
+   "is_fragile": false,
+   "eta": 5
+  },
+  {
+   "id": "large_024",
+   "dimensions": {
+    "w": 8,
+    "l": 10,
+    "h": 8
+   },
+   "value": 1376,
+   "weight": 455,
+   "is_fragile": false,
+   "eta": 0
+  },
+  {
+   "id": "tiny_092",
+   "dimensions": {
+    "w": 2,
+    "l": 1,
+    "h": 2
+   },
+   "value": 46,
+   "weight": 12,
+   "is_fragile": false,
+   "eta": 0
+  },
+  {
+   "id": "dense_iron_019",
+   "dimensions": {
+    "w": 4,
+    "l": 2,
+    "h": 3
+   },
+   "value": 26,
+   "weight": 460,
+   "is_fragile": false,
+   "eta": 2
+  },
+  {
+   "id": "tiny_192",
+   "dimensions": {
+    "w": 1,
+    "l": 1,
+    "h": 2
+   },
+   "value": 34,
+   "weight": 13,
+   "is_fragile": false,
+   "eta": 4
+  },
+  {
+   "id": "tiny_170",
+   "dimensions": {
+    "w": 2,
+    "l": 1,
+    "h": 1
+   },
+   "value": 58,
+   "weight": 2,
+   "is_fragile": true,
+   "eta": 0
+  },
+  {
+   "id": "tiny_194",
+   "dimensions": {
+    "w": 2,
+    "l": 1,
+    "h": 2
+   },
+   "value": 37,
+   "weight": 2,
+   "is_fragile": false,
+   "eta": 3
+  },
+  {
+   "id": "small_144",
+   "dimensions": {
+    "w": 2,
+    "l": 4,
+    "h": 2
+   },
+   "value": 81,
+   "weight": 17,
+   "is_fragile": false,
+   "eta": 4
+  },
+  {
+   "id": "tiny_034",
+   "dimensions": {
+    "w": 1,
+    "l": 2,
+    "h": 1
+   },
+   "value": 8,
+   "weight": 10,
+   "is_fragile": false,
+   "eta": 4
+  },
+  {
+   "id": "tiny_070",
+   "dimensions": {
+    "w": 2,
+    "l": 2,
+    "h": 1
+   },
+   "value": 13,
+   "weight": 3,
+   "is_fragile": false,
+   "eta": 5
+  },
+  {
+   "id": "medium_056",
+   "dimensions": {
+    "w": 6,
+    "l": 5,
+    "h": 4
+   },
+   "value": 302,
+   "weight": 196,
+   "is_fragile": false,
+   "eta": 3
+  },
+  {
+   "id": "tiny_112",
+   "dimensions": {
+    "w": 2,
+    "l": 1,
+    "h": 1
+   },
+   "value": 19,
+   "weight": 11,
+   "is_fragile": false,
+   "eta": 4
+  },
+  {
+   "id": "tiny_174",
+   "dimensions": {
+    "w": 1,
+    "l": 1,
+    "h": 2
+   },
+   "value": 59,
+   "weight": 9,
+   "is_fragile": false,
+   "eta": 2
+  },
+  {
+   "id": "tiny_008",
+   "dimensions": {
+    "w": 2,
+    "l": 2,
+    "h": 1
+   },
+   "value": 47,
+   "weight": 5,
+   "is_fragile": false,
+   "eta": 5
+  },
+  {
+   "id": "tiny_076",
+   "dimensions": {
+    "w": 1,
+    "l": 1,
+    "h": 2
+   },
+   "value": 13,
+   "weight": 14,
+   "is_fragile": false,
+   "eta": 0
+  },
+  {
+   "id": "tiny_108",
+   "dimensions": {
+    "w": 2,
+    "l": 1,
+    "h": 1
+   },
+   "value": 46,
+   "weight": 3,
+   "is_fragile": false,
+   "eta": 1
+  },
+  {
+   "id": "dense_iron_021",
+   "dimensions": {
+    "w": 4,
+    "l": 3,
+    "h": 3
+   },
+   "value": 35,
+   "weight": 199,
+   "is_fragile": false,
+   "eta": 9
+  },
+  {
+   "id": "large_018",
+   "dimensions": {
+    "w": 12,
+    "l": 12,
+    "h": 12
+   },
+   "value": 472,
+   "weight": 796,
+   "is_fragile": false,
+   "eta": 2
+  },
+  {
+   "id": "tiny_007",
+   "dimensions": {
+    "w": 1,
+    "l": 1,
+    "h": 2
+   },
+   "value": 22,
+   "weight": 8,
+   "is_fragile": false,
+   "eta": 2
+  },
+  {
+   "id": "tiny_089",
+   "dimensions": {
+    "w": 2,
+    "l": 1,
+    "h": 2
+   },
+   "value": 41,
+   "weight": 10,
+   "is_fragile": false,
+   "eta": 2
+  },
+  {
+   "id": "large_011",
+   "dimensions": {
+    "w": 7,
+    "l": 8,
+    "h": 8
+   },
+   "value": 1497,
+   "weight": 311,
+   "is_fragile": true,
+   "eta": 5
+  },
+  {
+   "id": "small_055",
+   "dimensions": {
+    "w": 2,
+    "l": 2,
+    "h": 4
+   },
+   "value": 106,
+   "weight": 58,
+   "is_fragile": false,
+   "eta": 0
+  },
+  {
+   "id": "large_002",
+   "dimensions": {
+    "w": 9,
+    "l": 7,
+    "h": 11
+   },
+   "value": 1235,
+   "weight": 208,
+   "is_fragile": false,
+   "eta": 9
+  },
+  {
+   "id": "trap_zero_weight",
+   "dimensions": {
+    "w": 1,
+    "l": 1,
+    "h": 1
+   },
+   "value": 5,
+   "weight": 0,
+   "is_fragile": false,
+   "eta": 0
+  },
+  {
+   "id": "fragile_021",
+   "dimensions": {
+    "w": 2,
+    "l": 3,
+    "h": 5
+   },
+   "value": 151,
+   "weight": 31,
+   "is_fragile": true,
+   "eta": 4
+  },
+  {
+   "id": "small_043",
+   "dimensions": {
+    "w": 4,
+    "l": 3,
+    "h": 2
+   },
+   "value": 51,
+   "weight": 13,
+   "is_fragile": false,
+   "eta": 7
+  },
+  {
+   "id": "tiny_079",
+   "dimensions": {
+    "w": 1,
+    "l": 1,
+    "h": 1
+   },
+   "value": 53,
+   "weight": 1,
+   "is_fragile": false,
+   "eta": 1
+  },
+  {
+   "id": "tiny_019",
+   "dimensions": {
+    "w": 1,
+    "l": 2,
+    "h": 2
+   },
+   "value": 6,
+   "weight": 2,
+   "is_fragile": false,
+   "eta": 2
+  },
+  {
+   "id": "tiny_136",
+   "dimensions": {
+    "w": 2,
+    "l": 2,
+    "h": 1
+   },
+   "value": 20,
+   "weight": 9,
+   "is_fragile": false,
+   "eta": 5
+  },
+  {
+   "id": "medium_015",
+   "dimensions": {
+    "w": 6,
+    "l": 7,
+    "h": 6
+   },
+   "value": 320,
+   "weight": 109,
+   "is_fragile": false,
+   "eta": 9
+  },
+  {
+   "id": "small_118",
+   "dimensions": {
+    "w": 4,
+    "l": 3,
+    "h": 4
+   },
+   "value": 24,
+   "weight": 20,
+   "is_fragile": false,
+   "eta": 1
+  },
+  {
+   "id": "tiny_186",
+   "dimensions": {
+    "w": 2,
+    "l": 1,
+    "h": 2
+   },
+   "value": 41,
+   "weight": 7,
+   "is_fragile": false,
+   "eta": 5
+  },
+  {
+   "id": "medium_068",
+   "dimensions": {
+    "w": 7,
+    "l": 4,
+    "h": 4
+   },
+   "value": 400,
+   "weight": 74,
+   "is_fragile": true,
+   "eta": 3
+  },
+  {
+   "id": "flat_plate_009",
+   "dimensions": {
+    "w": 13,
+    "l": 15,
+    "h": 1
+   },
+   "value": 153,
+   "weight": 18,
+   "is_fragile": false,
+   "eta": 3
+  },
+  {
+   "id": "small_135",
+   "dimensions": {
+    "w": 2,
+    "l": 2,
+    "h": 3
+   },
+   "value": 126,
+   "weight": 23,
+   "is_fragile": false,
+   "eta": 5
+  },
+  {
+   "id": "tiny_103",
+   "dimensions": {
+    "w": 2,
+    "l": 2,
+    "h": 2
+   },
+   "value": 24,
+   "weight": 14,
+   "is_fragile": false,
+   "eta": 3
+  },
+  {
+   "id": "tiny_124",
+   "dimensions": {
+    "w": 1,
+    "l": 1,
+    "h": 2
+   },
+   "value": 54,
+   "weight": 13,
+   "is_fragile": false,
+   "eta": 2
+  },
+  {
+   "id": "tiny_022",
+   "dimensions": {
+    "w": 1,
+    "l": 1,
+    "h": 2
+   },
+   "value": 30,
+   "weight": 11,
+   "is_fragile": false,
+   "eta": 3
+  },
+  {
+   "id": "tiny_035",
+   "dimensions": {
+    "w": 1,
+    "l": 1,
+    "h": 1
+   },
+   "value": 9,
+   "weight": 10,
+   "is_fragile": true,
+   "eta": 1
+  },
+  {
+   "id": "small_012",
+   "dimensions": {
+    "w": 4,
+    "l": 2,
+    "h": 3
+   },
+   "value": 33,
+   "weight": 46,
+   "is_fragile": false,
+   "eta": 5
+  },
+  {
+   "id": "medium_069",
+   "dimensions": {
+    "w": 4,
+    "l": 7,
+    "h": 6
+   },
+   "value": 421,
+   "weight": 296,
+   "is_fragile": false,
+   "eta": 6
+  },
+  {
+   "id": "dense_iron_004",
+   "dimensions": {
+    "w": 2,
+    "l": 2,
+    "h": 4
+   },
+   "value": 23,
+   "weight": 546,
+   "is_fragile": false,
+   "eta": 8
+  },
+  {
+   "id": "tiny_064",
+   "dimensions": {
+    "w": 2,
+    "l": 2,
+    "h": 2
+   },
+   "value": 20,
+   "weight": 3,
+   "is_fragile": false,
+   "eta": 0
+  },
+  {
+   "id": "tiny_036",
+   "dimensions": {
+    "w": 1,
+    "l": 1,
+    "h": 1
+   },
+   "value": 44,
+   "weight": 2,
+   "is_fragile": false,
+   "eta": 4
+  },
+  {
+   "id": "medium_021",
+   "dimensions": {
+    "w": 4,
+    "l": 7,
+    "h": 7
+   },
+   "value": 398,
+   "weight": 245,
+   "is_fragile": false,
+   "eta": 6
+  },
+  {
+   "id": "tiny_189",
+   "dimensions": {
+    "w": 2,
+    "l": 1,
+    "h": 2
+   },
+   "value": 60,
+   "weight": 5,
+   "is_fragile": false,
+   "eta": 1
+  },
+  {
+   "id": "medium_053",
+   "dimensions": {
+    "w": 5,
+    "l": 7,
+    "h": 6
+   },
+   "value": 449,
+   "weight": 64,
+   "is_fragile": true,
+   "eta": 10
+  },
+  {
+   "id": "tiny_016",
+   "dimensions": {
+    "w": 1,
+    "l": 1,
+    "h": 2
+   },
+   "value": 54,
+   "weight": 11,
+   "is_fragile": false,
+   "eta": 2
+  },
+  {
+   "id": "medium_070",
+   "dimensions": {
+    "w": 7,
+    "l": 4,
+    "h": 5
+   },
+   "value": 242,
+   "weight": 82,
+   "is_fragile": false,
+   "eta": 8
+  },
+  {
+   "id": "small_071",
+   "dimensions": {
+    "w": 3,
+    "l": 2,
+    "h": 2
+   },
+   "value": 150,
+   "weight": 30,
+   "is_fragile": false,
+   "eta": 0
+  },
+  {
+   "id": "tiny_163",
+   "dimensions": {
+    "w": 2,
+    "l": 1,
+    "h": 1
+   },
+   "value": 51,
+   "weight": 13,
+   "is_fragile": false,
+   "eta": 5
+  },
+  {
+   "id": "tiny_195",
+   "dimensions": {
+    "w": 1,
+    "l": 2,
+    "h": 2
+   },
+   "value": 9,
+   "weight": 11,
+   "is_fragile": false,
+   "eta": 0
+  },
+  {
+   "id": "small_050",
+   "dimensions": {
+    "w": 3,
+    "l": 3,
+    "h": 4
+   },
+   "value": 108,
+   "weight": 13,
+   "is_fragile": false,
+   "eta": 8
+  },
+  {
+   "id": "tiny_099",
+   "dimensions": {
+    "w": 2,
+    "l": 1,
+    "h": 1
+   },
+   "value": 41,
+   "weight": 5,
+   "is_fragile": false,
+   "eta": 3
+  },
+  {
+   "id": "tiny_041",
+   "dimensions": {
+    "w": 2,
+    "l": 1,
+    "h": 2
+   },
+   "value": 47,
+   "weight": 2,
+   "is_fragile": false,
+   "eta": 1
+  },
+  {
+   "id": "dense_iron_034",
+   "dimensions": {
+    "w": 3,
+    "l": 3,
+    "h": 4
+   },
+   "value": 63,
+   "weight": 597,
+   "is_fragile": false,
+   "eta": 9
+  },
+  {
+   "id": "light_gold_032",
+   "dimensions": {
+    "w": 4,
+    "l": 2,
+    "h": 3
+   },
+   "value": 701,
+   "weight": 6,
+   "is_fragile": false,
+   "eta": 1
+  },
+  {
+   "id": "medium_044",
+   "dimensions": {
+    "w": 4,
+    "l": 5,
+    "h": 5
+   },
+   "value": 477,
+   "weight": 219,
+   "is_fragile": false,
+   "eta": 9
+  },
+  {
+   "id": "medium_016",
+   "dimensions": {
+    "w": 5,
+    "l": 7,
+    "h": 6
+   },
+   "value": 190,
+   "weight": 243,
+   "is_fragile": false,
+   "eta": 4
+  },
+  {
+   "id": "tiny_060",
+   "dimensions": {
+    "w": 2,
+    "l": 2,
+    "h": 2
+   },
+   "value": 33,
+   "weight": 11,
+   "is_fragile": false,
+   "eta": 3
+  },
+  {
+   "id": "large_015",
+   "dimensions": {
+    "w": 10,
+    "l": 11,
+    "h": 7
+   },
+   "value": 912,
+   "weight": 466,
+   "is_fragile": false,
+   "eta": 5
+  },
+  {
+   "id": "tiny_166",
+   "dimensions": {
+    "w": 1,
+    "l": 1,
+    "h": 2
+   },
+   "value": 44,
+   "weight": 11,
+   "is_fragile": false,
+   "eta": 5
+  },
+  {
+   "id": "fragile_016",
+   "dimensions": {
+    "w": 2,
+    "l": 5,
+    "h": 5
+   },
+   "value": 241,
+   "weight": 12,
+   "is_fragile": true,
+   "eta": 5
+  },
+  {
+   "id": "tiny_147",
+   "dimensions": {
+    "w": 2,
+    "l": 1,
+    "h": 2
+   },
+   "value": 9,
+   "weight": 3,
+   "is_fragile": false,
+   "eta": 1
+  },
+  {
+   "id": "light_gold_029",
+   "dimensions": {
+    "w": 3,
+    "l": 4,
+    "h": 2
+   },
+   "value": 218,
+   "weight": 1,
+   "is_fragile": false,
+   "eta": 1
+  },
+  {
+   "id": "flat_plate_015",
+   "dimensions": {
+    "w": 9,
+    "l": 12,
+    "h": 1
+   },
+   "value": 104,
+   "weight": 18,
+   "is_fragile": false,
+   "eta": 4
+  },
+  {
+   "id": "small_074",
+   "dimensions": {
+    "w": 3,
+    "l": 4,
+    "h": 3
+   },
+   "value": 149,
+   "weight": 58,
+   "is_fragile": false,
+   "eta": 7
+  },
+  {
+   "id": "small_076",
+   "dimensions": {
+    "w": 4,
+    "l": 3,
+    "h": 4
+   },
+   "value": 26,
+   "weight": 43,
+   "is_fragile": false,
+   "eta": 10
+  },
+  {
+   "id": "medium_049",
+   "dimensions": {
+    "w": 7,
+    "l": 5,
+    "h": 6
+   },
+   "value": 421,
+   "weight": 252,
+   "is_fragile": false,
+   "eta": 1
+  },
+  {
+   "id": "tiny_081",
+   "dimensions": {
+    "w": 2,
+    "l": 2,
+    "h": 1
+   },
+   "value": 43,
+   "weight": 10,
+   "is_fragile": false,
+   "eta": 5
+  },
+  {
+   "id": "small_037",
+   "dimensions": {
+    "w": 4,
+    "l": 4,
+    "h": 3
+   },
+   "value": 113,
+   "weight": 37,
+   "is_fragile": false,
+   "eta": 10
+  },
+  {
+   "id": "small_075",
+   "dimensions": {
+    "w": 4,
+    "l": 3,
+    "h": 3
+   },
+   "value": 24,
+   "weight": 28,
+   "is_fragile": false,
+   "eta": 1
+  },
+  {
+   "id": "small_072",
+   "dimensions": {
+    "w": 2,
+    "l": 4,
+    "h": 3
+   },
+   "value": 141,
+   "weight": 38,
+   "is_fragile": false,
+   "eta": 9
+  },
+  {
+   "id": "fragile_013",
+   "dimensions": {
+    "w": 3,
+    "l": 2,
+    "h": 2
+   },
+   "value": 160,
+   "weight": 37,
+   "is_fragile": true,
+   "eta": 3
+  },
+  {
+   "id": "tiny_094",
+   "dimensions": {
+    "w": 2,
+    "l": 2,
+    "h": 2
+   },
+   "value": 52,
+   "weight": 9,
+   "is_fragile": false,
+   "eta": 5
+  },
+  {
+   "id": "tiny_193",
+   "dimensions": {
+    "w": 2,
+    "l": 2,
+    "h": 1
+   },
+   "value": 33,
+   "weight": 2,
+   "is_fragile": false,
+   "eta": 5
+  },
+  {
+   "id": "small_138",
+   "dimensions": {
+    "w": 2,
+    "l": 4,
+    "h": 4
+   },
+   "value": 145,
+   "weight": 16,
+   "is_fragile": false,
+   "eta": 8
+  },
+  {
+   "id": "tiny_131",
+   "dimensions": {
+    "w": 2,
+    "l": 1,
+    "h": 1
+   },
+   "value": 35,
+   "weight": 13,
+   "is_fragile": false,
+   "eta": 2
+  },
+  {
+   "id": "small_103",
+   "dimensions": {
+    "w": 3,
+    "l": 4,
+    "h": 2
+   },
+   "value": 95,
+   "weight": 28,
+   "is_fragile": false,
+   "eta": 3
+  },
+  {
+   "id": "tiny_177",
+   "dimensions": {
+    "w": 1,
+    "l": 1,
+    "h": 1
+   },
+   "value": 41,
+   "weight": 11,
+   "is_fragile": false,
+   "eta": 1
+  },
+  {
+   "id": "small_079",
+   "dimensions": {
+    "w": 4,
+    "l": 2,
+    "h": 2
+   },
+   "value": 24,
+   "weight": 33,
+   "is_fragile": false,
+   "eta": 2
+  },
+  {
+   "id": "light_gold_031",
+   "dimensions": {
+    "w": 2,
+    "l": 2,
+    "h": 3
+   },
+   "value": 497,
+   "weight": 8,
+   "is_fragile": false,
+   "eta": 2
+  },
+  {
+   "id": "small_064",
+   "dimensions": {
+    "w": 3,
+    "l": 3,
+    "h": 3
+   },
+   "value": 147,
+   "weight": 6,
+   "is_fragile": true,
+   "eta": 6
+  },
+  {
+   "id": "tiny_123",
+   "dimensions": {
+    "w": 2,
+    "l": 2,
+    "h": 1
+   },
+   "value": 34,
+   "weight": 9,
+   "is_fragile": false,
+   "eta": 1
+  },
+  {
+   "id": "tiny_119",
+   "dimensions": {
+    "w": 2,
+    "l": 1,
+    "h": 1
+   },
+   "value": 22,
+   "weight": 9,
+   "is_fragile": false,
+   "eta": 2
+  },
+  {
+   "id": "small_089",
+   "dimensions": {
+    "w": 3,
+    "l": 2,
+    "h": 2
+   },
+   "value": 81,
+   "weight": 20,
+   "is_fragile": true,
+   "eta": 8
+  },
+  {
+   "id": "small_123",
+   "dimensions": {
+    "w": 2,
+    "l": 4,
+    "h": 4
+   },
+   "value": 129,
+   "weight": 40,
+   "is_fragile": false,
+   "eta": 5
+  },
+  {
+   "id": "small_008",
+   "dimensions": {
+    "w": 4,
+    "l": 4,
+    "h": 2
+   },
+   "value": 132,
+   "weight": 7,
+   "is_fragile": false,
+   "eta": 10
+  },
+  {
+   "id": "light_gold_036",
+   "dimensions": {
+    "w": 4,
+    "l": 2,
+    "h": 3
+   },
+   "value": 654,
+   "weight": 7,
+   "is_fragile": false,
+   "eta": 2
+  },
+  {
+   "id": "tiny_044",
+   "dimensions": {
+    "w": 2,
+    "l": 2,
+    "h": 1
+   },
+   "value": 5,
+   "weight": 6,
+   "is_fragile": false,
+   "eta": 5
+  },
+  {
+   "id": "tiny_175",
+   "dimensions": {
+    "w": 1,
+    "l": 2,
+    "h": 1
+   },
+   "value": 43,
+   "weight": 15,
+   "is_fragile": false,
+   "eta": 5
+  },
+  {
+   "id": "medium_024",
+   "dimensions": {
+    "w": 5,
+    "l": 7,
+    "h": 6
+   },
+   "value": 300,
+   "weight": 277,
+   "is_fragile": false,
+   "eta": 9
+  },
+  {
+   "id": "light_gold_013",
+   "dimensions": {
+    "w": 2,
+    "l": 2,
+    "h": 4
+   },
+   "value": 583,
+   "weight": 9,
+   "is_fragile": false,
+   "eta": 2
+  },
+  {
+   "id": "small_142",
+   "dimensions": {
+    "w": 4,
+    "l": 3,
+    "h": 2
+   },
+   "value": 24,
+   "weight": 38,
+   "is_fragile": false,
+   "eta": 8
+  },
+  {
+   "id": "fragile_004",
+   "dimensions": {
+    "w": 2,
+    "l": 4,
+    "h": 4
+   },
+   "value": 240,
+   "weight": 32,
+   "is_fragile": true,
+   "eta": 0
+  },
+  {
+   "id": "small_125",
+   "dimensions": {
+    "w": 3,
+    "l": 2,
+    "h": 4
+   },
+   "value": 141,
+   "weight": 20,
+   "is_fragile": false,
+   "eta": 4
+  },
+  {
+   "id": "tiny_182",
+   "dimensions": {
+    "w": 2,
+    "l": 2,
+    "h": 1
+   },
+   "value": 19,
+   "weight": 7,
+   "is_fragile": false,
+   "eta": 0
+  },
+  {
+   "id": "medium_038",
+   "dimensions": {
+    "w": 4,
+    "l": 6,
+    "h": 4
+   },
+   "value": 348,
+   "weight": 109,
+   "is_fragile": true,
+   "eta": 6
+  },
+  {
+   "id": "flat_plate_010",
+   "dimensions": {
+    "w": 15,
+    "l": 15,
+    "h": 1
+   },
+   "value": 199,
+   "weight": 6,
+   "is_fragile": false,
+   "eta": 0
+  },
+  {
+   "id": "medium_076",
+   "dimensions": {
+    "w": 4,
+    "l": 7,
+    "h": 7
+   },
+   "value": 361,
+   "weight": 224,
+   "is_fragile": true,
+   "eta": 9
+  },
+  {
+   "id": "medium_051",
+   "dimensions": {
+    "w": 4,
+    "l": 4,
+    "h": 7
+   },
+   "value": 425,
+   "weight": 223,
+   "is_fragile": false,
+   "eta": 8
+  },
+  {
+   "id": "small_085",
+   "dimensions": {
+    "w": 4,
+    "l": 3,
+    "h": 3
+   },
+   "value": 142,
+   "weight": 27,
+   "is_fragile": false,
+   "eta": 4
+  },
+  {
+   "id": "trap_rotate_only",
+   "dimensions": {
+    "w": 5,
+    "l": 5,
+    "h": 20
+   },
+   "value": 800,
+   "weight": 50,
+   "is_fragile": false,
+   "eta": 0
+  },
+  {
+   "id": "medium_003",
+   "dimensions": {
+    "w": 7,
+    "l": 5,
+    "h": 4
+   },
+   "value": 356,
+   "weight": 217,
+   "is_fragile": true,
+   "eta": 6
+  },
+  {
+   "id": "trap_oversize_x",
+   "dimensions": {
+    "w": 21,
+    "l": 5,
+    "h": 5
+   },
+   "value": 9999,
+   "weight": 10,
+   "is_fragile": false,
+   "eta": 0
+  },
+  {
+   "id": "tiny_086",
+   "dimensions": {
+    "w": 1,
+    "l": 2,
+    "h": 2
+   },
+   "value": 45,
+   "weight": 15,
+   "is_fragile": false,
+   "eta": 5
+  },
+  {
+   "id": "tiny_121",
+   "dimensions": {
+    "w": 2,
+    "l": 1,
+    "h": 2
+   },
+   "value": 10,
+   "weight": 4,
+   "is_fragile": false,
+   "eta": 0
+  },
+  {
+   "id": "tiny_199",
+   "dimensions": {
+    "w": 1,
+    "l": 2,
+    "h": 2
+   },
+   "value": 23,
+   "weight": 7,
+   "is_fragile": false,
+   "eta": 2
+  },
+  {
+   "id": "small_068",
+   "dimensions": {
+    "w": 2,
+    "l": 4,
+    "h": 4
+   },
+   "value": 69,
+   "weight": 28,
+   "is_fragile": false,
+   "eta": 1
+  },
+  {
+   "id": "dense_iron_018",
+   "dimensions": {
+    "w": 4,
+    "l": 2,
+    "h": 4
+   },
+   "value": 16,
+   "weight": 323,
+   "is_fragile": false,
+   "eta": 9
+  },
+  {
+   "id": "dense_iron_009",
+   "dimensions": {
+    "w": 2,
+    "l": 4,
+    "h": 2
+   },
+   "value": 78,
+   "weight": 350,
+   "is_fragile": false,
+   "eta": 9
+  },
+  {
+   "id": "tiny_032",
+   "dimensions": {
+    "w": 1,
+    "l": 2,
+    "h": 1
+   },
+   "value": 29,
+   "weight": 5,
+   "is_fragile": false,
+   "eta": 3
+  },
+  {
+   "id": "tiny_109",
+   "dimensions": {
+    "w": 1,
+    "l": 1,
+    "h": 2
+   },
+   "value": 43,
+   "weight": 12,
+   "is_fragile": false,
+   "eta": 2
+  },
+  {
+   "id": "fragile_032",
+   "dimensions": {
+    "w": 3,
+    "l": 2,
+    "h": 4
+   },
+   "value": 184,
+   "weight": 39,
+   "is_fragile": true,
+   "eta": 3
+  },
+  {
+   "id": "tiny_120",
+   "dimensions": {
+    "w": 2,
+    "l": 1,
+    "h": 1
+   },
+   "value": 45,
+   "weight": 10,
+   "is_fragile": false,
+   "eta": 5
+  },
+  {
+   "id": "dense_iron_033",
+   "dimensions": {
+    "w": 4,
+    "l": 3,
+    "h": 3
+   },
+   "value": 13,
+   "weight": 194,
+   "is_fragile": false,
+   "eta": 6
+  },
+  {
+   "id": "flat_plate_013",
+   "dimensions": {
+    "w": 9,
+    "l": 10,
+    "h": 1
+   },
+   "value": 145,
+   "weight": 5,
+   "is_fragile": false,
+   "eta": 4
+  },
+  {
+   "id": "tiny_040",
+   "dimensions": {
+    "w": 1,
+    "l": 1,
+    "h": 2
+   },
+   "value": 23,
+   "weight": 3,
+   "is_fragile": false,
+   "eta": 4
+  },
+  {
+   "id": "small_084",
+   "dimensions": {
+    "w": 4,
+    "l": 3,
+    "h": 2
+   },
+   "value": 96,
+   "weight": 54,
+   "is_fragile": false,
+   "eta": 3
+  },
+  {
+   "id": "small_146",
+   "dimensions": {
+    "w": 2,
+    "l": 3,
+    "h": 4
+   },
+   "value": 40,
+   "weight": 46,
+   "is_fragile": false,
+   "eta": 10
+  },
+  {
+   "id": "medium_029",
+   "dimensions": {
+    "w": 5,
+    "l": 5,
+    "h": 5
+   },
+   "value": 269,
+   "weight": 258,
+   "is_fragile": false,
+   "eta": 3
+  },
+  {
+   "id": "medium_019",
+   "dimensions": {
+    "w": 5,
+    "l": 7,
+    "h": 6
+   },
+   "value": 454,
+   "weight": 75,
+   "is_fragile": false,
+   "eta": 6
+  },
+  {
+   "id": "small_091",
+   "dimensions": {
+    "w": 4,
+    "l": 2,
+    "h": 2
+   },
+   "value": 60,
+   "weight": 31,
+   "is_fragile": false,
+   "eta": 7
+  },
+  {
+   "id": "tiny_169",
+   "dimensions": {
+    "w": 2,
+    "l": 1,
+    "h": 2
+   },
+   "value": 32,
+   "weight": 6,
+   "is_fragile": false,
+   "eta": 2
+  },
+  {
+   "id": "tiny_185",
+   "dimensions": {
+    "w": 1,
+    "l": 2,
+    "h": 1
+   },
+   "value": 30,
+   "weight": 14,
+   "is_fragile": false,
+   "eta": 3
+  },
+  {
+   "id": "medium_033",
+   "dimensions": {
+    "w": 7,
+    "l": 6,
+    "h": 7
+   },
+   "value": 412,
+   "weight": 240,
+   "is_fragile": false,
+   "eta": 5
+  },
+  {
+   "id": "medium_061",
+   "dimensions": {
+    "w": 5,
+    "l": 4,
+    "h": 4
+   },
+   "value": 412,
+   "weight": 124,
+   "is_fragile": false,
+   "eta": 3
+  },
+  {
+   "id": "large_008",
+   "dimensions": {
+    "w": 10,
+    "l": 12,
+    "h": 9
+   },
+   "value": 1238,
+   "weight": 286,
+   "is_fragile": false,
+   "eta": 4
+  },
+  {
+   "id": "small_009",
+   "dimensions": {
+    "w": 2,
+    "l": 3,
+    "h": 4
+   },
+   "value": 92,
+   "weight": 53,
+   "is_fragile": false,
+   "eta": 7
+  },
+  {
+   "id": "small_061",
+   "dimensions": {
+    "w": 4,
+    "l": 2,
+    "h": 3
+   },
+   "value": 81,
+   "weight": 34,
+   "is_fragile": true,
+   "eta": 7
+  },
+  {
+   "id": "small_147",
+   "dimensions": {
+    "w": 2,
+    "l": 3,
+    "h": 3
+   },
+   "value": 116,
+   "weight": 40,
+   "is_fragile": false,
+   "eta": 10
+  },
+  {
+   "id": "dense_iron_038",
+   "dimensions": {
+    "w": 3,
+    "l": 3,
+    "h": 2
+   },
+   "value": 56,
+   "weight": 169,
+   "is_fragile": false,
+   "eta": 5
+  },
+  {
+   "id": "tiny_179",
+   "dimensions": {
+    "w": 2,
+    "l": 2,
+    "h": 1
+   },
+   "value": 8,
+   "weight": 3,
+   "is_fragile": false,
+   "eta": 4
+  },
+  {
+   "id": "light_gold_024",
+   "dimensions": {
+    "w": 2,
+    "l": 2,
+    "h": 3
+   },
+   "value": 619,
+   "weight": 10,
+   "is_fragile": false,
+   "eta": 3
+  },
+  {
+   "id": "large_001",
+   "dimensions": {
+    "w": 8,
+    "l": 11,
+    "h": 7
+   },
+   "value": 1121,
+   "weight": 270,
+   "is_fragile": false,
+   "eta": 9
+  },
+  {
+   "id": "small_010",
+   "dimensions": {
+    "w": 4,
+    "l": 2,
+    "h": 3
+   },
+   "value": 140,
+   "weight": 58,
+   "is_fragile": false,
+   "eta": 10
+  },
+  {
+   "id": "small_122",
+   "dimensions": {
+    "w": 4,
+    "l": 2,
+    "h": 3
+   },
+   "value": 96,
+   "weight": 22,
+   "is_fragile": true,
+   "eta": 9
+  },
+  {
+   "id": "small_137",
+   "dimensions": {
+    "w": 3,
+    "l": 3,
+    "h": 4
+   },
+   "value": 145,
+   "weight": 34,
+   "is_fragile": false,
+   "eta": 5
+  },
+  {
+   "id": "medium_036",
+   "dimensions": {
+    "w": 7,
+    "l": 5,
+    "h": 7
+   },
+   "value": 316,
+   "weight": 135,
+   "is_fragile": false,
+   "eta": 8
+  },
+  {
+   "id": "trap_dense_gold_full",
+   "dimensions": {
+    "w": 20,
+    "l": 20,
+    "h": 20
+   },
+   "value": 5000,
+   "weight": 3000,
+   "is_fragile": false,
+   "eta": 10
+  },
+  {
+   "id": "small_066",
+   "dimensions": {
+    "w": 4,
+    "l": 4,
+    "h": 3
+   },
+   "value": 93,
+   "weight": 39,
+   "is_fragile": true,
+   "eta": 1
+  },
+  {
+   "id": "small_098",
+   "dimensions": {
+    "w": 4,
+    "l": 2,
+    "h": 2
+   },
+   "value": 123,
+   "weight": 57,
+   "is_fragile": false,
+   "eta": 5
+  },
+  {
+   "id": "tiny_056",
+   "dimensions": {
+    "w": 1,
+    "l": 2,
+    "h": 2
+   },
+   "value": 9,
+   "weight": 11,
+   "is_fragile": false,
+   "eta": 4
+  },
+  {
+   "id": "large_019",
+   "dimensions": {
+    "w": 7,
+    "l": 8,
+    "h": 12
+   },
+   "value": 1208,
+   "weight": 331,
+   "is_fragile": true,
+   "eta": 10
+  },
+  {
+   "id": "light_gold_006",
+   "dimensions": {
+    "w": 2,
+    "l": 2,
+    "h": 3
+   },
+   "value": 700,
+   "weight": 10,
+   "is_fragile": false,
+   "eta": 3
+  },
+  {
+   "id": "fragile_007",
+   "dimensions": {
+    "w": 5,
+    "l": 5,
+    "h": 5
+   },
+   "value": 165,
+   "weight": 12,
+   "is_fragile": true,
+   "eta": 5
+  },
+  {
+   "id": "tiny_050",
+   "dimensions": {
+    "w": 1,
+    "l": 1,
+    "h": 2
+   },
+   "value": 60,
+   "weight": 1,
+   "is_fragile": false,
+   "eta": 1
+  },
+  {
+   "id": "light_gold_033",
+   "dimensions": {
+    "w": 2,
+    "l": 2,
+    "h": 2
+   },
+   "value": 334,
+   "weight": 4,
+   "is_fragile": false,
+   "eta": 1
+  },
+  {
+   "id": "light_gold_034",
+   "dimensions": {
+    "w": 3,
+    "l": 4,
+    "h": 4
+   },
+   "value": 238,
+   "weight": 7,
+   "is_fragile": false,
+   "eta": 2
+  },
+  {
+   "id": "small_062",
+   "dimensions": {
+    "w": 2,
+    "l": 2,
+    "h": 2
+   },
+   "value": 94,
+   "weight": 29,
+   "is_fragile": false,
+   "eta": 6
+  },
+  {
+   "id": "flat_plate_004",
+   "dimensions": {
+    "w": 8,
+    "l": 13,
+    "h": 1
+   },
+   "value": 181,
+   "weight": 30,
+   "is_fragile": false,
+   "eta": 3
+  },
+  {
+   "id": "tiny_009",
+   "dimensions": {
+    "w": 1,
+    "l": 1,
+    "h": 1
+   },
+   "value": 15,
+   "weight": 8,
+   "is_fragile": false,
+   "eta": 5
+  },
+  {
+   "id": "large_027",
+   "dimensions": {
+    "w": 10,
+    "l": 11,
+    "h": 9
+   },
+   "value": 1496,
+   "weight": 438,
+   "is_fragile": false,
+   "eta": 3
+  },
+  {
+   "id": "small_104",
+   "dimensions": {
+    "w": 3,
+    "l": 2,
+    "h": 3
+   },
+   "value": 115,
+   "weight": 31,
+   "is_fragile": false,
+   "eta": 7
+  },
+  {
+   "id": "small_033",
+   "dimensions": {
+    "w": 3,
+    "l": 3,
+    "h": 4
+   },
+   "value": 88,
+   "weight": 56,
+   "is_fragile": true,
+   "eta": 6
+  },
+  {
+   "id": "tiny_080",
+   "dimensions": {
+    "w": 1,
+    "l": 1,
+    "h": 1
+   },
+   "value": 35,
+   "weight": 11,
+   "is_fragile": false,
+   "eta": 1
+  },
+  {
+   "id": "tiny_039",
+   "dimensions": {
+    "w": 2,
+    "l": 1,
+    "h": 1
+   },
+   "value": 39,
+   "weight": 4,
+   "is_fragile": false,
+   "eta": 1
+  },
+  {
+   "id": "flat_plate_000",
+   "dimensions": {
+    "w": 17,
+    "l": 10,
+    "h": 1
+   },
+   "value": 179,
+   "weight": 10,
+   "is_fragile": false,
+   "eta": 4
+  },
+  {
+   "id": "tiny_066",
+   "dimensions": {
+    "w": 1,
+    "l": 1,
+    "h": 2
+   },
+   "value": 13,
+   "weight": 13,
+   "is_fragile": false,
+   "eta": 4
+  },
+  {
+   "id": "medium_063",
+   "dimensions": {
+    "w": 7,
+    "l": 6,
+    "h": 7
+   },
+   "value": 261,
+   "weight": 111,
+   "is_fragile": false,
+   "eta": 10
+  },
+  {
+   "id": "small_004",
+   "dimensions": {
+    "w": 2,
+    "l": 4,
+    "h": 4
+   },
+   "value": 128,
+   "weight": 37,
+   "is_fragile": false,
+   "eta": 5
+  },
+  {
+   "id": "small_140",
+   "dimensions": {
+    "w": 2,
+    "l": 4,
+    "h": 2
+   },
+   "value": 37,
+   "weight": 50,
+   "is_fragile": false,
+   "eta": 3
+  },
+  {
+   "id": "small_048",
+   "dimensions": {
+    "w": 4,
+    "l": 2,
+    "h": 2
+   },
+   "value": 99,
+   "weight": 30,
+   "is_fragile": false,
+   "eta": 7
+  },
+  {
+   "id": "large_000",
+   "dimensions": {
+    "w": 12,
+    "l": 9,
+    "h": 9
+   },
+   "value": 459,
+   "weight": 785,
+   "is_fragile": false,
+   "eta": 1
+  },
+  {
+   "id": "small_057",
+   "dimensions": {
+    "w": 4,
+    "l": 4,
+    "h": 2
+   },
+   "value": 147,
+   "weight": 45,
+   "is_fragile": false,
+   "eta": 10
+  },
+  {
+   "id": "tiny_093",
+   "dimensions": {
+    "w": 2,
+    "l": 1,
+    "h": 2
+   },
+   "value": 49,
+   "weight": 4,
+   "is_fragile": false,
+   "eta": 4
+  },
+  {
+   "id": "trap_fragile_big",
+   "dimensions": {
+    "w": 8,
+    "l": 8,
+    "h": 8
+   },
+   "value": 900,
+   "weight": 100,
+   "is_fragile": true,
+   "eta": 0
+  },
+  {
+   "id": "tiny_045",
+   "dimensions": {
+    "w": 1,
+    "l": 2,
+    "h": 2
+   },
+   "value": 40,
+   "weight": 1,
+   "is_fragile": false,
+   "eta": 5
+  },
+  {
+   "id": "tiny_057",
+   "dimensions": {
+    "w": 1,
+    "l": 2,
+    "h": 2
+   },
+   "value": 47,
+   "weight": 7,
+   "is_fragile": false,
+   "eta": 5
+  },
+  {
+   "id": "tiny_187",
+   "dimensions": {
+    "w": 2,
+    "l": 2,
+    "h": 1
+   },
+   "value": 30,
+   "weight": 1,
+   "is_fragile": false,
+   "eta": 1
+  },
+  {
+   "id": "tiny_183",
+   "dimensions": {
+    "w": 1,
+    "l": 2,
+    "h": 1
+   },
+   "value": 54,
+   "weight": 3,
+   "is_fragile": false,
+   "eta": 2
+  },
+  {
+   "id": "tiny_107",
+   "dimensions": {
+    "w": 1,
+    "l": 1,
+    "h": 2
+   },
+   "value": 55,
+   "weight": 13,
+   "is_fragile": false,
+   "eta": 5
+  },
+  {
+   "id": "tiny_025",
+   "dimensions": {
+    "w": 1,
+    "l": 2,
+    "h": 1
+   },
+   "value": 37,
+   "weight": 4,
+   "is_fragile": false,
+   "eta": 3
+  },
+  {
+   "id": "small_092",
+   "dimensions": {
+    "w": 4,
+    "l": 2,
+    "h": 3
+   },
+   "value": 102,
+   "weight": 23,
+   "is_fragile": false,
+   "eta": 1
+  },
+  {
+   "id": "small_095",
+   "dimensions": {
+    "w": 2,
+    "l": 3,
+    "h": 3
+   },
+   "value": 136,
+   "weight": 46,
+   "is_fragile": false,
+   "eta": 7
+  },
+  {
+   "id": "small_022",
+   "dimensions": {
+    "w": 2,
+    "l": 3,
+    "h": 3
+   },
+   "value": 20,
+   "weight": 44,
+   "is_fragile": false,
+   "eta": 9
+  },
+  {
+   "id": "tiny_165",
+   "dimensions": {
+    "w": 1,
+    "l": 2,
+    "h": 2
+   },
+   "value": 9,
+   "weight": 15,
+   "is_fragile": true,
+   "eta": 4
+  },
+  {
+   "id": "small_141",
+   "dimensions": {
+    "w": 3,
+    "l": 3,
+    "h": 2
+   },
+   "value": 143,
+   "weight": 47,
+   "is_fragile": false,
+   "eta": 0
+  },
+  {
+   "id": "fragile_038",
+   "dimensions": {
+    "w": 4,
+    "l": 2,
+    "h": 4
+   },
+   "value": 318,
+   "weight": 14,
+   "is_fragile": true,
+   "eta": 2
+  },
+  {
+   "id": "fragile_024",
+   "dimensions": {
+    "w": 3,
+    "l": 5,
+    "h": 2
+   },
+   "value": 351,
+   "weight": 8,
+   "is_fragile": true,
+   "eta": 3
+  },
+  {
+   "id": "tiny_125",
+   "dimensions": {
+    "w": 2,
+    "l": 1,
+    "h": 2
+   },
+   "value": 51,
+   "weight": 5,
+   "is_fragile": false,
+   "eta": 4
+  },
+  {
+   "id": "small_051",
+   "dimensions": {
+    "w": 4,
+    "l": 2,
+    "h": 2
+   },
+   "value": 130,
+   "weight": 37,
+   "is_fragile": false,
+   "eta": 0
+  },
+  {
+   "id": "small_127",
+   "dimensions": {
+    "w": 2,
+    "l": 3,
+    "h": 2
+   },
+   "value": 104,
+   "weight": 46,
+   "is_fragile": true,
+   "eta": 7
+  },
+  {
+   "id": "small_109",
+   "dimensions": {
+    "w": 4,
+    "l": 2,
+    "h": 4
+   },
+   "value": 138,
+   "weight": 48,
+   "is_fragile": false,
+   "eta": 0
+  },
+  {
+   "id": "tiny_083",
+   "dimensions": {
+    "w": 2,
+    "l": 2,
+    "h": 1
+   },
+   "value": 9,
+   "weight": 10,
+   "is_fragile": false,
+   "eta": 5
+  },
+  {
+   "id": "medium_032",
+   "dimensions": {
+    "w": 4,
+    "l": 5,
+    "h": 6
+   },
+   "value": 266,
+   "weight": 140,
+   "is_fragile": false,
+   "eta": 4
+  },
+  {
+   "id": "fragile_009",
+   "dimensions": {
+    "w": 3,
+    "l": 5,
+    "h": 4
+   },
+   "value": 393,
+   "weight": 6,
+   "is_fragile": true,
+   "eta": 5
+  },
+  {
+   "id": "small_088",
+   "dimensions": {
+    "w": 4,
+    "l": 3,
+    "h": 2
+   },
+   "value": 71,
+   "weight": 57,
+   "is_fragile": false,
+   "eta": 8
+  },
+  {
+   "id": "fragile_036",
+   "dimensions": {
+    "w": 3,
+    "l": 4,
+    "h": 5
+   },
+   "value": 170,
+   "weight": 9,
+   "is_fragile": true,
+   "eta": 1
+  },
+  {
+   "id": "tiny_063",
+   "dimensions": {
+    "w": 2,
+    "l": 1,
+    "h": 2
+   },
+   "value": 31,
+   "weight": 15,
+   "is_fragile": false,
+   "eta": 1
+  },
+  {
+   "id": "small_097",
+   "dimensions": {
+    "w": 3,
+    "l": 4,
+    "h": 3
+   },
+   "value": 67,
+   "weight": 5,
+   "is_fragile": false,
+   "eta": 4
+  },
+  {
+   "id": "small_000",
+   "dimensions": {
+    "w": 4,
+    "l": 2,
+    "h": 4
+   },
+   "value": 105,
+   "weight": 9,
+   "is_fragile": false,
+   "eta": 8
+  },
+  {
+   "id": "medium_065",
+   "dimensions": {
+    "w": 5,
+    "l": 7,
+    "h": 6
+   },
+   "value": 430,
+   "weight": 67,
+   "is_fragile": false,
+   "eta": 3
+  },
+  {
+   "id": "tiny_102",
+   "dimensions": {
+    "w": 1,
+    "l": 1,
+    "h": 2
+   },
+   "value": 43,
+   "weight": 10,
+   "is_fragile": false,
+   "eta": 1
+  },
+  {
+   "id": "tiny_077",
+   "dimensions": {
+    "w": 2,
+    "l": 2,
+    "h": 1
+   },
+   "value": 34,
+   "weight": 6,
+   "is_fragile": false,
+   "eta": 3
+  },
+  {
+   "id": "small_036",
+   "dimensions": {
+    "w": 2,
+    "l": 4,
+    "h": 3
+   },
+   "value": 131,
+   "weight": 22,
+   "is_fragile": false,
+   "eta": 0
+  },
+  {
+   "id": "large_004",
+   "dimensions": {
+    "w": 12,
+    "l": 11,
+    "h": 8
+   },
+   "value": 608,
+   "weight": 206,
+   "is_fragile": false,
+   "eta": 0
+  },
+  {
+   "id": "small_031",
+   "dimensions": {
+    "w": 3,
+    "l": 2,
+    "h": 4
+   },
+   "value": 104,
+   "weight": 22,
+   "is_fragile": true,
+   "eta": 5
+  },
+  {
+   "id": "small_100",
+   "dimensions": {
+    "w": 3,
+    "l": 3,
+    "h": 2
+   },
+   "value": 134,
+   "weight": 53,
+   "is_fragile": false,
+   "eta": 5
+  },
+  {
+   "id": "small_019",
+   "dimensions": {
+    "w": 4,
+    "l": 4,
+    "h": 4
+   },
+   "value": 128,
+   "weight": 12,
+   "is_fragile": false,
+   "eta": 3
+  },
+  {
+   "id": "tiny_100",
+   "dimensions": {
+    "w": 1,
+    "l": 1,
+    "h": 2
+   },
+   "value": 60,
+   "weight": 8,
+   "is_fragile": false,
+   "eta": 0
+  },
+  {
+   "id": "flat_plate_011",
+   "dimensions": {
+    "w": 13,
+    "l": 12,
+    "h": 1
+   },
+   "value": 72,
+   "weight": 14,
+   "is_fragile": false,
+   "eta": 3
+  },
+  {
+   "id": "tiny_135",
+   "dimensions": {
+    "w": 1,
+    "l": 2,
+    "h": 1
+   },
+   "value": 7,
+   "weight": 6,
+   "is_fragile": false,
+   "eta": 2
+  },
+  {
+   "id": "light_gold_001",
+   "dimensions": {
+    "w": 3,
+    "l": 4,
+    "h": 3
+   },
+   "value": 528,
+   "weight": 5,
+   "is_fragile": false,
+   "eta": 0
+  },
+  {
+   "id": "light_gold_008",
+   "dimensions": {
+    "w": 2,
+    "l": 3,
+    "h": 2
+   },
+   "value": 366,
+   "weight": 10,
+   "is_fragile": false,
+   "eta": 1
+  },
+  {
+   "id": "fragile_035",
+   "dimensions": {
+    "w": 5,
+    "l": 3,
+    "h": 4
+   },
+   "value": 381,
+   "weight": 39,
+   "is_fragile": true,
+   "eta": 1
+  },
+  {
+   "id": "medium_008",
+   "dimensions": {
+    "w": 6,
+    "l": 6,
+    "h": 4
+   },
+   "value": 167,
+   "weight": 84,
+   "is_fragile": true,
+   "eta": 7
+  },
+  {
+   "id": "large_009",
+   "dimensions": {
+    "w": 10,
+    "l": 7,
+    "h": 11
+   },
+   "value": 1462,
+   "weight": 263,
+   "is_fragile": false,
+   "eta": 4
+  },
+  {
+   "id": "trap_exact_cap_weight",
+   "dimensions": {
+    "w": 2,
+    "l": 2,
+    "h": 2
+   },
+   "value": 1,
+   "weight": 6000,
+   "is_fragile": false,
+   "eta": 0
+  },
+  {
+   "id": "small_116",
+   "dimensions": {
+    "w": 4,
+    "l": 4,
+    "h": 4
+   },
+   "value": 128,
+   "weight": 39,
+   "is_fragile": false,
+   "eta": 3
+  },
+  {
+   "id": "small_078",
+   "dimensions": {
+    "w": 4,
+    "l": 4,
+    "h": 3
+   },
+   "value": 57,
+   "weight": 57,
+   "is_fragile": false,
+   "eta": 0
+  },
+  {
+   "id": "small_096",
+   "dimensions": {
+    "w": 4,
+    "l": 3,
+    "h": 3
+   },
+   "value": 69,
+   "weight": 56,
+   "is_fragile": true,
+   "eta": 2
+  },
+  {
+   "id": "tiny_197",
+   "dimensions": {
+    "w": 2,
+    "l": 2,
+    "h": 1
+   },
+   "value": 8,
+   "weight": 8,
+   "is_fragile": false,
+   "eta": 2
+  },
+  {
+   "id": "fragile_034",
+   "dimensions": {
+    "w": 5,
+    "l": 5,
+    "h": 4
+   },
+   "value": 362,
+   "weight": 8,
+   "is_fragile": true,
+   "eta": 2
+  },
+  {
+   "id": "small_054",
+   "dimensions": {
+    "w": 2,
+    "l": 4,
+    "h": 3
+   },
+   "value": 43,
+   "weight": 37,
+   "is_fragile": false,
+   "eta": 9
+  },
+  {
+   "id": "fragile_037",
+   "dimensions": {
+    "w": 2,
+    "l": 5,
+    "h": 2
+   },
+   "value": 299,
+   "weight": 22,
+   "is_fragile": true,
+   "eta": 1
+  },
+  {
+   "id": "dense_iron_002",
+   "dimensions": {
+    "w": 4,
+    "l": 2,
+    "h": 2
+   },
+   "value": 72,
+   "weight": 394,
+   "is_fragile": false,
+   "eta": 9
+  },
+  {
+   "id": "tiny_122",
+   "dimensions": {
+    "w": 1,
+    "l": 1,
+    "h": 2
+   },
+   "value": 50,
+   "weight": 5,
+   "is_fragile": false,
+   "eta": 2
+  },
+  {
+   "id": "tiny_075",
+   "dimensions": {
+    "w": 2,
+    "l": 1,
+    "h": 2
+   },
+   "value": 13,
+   "weight": 10,
+   "is_fragile": false,
+   "eta": 3
+  },
+  {
+   "id": "tiny_018",
+   "dimensions": {
+    "w": 1,
+    "l": 2,
+    "h": 1
+   },
+   "value": 14,
+   "weight": 6,
+   "is_fragile": false,
+   "eta": 4
+  },
+  {
+   "id": "tiny_065",
+   "dimensions": {
+    "w": 2,
+    "l": 1,
+    "h": 1
+   },
+   "value": 56,
+   "weight": 12,
+   "is_fragile": false,
+   "eta": 0
+  },
+  {
+   "id": "dense_iron_036",
+   "dimensions": {
+    "w": 2,
+    "l": 2,
+    "h": 4
+   },
+   "value": 17,
+   "weight": 552,
+   "is_fragile": false,
+   "eta": 8
+  },
+  {
+   "id": "fragile_028",
+   "dimensions": {
+    "w": 4,
+    "l": 3,
+    "h": 3
+   },
+   "value": 187,
+   "weight": 23,
+   "is_fragile": true,
+   "eta": 5
+  },
+  {
+   "id": "tiny_010",
+   "dimensions": {
+    "w": 1,
+    "l": 2,
+    "h": 1
+   },
+   "value": 19,
+   "weight": 14,
+   "is_fragile": true,
+   "eta": 2
+  },
+  {
+   "id": "small_052",
+   "dimensions": {
+    "w": 4,
+    "l": 2,
+    "h": 3
+   },
+   "value": 62,
+   "weight": 15,
+   "is_fragile": false,
+   "eta": 3
+  },
+  {
+   "id": "small_112",
+   "dimensions": {
+    "w": 3,
+    "l": 3,
+    "h": 2
+   },
+   "value": 54,
+   "weight": 54,
+   "is_fragile": false,
+   "eta": 10
+  },
+  {
+   "id": "tiny_058",
+   "dimensions": {
+    "w": 1,
+    "l": 1,
+    "h": 2
+   },
+   "value": 47,
+   "weight": 7,
+   "is_fragile": false,
+   "eta": 1
+  },
+  {
+   "id": "tiny_072",
+   "dimensions": {
+    "w": 1,
+    "l": 2,
+    "h": 2
+   },
+   "value": 54,
+   "weight": 10,
+   "is_fragile": false,
+   "eta": 0
+  },
+  {
+   "id": "small_093",
+   "dimensions": {
+    "w": 4,
+    "l": 2,
+    "h": 4
+   },
+   "value": 29,
+   "weight": 16,
+   "is_fragile": false,
+   "eta": 2
+  },
+  {
+   "id": "small_083",
+   "dimensions": {
+    "w": 4,
+    "l": 3,
+    "h": 4
+   },
+   "value": 87,
+   "weight": 44,
+   "is_fragile": false,
+   "eta": 3
+  },
+  {
+   "id": "tiny_055",
+   "dimensions": {
+    "w": 1,
+    "l": 2,
+    "h": 1
+   },
+   "value": 21,
+   "weight": 1,
+   "is_fragile": false,
+   "eta": 0
+  },
+  {
+   "id": "tiny_012",
+   "dimensions": {
+    "w": 2,
+    "l": 2,
+    "h": 2
+   },
+   "value": 14,
+   "weight": 5,
+   "is_fragile": false,
+   "eta": 5
+  },
+  {
+   "id": "tiny_114",
+   "dimensions": {
+    "w": 2,
+    "l": 2,
+    "h": 1
+   },
+   "value": 42,
+   "weight": 7,
+   "is_fragile": false,
+   "eta": 3
+  },
+  {
+   "id": "tiny_001",
+   "dimensions": {
+    "w": 1,
+    "l": 2,
+    "h": 1
+   },
+   "value": 6,
+   "weight": 2,
+   "is_fragile": false,
+   "eta": 4
+  },
+  {
+   "id": "medium_060",
+   "dimensions": {
+    "w": 6,
+    "l": 6,
+    "h": 6
+   },
+   "value": 170,
+   "weight": 235,
+   "is_fragile": false,
+   "eta": 2
+  },
+  {
+   "id": "tiny_155",
+   "dimensions": {
+    "w": 2,
+    "l": 1,
+    "h": 2
+   },
+   "value": 33,
+   "weight": 4,
+   "is_fragile": false,
+   "eta": 0
+  },
+  {
+   "id": "small_005",
+   "dimensions": {
+    "w": 2,
+    "l": 2,
+    "h": 3
+   },
+   "value": 144,
+   "weight": 17,
+   "is_fragile": false,
+   "eta": 2
+  },
+  {
+   "id": "light_gold_005",
+   "dimensions": {
+    "w": 2,
+    "l": 3,
+    "h": 3
+   },
+   "value": 675,
+   "weight": 9,
+   "is_fragile": false,
+   "eta": 0
+  },
+  {
+   "id": "dense_iron_020",
+   "dimensions": {
+    "w": 2,
+    "l": 3,
+    "h": 2
+   },
+   "value": 29,
+   "weight": 359,
+   "is_fragile": false,
+   "eta": 8
+  },
+  {
+   "id": "light_gold_026",
+   "dimensions": {
+    "w": 4,
+    "l": 2,
+    "h": 2
+   },
+   "value": 662,
+   "weight": 5,
+   "is_fragile": false,
+   "eta": 1
+  },
+  {
+   "id": "tiny_106",
+   "dimensions": {
+    "w": 2,
+    "l": 2,
+    "h": 1
+   },
+   "value": 19,
+   "weight": 5,
+   "is_fragile": false,
+   "eta": 5
+  },
+  {
+   "id": "small_128",
+   "dimensions": {
+    "w": 2,
+    "l": 4,
+    "h": 4
+   },
+   "value": 68,
+   "weight": 8,
+   "is_fragile": false,
+   "eta": 10
+  },
+  {
+   "id": "medium_064",
+   "dimensions": {
+    "w": 5,
+    "l": 6,
+    "h": 4
+   },
+   "value": 437,
+   "weight": 194,
+   "is_fragile": false,
+   "eta": 9
+  },
+  {
+   "id": "fragile_012",
+   "dimensions": {
+    "w": 2,
+    "l": 5,
+    "h": 3
+   },
+   "value": 326,
+   "weight": 27,
+   "is_fragile": true,
+   "eta": 5
+  },
+  {
+   "id": "tiny_111",
+   "dimensions": {
+    "w": 2,
+    "l": 2,
+    "h": 1
+   },
+   "value": 43,
+   "weight": 1,
+   "is_fragile": false,
+   "eta": 5
+  },
+  {
+   "id": "medium_010",
+   "dimensions": {
+    "w": 6,
+    "l": 7,
+    "h": 4
+   },
+   "value": 249,
+   "weight": 251,
+   "is_fragile": false,
+   "eta": 1
+  },
+  {
+   "id": "tiny_151",
+   "dimensions": {
+    "w": 1,
+    "l": 1,
+    "h": 2
+   },
+   "value": 49,
+   "weight": 5,
+   "is_fragile": false,
+   "eta": 0
+  },
+  {
+   "id": "tiny_181",
+   "dimensions": {
+    "w": 2,
+    "l": 1,
+    "h": 1
+   },
+   "value": 27,
+   "weight": 7,
+   "is_fragile": false,
+   "eta": 5
+  },
+  {
+   "id": "tiny_143",
+   "dimensions": {
+    "w": 2,
+    "l": 2,
+    "h": 1
+   },
+   "value": 43,
+   "weight": 13,
+   "is_fragile": false,
+   "eta": 5
+  },
+  {
+   "id": "small_006",
+   "dimensions": {
+    "w": 2,
+    "l": 3,
+    "h": 2
+   },
+   "value": 149,
+   "weight": 54,
+   "is_fragile": false,
+   "eta": 8
+  },
+  {
+   "id": "small_077",
+   "dimensions": {
+    "w": 4,
+    "l": 2,
+    "h": 4
+   },
+   "value": 33,
+   "weight": 42,
+   "is_fragile": false,
+   "eta": 8
+  },
+  {
+   "id": "fragile_030",
+   "dimensions": {
+    "w": 5,
+    "l": 4,
+    "h": 5
+   },
+   "value": 86,
+   "weight": 38,
+   "is_fragile": true,
+   "eta": 3
+  },
+  {
+   "id": "tiny_068",
+   "dimensions": {
+    "w": 2,
+    "l": 2,
+    "h": 2
+   },
+   "value": 53,
+   "weight": 4,
+   "is_fragile": false,
+   "eta": 2
+  },
+  {
+   "id": "small_025",
+   "dimensions": {
+    "w": 3,
+    "l": 3,
+    "h": 3
+   },
+   "value": 24,
+   "weight": 27,
+   "is_fragile": false,
+   "eta": 5
+  },
+  {
+   "id": "fragile_031",
+   "dimensions": {
+    "w": 2,
+    "l": 2,
+    "h": 3
+   },
+   "value": 216,
+   "weight": 15,
+   "is_fragile": true,
+   "eta": 5
+  },
+  {
+   "id": "large_010",
+   "dimensions": {
+    "w": 9,
+    "l": 9,
+    "h": 9
+   },
+   "value": 1104,
+   "weight": 534,
+   "is_fragile": false,
+   "eta": 8
+  },
+  {
+   "id": "tiny_132",
+   "dimensions": {
+    "w": 2,
+    "l": 1,
+    "h": 2
+   },
+   "value": 59,
+   "weight": 11,
+   "is_fragile": false,
+   "eta": 3
+  },
+  {
+   "id": "fragile_039",
+   "dimensions": {
+    "w": 2,
+    "l": 4,
+    "h": 5
+   },
+   "value": 373,
+   "weight": 40,
+   "is_fragile": true,
+   "eta": 5
+  },
+  {
+   "id": "trap_zero_value",
+   "dimensions": {
+    "w": 3,
+    "l": 3,
+    "h": 3
+   },
+   "value": 0,
+   "weight": 5,
+   "is_fragile": false,
+   "eta": 0
+  },
+  {
+   "id": "dense_iron_023",
+   "dimensions": {
+    "w": 4,
+    "l": 4,
+    "h": 3
+   },
+   "value": 30,
+   "weight": 199,
+   "is_fragile": false,
+   "eta": 2
+  },
+  {
+   "id": "dense_iron_028",
+   "dimensions": {
+    "w": 4,
+    "l": 2,
+    "h": 4
+   },
+   "value": 12,
+   "weight": 580,
+   "is_fragile": false,
+   "eta": 8
+  },
+  {
+   "id": "small_143",
+   "dimensions": {
+    "w": 2,
+    "l": 4,
+    "h": 4
+   },
+   "value": 130,
+   "weight": 56,
+   "is_fragile": false,
+   "eta": 2
+  },
+  {
+   "id": "medium_001",
+   "dimensions": {
+    "w": 4,
+    "l": 5,
+    "h": 6
+   },
+   "value": 108,
+   "weight": 146,
+   "is_fragile": false,
+   "eta": 6
+  },
+  {
+   "id": "medium_055",
+   "dimensions": {
+    "w": 5,
+    "l": 6,
+    "h": 5
+   },
+   "value": 240,
+   "weight": 87,
+   "is_fragile": false,
+   "eta": 4
+  },
+  {
+   "id": "light_gold_018",
+   "dimensions": {
+    "w": 4,
+    "l": 4,
+    "h": 2
+   },
+   "value": 747,
+   "weight": 8,
+   "is_fragile": false,
+   "eta": 2
+  },
+  {
+   "id": "flat_plate_003",
+   "dimensions": {
+    "w": 14,
+    "l": 10,
+    "h": 1
+   },
+   "value": 147,
+   "weight": 30,
+   "is_fragile": false,
+   "eta": 3
+  },
+  {
+   "id": "light_gold_039",
+   "dimensions": {
+    "w": 4,
+    "l": 4,
+    "h": 2
+   },
+   "value": 489,
+   "weight": 2,
+   "is_fragile": false,
+   "eta": 3
+  },
+  {
+   "id": "small_047",
+   "dimensions": {
+    "w": 2,
+    "l": 3,
+    "h": 4
+   },
+   "value": 114,
+   "weight": 34,
+   "is_fragile": false,
+   "eta": 8
+  },
+  {
+   "id": "light_gold_019",
+   "dimensions": {
+    "w": 3,
+    "l": 2,
+    "h": 4
+   },
+   "value": 771,
+   "weight": 3,
+   "is_fragile": false,
+   "eta": 3
+  },
+  {
+   "id": "tiny_069",
+   "dimensions": {
+    "w": 2,
+    "l": 1,
+    "h": 2
+   },
+   "value": 33,
+   "weight": 2,
+   "is_fragile": false,
+   "eta": 1
+  },
+  {
+   "id": "flat_plate_017",
+   "dimensions": {
+    "w": 11,
+    "l": 12,
+    "h": 1
+   },
+   "value": 124,
+   "weight": 26,
+   "is_fragile": true,
+   "eta": 0
+  },
+  {
+   "id": "medium_027",
+   "dimensions": {
+    "w": 6,
+    "l": 7,
+    "h": 4
+   },
+   "value": 324,
+   "weight": 271,
+   "is_fragile": false,
+   "eta": 4
+  },
+  {
+   "id": "medium_025",
+   "dimensions": {
+    "w": 5,
+    "l": 6,
+    "h": 4
+   },
+   "value": 347,
+   "weight": 93,
+   "is_fragile": false,
+   "eta": 1
+  },
+  {
+   "id": "tiny_168",
+   "dimensions": {
+    "w": 1,
+    "l": 2,
+    "h": 2
+   },
+   "value": 19,
+   "weight": 7,
+   "is_fragile": false,
+   "eta": 3
+  },
+  {
+   "id": "small_059",
+   "dimensions": {
+    "w": 3,
+    "l": 3,
+    "h": 3
+   },
+   "value": 138,
+   "weight": 18,
+   "is_fragile": false,
+   "eta": 2
+  },
+  {
+   "id": "small_070",
+   "dimensions": {
+    "w": 2,
+    "l": 2,
+    "h": 2
+   },
+   "value": 120,
+   "weight": 28,
+   "is_fragile": false,
+   "eta": 5
+  },
+  {
+   "id": "light_gold_023",
+   "dimensions": {
+    "w": 2,
+    "l": 4,
+    "h": 2
+   },
+   "value": 590,
+   "weight": 9,
+   "is_fragile": false,
+   "eta": 0
+  },
+  {
+   "id": "tiny_095",
+   "dimensions": {
+    "w": 2,
+    "l": 2,
+    "h": 2
+   },
+   "value": 19,
+   "weight": 2,
+   "is_fragile": false,
+   "eta": 2
+  },
+  {
+   "id": "small_121",
+   "dimensions": {
+    "w": 4,
+    "l": 4,
+    "h": 3
+   },
+   "value": 102,
+   "weight": 20,
+   "is_fragile": false,
+   "eta": 2
+  },
+  {
+   "id": "tiny_030",
+   "dimensions": {
+    "w": 1,
+    "l": 2,
+    "h": 1
+   },
+   "value": 8,
+   "weight": 11,
+   "is_fragile": false,
+   "eta": 0
+  },
+  {
+   "id": "tiny_037",
+   "dimensions": {
+    "w": 2,
+    "l": 2,
+    "h": 1
+   },
+   "value": 47,
+   "weight": 12,
+   "is_fragile": false,
+   "eta": 2
+  },
+  {
+   "id": "large_025",
+   "dimensions": {
+    "w": 12,
+    "l": 9,
+    "h": 10
+   },
+   "value": 1415,
+   "weight": 696,
+   "is_fragile": false,
+   "eta": 10
+  },
+  {
+   "id": "dense_iron_010",
+   "dimensions": {
+    "w": 2,
+    "l": 4,
+    "h": 3
+   },
+   "value": 33,
+   "weight": 477,
+   "is_fragile": false,
+   "eta": 7
+  },
+  {
+   "id": "medium_037",
+   "dimensions": {
+    "w": 5,
+    "l": 5,
+    "h": 7
+   },
+   "value": 247,
+   "weight": 111,
+   "is_fragile": true,
+   "eta": 7
+  },
+  {
+   "id": "medium_009",
+   "dimensions": {
+    "w": 7,
+    "l": 4,
+    "h": 4
+   },
+   "value": 145,
+   "weight": 221,
+   "is_fragile": false,
+   "eta": 9
+  },
+  {
+   "id": "light_gold_020",
+   "dimensions": {
+    "w": 4,
+    "l": 3,
+    "h": 4
+   },
+   "value": 772,
+   "weight": 3,
+   "is_fragile": false,
+   "eta": 2
+  },
+  {
+   "id": "small_001",
+   "dimensions": {
+    "w": 3,
+    "l": 3,
+    "h": 3
+   },
+   "value": 58,
+   "weight": 26,
+   "is_fragile": true,
+   "eta": 10
+  },
+  {
+   "id": "tiny_033",
+   "dimensions": {
+    "w": 2,
+    "l": 2,
+    "h": 1
+   },
+   "value": 17,
+   "weight": 5,
+   "is_fragile": false,
+   "eta": 0
+  },
+  {
+   "id": "small_029",
+   "dimensions": {
+    "w": 3,
+    "l": 2,
+    "h": 2
+   },
+   "value": 71,
+   "weight": 7,
+   "is_fragile": false,
+   "eta": 4
+  },
+  {
+   "id": "medium_018",
+   "dimensions": {
+    "w": 4,
+    "l": 5,
+    "h": 5
+   },
+   "value": 449,
+   "weight": 53,
+   "is_fragile": false,
+   "eta": 7
+  },
+  {
+   "id": "small_060",
+   "dimensions": {
+    "w": 4,
+    "l": 3,
+    "h": 4
+   },
+   "value": 108,
+   "weight": 30,
+   "is_fragile": true,
+   "eta": 5
+  },
+  {
+   "id": "tiny_054",
+   "dimensions": {
+    "w": 2,
+    "l": 1,
+    "h": 1
+   },
+   "value": 43,
+   "weight": 7,
+   "is_fragile": false,
+   "eta": 2
+  },
+  {
+   "id": "small_027",
+   "dimensions": {
+    "w": 2,
+    "l": 3,
+    "h": 4
+   },
+   "value": 106,
+   "weight": 57,
+   "is_fragile": false,
+   "eta": 10
+  },
+  {
+   "id": "dense_iron_029",
+   "dimensions": {
+    "w": 4,
+    "l": 4,
+    "h": 3
+   },
+   "value": 78,
+   "weight": 270,
+   "is_fragile": false,
+   "eta": 1
+  },
+  {
+   "id": "small_014",
+   "dimensions": {
+    "w": 3,
+    "l": 4,
+    "h": 2
+   },
+   "value": 131,
+   "weight": 10,
+   "is_fragile": false,
+   "eta": 3
+  },
+  {
+   "id": "tiny_031",
+   "dimensions": {
+    "w": 1,
+    "l": 1,
+    "h": 2
+   },
+   "value": 36,
+   "weight": 8,
+   "is_fragile": false,
+   "eta": 3
+  },
+  {
+   "id": "medium_007",
+   "dimensions": {
+    "w": 5,
+    "l": 7,
+    "h": 6
+   },
+   "value": 284,
+   "weight": 94,
+   "is_fragile": true,
+   "eta": 4
+  },
+  {
+   "id": "dense_iron_025",
+   "dimensions": {
+    "w": 4,
+    "l": 3,
+    "h": 2
+   },
+   "value": 74,
+   "weight": 348,
+   "is_fragile": false,
+   "eta": 6
+  },
+  {
+   "id": "tiny_139",
+   "dimensions": {
+    "w": 1,
+    "l": 2,
+    "h": 2
+   },
+   "value": 48,
+   "weight": 9,
+   "is_fragile": false,
+   "eta": 3
+  },
+  {
+   "id": "tiny_173",
+   "dimensions": {
+    "w": 2,
+    "l": 2,
+    "h": 1
+   },
+   "value": 41,
+   "weight": 9,
+   "is_fragile": false,
+   "eta": 5
+  },
+  {
+   "id": "tiny_153",
+   "dimensions": {
+    "w": 2,
+    "l": 2,
+    "h": 2
+   },
+   "value": 47,
+   "weight": 12,
+   "is_fragile": false,
+   "eta": 4
+  },
+  {
+   "id": "large_016",
+   "dimensions": {
+    "w": 10,
+    "l": 10,
+    "h": 11
+   },
+   "value": 1426,
+   "weight": 455,
+   "is_fragile": true,
+   "eta": 3
+  },
+  {
+   "id": "tiny_133",
+   "dimensions": {
+    "w": 2,
+    "l": 1,
+    "h": 1
+   },
+   "value": 20,
+   "weight": 11,
+   "is_fragile": false,
+   "eta": 2
+  },
+  {
+   "id": "light_gold_016",
+   "dimensions": {
+    "w": 4,
+    "l": 3,
+    "h": 4
+   },
+   "value": 527,
+   "weight": 3,
+   "is_fragile": false,
+   "eta": 3
+  },
+  {
+   "id": "tiny_159",
+   "dimensions": {
+    "w": 1,
+    "l": 1,
+    "h": 2
+   },
+   "value": 59,
+   "weight": 3,
+   "is_fragile": false,
+   "eta": 4
+  },
+  {
+   "id": "small_034",
+   "dimensions": {
+    "w": 3,
+    "l": 4,
+    "h": 2
+   },
+   "value": 95,
+   "weight": 25,
+   "is_fragile": true,
+   "eta": 5
+  },
+  {
+   "id": "tiny_000",
+   "dimensions": {
+    "w": 1,
+    "l": 1,
+    "h": 2
+   },
+   "value": 20,
+   "weight": 4,
+   "is_fragile": false,
+   "eta": 0
+  },
+  {
+   "id": "light_gold_004",
+   "dimensions": {
+    "w": 2,
+    "l": 2,
+    "h": 2
+   },
+   "value": 455,
+   "weight": 1,
+   "is_fragile": false,
+   "eta": 2
+  },
+  {
+   "id": "medium_012",
+   "dimensions": {
+    "w": 5,
+    "l": 4,
+    "h": 5
+   },
+   "value": 322,
+   "weight": 181,
+   "is_fragile": false,
+   "eta": 7
+  },
+  {
+   "id": "medium_046",
+   "dimensions": {
+    "w": 6,
+    "l": 5,
+    "h": 6
+   },
+   "value": 460,
+   "weight": 189,
+   "is_fragile": false,
+   "eta": 4
+  },
+  {
+   "id": "tiny_082",
+   "dimensions": {
+    "w": 1,
+    "l": 2,
+    "h": 1
+   },
+   "value": 42,
+   "weight": 1,
+   "is_fragile": false,
+   "eta": 4
+  },
+  {
+   "id": "light_gold_012",
+   "dimensions": {
+    "w": 3,
+    "l": 2,
+    "h": 3
+   },
+   "value": 509,
+   "weight": 9,
+   "is_fragile": false,
+   "eta": 3
+  },
+  {
+   "id": "light_gold_003",
+   "dimensions": {
+    "w": 2,
+    "l": 2,
+    "h": 3
+   },
+   "value": 718,
+   "weight": 7,
+   "is_fragile": false,
+   "eta": 0
+  },
+  {
+   "id": "dense_iron_005",
+   "dimensions": {
+    "w": 2,
+    "l": 3,
+    "h": 4
+   },
+   "value": 55,
+   "weight": 450,
+   "is_fragile": false,
+   "eta": 4
+  },
+  {
+   "id": "tiny_127",
+   "dimensions": {
+    "w": 2,
+    "l": 2,
+    "h": 2
+   },
+   "value": 60,
+   "weight": 4,
+   "is_fragile": false,
+   "eta": 1
+  },
+  {
+   "id": "small_087",
+   "dimensions": {
+    "w": 2,
+    "l": 3,
+    "h": 4
+   },
+   "value": 40,
+   "weight": 27,
+   "is_fragile": false,
+   "eta": 10
+  },
+  {
+   "id": "small_018",
+   "dimensions": {
+    "w": 3,
+    "l": 3,
+    "h": 4
+   },
+   "value": 21,
+   "weight": 10,
+   "is_fragile": true,
+   "eta": 3
+  },
+  {
+   "id": "medium_041",
+   "dimensions": {
+    "w": 7,
+    "l": 7,
+    "h": 4
+   },
+   "value": 393,
+   "weight": 98,
+   "is_fragile": false,
+   "eta": 8
+  },
+  {
+   "id": "medium_014",
+   "dimensions": {
+    "w": 4,
+    "l": 5,
+    "h": 6
+   },
+   "value": 103,
+   "weight": 242,
+   "is_fragile": false,
+   "eta": 9
+  },
+  {
+   "id": "tiny_142",
+   "dimensions": {
+    "w": 1,
+    "l": 2,
+    "h": 2
+   },
+   "value": 5,
+   "weight": 10,
+   "is_fragile": false,
+   "eta": 5
+  },
+  {
+   "id": "dense_iron_013",
+   "dimensions": {
+    "w": 4,
+    "l": 2,
+    "h": 3
+   },
+   "value": 37,
+   "weight": 552,
+   "is_fragile": false,
+   "eta": 0
+  },
+  {
+   "id": "fragile_002",
+   "dimensions": {
+    "w": 2,
+    "l": 5,
+    "h": 3
+   },
+   "value": 126,
+   "weight": 37,
+   "is_fragile": true,
+   "eta": 5
+  },
+  {
+   "id": "fragile_006",
+   "dimensions": {
+    "w": 2,
+    "l": 4,
+    "h": 4
+   },
+   "value": 173,
+   "weight": 12,
+   "is_fragile": true,
+   "eta": 3
+  },
+  {
+   "id": "small_056",
+   "dimensions": {
+    "w": 2,
+    "l": 2,
+    "h": 4
+   },
+   "value": 87,
+   "weight": 46,
+   "is_fragile": false,
+   "eta": 9
+  },
+  {
+   "id": "fragile_014",
+   "dimensions": {
+    "w": 2,
+    "l": 5,
+    "h": 4
+   },
+   "value": 203,
+   "weight": 26,
+   "is_fragile": true,
+   "eta": 0
+  },
+  {
+   "id": "tiny_027",
+   "dimensions": {
+    "w": 1,
+    "l": 2,
+    "h": 2
+   },
+   "value": 32,
+   "weight": 7,
+   "is_fragile": false,
+   "eta": 5
+  },
+  {
+   "id": "small_007",
+   "dimensions": {
+    "w": 4,
+    "l": 3,
+    "h": 4
+   },
+   "value": 53,
+   "weight": 43,
+   "is_fragile": false,
+   "eta": 2
+  },
+  {
+   "id": "flat_plate_014",
+   "dimensions": {
+    "w": 18,
+    "l": 17,
+    "h": 1
+   },
+   "value": 196,
+   "weight": 24,
+   "is_fragile": false,
+   "eta": 4
+  },
+  {
+   "id": "medium_054",
+   "dimensions": {
+    "w": 4,
+    "l": 4,
+    "h": 5
+   },
+   "value": 325,
+   "weight": 273,
+   "is_fragile": true,
+   "eta": 6
+  },
+  {
+   "id": "flat_plate_002",
+   "dimensions": {
+    "w": 13,
+    "l": 13,
+    "h": 1
+   },
+   "value": 79,
+   "weight": 26,
+   "is_fragile": false,
+   "eta": 1
+  },
+  {
+   "id": "flat_plate_005",
+   "dimensions": {
+    "w": 11,
+    "l": 11,
+    "h": 1
+   },
+   "value": 181,
+   "weight": 7,
+   "is_fragile": false,
+   "eta": 1
+  },
+  {
+   "id": "tiny_021",
+   "dimensions": {
+    "w": 1,
+    "l": 1,
+    "h": 2
+   },
+   "value": 40,
+   "weight": 3,
+   "is_fragile": false,
+   "eta": 4
+  },
+  {
+   "id": "light_gold_009",
+   "dimensions": {
+    "w": 4,
+    "l": 2,
+    "h": 4
+   },
+   "value": 411,
+   "weight": 5,
+   "is_fragile": false,
+   "eta": 0
+  }
+ ]
+}
