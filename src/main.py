@@ -6,6 +6,7 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
+from src.algorithms.genetic_algorithm import GeneticAlgorithm
 from src.algorithms.hill_climb import HillClimb  
 from src.algorithms.simulated_annealing import SimulatedAnnealing
 from src.initialization import generate_initial_state 
@@ -17,7 +18,7 @@ def main():
     ap.add_argument("--input", required=True)
     ap.add_argument(
         "--algorithm",
-        choices=["steepest_ascent", "sideways", "random_restart", "simulated_annealing", "all",],
+        choices=["steepest_ascent", "sideways", "random_restart", "simulated_annealing", "genetic_algorithm", "all"],
         default="all",
     )
     ap.add_argument("--seed", type=int, default=42)
@@ -28,12 +29,19 @@ def main():
     ap.add_argument("--sa-minimum-temperature", type=float, default=0.1, help="Suhu minimum SA")
     ap.add_argument("--sa-cooling-rate", type=float, default=0.995, help="Faktor pendinginan SA")
     ap.add_argument("--sa-max-iterations", type=int, default=10_000, help="Batas iterasi maksimum SA")
+    ap.add_argument("--ga-population-size", type=int, default=50, help="Jumlah individu GA (minimal 2)")
+    ap.add_argument("--ga-iterations", type=int, default=100, help="Jumlah generasi GA (minimal 1)")
     ap.add_argument("--output-dir", default="output")
     args = ap.parse_args()
+    if args.algorithm in {"genetic_algorithm", "all"}:
+        if args.ga_population_size < 2:
+            ap.error("--ga-population-size harus minimal 2")
+        if args.ga_iterations < 1:
+            ap.error("--ga-iterations harus minimal 1")
 
     problem = load_problem(args.input)
     algos = (
-        ["steepest_ascent", "sideways", "random_restart", "simulated_annealing"]
+        ["steepest_ascent", "sideways", "random_restart", "simulated_annealing", "genetic_algorithm"]
         if args.algorithm == "all"
         else [args.algorithm]
     )
@@ -42,9 +50,16 @@ def main():
         for run in range(1, args.runs + 1):
             seed = args.seed + run - 1
             rng = random.Random(seed)
-            init = generate_initial_state(problem, rng)
+            if algo != "genetic_algorithm":
+                init = generate_initial_state(problem, rng)
 
-            if algo == "simulated_annealing":
+            if algo == "genetic_algorithm":
+                ga = GeneticAlgorithm(problem, rng)
+                result = ga.genetic_algorithm(
+                    population_size=args.ga_population_size,
+                    iterations=args.ga_iterations,
+                )
+            elif algo == "simulated_annealing":
                 sa = SimulatedAnnealing(problem, rng)
                 result = sa.run(init, initial_temperature=args.sa_initial_temperature, minimum_temperature=args.sa_minimum_temperature, cooling_rate=args.sa_cooling_rate, max_iterations=args.sa_max_iterations)
             else:

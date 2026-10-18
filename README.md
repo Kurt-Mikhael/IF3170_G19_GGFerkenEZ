@@ -59,27 +59,7 @@ cd
 
 
 ## How to Run
-1. 
 
-## Visualisasi
-
-Pasang dependensi visualisasi:
-
-```bash
-python -m pip install -r requirements-visualization.txt
-```
-
-Setelah hasil pencarian tersedia sebagai JSON di folder `output`, jalankan dari root repository:
-
-```bash
-python -m src.visualize --input test/tc1.json --results output
-```
-
-Buka `output/visualizations/index.html` di browser. Laporan berisi initial/final state 3D, paket di luar peti, tabel semua paket, peta sel dengan slider ketinggian `z`, grafik algoritma, dan ringkasan eksperimen. Laporan dapat dibuka tanpa internet; sertakan `plotly.min.js` ketika menyalin folder laporan.
-
-`--input` harus menunjuk permasalahan yang digunakan untuk menghasilkan seluruh JSON tersebut. `--results` juga dapat menunjuk satu file JSON; `--output-dir` mengganti lokasi laporan. Visualisasi hanya membaca hasil dan tidak menjalankan pencarian.
-
-Posisi paket di luar peti merupakan ilustrasi; posisi pada state tetap `None`. Nilai state adalah jumlah nilai paket di dalam. Random Restart menampilkan initial state pencarian pertama dan final state terbaik, sedangkan SA menampilkan final state terbaik sepanjang pencarian. Grafik GA mendukung format hasilnya, tetapi kode GA saat ini masih memerlukan penyelarasan API sebelum dapat menghasilkan hasil tersebut.
 
 ## Kontributor
 | NIM      | Nama                           |

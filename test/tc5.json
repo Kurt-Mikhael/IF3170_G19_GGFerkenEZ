@@ -1,0 +1,7 @@
+{
+  "truck": {"dimensions": {"w": 1, "l": 2, "h": 1}, "max_capacity": 2},
+  "packages": [
+    {"id": "A", "dimensions": {"w": 2, "l": 1, "h": 1}, "value": 40, "weight": 1, "is_fragile": false, "eta": 0},
+    {"id": "B", "dimensions": {"w": 3, "l": 3, "h": 3}, "value": 99, "weight": 1, "is_fragile": false, "eta": 0}
+  ]
+}

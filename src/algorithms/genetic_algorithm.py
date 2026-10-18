@@ -1,10 +1,12 @@
 import random
 import time
 
-from src.algorithms._common import build_result
+from src.algorithms.common import build_result
 from src.constraints import validate_state
 from src.objective import evaluate
-from src.state import Placement, State
+from src.package import ORIENTATIONS
+from src.placement import Placement
+from src.state import State
 
 
 class GeneticAlgorithm:
@@ -16,7 +18,7 @@ class GeneticAlgorithm:
     def __init__(self, problem, rng):
         self.problem = problem
         self.rng = rng
-        self.packages = problem.package_map()
+        self.packages = problem.package_map
 
     def print(self):
         print(f"GeneticAlgorithm(packages={len(self.problem.packages)})")
@@ -48,7 +50,7 @@ class GeneticAlgorithm:
 
     def _empty_state(self):
         return State({
-            pid: Placement(None, ["w", "l", "h"])
+            pid: Placement(None, ["x", "y", "z"])
             for pid in self.packages
         })
 
@@ -112,7 +114,10 @@ class GeneticAlgorithm:
         rng.shuffle(ids)
 
         for pid in ids:
-            orientations = self.packages[pid].unique_orientations()
+            orientations = list({
+                self.packages[pid].effective_dims(orientation): orientation
+                for orientation in ORIENTATIONS
+            }.values())
             rng.shuffle(orientations)
             for orientation in orientations:
                 if self._insert(state, pid, orientation, inside, loaded_weight, rng):
@@ -182,10 +187,7 @@ class GeneticAlgorithm:
                 placement = candidate.placements[pid]
                 before = self.packages[pid].effective_dims(placement.orientation)
                 axis = self.rng.choice(("x", "y", "z"))
-                i, j = {"x": (1, 2), "y": (0, 2), "z": (0, 1)}[axis]
-                placement.orientation[i], placement.orientation[j] = (
-                    placement.orientation[j], placement.orientation[i]
-                )
+                placement.rotate(axis)
                 if self.packages[pid].effective_dims(placement.orientation) == before:
                     continue
 
