@@ -15,15 +15,12 @@ from src.reader import load_problem
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--input", required=True)
-    ap.add_argument(
-        "--algorithm",
-        choices=["steepest_ascent", "sideways", "random_restart", "simulated_annealing", "all",],
-        default="all",
-    )
+    ap.add_argument("--algorithm", choices=["steepest_ascent", "sideways", "stochastic", "random_restart", "simulated_annealing", "all",], default="all")
     ap.add_argument("--seed", type=int, default=42)
     ap.add_argument("--runs", type=int, default=3)
     ap.add_argument("--max-sideways", type=int, default=10)
     ap.add_argument("--max-restart", type=int, default=3)
+    ap.add_argument("--max-iterations", type=int, default=10_000, help="Batas iterasi Stochastic Hill Climbing")
     ap.add_argument("--sa-initial-temperature", type=float, default=100.0, help="Suhu awal SA")
     ap.add_argument("--sa-minimum-temperature", type=float, default=0.1, help="Suhu minimum SA")
     ap.add_argument("--sa-cooling-rate", type=float, default=0.995, help="Faktor pendinginan SA")
@@ -33,7 +30,7 @@ def main():
 
     problem = load_problem(args.input)
     algos = (
-        ["steepest_ascent", "sideways", "random_restart", "simulated_annealing"]
+        ["steepest_ascent", "sideways", "stochastic", "random_restart", "simulated_annealing"]
         if args.algorithm == "all"
         else [args.algorithm]
     )
@@ -53,6 +50,8 @@ def main():
                     result = hc.steepest_ascent(init)
                 elif algo == "sideways":
                     result = hc.sideways(init, args.max_sideways)
+                elif algo == "stochastic":
+                    result = hc.stochastic(init, args.max_iterations)
                 else:
                     result = hc.random_restart(init, args.max_restart)
             result["run_id"], result["seed"] = run, seed
