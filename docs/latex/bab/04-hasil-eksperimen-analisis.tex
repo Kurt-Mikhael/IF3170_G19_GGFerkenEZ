@@ -61,7 +61,27 @@ Banyak iterasi hingga berhenti & #6 \\ \hline
 \subsubsection{Test case #1 --- Percobaan #2}
 \awaltabel
 \textit{Maximum sideways move} & \hasil{nilai parameter} \\ \hline
-\isiHC
+\textit{State} awal & \hasil{ringkasan/rujukan visual state awal} \\ \hline
+\textit{State} akhir & \hasil{ringkasan/rujukan visual state akhir} \\ \hline
+Nilai \textit{objective function} akhir & \hasil{nilai objektif akhir} \\ \hline
+Grafik \textit{objective function} terhadap iterasi & \hasil{nomor gambar/rujukan grafik} \\ \hline
+Durasi pencarian & \hasil{durasi (detik)} \\ \hline
+Banyak iterasi hingga berhenti & \hasil{jumlah iterasi} \\ \hline
+\akhirtabel
+}
+% Argumen: test case, nomor percobaan, awalan gambar, nilai akhir, durasi,
+% iterasi, dan jumlah sideways move.
+\newcommand{\percobaanSidewaysGambar}[7]{%
+\subsubsection{Test case #1 --- Percobaan #2}
+\awaltabel
+\textit{Maximum sideways move} & 10 \\ \hline
+\textit{State} awal & \includegraphics[width=\linewidth]{gambar/pengujian/sideways-move-hc/#1/#3_initial_state_3d.png} \\ \hline
+\textit{State} akhir & \includegraphics[width=\linewidth]{gambar/pengujian/sideways-move-hc/#1/#3_final_state_3d.png} \\ \hline
+Nilai \textit{objective function} akhir & #4 \\ \hline
+Grafik \textit{objective function} terhadap iterasi & \includegraphics[width=\linewidth]{gambar/pengujian/sideways-move-hc/#1/#3_experiment.png} \\ \hline
+Durasi pencarian & #5 detik \\ \hline
+Banyak iterasi hingga berhenti & #6 \\ \hline
+Jumlah \textit{sideways move} yang dilakukan & #7 \\ \hline
 \akhirtabel
 }
 \newcommand{\percobaanRestart}[2]{%
@@ -136,9 +156,15 @@ Durasi pencarian & \hasil{durasi (detik)} \\ \hline
 
 
 \subsection{\textit{Hill-climbing with Sideways Move}}
-\tigaPercobaanSideways{tc8}
-\tigaPercobaanSideways{tc9}
-\tigaPercobaanSideways{tc10}
+\percobaanSidewaysGambar{tc8}{1}{run1_seed42}{103}{0.101828}{12}{10}
+\percobaanSidewaysGambar{tc8}{2}{run2_seed43}{98}{0.094503}{11}{10}
+\percobaanSidewaysGambar{tc8}{3}{run3_seed44}{96}{0.070576}{11}{10}
+\percobaanSidewaysGambar{tc9}{1}{run1_seed42}{101}{0.130282}{10}{10}
+\percobaanSidewaysGambar{tc9}{2}{run2_seed43}{101}{0.101959}{11}{10}
+\percobaanSidewaysGambar{tc9}{3}{run3_seed44}{101}{0.099453}{11}{10}
+\percobaanSidewaysGambar{tc10}{1}{run1_seed42}{82}{0.055903}{10}{10}
+\percobaanSidewaysGambar{tc10}{2}{run2_seed43}{87}{0.065628}{10}{10}
+\percobaanSidewaysGambar{tc10}{3}{run3_seed44}{83}{0.075649}{11}{10}
 
 \subsection{\textit{Random Restart Hill-climbing}}
 \tigaPercobaanRestart{tc8}
