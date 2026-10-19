@@ -1,13 +1,186 @@
 \chapter{Hasil Eksperimen dan Analisis}
 
-\section{Eksperimen Algoritma \textit{Hill-climbing }}
+Bab ini menyajikan hasil pengujian setiap algoritma. Isi setiap penanda \textit{[...]} dengan hasil pengujian aktual dan rujuk grafik yang dihasilkan pada kolom terkait.
+
+\renewcommand{\arraystretch}{1.15}
+\newcommand{\hasil}[1]{\textit{[#1]}}
+\newcommand{\awaltabel}{%
+\begin{longtable}{|p{4.0cm}|p{10.2cm}|}
+\hline
+\textbf{Informasi yang dicatat} & \textbf{Data hasil pengujian} \\
+\hline
+\endfirsthead
+\hline
+\textbf{Informasi yang dicatat} & \textbf{Data hasil pengujian} \\
+\hline
+\endhead
+\hline
+\endfoot
+\endlastfoot
+}
+\newcommand{\akhirtabel}{\end{longtable}}
+\newcommand{\isiHC}{%
+\textit{State} awal & \hasil{ringkasan/rujukan visual state awal} \\ \hline
+\textit{State} akhir & \hasil{ringkasan/rujukan visual state akhir} \\ \hline
+Nilai \textit{objective function} akhir & \hasil{nilai objektif akhir} \\ \hline
+Grafik \textit{objective function} terhadap iterasi & \hasil{nomor gambar/rujukan grafik} \\ \hline
+Durasi pencarian & \hasil{durasi (detik)} \\ \hline
+Banyak iterasi hingga berhenti & \hasil{jumlah iterasi} \\ \hline
+}
+\newcommand{\isiGA}{%
+\textit{State} awal (populasi awal) & \hasil{ringkasan/rujukan visual populasi awal} \\ \hline
+\textit{State} akhir terbaik & \hasil{ringkasan/rujukan visual state akhir} \\ \hline
+Nilai \textit{objective function} akhir terbaik & \hasil{nilai objektif akhir} \\ \hline
+Grafik objektif maksimum dan rata-rata terhadap iterasi & \hasil{nomor gambar/rujukan grafik} \\ \hline
+Jumlah populasi & \hasil{nilai parameter populasi} \\ \hline
+Banyak iterasi & \hasil{nilai parameter iterasi} \\ \hline
+Durasi pencarian & \hasil{durasi (detik)} \\ \hline
+}
+
+\newcommand{\percobaanHC}[2]{%
+\subsubsection{Test case #1 --- Percobaan #2}
+\awaltabel
+\isiHC
+\akhirtabel
+}
+
+% Argumen: nomor percobaan, awalan nama berkas gambar, nilai akhir, durasi, jumlah iterasi
+\newcommand{\percobaanSteepest}[6]{%
+\subsubsection{Test case #1 --- Percobaan #2}
+\awaltabel
+\textit{State} awal & \includegraphics[width=\linewidth]{gambar/pengujian/steepest-ascent-hc/#1/#3_initial_state_3d.png} \\ \hline
+\textit{State} akhir & \includegraphics[width=\linewidth]{gambar/pengujian/steepest-ascent-hc/#1/#3_final_state_3d.png} \\ \hline
+Nilai \textit{objective function} akhir & #4 \\ \hline
+Grafik \textit{objective function} terhadap iterasi & \includegraphics[width=\linewidth]{gambar/pengujian/steepest-ascent-hc/#1/#3_experiment.png} \\ \hline
+Durasi pencarian & #5 detik \\ \hline
+Banyak iterasi hingga berhenti & #6 \\ \hline
+\akhirtabel
+}
+
+\newcommand{\percobaanSideways}[2]{%
+\subsubsection{Test case #1 --- Percobaan #2}
+\awaltabel
+\textit{Maximum sideways move} & \hasil{nilai parameter} \\ \hline
+\isiHC
+\akhirtabel
+}
+\newcommand{\percobaanRestart}[2]{%
+\subsubsection{Test case #1 --- Percobaan #2}
+\awaltabel
+\textit{Maximum restart} & \hasil{nilai parameter} \\ \hline
+\textit{State} awal & \hasil{ringkasan/rujukan visual state awal} \\ \hline
+\textit{State} akhir terbaik & \hasil{ringkasan/rujukan visual state akhir} \\ \hline
+Nilai \textit{objective function} akhir & \hasil{nilai objektif akhir} \\ \hline
+Grafik \textit{objective function} terhadap iterasi & \hasil{nomor gambar/rujukan grafik} \\ \hline
+Durasi pencarian & \hasil{durasi (detik)} \\ \hline
+Banyak \textit{restart} yang dilakukan & \hasil{jumlah restart} \\ \hline
+Banyak iterasi per \textit{restart} & \hasil{daftar/rata-rata iterasi per restart} \\ \hline
+\akhirtabel
+}
+\newcommand{\percobaanSA}[2]{%
+\subsubsection{Test case #1 --- Percobaan #2}
+\awaltabel
+\textit{State} awal & \hasil{ringkasan/rujukan visual state awal} \\ \hline
+\textit{State} akhir & \hasil{ringkasan/rujukan visual state akhir} \\ \hline
+Nilai \textit{objective function} akhir & \hasil{nilai objektif akhir} \\ \hline
+Grafik \textit{objective function} terhadap iterasi & \hasil{nomor gambar/rujukan grafik} \\ \hline
+Grafik $e^{\Delta E/T}$ terhadap iterasi & \hasil{nomor gambar/rujukan grafik} \\ \hline
+Frekuensi \textit{stuck} pada \textit{local optima} & \hasil{jumlah/frekuensi kejadian} \\ \hline
+Durasi pencarian & \hasil{durasi (detik)} \\ \hline
+\akhirtabel
+}
+\newcommand{\percobaanGA}[3]{%
+\subsubsection{Test case #1 --- #2 --- Percobaan #3}
+\awaltabel
+\isiGA
+\akhirtabel
+}
+\newcommand{\tigaPercobaanHC}[1]{%
+\percobaanHC{#1}{1}
+\percobaanHC{#1}{2}
+\percobaanHC{#1}{3}
+}
+\newcommand{\tigaPercobaanSideways}[1]{%
+\percobaanSideways{#1}{1}
+\percobaanSideways{#1}{2}
+\percobaanSideways{#1}{3}
+}
+\newcommand{\tigaPercobaanRestart}[1]{%
+\percobaanRestart{#1}{1}
+\percobaanRestart{#1}{2}
+\percobaanRestart{#1}{3}
+}
+\newcommand{\tigaPercobaanSA}[1]{%
+\percobaanSA{#1}{1}
+\percobaanSA{#1}{2}
+\percobaanSA{#1}{3}
+}
+\newcommand{\tigaPercobaanGA}[2]{%
+\percobaanGA{#1}{#2}{1}
+\percobaanGA{#1}{#2}{2}
+\percobaanGA{#1}{#2}{3}
+}
+
+\section{Eksperimen Algoritma \textit{Hill-climbing}}
+
 \subsection{\textit{Steepest Ascent Hill-climbing}}
+\percobaanSteepest{tc8}{1}{run1_seed42}{98}{0.017746}{2}
+\percobaanSteepest{tc8}{2}{run2_seed43}{98}{0.015894}{2}
+\percobaanSteepest{tc8}{3}{run3_seed44}{96}{0.014675}{2}
+\percobaanSteepest{tc9}{1}{run1_seed42}{101}{0.010037}{1}
+\percobaanSteepest{tc9}{2}{run2_seed43}{101}{0.010593}{1}
+\percobaanSteepest{tc9}{3}{run3_seed44}{96}{0.007649}{1}
+\percobaanSteepest{tc10}{1}{run1_seed42}{82}{0.00552}{1}
+\percobaanSteepest{tc10}{2}{run2_seed43}{87}{0.006447}{1}
+\percobaanSteepest{tc10}{3}{run3_seed44}{83}{0.012795}{2}
+
+
 \subsection{\textit{Hill-climbing with Sideways Move}}
+\tigaPercobaanSideways{tc8}
+\tigaPercobaanSideways{tc9}
+\tigaPercobaanSideways{tc10}
+
 \subsection{\textit{Random Restart Hill-climbing}}
+\tigaPercobaanRestart{tc8}
+\tigaPercobaanRestart{tc9}
+\tigaPercobaanRestart{tc10}
+
 \subsection{\textit{Stochastic Hill-climbing}}
+\tigaPercobaanHC{tc8}
+\tigaPercobaanHC{tc9}
+\tigaPercobaanHC{tc10}
 
 \section{Eksperimen Algoritma \textit{Simulated Annealing}}
+\tigaPercobaanSA{tc8}
+\tigaPercobaanSA{tc9}
+\tigaPercobaanSA{tc10}
 
 \section{Eksperimen Algoritma \textit{Genetic Algorithm}}
 
+Setiap konfigurasi dijalankan tiga kali. Konfigurasi populasi 50 dan iterasi 100 dapat muncul pada kedua rangkaian karena merupakan konfigurasi acuan yang sama; hasil tiga \textit{run} yang sama dapat dirujuk pada kedua rangkaian apabila tidak dijalankan ulang.
+
+\subsection{Populasi Tetap, Variasi Banyak Iterasi}
+\tigaPercobaanGA{tc8}{Populasi 50, iterasi 50}
+\tigaPercobaanGA{tc8}{Populasi 50, iterasi 100}
+\tigaPercobaanGA{tc8}{Populasi 50, iterasi 200}
+\tigaPercobaanGA{tc9}{Populasi 50, iterasi 50}
+\tigaPercobaanGA{tc9}{Populasi 50, iterasi 100}
+\tigaPercobaanGA{tc9}{Populasi 50, iterasi 200}
+\tigaPercobaanGA{tc10}{Populasi 50, iterasi 50}
+\tigaPercobaanGA{tc10}{Populasi 50, iterasi 100}
+\tigaPercobaanGA{tc10}{Populasi 50, iterasi 200}
+
+\subsection{Iterasi Tetap, Variasi Jumlah Populasi}
+\tigaPercobaanGA{tc8}{Populasi 20, iterasi 100}
+\tigaPercobaanGA{tc8}{Populasi 50, iterasi 100}
+\tigaPercobaanGA{tc8}{Populasi 100, iterasi 100}
+\tigaPercobaanGA{tc9}{Populasi 20, iterasi 100}
+\tigaPercobaanGA{tc9}{Populasi 50, iterasi 100}
+\tigaPercobaanGA{tc9}{Populasi 100, iterasi 100}
+\tigaPercobaanGA{tc10}{Populasi 20, iterasi 100}
+\tigaPercobaanGA{tc10}{Populasi 50, iterasi 100}
+\tigaPercobaanGA{tc10}{Populasi 100, iterasi 100}
+
 \section{Analisis Hasil Eksperimen}
+
+Analisis hasil eksperimen dapat disusun dengan membandingkan kedekatan setiap algoritma terhadap nilai terbaik yang diperoleh, konsistensi nilai akhir antar-\textit{run}, dan durasi pencarian. Untuk \textit{Genetic Algorithm}, analisis juga membahas pengaruh variasi jumlah iterasi serta jumlah populasi terhadap nilai akhir dan durasi. Jelaskan pula keterkaitan perilaku tersebut dengan mekanisme eksplorasi dan eksploitasi masing-masing algoritma.

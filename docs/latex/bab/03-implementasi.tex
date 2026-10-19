@@ -2,8 +2,8 @@
 \providecommand{\pycode}[4][]{%
     \codefile[language=Python,literate={°}{{\textdegree}}1,#1]{#2}{#3}{#4}%
 }
-\newcolumntype{K}{>{\raggedright\arraybackslash\small}p{5.4cm}}
-\newcolumntype{D}{>{\raggedright\arraybackslash}p{8.6cm}}
+\newcolumntype{K}{>{\raggedright\arraybackslash\small}p{4.8cm}}
+\newcolumntype{D}{>{\raggedright\arraybackslash}p{8.8cm}}
 
 \chapter{Implementasi}
 
@@ -12,38 +12,38 @@
 Program pencarian konfigurasi pemuatan paket ke dalam peti kemas truk ini dibangun menggunakan bahasa pemrograman Python dengan pendekatan berorientasi objek. Entitas masalah, representasi solusi (\textit{placement} dan \textit{state}), dan ketiga algoritma \textit{local search} dipisahkan ke dalam modul masing-masing. Pemisahan ini memungkinkan seluruh algoritma memakai fungsi pembangkit \textit{state} awal, pembangkit tetangga, validasi \textit{constraint}, dan \textit{objective function} yang sama, sehingga perbandingan antar algoritma dilakukan pada kondisi yang setara. Perhitungan inti hanya memakai pustaka standar Python (json, random, math, time, dan argparse); pustaka pandas dan plotly hanya dipakai oleh modul visualisasi.
 
 \renewcommand{\arraystretch}{1.2}
-\begin{longtable}{K D}
+\begin{longtable}{|K|D|}
 \caption{Modul program} \\
-\toprule
+\hline
 \textbf{Modul} & \textbf{Deskripsi} \\
-\midrule
+\hline
 \endfirsthead
 
-\toprule
+\hline
 \textbf{Modul} & \textbf{Deskripsi} \\
-\midrule
+\hline
 \endhead
 
-\midrule
+\hline
 \endfoot
 
-\bottomrule
+\hline
 \endlastfoot
 
-main.py & Program utamayang membaca berkas masukan, memilih algoritma dan parameternya, menjalankan setiap algoritma beberapa kali dengan \textit{seed} berbeda, lalu menyimpan hasil tiap \textit{run} sebagai berkas JSON di output/<nama tc>/. \\
-reader.py & Membaca berkas JSON masukan dan membentuk objek Problem yang berisi Truck dan daftar Package. \\
-truck.py, package.py, problem.py & Merepresentasikan entitas masalah: dimensi dan kapasitas berat truk, atribut paket (dimensi, \textit{value}, berat, status \textit{fragile}, ETA), serta kumpulan keduanya. package.py juga menyimpan daftar enam orientasi paket. \\
-placement.py, state.py & Placement menyimpan posisi dan orientasi satu paket, sedangkan State menyimpan Placement seluruh paket. \\
-constraints.py & Memvalidasi sebuah \textit{state} terhadap seluruh \textit{constraint} (dinding, \textit{overlap}, kapasitas berat, paket melayang, dan paket \textit{fragile}). \\
-objective.py & Menghitung \textit{objective function}, yaitu total \textit{value} paket yang berada di dalam truk. \\
-initialization.py & Membangkitkan \textit{state} awal acak yang valid untuk \textit{Hill-climbing} dan \textit{Simulated Annealing}. \\
-neighbors.py & Membangkitkan tetangga valid dari sebuah \textit{state} dengan operator \textit{move}, \textit{rotate}, dan \textit{swap}, baik secara menyeluruh maupun secara acak. \\
-common.py & Menyusun format hasil \textit{run} yang seragam untuk semua algoritma. \\
-hill\_climb.py & Implementasi \textit{Hill-climbing} dengan empat varian: \textit{steepest ascent}, \textit{sideways move}, \textit{random restart}, dan \textit{stochastic}. \\
-simulated\_annealing.py & Implementasi \textit{Simulated Annealing} dengan jadwal pendinginan geometris dan pencatatan kejadian \textit{stuck}. \\
-genetic\_algorithm.py & Implementasi \textit{Genetic Algorithm}, yaitu pencarian berbasis populasi dengan \textit{roulette wheel selection}, \textit{uniform crossover}, dan \textit{mutation}. \\
-visualize.py & Membuat satu halaman HTML interaktif per berkas hasil, berisi tampilan 3D \textit{state}, peta sel per lapisan, tabel paket, metrik, dan grafik riwayat. \\
-visualization\_charts.py & Membuat grafik hasil eksperimen dengan plotly, yaitu algorithm\_view untuk satu \textit{run} dan experiment\_view untuk kumpulan \textit{run}. \\
+main.py & Program utamayang membaca berkas masukan, memilih algoritma dan parameternya, menjalankan setiap algoritma beberapa kali dengan \textit{seed} berbeda, lalu menyimpan hasil tiap \textit{run} sebagai berkas JSON di output/<nama tc>/. \\ \hline
+reader.py & Membaca berkas JSON masukan dan membentuk objek Problem yang berisi Truck dan daftar Package. \\ \hline
+truck.py, package.py, problem.py & Merepresentasikan entitas masalah: dimensi dan kapasitas berat truk, atribut paket (dimensi, \textit{value}, berat, status \textit{fragile}, ETA), serta kumpulan keduanya. package.py juga menyimpan daftar enam orientasi paket. \\ \hline
+placement.py, state.py & Placement menyimpan posisi dan orientasi satu paket, sedangkan State menyimpan Placement seluruh paket. \\ \hline
+constraints.py & Memvalidasi sebuah \textit{state} terhadap seluruh \textit{constraint} (dinding, \textit{overlap}, kapasitas berat, paket melayang, dan paket \textit{fragile}). \\ \hline
+objective.py & Menghitung \textit{objective function}, yaitu total \textit{value} paket yang berada di dalam truk. \\ \hline
+initialization.py & Membangkitkan \textit{state} awal acak yang valid untuk \textit{Hill-climbing} dan \textit{Simulated Annealing}. \\ \hline
+neighbors.py & Membangkitkan tetangga valid dari sebuah \textit{state} dengan operator \textit{move}, \textit{rotate}, dan \textit{swap}, baik secara menyeluruh maupun secara acak. \\ \hline
+common.py & Menyusun format hasil \textit{run} yang seragam untuk semua algoritma. \\ \hline
+hill\_climb.py & Implementasi \textit{Hill-climbing} dengan empat varian: \textit{steepest ascent}, \textit{sideways move}, \textit{random restart}, dan \textit{stochastic}. \\ \hline
+simulated\_annealing.py & Implementasi \textit{Simulated Annealing} dengan jadwal pendinginan geometris dan pencatatan kejadian \textit{stuck}. \\ \hline
+genetic\_algorithm.py & Implementasi \textit{Genetic Algorithm}, yaitu pencarian berbasis populasi dengan \textit{roulette wheel selection}, \textit{uniform crossover}, dan \textit{mutation}. \\ \hline
+visualize.py & Membuat satu halaman HTML interaktif per berkas hasil, berisi tampilan 3D \textit{state}, peta sel per lapisan, tabel paket, metrik, dan grafik riwayat. \\ \hline
+visualization\_charts.py & Membuat grafik hasil eksperimen dengan plotly, yaitu algorithm\_view untuk satu \textit{run} dan experiment\_view untuk kumpulan \textit{run}. \\ \hline
 \end{longtable}
 
 Alur eksekusi program adalah sebagai berikut: 
@@ -85,32 +85,32 @@ Fungsi ini diimplementasikan oleh evaluate pada objective.py (\Cref{lst:objectiv
 
 Sebuah \textit{state} dinyatakan valid apabila memenuhi lima \textit{constraint} pada \Cref{tab:constraints}. Seluruh pengecekan dilakukan oleh validate\_state pada constraints.py yang mengembalikan pasangan (valid, violations), dengan violations berisi daftar pesan pelanggaran. Setiap paket yang dimuat lebih dahulu diubah menjadi kotak $(x, y, z, d_x, d_y, d_z)$ oleh collect\_boxes; paket yang menembus dinding dicatat sebagai pelanggaran dan tidak diikutsertakan pada pengecekan berikutnya.
 
-\begin{longtable}{K D}
+\begin{longtable}{|K|D|}
 \caption{\textit{Constraint} dan fungsi pengecekannya}
 \label{tab:constraints} \\
-\toprule
+\hline
 \textbf{Fungsi} & \textbf{Deskripsi} \\
-\midrule
+\hline
 \endfirsthead
 
-\toprule
+\hline
 \textbf{Fungsi} & \textbf{Deskripsi} \\
-\midrule
+\hline
 \endhead
 
-\midrule
+\hline
 \multicolumn{2}{r}{Dilanjutkan ke halaman berikutnya} \\
 \endfoot
 
-\bottomrule
+\hline
 \endlastfoot
 
-collect\_boxes(problem, state, pkgs, violations) & \textbf{Tidak menembus dinding.} Paket harus berada sepenuhnya di dalam truk: $x, y, z \geq 0$ serta $x + d_x \leq W$, $y + d_y \leq L$, dan $z + d_z \leq H$. \\
-check\_overlap(inside, violations) & \textbf{Tidak saling tumpang tindih.} Dua paket \textit{overlap} bila rentang keduanya beririsan pada sumbu $x$, $y$, dan $z$ sekaligus (box\_overlap). Rentang dianggap setengah terbuka sehingga paket yang hanya bersentuhan pada sisinya tidak dihitung \textit{overlap}. \\
-check\_capacity(problem, inside, pkgs, violations) & \textbf{Kapasitas berat.} Total berat seluruh paket yang dimuat tidak boleh melebihi max\_capacity truk. \\
-check\_floating(inside, pkgs, violations) & \textbf{Tidak melayang.} Paket dengan $z = 0$ berada di lantai. Paket dengan $z > 0$ harus ditopang paling sedikit satu paket \textit{non-fragile} yang sisi atasnya tepat berada pada ketinggian $z$ dan proyeksi alasnya beririsan dengan proyeksi alas paket tersebut (footprint\_overlap). \\
-check\_fragile(inside, pkgs, violations) & \textbf{Paket \textit{fragile} tidak boleh tertindih.} Untuk setiap paket \textit{fragile}, tidak boleh ada paket lain yang proyeksi alasnya beririsan dan posisi dasarnya berada di atas atau tepat pada sisi atas paket \textit{fragile} tersebut. Bersama check\_floating, hal ini membuat paket \textit{fragile} tidak dapat menjadi penyangga. \\
-validate\_state(problem, state) & Menjalankan semua pengecekan di atas dan menyatakan \textit{state} valid hanya jika violations kosong. \\
+collect\_boxes(problem, state, pkgs, violations) & \textbf{Tidak menembus dinding.} Paket harus berada sepenuhnya di dalam truk: $x, y, z \geq 0$ serta $x + d_x \leq W$, $y + d_y \leq L$, dan $z + d_z \leq H$. \\ \hline
+check\_overlap(inside, violations) & \textbf{Tidak saling tumpang tindih.} Dua paket \textit{overlap} bila rentang keduanya beririsan pada sumbu $x$, $y$, dan $z$ sekaligus (box\_overlap). Rentang dianggap setengah terbuka sehingga paket yang hanya bersentuhan pada sisinya tidak dihitung \textit{overlap}. \\ \hline
+check\_capacity(problem, inside, pkgs, violations) & \textbf{Kapasitas berat.} Total berat seluruh paket yang dimuat tidak boleh melebihi max\_capacity truk. \\ \hline
+check\_floating(inside, pkgs, violations) & \textbf{Tidak melayang.} Paket dengan $z = 0$ berada di lantai. Paket dengan $z > 0$ harus ditopang paling sedikit satu paket \textit{non-fragile} yang sisi atasnya tepat berada pada ketinggian $z$ dan proyeksi alasnya beririsan dengan proyeksi alas paket tersebut (footprint\_overlap). \\ \hline
+check\_fragile(inside, pkgs, violations) & \textbf{Paket \textit{fragile} tidak boleh tertindih.} Untuk setiap paket \textit{fragile}, tidak boleh ada paket lain yang proyeksi alasnya beririsan dan posisi dasarnya berada di atas atau tepat pada sisi atas paket \textit{fragile} tersebut. Bersama check\_floating, hal ini membuat paket \textit{fragile} tidak dapat menjadi penyangga. \\ \hline
+validate\_state(problem, state) & Menjalankan semua pengecekan di atas dan menyatakan \textit{state} valid hanya jika violations kosong. \\ \hline
 \end{longtable}
 
 \pycode{Validasi \textit{constraint} pada constraints.py}{lst:constraints}{../../src/constraints.py}
@@ -154,152 +154,152 @@ Pada \textit{Genetic Algorithm}, konsep tetangga digantikan oleh operator \texti
 
 \subsection{truck.py}
 
-\begin{longtable}{K D}
+\begin{longtable}{|K|D|}
 \caption{Kelas/fungsi pada truck.py}
 \label{tab:truck} \\
-\toprule
+\hline
 \textbf{Kelas/Fungsi} & \textbf{Deskripsi} \\
-\midrule
+\hline
 \endfirsthead
-\toprule
+\hline
 \textbf{Kelas/Fungsi} & \textbf{Deskripsi} \\
-\midrule
+\hline
 \endhead
-\bottomrule
+\hline
 \endlastfoot
-class Truck & Merepresentasikan peti kemas truk. \\
-\_\_init\_\_(self, w, l, h, max\_capacity) & Menyimpan dimensi truk (lebar w, panjang l, tinggi h) dan kapasitas berat maksimum max\_capacity. \\
+class Truck & Merepresentasikan peti kemas truk. \\ \hline
+\_\_init\_\_(self, w, l, h, max\_capacity) & Menyimpan dimensi truk (lebar w, panjang l, tinggi h) dan kapasitas berat maksimum max\_capacity. \\ \hline
 \end{longtable}
 
 \pycode{Kelas Truck}{lst:truck}{../../src/truck.py}
 
 \subsection{package.py}
 
-\begin{longtable}{K D}
+\begin{longtable}{|K|D|}
 \caption{Kelas/fungsi pada package.py}
 \label{tab:package} \\
-\toprule
+\hline
 \textbf{Kelas/Fungsi} & \textbf{Deskripsi} \\
-\midrule
+\hline
 \endfirsthead
-\toprule
+\hline
 \textbf{Kelas/Fungsi} & \textbf{Deskripsi} \\
-\midrule
+\hline
 \endhead
-\bottomrule
+\hline
 \endlastfoot
-ORIENTATIONS & Daftar enam permutasi sumbu ("x", "y", "z") yang merepresentasikan seluruh orientasi balok. \\
-class Package & Merepresentasikan satu paket beserta atributnya. \\
-\_\_init\_\_(self, id, w, l, h, value, weight, is\_fragile, eta) & Menyimpan identitas, dimensi, \textit{value}, berat, status \textit{fragile}, dan ETA paket. Atribut eta dibaca dari masukan tetapi tidak digunakan pada \textit{objective function} maupun \textit{constraint} implementasi ini. \\
-effective\_dims(self, orientation) & Mengembalikan dimensi paket (dx, dy, dz) pada sumbu $x$, $y$, $z$ truk untuk sebuah orientasi, dengan memetakan dimensi $w$, $l$, $h$ paket ke sumbu yang ditunjuk orientasi. \\
+ORIENTATIONS & Daftar enam permutasi sumbu ("x", "y", "z") yang merepresentasikan seluruh orientasi balok. \\ \hline
+class Package & Merepresentasikan satu paket beserta atributnya. \\ \hline
+\_\_init\_\_(self, id, w, l, h, value, weight, is\_fragile, eta) & Menyimpan identitas, dimensi, \textit{value}, berat, status \textit{fragile}, dan ETA paket. Atribut eta dibaca dari masukan tetapi tidak digunakan pada \textit{objective function} maupun \textit{constraint} implementasi ini. \\ \hline
+effective\_dims(self, orientation) & Mengembalikan dimensi paket (dx, dy, dz) pada sumbu $x$, $y$, $z$ truk untuk sebuah orientasi, dengan memetakan dimensi $w$, $l$, $h$ paket ke sumbu yang ditunjuk orientasi. \\ \hline
 \end{longtable}
 
 \pycode{Kelas Package}{lst:package}{../../src/package.py}
 
 \subsection{problem.py}
 
-\begin{longtable}{K D}
+\begin{longtable}{|K|D|}
 \caption{Kelas/fungsi pada problem.py}
 \label{tab:problem} \\
-\toprule
+\hline
 \textbf{Kelas/Fungsi} & \textbf{Deskripsi} \\
-\midrule
+\hline
 \endfirsthead
-\toprule
+\hline
 \textbf{Kelas/Fungsi} & \textbf{Deskripsi} \\
-\midrule
+\hline
 \endhead
-\bottomrule
+\hline
 \endlastfoot
-class Problem & Menyatukan truk dan seluruh paket menjadi satu instans masalah. \\
-\_\_init\_\_(self, truck, packages) & Menyimpan objek Truck, daftar Package, dan package\_map yang memetakan id paket ke objek paket untuk akses cepat. \\
+class Problem & Menyatukan truk dan seluruh paket menjadi satu instans masalah. \\ \hline
+\_\_init\_\_(self, truck, packages) & Menyimpan objek Truck, daftar Package, dan package\_map yang memetakan id paket ke objek paket untuk akses cepat. \\ \hline
 \end{longtable}
 
 \pycode{Kelas Problem}{lst:problem}{../../src/problem.py}
 
 \subsection{placement.py}
 
-\begin{longtable}{K D}
+\begin{longtable}{|K|D|}
 \caption{Kelas/fungsi pada placement.py}
 \label{tab:placement} \\
-\toprule
+\hline
 \textbf{Kelas/Fungsi} & \textbf{Deskripsi} \\
-\midrule
+\hline
 \endfirsthead
-\toprule
+\hline
 \textbf{Kelas/Fungsi} & \textbf{Deskripsi} \\
-\midrule
+\hline
 \endhead
-\bottomrule
+\hline
 \endlastfoot
-class Placement & Merepresentasikan penempatan satu paket. \\
-\_\_init\_\_(self, position, orientation) & Menyimpan posisi [x, y, z] (atau None jika paket tidak dimuat) dan orientasi paket. \\
-rotate(self, axis) & Merotasi paket $90^\circ$ terhadap sumbu axis dengan menukar dua sumbu lainnya pada orientation. \\
+class Placement & Merepresentasikan penempatan satu paket. \\ \hline
+\_\_init\_\_(self, position, orientation) & Menyimpan posisi [x, y, z] (atau None jika paket tidak dimuat) dan orientasi paket. \\ \hline
+rotate(self, axis) & Merotasi paket $90^\circ$ terhadap sumbu axis dengan menukar dua sumbu lainnya pada orientation. \\ \hline
 \end{longtable}
 
 \pycode{Kelas Placement}{lst:placement}{../../src/placement.py}
 
 \subsection{state.py}
 
-\begin{longtable}{K D}
+\begin{longtable}{|K|D|}
 \caption{Kelas/fungsi pada state.py}
 \label{tab:state} \\
-\toprule
+\hline
 \textbf{Kelas/Fungsi} & \textbf{Deskripsi} \\
-\midrule
+\hline
 \endfirsthead
-\toprule
+\hline
 \textbf{Kelas/Fungsi} & \textbf{Deskripsi} \\
-\midrule
+\hline
 \endhead
-\bottomrule
+\hline
 \endlastfoot
-class State & Merepresentasikan satu solusi, yaitu penempatan seluruh paket. \\
-\_\_init\_\_(self, placements) & Menyimpan \textit{dictionary} id paket ke Placement. \\
-copy(self) & Membuat salinan mendalam \textit{state}, termasuk list posisi dan orientasi, agar perubahan pada tetangga tidak memengaruhi \textit{state} asal. \\
-key(self) & Mengubah \textit{state} menjadi \textit{tuple} terurut berdasarkan id paket yang dapat di-\textit{hash}, sehingga dapat disimpan pada himpunan untuk mendeteksi \textit{state} yang sama. \\
-to\_dict(self) & Mengubah \textit{state} menjadi \textit{dictionary} yang dapat diserialisasi ke JSON. \\
+class State & Merepresentasikan satu solusi, yaitu penempatan seluruh paket. \\ \hline
+\_\_init\_\_(self, placements) & Menyimpan \textit{dictionary} id paket ke Placement. \\ \hline
+copy(self) & Membuat salinan mendalam \textit{state}, termasuk list posisi dan orientasi, agar perubahan pada tetangga tidak memengaruhi \textit{state} asal. \\ \hline
+key(self) & Mengubah \textit{state} menjadi \textit{tuple} terurut berdasarkan id paket yang dapat di-\textit{hash}, sehingga dapat disimpan pada himpunan untuk mendeteksi \textit{state} yang sama. \\ \hline
+to\_dict(self) & Mengubah \textit{state} menjadi \textit{dictionary} yang dapat diserialisasi ke JSON. \\ \hline
 \end{longtable}
 
 \pycode{Kelas State}{lst:state}{../../src/state.py}
 
 \subsection{reader.py}
 
-\begin{longtable}{K D}
+\begin{longtable}{|K|D|}
 \caption{Fungsi pada reader.py}
 \label{tab:reader} \\
-\toprule
+\hline
 \textbf{Kelas/Fungsi} & \textbf{Deskripsi} \\
-\midrule
+\hline
 \endfirsthead
-\toprule
+\hline
 \textbf{Kelas/Fungsi} & \textbf{Deskripsi} \\
-\midrule
+\hline
 \endhead
-\bottomrule
+\hline
 \endlastfoot
-load\_problem(path) & Membuka berkas JSON pada path, membentuk objek Truck dari data truck (dimensi dan max\_capacity), membentuk satu objek Package untuk setiap entri packages, lalu mengembalikan objek Problem. \\
+load\_problem(path) & Membuka berkas JSON pada path, membentuk objek Truck dari data truck (dimensi dan max\_capacity), membentuk satu objek Package untuk setiap entri packages, lalu mengembalikan objek Problem. \\ \hline
 \end{longtable}
 
 \pycode{Fungsi load\_problem}{lst:reader}{../../src/reader.py}
 
 \subsection{common.py}
 
-\begin{longtable}{K D}
+\begin{longtable}{|K|D|}
 \caption{Fungsi pada common.py}
 \label{tab:common} \\
-\toprule
+\hline
 \textbf{Kelas/Fungsi} & \textbf{Deskripsi} \\
-\midrule
+\hline
 \endfirsthead
-\toprule
+\hline
 \textbf{Kelas/Fungsi} & \textbf{Deskripsi} \\
-\midrule
+\hline
 \endhead
-\bottomrule
+\hline
 \endlastfoot
-ser(s) & Mengubah objek State menjadi \textit{dictionary} melalui to\_dict; nilai yang sudah berupa \textit{dictionary} dikembalikan apa adanya. \\
-build\_result(...) & Menyusun \textit{dictionary} hasil \textit{run} dengan format seragam untuk semua algoritma: nama algoritma, parameter, \textit{state} dan nilai awal, \textit{state} dan nilai akhir, jumlah iterasi, jumlah perpindahan yang diterima, jumlah evaluasi \textit{objective function}, durasi, alasan berhenti, riwayat per iterasi, dan informasi tambahan khusus algoritma (extra). \\
+ser(s) & Mengubah objek State menjadi \textit{dictionary} melalui to\_dict; nilai yang sudah berupa \textit{dictionary} dikembalikan apa adanya. \\ \hline
+build\_result(...) & Menyusun \textit{dictionary} hasil \textit{run} dengan format seragam untuk semua algoritma: nama algoritma, parameter, \textit{state} dan nilai awal, \textit{state} dan nilai akhir, jumlah iterasi, jumlah perpindahan yang diterima, jumlah evaluasi \textit{objective function}, durasi, alasan berhenti, riwayat per iterasi, dan informasi tambahan khusus algoritma (extra). \\ \hline
 \end{longtable}
 
 \pycode{Fungsi pada common.py}{lst:common}{../../src/algorithms/common.py}
@@ -310,33 +310,33 @@ build\_result(...) & Menyusun \textit{dictionary} hasil \textit{run} dengan form
 
 Seluruh varian \textit{Hill-climbing} diimplementasikan sebagai metode pada kelas HillClimb dan memaksimalkan \textit{objective function}. Ke-empat varian menerima \textit{state} awal sebagai argumen dan mengembalikan hasil dalam format build\_result.
 
-\begin{longtable}{K D}
+\begin{longtable}{|K|D|}
 \caption{Kelas/fungsi pada hill\_climb.py}
 \label{tab:hill-climb} \\
-\toprule
+\hline
 \textbf{Kelas/Fungsi} & \textbf{Deskripsi} \\
-\midrule
+\hline
 \endfirsthead
 
 \multicolumn{2}{c}{\tablename\ \thetable{} -- lanjutan} \\
-\toprule
+\hline
 \textbf{Kelas/Fungsi} & \textbf{Deskripsi} \\
-\midrule
+\hline
 \endhead
 
-\midrule
+\hline
 \multicolumn{2}{r}{Dilanjutkan ke halaman berikutnya} \\
 \endfoot
 
-\bottomrule
+\hline
 \endlastfoot
 
-class HillClimb & Pembungkus seluruh varian \textit{Hill-climbing} untuk sebuah Problem. \\
-\_\_init\_\_(self, problem, rng) & Menyimpan instans masalah dan generator acak rng yang digunakan untuk memilih di antara tetangga yang nilainya sama dan untuk pembangkitan tetangga acak. \\
-steepest\_ascent(self, initial\_state) & Pada setiap iterasi, membangkitkan seluruh tetangga valid, lalu berpindah ke tetangga dengan nilai tertinggi bila nilainya lebih besar dari \textit{state} saat ini. Jika beberapa tetangga bernilai tertinggi sama, salah satunya dipilih secara acak. Berhenti jika tidak ada tetangga yang lebih baik. \\
-sideways(self, initial\_state, max\_sideways=10) & Serupa dengan \textit{steepest ascent}, tetapi jika tidak ada tetangga yang lebih baik dan terdapat tetangga bernilai sama, pencarian tetap berpindah ke salah satunya (\textit{sideways move}) selama jumlah \textit{sideways move} belum mencapai max\_sideways. \\
-random\_restart(self, initial\_state, max\_restart=3) & Menjalankan \textit{steepest ascent} dari \textit{state} awal yang diberikan, kemudian dari max\_restart \textit{state} awal acak baru, lalu mengambil hasil dengan nilai akhir tertinggi. Riwayat seluruh pencarian digabung pada satu sumbu iterasi global. \\
-stochastic(self, initial\_state, max\_iterations=10\_000) & Pada setiap iterasi mengambil satu tetangga acak valid dan berpindah hanya jika nilainya lebih baik. Berhenti setelah max\_iterations iterasi atau jika tidak ditemukan tetangga valid. \\
+class HillClimb & Pembungkus seluruh varian \textit{Hill-climbing} untuk sebuah Problem. \\ \hline
+\_\_init\_\_(self, problem, rng) & Menyimpan instans masalah dan generator acak rng yang digunakan untuk memilih di antara tetangga yang nilainya sama dan untuk pembangkitan tetangga acak. \\ \hline
+steepest\_ascent(self, initial\_state) & Pada setiap iterasi, membangkitkan seluruh tetangga valid, lalu berpindah ke tetangga dengan nilai tertinggi bila nilainya lebih besar dari \textit{state} saat ini. Jika beberapa tetangga bernilai tertinggi sama, salah satunya dipilih secara acak. Berhenti jika tidak ada tetangga yang lebih baik. \\ \hline
+sideways(self, initial\_state, max\_sideways=10) & Serupa dengan \textit{steepest ascent}, tetapi jika tidak ada tetangga yang lebih baik dan terdapat tetangga bernilai sama, pencarian tetap berpindah ke salah satunya (\textit{sideways move}) selama jumlah \textit{sideways move} belum mencapai max\_sideways. \\ \hline
+random\_restart(self, initial\_state, max\_restart=3) & Menjalankan \textit{steepest ascent} dari \textit{state} awal yang diberikan, kemudian dari max\_restart \textit{state} awal acak baru, lalu mengambil hasil dengan nilai akhir tertinggi. Riwayat seluruh pencarian digabung pada satu sumbu iterasi global. \\ \hline
+stochastic(self, initial\_state, max\_iterations=10\_000) & Pada setiap iterasi mengambil satu tetangga acak valid dan berpindah hanya jika nilainya lebih baik. Berhenti setelah max\_iterations iterasi atau jika tidak ditemukan tetangga valid. \\ \hline
 \end{longtable}
 
 Kelas HillClimb dan varian \textit{steepest ascent} ditunjukkan pada \Cref{lst:hc-steepest}. Pada setiap iterasi, iter\_valid\_neighbors dievaluasi satu per satu; variabel best\_value diinisialisasi dengan nilai \textit{state} saat ini sehingga best\_list hanya memuat tetangga yang nilainya lebih besar atau sama dengan \textit{state} saat ini. Pencarian berhenti dengan alasan no\_improving\_neighbor bila tidak ada tetangga yang lebih baik, atau no\_valid\_neighbors bila tidak ada satu pun tetangga yang nilainya sama maupun lebih baik.
@@ -359,22 +359,22 @@ Varian \textit{stochastic} pada \Cref{lst:hc-stochastic} tidak mengevaluasi selu
 
 \subsection{simulated\_annealing.py}
 
-\begin{longtable}{K D}
+\begin{longtable}{|K|D|}
 \caption{Kelas/fungsi pada simulated\_annealing.py}
 \label{tab:sa} \\
-\toprule
+\hline
 \textbf{Kelas/Fungsi} & \textbf{Deskripsi} \\
-\midrule
+\hline
 \endfirsthead
-\toprule
+\hline
 \textbf{Kelas/Fungsi} & \textbf{Deskripsi} \\
-\midrule
+\hline
 \endhead
-\bottomrule
+\hline
 \endlastfoot
-class SimulatedAnnealing & Implementasi \textit{Simulated Annealing} untuk memaksimalkan \textit{objective function}. \\
-\_\_init\_\_(self, problem, rng) & Menyimpan instans masalah dan generator acak. \\
-run(self, initial\_state, initial\_temperature=100.0, minimum\_temperature=0.1, cooling\_rate=0.995, max\_iterations=10\_000, stuck\_patience=100) & Menjalankan pencarian dari \textit{state} awal. Pada setiap iterasi diambil satu tetangga acak valid; tetangga yang lebih baik selalu diterima, sedangkan tetangga yang sama atau lebih buruk diterima dengan probabilitas $e^{\Delta E / T}$. Suhu $T$ diturunkan secara geometris dengan faktor cooling\_rate. Selain itu, dicatat jumlah kejadian \textit{stuck} dan jumlah perpindahan buruk yang diterima maupun ditolak. \\
+class SimulatedAnnealing & Implementasi \textit{Simulated Annealing} untuk memaksimalkan \textit{objective function}. \\ \hline
+\_\_init\_\_(self, problem, rng) & Menyimpan instans masalah dan generator acak. \\ \hline
+run(self, initial\_state, initial\_temperature=100.0, minimum\_temperature=0.1, cooling\_rate=0.995, max\_iterations=10\_000, stuck\_patience=100) & Menjalankan pencarian dari \textit{state} awal. Pada setiap iterasi diambil satu tetangga acak valid; tetangga yang lebih baik selalu diterima, sedangkan tetangga yang sama atau lebih buruk diterima dengan probabilitas $e^{\Delta E / T}$. Suhu $T$ diturunkan secara geometris dengan faktor cooling\_rate. Selain itu, dicatat jumlah kejadian \textit{stuck} dan jumlah perpindahan buruk yang diterima maupun ditolak. \\ \hline
 \end{longtable}
 
 Pada metode run, \textit{state} saat ini (current) dan \textit{state} terbaik yang pernah dikunjungi (best) disimpan terpisah, karena penerimaan perpindahan yang lebih buruk dapat menurunkan nilai \textit{state} saat ini. Hasil akhir yang dikembalikan adalah best. \Cref{lst:sa-init} menunjukkan parameter, inisialisasi variabel pencacah, dan format riwayat per iterasi.
@@ -402,39 +402,39 @@ Pencarian berhenti karena salah satu dari tiga alasan, yaitu max\_iterations (ba
 
 \textit{Genetic Algorithm} yang diimplementasikan menggunakan State sebagai individu (kromosom), dengan Placement setiap paket sebagai gen. Populasi dievolusikan selama sejumlah iterasi (generasi) tertentu melalui seleksi orang tua, \textit{crossover}, dan \textit{mutation}. Berbeda dengan algoritma lain, individu populasi awal dan hasil \textit{crossover} dibangun dengan pengecekan \textit{constraint} inkremental pada metode \_can\_insert, sedangkan hasil \textit{mutation} divalidasi dengan validate\_state. Dengan demikian, setiap individu pada populasi selalu valid.
 
-\begin{longtable}{K D}
+\begin{longtable}{|K|D|}
 \caption{Kelas/fungsi pada genetic\_algorithm.py}
 \label{tab:ga} \\
-\toprule
+\hline
 \textbf{Kelas/Fungsi} & \textbf{Deskripsi} \\
-\midrule
+\hline
 \endfirsthead
 
 \multicolumn{2}{c}{\tablename\ \thetable{} -- lanjutan} \\
-\toprule
+\hline
 \textbf{Kelas/Fungsi} & \textbf{Deskripsi} \\
-\midrule
+\hline
 \endhead
 
-\midrule
+\hline
 \multicolumn{2}{r}{Dilanjutkan ke halaman berikutnya} \\
 \endfoot
 
-\bottomrule
+\hline
 \endlastfoot
 
-class GeneticAlgorithm & Implementasi \textit{Genetic Algorithm} yang menyediakan siklus seleksi, \textit{crossover}, dan \textit{mutation}. Konstanta kelas: CROSSOVER\_PROBABILITY = 0,80, MUTATION\_PROBABILITY = 0,30, INITIAL\_PLACEMENT\_ATTEMPTS = 20, dan MUTATION\_ATTEMPTS = 10. \\
-\_\_init\_\_(self, problem, rng) & Menyimpan instans masalah, generator acak, dan package\_map. \\
-random\_inside\_position(self, package, orientation, rng, heights) & Mengembalikan posisi acak yang membuat paket berada di dalam dimensi truk, atau None bila paket tidak muat pada orientasi tersebut. Jika heights diberikan, koordinat $z$ dipilih hanya dari daftar ketinggian tersebut. \\
-select\_parents(self, population, fitness\_scores) & Memilih dua orang tua dengan \textit{roulette wheel selection} dengan pengembalian, dengan peluang sebanding \textit{fitness}. Jika seluruh \textit{fitness} bernilai nol, pemilihan dilakukan seragam. \\
-\_empty\_state(self) & Membuat \textit{state} kosong, yaitu semua paket tidak dimuat. \\
-\_can\_insert(self, pid, position, orientation, inside) & Mengecek apakah sebuah paket dapat disisipkan pada posisi dan orientasi tertentu terhadap paket yang sudah berada di dalam truk (inside), mencakup batas truk, \textit{overlap}, paket \textit{fragile}, dan penyangga. \\
-\_try\_initial\_placement(self, state, pid, orientation, inside, loaded\_weight, rng) & Mencoba menempatkan satu paket pada \textit{state} awal. Pengecekan berat dilakukan lebih dahulu, kemudian hingga INITIAL\_PLACEMENT\_ATTEMPTS posisi acak dicoba pada ketinggian kandidat. Mengembalikan True bila berhasil. \\
-\_generate\_initial\_state(self, rng) & Membangkitkan satu individu acak dengan menyisipkan paket dalam urutan acak. \\
-crossover(self, parent\_a, parent\_b) & Menghasilkan satu anak dari dua orang tua melalui pewarisan gen per paket tanpa mencari posisi pengganti, lalu membuang paket yang melanggar \textit{constraint}. \\
-mutate(self, state) & Menerapkan satu \textit{mutation} (\textit{swap}, \textit{move}, atau \textit{rotate}) yang menghasilkan \textit{state} valid; jika gagal, mengembalikan salinan \textit{state} semula. \\
-\_statistics(iteration, scores, best\_value) & Menghitung statistik populasi per generasi (nilai maksimum, rata-rata, dan nilai terbaik sejauh ini). \\
-genetic\_algorithm(self, population\_size=50, iterations=100) & Menjalankan seluruh proses evolusi dan mengembalikan hasil dalam format build\_result. \\
+class GeneticAlgorithm & Implementasi \textit{Genetic Algorithm} yang menyediakan siklus seleksi, \textit{crossover}, dan \textit{mutation}. Konstanta kelas: CROSSOVER\_PROBABILITY = 0,80, MUTATION\_PROBABILITY = 0,30, INITIAL\_PLACEMENT\_ATTEMPTS = 20, dan MUTATION\_ATTEMPTS = 10. \\ \hline
+\_\_init\_\_(self, problem, rng) & Menyimpan instans masalah, generator acak, dan package\_map. \\ \hline
+random\_inside\_position(self, package, orientation, rng, heights) & Mengembalikan posisi acak yang membuat paket berada di dalam dimensi truk, atau None bila paket tidak muat pada orientasi tersebut. Jika heights diberikan, koordinat $z$ dipilih hanya dari daftar ketinggian tersebut. \\ \hline
+select\_parents(self, population, fitness\_scores) & Memilih dua orang tua dengan \textit{roulette wheel selection} dengan pengembalian, dengan peluang sebanding \textit{fitness}. Jika seluruh \textit{fitness} bernilai nol, pemilihan dilakukan seragam. \\ \hline
+\_empty\_state(self) & Membuat \textit{state} kosong, yaitu semua paket tidak dimuat. \\ \hline
+\_can\_insert(self, pid, position, orientation, inside) & Mengecek apakah sebuah paket dapat disisipkan pada posisi dan orientasi tertentu terhadap paket yang sudah berada di dalam truk (inside), mencakup batas truk, \textit{overlap}, paket \textit{fragile}, dan penyangga. \\ \hline
+\_try\_initial\_placement(self, state, pid, orientation, inside, loaded\_weight, rng) & Mencoba menempatkan satu paket pada \textit{state} awal. Pengecekan berat dilakukan lebih dahulu, kemudian hingga INITIAL\_PLACEMENT\_ATTEMPTS posisi acak dicoba pada ketinggian kandidat. Mengembalikan True bila berhasil. \\ \hline
+\_generate\_initial\_state(self, rng) & Membangkitkan satu individu acak dengan menyisipkan paket dalam urutan acak. \\ \hline
+crossover(self, parent\_a, parent\_b) & Menghasilkan satu anak dari dua orang tua melalui pewarisan gen per paket tanpa mencari posisi pengganti, lalu membuang paket yang melanggar \textit{constraint}. \\ \hline
+mutate(self, state) & Menerapkan satu \textit{mutation} (\textit{swap}, \textit{move}, atau \textit{rotate}) yang menghasilkan \textit{state} valid; jika gagal, mengembalikan salinan \textit{state} semula. \\ \hline
+\_statistics(iteration, scores, best\_value) & Menghitung statistik populasi per generasi (nilai maksimum, rata-rata, dan nilai terbaik sejauh ini). \\ \hline
+genetic\_algorithm(self, population\_size=50, iterations=100) & Menjalankan seluruh proses evolusi dan mengembalikan hasil dalam format build\_result. \\ \hline
 \end{longtable}
 
 \Cref{lst:ga-init} menunjukkan konstanta dan konstruktor, serta \Cref{lst:ga-select} menunjukkan fungsi pembangkit posisi acak di dalam truk dan seleksi orang tua. Seleksi menggunakan random.choices dengan bobot berupa nilai \textit{fitness} yang sama dengan nilai \textit{objective function}. Seleksi dilakukan dengan pengembalian sehingga kedua orang tua dapat merupakan individu yang sama, dan akan muncul ValueError bila terdapat \textit{fitness} negatif.
@@ -474,36 +474,36 @@ Visualizer mengubah berkas JSON hasil pencarian menjadi halaman HTML interaktif,
 
 \subsection{visualize.py}
 
-\begin{longtable}{K D}
+\begin{longtable}{|K|D|}
 \caption{Fungsi pada visualize.py}
 \label{tab:viz} \\
-\toprule
+\hline
 \textbf{Fungsi} & \textbf{Deskripsi} \\
-\midrule
+\hline
 \endfirsthead
 
 \multicolumn{2}{c}{\tablename\ \thetable{} -- lanjutan} \\
-\toprule
+\hline
 \textbf{Fungsi} & \textbf{Deskripsi} \\
-\midrule
+\hline
 \endhead
 
-\midrule
+\hline
 \multicolumn{2}{r}{Dilanjutkan ke halaman berikutnya} \\
 \endfoot
 
-\bottomrule
+\hline
 \endlastfoot
 
-package\_colors(problem) & Memberikan satu warna tetap untuk setiap ID paket dari palet plotly. \\
-read\_state(problem, data) & Membaca \textit{state} dari JSON, memeriksa kelengkapan ID paket, format posisi dan orientasi, lalu memvalidasinya dengan validate\_state. Memunculkan ValueError bila \textit{state} tidak valid. \\
-box\_vertices(position, dimensions), box\_mesh(position, dimensions, color, info) & Menghitung delapan titik sudut balok dan membentuk objek Mesh3d berwarna untuk satu paket, dengan teks \textit{hover}. \\
-truck\_frame(dimensions) & Membentuk rangka garis peti kemas dari dua belas rusuk balok. \\
-state\_view(problem, data, title) & Membuat tampilan 3D berisi dua \textit{scene}, yaitu paket di dalam peti dan paket di luar peti. Fungsi ini juga mengembalikan tabel paket dan peta sel peti. \\
-grid\_view(problem, grid, title) & Membuat peta sel per lapisan $z$ (\textit{heatmap}) dengan \textit{slider} lapisan. \\
-figure\_html, table\_html, write\_page & Mengubah grafik dan tabel menjadi HTML, menambahkan tombol Unduh PNG (2x), dan menulis halaman akhir. \\
-write\_result(problem, result, path) & Menyusun seluruh isi halaman satu berkas hasil. \\
-main() & Membaca argumen \textit{command line} dan memproses seluruh berkas hasil. \\
+package\_colors(problem) & Memberikan satu warna tetap untuk setiap ID paket dari palet plotly. \\ \hline
+read\_state(problem, data) & Membaca \textit{state} dari JSON, memeriksa kelengkapan ID paket, format posisi dan orientasi, lalu memvalidasinya dengan validate\_state. Memunculkan ValueError bila \textit{state} tidak valid. \\ \hline
+box\_vertices(position, dimensions), box\_mesh(position, dimensions, color, info) & Menghitung delapan titik sudut balok dan membentuk objek Mesh3d berwarna untuk satu paket, dengan teks \textit{hover}. \\ \hline
+truck\_frame(dimensions) & Membentuk rangka garis peti kemas dari dua belas rusuk balok. \\ \hline
+state\_view(problem, data, title) & Membuat tampilan 3D berisi dua \textit{scene}, yaitu paket di dalam peti dan paket di luar peti. Fungsi ini juga mengembalikan tabel paket dan peta sel peti. \\ \hline
+grid\_view(problem, grid, title) & Membuat peta sel per lapisan $z$ (\textit{heatmap}) dengan \textit{slider} lapisan. \\ \hline
+figure\_html, table\_html, write\_page & Mengubah grafik dan tabel menjadi HTML, menambahkan tombol Unduh PNG (2x), dan menulis halaman akhir. \\ \hline
+write\_result(problem, result, path) & Menyusun seluruh isi halaman satu berkas hasil. \\ \hline
+main() & Membaca argumen \textit{command line} dan memproses seluruh berkas hasil. \\ \hline
 \end{longtable}
 
 Fungsi read\_state pada \Cref{lst:viz-read} memeriksa bahwa himpunan ID paket pada hasil sama dengan masukan, setiap posisi berupa tiga bilangan bulat atau None, dan setiap orientasi merupakan permutasi x, y, z. Setelah itu \textit{state} divalidasi dengan validate\_state yang sama dengan yang dipakai algoritma, sehingga visualizer tidak pernah menampilkan konfigurasi yang melanggar \textit{constraint}.
@@ -530,27 +530,27 @@ Program dijalankan dengan perintah python -m src.visualize --input <berkas masuk
 
 Modul ini memiliki dua fungsi. algorithm\_view membuat grafik riwayat satu \textit{run} sesuai jenis algoritma, dan experiment\_view merangkum kumpulan \textit{run} untuk perbandingan antar-algoritma. Pemetaan nama algoritma ke nama tampilan disimpan pada ALGORITHM\_NAMES.
 
-\begin{longtable}{K D}
+\begin{longtable}{|K|D|}
 \caption{Grafik riwayat per algoritma pada algorithm\_view}
 \label{tab:viz-charts} \\
-\toprule
+\hline
 \textbf{Algoritma} & \textbf{Grafik} \\
-\midrule
+\hline
 \endfirsthead
 
 \multicolumn{2}{c}{\tablename\ \thetable{} -- lanjutan} \\
-\toprule
+\hline
 \textbf{Algoritma} & \textbf{Grafik} \\
-\midrule
+\hline
 \endhead
 
-\bottomrule
+\hline
 \endlastfoot
 
-\textit{Steepest ascent}, \textit{sideways}, \textit{stochastic} & Satu garis nilai \textit{state} terhadap iterasi, dengan anotasi alasan berhenti. \\
-\textit{Random restart} & Satu garis per pencarian dan satu garis putus-putus untuk nilai terbaik sepanjang pencarian, dengan iterasi kumulatif. \\
-\textit{Simulated Annealing} & Beberapa panel bersusun: nilai $E$ (saat ini dan terbaik), $\Delta E$, suhu (skala logaritmik), $e^{\Delta E/T}$, dan probabilitas penerimaan. \\
-\textit{Genetic Algorithm} & Tiga garis terhadap generasi: maksimum populasi, rata-rata populasi, dan terbaik sepanjang pencarian. \\
+\textit{Steepest ascent}, \textit{sideways}, \textit{stochastic} & Satu garis nilai \textit{state} terhadap iterasi, dengan anotasi alasan berhenti. \\ \hline
+\textit{Random restart} & Satu garis per pencarian dan satu garis putus-putus untuk nilai terbaik sepanjang pencarian, dengan iterasi kumulatif. \\ \hline
+\textit{Simulated Annealing} & Beberapa panel bersusun: nilai $E$ (saat ini dan terbaik), $\Delta E$, suhu (skala logaritmik), $e^{\Delta E/T}$, dan probabilitas penerimaan. \\ \hline
+\textit{Genetic Algorithm} & Tiga garis terhadap generasi: maksimum populasi, rata-rata populasi, dan terbaik sepanjang pencarian. \\ \hline
 \end{longtable}
 
 \pycode[firstline=21,lastline=125]{Grafik riwayat per algoritma}{lst:viz-algorithm}{../../src/visualization_charts.py}
