@@ -34,6 +34,8 @@
 %  Links 
 \usepackage[hidelinks]{hyperref}
 \usepackage[nameinlink,noabbrev]{cleveref}
+\crefname{lstlisting}{Kode}{Kode}
+\Crefname{lstlisting}{Kode}{Kode}
 
 %  Code 
 \usepackage{listings}
@@ -149,7 +151,8 @@
 
 \pagestyle{fancy}
 \fancyhf{}
-\setlength{\headheight}{51pt}
+\setlength{\headheight}{54.4pt}
+\addtolength{\topmargin}{-3.4pt}
 \renewcommand{\headrulewidth}{0.1pt}
 \renewcommand{\footrulewidth}{0.1pt}
 
@@ -169,7 +172,7 @@
 
 \fancypagestyle{plain}{%
     \fancyhf{}
-    \setlength{\headheight}{51pt}
+    \setlength{\headheight}{54.4pt}
     \renewcommand{\headrulewidth}{0.1pt}
     \renewcommand{\footrulewidth}{0.1pt}
     \fancyhead[L]{%
