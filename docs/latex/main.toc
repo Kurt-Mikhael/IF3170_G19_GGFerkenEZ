@@ -155,8 +155,8 @@
 \contentsline {subsection}{\numberline {4.4.7}Kesimpulan Analisis}{208}{subsection.4.4.7}%
 \contentsline {chapter}{\numberline {5}Kesimpulan dan Saran}{210}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Kesimpulan}{210}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Saran}{210}{section.5.2}%
-\contentsline {chapter}{Referensi}{211}{chapter*.3}%
-\contentsline {chapter}{Lampiran}{212}{section*.5}%
-\contentsline {section}{Pembagian Tugas}{212}{section*.6}%
-\contentsline {section}{Form Pengunaan AI}{213}{table.Alph0.1}%
+\contentsline {section}{\numberline {5.2}Saran}{212}{section.5.2}%
+\contentsline {chapter}{Referensi}{214}{chapter*.3}%
+\contentsline {chapter}{Lampiran}{215}{section*.5}%
+\contentsline {section}{Pembagian Tugas}{215}{section*.6}%
+\contentsline {section}{Form Pengunaan AI}{216}{table.Alph0.1}%

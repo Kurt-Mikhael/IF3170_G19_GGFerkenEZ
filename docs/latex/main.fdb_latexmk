@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1792446386.31434 "c:/Users/HERY/AI/IF3170_G19_GGFerkenEZ/docs/latex/main.tex" "main.pdf" "main" 1792446487.61596 0
+["pdflatex"] 1792447495.14172 "c:/Users/HERY/AI/IF3170_G19_GGFerkenEZ/docs/latex/main.tex" "main.pdf" "main" 1792447588.75944 0
   "../../src/algorithms/common.py" 1792428784.18598 866 9547554b646fe389c7860079cd64314e ""
   "../../src/algorithms/genetic_algorithm.py" 1792428784.18798 12843 b8f4de5eeaad14184ee75072cade9a48 ""
   "../../src/algorithms/hill_climb.py" 1792428784.18999 10339 6b7b7ce5eee6fc6fcf0666e67a01c42c ""
@@ -209,7 +209,7 @@
   "bab/02-dasar-teori.tex" 1792428883.64999 18409 f4aa75dddac4c780d35f5c27ee829c92 ""
   "bab/03-implementasi.tex" 1792434624.86765 45065 b9b265850c6886e97058cb5fbcaa0d42 ""
   "bab/04-hasil-eksperimen-analisis.tex" 1792446290.20693 33898 3e42669eeb3ad4dc4419381e5c479995 ""
-  "bab/05-kesimpulan-saran.tex" 1792428883.65382 73 b67ac9b0ff2bad2e0929b6e53ecc669d ""
+  "bab/05-kesimpulan-saran.tex" 1792447460.49911 8842 0de48a673fed54d6f16f2300e599b5e1 ""
   "bab/lampiran.tex" 1792434679.46836 1286 75d0cfe611f51beedc6bef7de666a895 ""
   "bab/referensi.tex" 1792428883.65547 326 f467d1048a582c85adb5f1d3120ded84 ""
   "c:/Users/HERY/AI/IF3170_G19_GGFerkenEZ/docs/latex/main.tex" 1792428883.79913 5809 05505525ddc8d245213f078e331f5ebc ""
@@ -487,9 +487,9 @@
   "gambar/pengujian/stochastic-hc/tc9/run3_seed44_final_state_3d.png" 1792437830.74465 239470 ef73046545dae4731c922baf927e63bb ""
   "gambar/pengujian/stochastic-hc/tc9/run3_seed44_initial_state_3d.png" 1792437817.68685 239655 ac7cd5c6a272750966d477defda265a5 ""
   "gambar/steepest-ascent-hc-graph.png" 1792428883.6576 46925 21abe7e5360cf2bea0abb2681bf07502 ""
-  "main.aux" 1792446484.62117 50453 e6ed87c3953b57c205019b47289c09c8 "pdflatex"
-  "main.out" 1792446484.64322 11231 5e172a785ddf596710af741da3097660 "pdflatex"
-  "main.toc" 1792446484.65876 15246 65c0acac75a244e448efa0126d0893c0 "pdflatex"
+  "main.aux" 1792447585.66659 50453 91192822103498a87f8b2d89c24819de "pdflatex"
+  "main.out" 1792447585.69318 11231 5e172a785ddf596710af741da3097660 "pdflatex"
+  "main.toc" 1792447585.70976 15246 21b5e958795dd8b23b67e574a69dd457 "pdflatex"
   (generated)
   "main.aux"
   "main.log"
