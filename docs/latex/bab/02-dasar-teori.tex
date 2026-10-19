@@ -1,0 +1,216 @@
+\chapter{Dasar Teori}
+
+\textit{Local search} merupakan pendekatan dalam kecerdasan buatan yang mencari solusi dengan berpindah dari satu \textit{state} ke \textit{state} tetangganya. \textit{Classical search}, seperti BFS dan DFS, mementingkan jalur menuju solusi. Sedangkan \textit{local search} hanya mempertahankan satu \textit{state} aktif sehingga cocok untuk masalah yang hasil akhirnya lebih penting daripada urutan langkahnya. Setiap \textit{state} merepresentasikan konfigurasi solusi yang lengkap. Perpindahan dilakukan dengan menghasilkan \textit{successor} atau \textit{neighbor} dari \textit{state} saat ini, lalu kualitasnya dinilai menggunakan fungsi objektif. Algoritma akan memaksimalkan fungsi objektif atau meminimalkan fungsi biaya. Tujuan utama dari \textit{local search} adalah untuk menemukan \textit{global optimum}. Namun, pencarian dapat terhenti atau terjebak pada \textit{local optimum}, yaitu \textit{state} yang lebih baik daripada semua tetangganya tetapi bukan yang terbaik secara keseluruhan. Untuk mengatasi permasalahan ini, sebagian algoritma menambahkan mekanisme seperti langkah acak, penerimaan solusi yang sementara lebih buruk, atau pengembangan banyak kandidat sekaligus.
+
+\section{Algoritma \textit{Hill Climbing}}
+
+\subsection{\textit{Steepest Ascent Hill Climbing}}
+
+\textit{Steepest ascent hill-climbing} adalah varian dasar algoritma pencarian \textit{hill-climbing}, yaitu algoritma pencarian lokal yang bergerak secara terus-menerus ke arah nilai yang lebih baik, baik berupa kenaikan nilai objektif maupun penurunan nilai biaya (\textit{cost}).
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\textwidth]{gambar/steepest-ascent-hc-graph.png}
+    \caption{Grafik Fungsi Objektif terhadap State Space pada Steepest Ascent HC}
+\end{figure}
+
+Algoritma diawali dari sebuah \textit{initial state} yang dibangkitkan secara acak. Pada setiap iterasi, algoritma membangkitkan seluruh \textit{successor} dari \textit{state} saat ini, lalu memilih \textit{neighbor} yang merupakan \textit{highest-valued successor}, yaitu \textit{successor} dengan nilai tertinggi. Jika terdapat lebih dari satu \textit{successor} terbaik, pemilihan dilakukan secara acak di antara \textit{successor} tersebut. Berikut adalah pseudocode algoritma \textit{steepest ascent hill-climbing}:
+
+\begin{algorithm}[H]
+\caption{Hill-Climbing (Steepest Ascent)}
+\label{alg:hill-climbing}
+\KwInput{$problem$}
+\KwOutput{state yang merupakan local maximum}
+$current \gets \textsc{Make-Node}(problem.\textsc{Initial-State})$\;
+\While{true}{
+    $neighbor \gets$ a highest-valued successor of $current$\;
+    \If{$neighbor.\textsc{Value} \leq current.\textsc{Value}$}{
+        \KwRet $current.\textsc{State}$\;
+    }
+    $current \gets neighbor$\;
+}
+\end{algorithm}
+
+Alur kerja algoritma \textit{steepest ascent HC} terdiri dari tiga bagian. Pertama, inisialisasi dengan \textit{state} acak. Kedua, \textit{loop} yang terus berpindah ke \textit{neighbor} terbaik selama nilainya lebih tinggi daripada \textit{state} saat ini. Ketiga, terminasi ketika tidak ada \textit{neighbor} yang memiliki nilai lebih tinggi dari \textit{state} saat ini. Kondisi ini mencakup puncak maupun area datar, karena kondisi berhenti menggunakan operator $\leq$.
+
+\subsection{\textit{Hill Climbing with Sideways Move}}
+
+\textit{Hill-climbing with sideways move} adalah salah satu varian dari \textit{steepest ascent hill-climbing} yang dirancang untuk mengatasi kegagalan algoritma dasar pada kondisi \textit{shoulder}. Pada \textit{steepest ascent HC}, pencarian berhenti ketika tidak ada \textit{neighbor} yang bernilai lebih tinggi dari \textit{state} saat ini. Kondisi berhenti ini juga terpicu pada area datar, padahal pada area tersebut, seperti \textit{shoulder}, masih terdapat kemungkinan untuk mencapai nilai yang lebih baik jika pencarian dilanjutkan.
+
+Algoritma HC dengan \textit{sideways move} ini mengizinkan algoritma berpindah ke \textit{neighbor} yang nilainya sama dengan \textit{state} saat ini, yang disebut \textit{sideways move}. Perubahan ini diwujudkan dengan mengganti kondisi terminasi dari \textit{neighbor.Value} $\leq$ \textit{current.Value} menjadi \textit{neighbor.Value} $<$ \textit{current.Value}. Dengan perubahan tersebut, algoritma hanya berhenti apabila seluruh \textit{neighbor} memiliki nilai yang benar-benar lebih rendah, sehingga perpindahan ke \textit{neighbor} bernilai sama tetap diperbolehkan.
+
+Perpindahan sideways tanpa batas dapat menyebabkan \textit{infinite loop}, yaitu ketika algoritma terus berpindah antar-\textit{state} bernilai sama pada \textit{flat local maximum} yang bukan \textit{shoulder}. Maka, jumlah \textit{sideways move} yang dilakukan secara berurutan perlu dibatasi dengan suatu nilai batas. Apabila batas tersebut tercapai, algoritma dihentikan dan mengembalikan \textit{state} saat ini. Nilai limit menjadi parameter yang memengaruhi keseimbangan antara peluang keberhasilan dan waktu komputasi. Berikut adalah pseudocode algoritma \textit{hill-climbing with sideways move}:
+
+\begin{algorithm}[H]
+\caption{Hill-Climbing dengan Sideways Move}
+\label{alg:hill-climbing-sideways}
+\KwInput{$problem$, $maxSideways$}
+\KwOutput{state yang merupakan local maximum}
+$current \gets \textsc{Make-Node}(problem.\textsc{Initial-State})$\;
+$sideways \gets 0$\;
+\While{true}{
+    $neighbor \gets$ a highest-valued successor of $current$\;
+    \If{$neighbor.\textsc{Value} < current.\textsc{Value}$}{
+        \KwRet $current.\textsc{State}$\;
+    }
+    \eIf{$neighbor.\textsc{Value} = current.\textsc{Value}$}{
+        $sideways \gets sideways + 1$\;
+        \If{$sideways > maxSideways$}{
+            \KwRet $current.\textsc{State}$\;
+        }
+    }{
+        $sideways \gets 0$\;
+    }
+    $current \gets neighbor$\;
+}
+\end{algorithm}
+
+\subsection{\textit{Random Restart Hill Climbing}}
+
+\textit{Random restart hill-climbing} adalah salah satu varian \textit{hill-climbing} yang mengatasi masalah terjebak pada optimum lokal dengan cara mengulang pencarian dari \textit{state} awal yang berbeda. Algoritma ini menjalankan serangkaian \textit{hill-climbing}, dan setiap pencarian dimulai dari \textit{initial state} yang dibangkitkan secara acak. Proses diulang hingga ditemukan \textit{state} yang memenuhi tujuan, yaitu \textit{state} dengan nilai \textit{global maximum}. Jika pencarian dimulai dari area yang mengarah ke \textit{local maximum}, algoritma akan berhenti di sana dan tidak dapat keluar. Dengan memulai ulang dari \textit{state} acak yang berbeda, setiap percobaan memiliki peluang tersendiri untuk berada pada area yang mengarah ke \textit{global maximum}. Semakin banyak percobaan dilakukan, semakin besar peluang setidaknya satu di antaranya berhasil. Setiap percobaan merupakan \textit{hill-climbing} biasa dan bersifat independen terhadap percobaan sebelumnya.
+
+Kinerja algoritma ini dapat dianalisis dengan probabilitas. Misalkan $p$ adalah probabilitas sebuah percobaan hill-climbing berhasil mencapai solusi, $s$ adalah rata-rata jumlah langkah pada percobaan yang berhasil, dan $f$ adalah rata-rata jumlah langkah pada percobaan yang gagal. Maka jumlah \textit{restart} yang diharapkan hingga ditemukan solusi adalah
+
+\begin{equation}
+    E[\text{percobaan}] = \frac{1}{p}
+\end{equation}
+
+dan jumlah langkah yang diharapkan adalah
+
+\begin{equation}
+    E[\text{langkah}] = s + \frac{f(1-p)}{p}
+\end{equation}
+
+Persamaan kedua diperoleh dari dua komponen. Rata-rata terdapat $\frac{1-p}{p}$ percobaan gagal sebelum percobaan pertama yang berhasil, dan tiap percobaan gagal membutuhkan $f$ langkah. Percobaan terakhir yang berhasil menambah $s$ langkah. Dari persamaan tersebut terlihat bahwa nilai $p$ yang kecil membuat jumlah restart membesar, tetapi total langkah tetap dapat rendah selama setiap percobaan berlangsung singkat. Hill-climbing yang cepat berhenti sehingga cocok digunakan secara berulang.
+
+Algoritma ini juga bersifat \textit{complete} secara probabilistik. Selama $p > 0$, solusi pada akhirnya akan ditemukan dengan probabilitas mendekati 1 jika jumlah restart tidak dibatasi. Namun, waktu komputasi tidak dapat dipastikan karena bergantung pada keberuntungan pembangkitan state awal. Berikut adalah pseudocode algoritma \textit{random restart hill climbing}
+
+\begin{algorithm}[H]
+\caption{Random Restart Hill-Climbing}
+\label{alg:random-restart-hill-climbing}
+\KwInput{$problem$}
+\KwOutput{state dengan nilai global maximum}
+\While{true}{
+    $current \gets \textsc{Make-Node}(\textsc{Random-State}(problem))$\;
+    \While{true}{
+        $neighbor \gets$ a highest-valued successor of $current$\;
+        \If{$neighbor.\textsc{Value} \leq current.\textsc{Value}$}{
+            \textbf{break}\;
+        }
+        $current \gets neighbor$\;
+    }
+    \If{$current.\textsc{Value} = problem.\textsc{Global-Maximum}$}{
+        \KwRet $current.\textsc{State}$\;
+    }
+}
+\end{algorithm}
+
+\subsection{\textit{Stochastic Hill Climbing}}
+
+\textit{Stochastic hill-climbing} adalah salah satu varian \textit{hill-climbing} yang tidak mengevaluasi seluruh \textit{successor} dari \textit{state} saat ini. Pada \textit{steepest ascent HC}, algoritma membangkitkan seluruh \textit{successor} lalu memilih yang bernilai tertinggi. Pada varian ini, algoritma hanya membangkitkan satu \textit{successor} secara acak, kemudian memutuskan apakah perpindahan dilakukan berdasarkan perbandingan nilainya dengan \textit{state} saat ini. Algoritma akan berpindah ke \textit{neighbor} acak tersebut hanya jika nilainya lebih baik daripada \textit{state} saat ini. Jika \textit{neighbor} yang terpilih lebih buruk atau sama, \textit{neighbor} tersebut diabaikan dan algoritma mencoba membangkitkan \textit{successor} acak yang lain.
+
+Algoritma tidak dapat menentukan bahwa ia telah mencapai puncak hanya dari satu kali percobaan yang gagal, karena tidak ada jaminan bahwa \textit{successor} acak yang dipilih lebih baik. Oleh karena itu, kondisi terminasi adalah tercapainya jumlah iterasi maksimum ($n_{max}$). Algoritma berhenti setelah $n_{max}$ iterasi dan mengembalikan \textit{state} terakhir yang dicapai. Dibandingkan dengan \textit{steepest ascent}, \textit{stochastic hill-climbing} memerlukan biaya per iterasi yang lebih rendah karena hanya satu \textit{successor} yang dievaluasi, tetapi secara keseluruhan membutuhkan lebih banyak langkah untuk mencapai hasil yang sebanding sehingga berjalan lebih lambat. Algoritma ini tetap dapat terjebak pada \textit{local maximum}, karena hanya menerima perpindahan yang memperbaiki nilai. Berikut adalah pseudocode algoritma \textit{stochastic hill-climbing}:
+
+\begin{algorithm}[H]
+\caption{Stochastic Hill-Climbing}
+\label{alg:stochastic-hill-climbing}
+\KwInput{$problem$, $n_{max}$}
+\KwOutput{state hasil pencarian}
+$current \gets \textsc{Make-Node}(problem.\textsc{Initial-State})$\;
+\For{$i \gets 1$ \KwTo $n_{max}$}{
+    $neighbor \gets$ a random successor of $current$\;
+    \If{$neighbor.\textsc{Value} > current.\textsc{Value}$}{
+        $current \gets neighbor$\;
+    }
+}
+\KwRet $current.\textsc{State}$\;
+\end{algorithm}
+
+\section{Algoritma \textit{Simulated Annealing}}
+
+\textit{Simulated annealing} adalah algoritma \textit{local search} berupa versi \textit{stochastic hill-climbing} yang mengizinkan sebagian langkah buruk agar dapat keluar dari \textit{local maximum}. Frekuensi langkah buruk ini dikurangi secara bertahap selama pencarian berlangsung. Nama algoritma ini berasal dari proses \textit{annealing} pada metalurgi, yaitu pemanasan logam lalu pendinginan perlahan. Analoginya, parameter $T$ berperan sebagai ``temperatur'' yang bernilai tinggi di awal dan menurun mengikuti jadwal pendinginan, yaitu fungsi yang memetakan waktu $t$ ke nilai $T$.
+
+Pada setiap iterasi, algoritma memilih satu successor acak dari \textit{state} saat ini, lalu menghitung selisih nilainya, yaitu $\Delta E = next.\textsc{Value} - current.\textsc{Value}$. Jika $\Delta E > 0$, \textit{neighbor} lebih baik dan algoritma selalu berpindah. Jika $\Delta E < 0$, \textit{neighbor} lebih buruk, tetapi algoritma tetap dapat berpindah dengan probabilitas $e^{\Delta E / T}$. Probabilitas ini makin kecil ketika langkah semakin buruk dan ketika $T$ semakin rendah. Akibatnya, pada $T$ tinggi algoritma berperilaku seperti \textit{random walk}, sedangkan pada $T$ mendekati 0 algoritma berperilaku seperti \textit{stochastic hill-climbing}. Algoritma berhenti ketika $T = 0$ dan mengembalikan \textit{state} saat ini.
+
+\begin{equation}
+    \Delta E = next.\textsc{Value} - current.\textsc{Value}
+\end{equation}
+
+Keputusan perpindahan bergantung pada tanda $\Delta E$. Jika $\Delta E > 0$, \textit{neighbor} lebih baik dan algoritma selalu berpindah. Jika $\Delta E < 0$, \textit{neighbor} lebih buruk, tetapi algoritma tetap dapat berpindah dengan probabilitas
+
+\begin{equation}
+    P = e^{\Delta E / T}
+\end{equation}
+
+Karena $\Delta E < 0$, nilai $P$ selalu berada di antara 0 dan 1. Probabilitas ini menurun ketika langkah semakin buruk (nilai $|\Delta E|$ makin besar) dan ketika temperatur semakin rendah. Pada temperatur tinggi, $P$ mendekati 1 sehingga hampir semua langkah buruk diterima. Pada temperatur mendekati 0, $P$ mendekati 0 sehingga langkah buruk hampir tidak pernah diterima.
+
+Untuk menentukan apakah langkah buruk diterima, nilai $P$ dibandingkan dengan suatu nilai pembanding. Terdapat dua pendekatan, yaitu membandingkan dengan nilai statis (misalnya langkah diterima jika $P > 0{,}5$), atau membandingkan dengan bilangan acak pada rentang $[0,1]$ (langkah diterima jika $P > \text{random}(0,1)$). Pendekatan kedua lebih sesuai dengan sifat stokastik algoritma karena langkah buruk yang kecil tetap memiliki peluang diterima secara proporsional dengan nilai $P$.
+
+Algoritma berhenti ketika $T = 0$ dan mengembalikan \textit{state} saat ini. Secara teoritis, apabila $T$ diturunkan cukup lambat, \textit{simulated annealing} akan menemukan global optimum dengan probabilitas mendekati 1. Kelemahannya, penurunan temperatur yang lambat membuat waktu pencarian lebih lama, sehingga pemilihan jadwal pendinginan menjadi parameter penting. Berikut adalah pseudocode algoritma \textit{simulated annealing}:
+
+\begin{algorithm}[H]
+\caption{Simulated Annealing}
+\label{alg:simulated-annealing}
+\KwInput{$problem$, $schedule$}
+\KwOutput{state solusi}
+$current \gets \textsc{Make-Node}(problem.\textsc{Initial-State})$\;
+\For{$t \gets 1$ \KwTo $\infty$}{
+    $T \gets schedule(t)$\;
+    \If{$T = 0$}{
+        \KwRet $current.\textsc{State}$\;
+    }
+    $next \gets$ a randomly selected successor of $current$\;
+    $\Delta E \gets next.\textsc{Value} - current.\textsc{Value}$\;
+    \eIf{$\Delta E > 0$}{
+        $current \gets next$\;
+    }{
+        $current \gets next$ only with probability $e^{\Delta E / T}$\;
+    }
+}
+\end{algorithm}
+
+\section{Algoritma \textit{Genetic Algorithm}}
+
+\textit{Genetic algorithm} (GA) adalah algoritma \textit{local search} yang mempertahankan sekumpulan \textit{state} (populasi). Genetic algorithm membangkitkan \textit{successor} melalui penggabungan dua \textit{state} induk (\textit{parent}). Setiap \textit{state}, yang disebut individu, direpresentasikan sebagai \textit{string} pada alfabet berhingga, umumnya \textit{string} bernilai 0 dan 1. Setiap karakter pada \textit{string} merepresentasikan satu variabel permasalahan. Kualitas setiap individu dinilai oleh fungsi evaluasi yang disebut fungsi kebugaran (\textit{fitness function}), dengan nilai yang lebih tinggi menunjukkan \textit{state} yang lebih baik. Fungsi \textit{fitness} harus dirancang sesuai permasalahan, dan nilai maksimumnya menjadi global maximum.
+
+Algoritma diawali dengan populasi awal berisi $k$ individu yang dibangkitkan secara acak. Generasi berikutnya dibentuk melalui tiga operasi berikut.
+
+\begin{enumerate}
+    \item \textbf{Selection} 
+    
+    Dua individu induk dipilih secara acak dengan probabilitas proporsional terhadap nilai \textit{fitness}. Probabilitas terpilihnya individu $i$ adalah
+    \begin{equation}
+        P(i) = \frac{F(i)}{\sum_{j=1}^{k} F(j)}
+    \end{equation}
+    Individu dengan \textit{fitness} lebih tinggi lebih berpeluang terpilih, tetapi individu dengan \textit{fitness} rendah tetap memiliki peluang. Implementasinya dapat berupa \textit{roulette wheel}, yaitu membangkitkan bilangan acak pada rentang $[0,100]$ lalu mencocokkannya dengan interval kumulatif probabilitas setiap individu.
+    \item \textbf{Crossover} 
+    
+    Sebuah titik potong (\textit{crossover point}) dipilih secara acak pada string. Anak dibentuk dengan menggabungkan bagian awal \textit{string} induk pertama dan bagian akhir \textit{string} induk kedua. Jika dilakukan pada kedua arah, dihasilkan dua anak.
+    \item \textbf{Mutation} 
+    
+    Dengan probabilitas kecil, satu karakter pada \textit{string} anak diubah secara acak pada titik mutasi (\textit{mutation point}). Mutasi menjaga keragaman populasi dan memungkinkan munculnya karakteristik yang tidak dimiliki kedua induk.
+\end{enumerate}
+
+Proses selection, crossover, dan mutation diulang hingga terbentuk populasi baru berukuran sama dengan populasi sebelumnya, kemudian populasi lama digantikan. Iterasi berlanjut hingga ada individu yang cukup fit atau waktu yang ditentukan habis. Algoritma mengembalikan individu terbaik pada populasi menurut fungsi \textit{fitness}. Berikut adalah pseudocode algoritma \textit{genetic algorithm}:
+
+\begin{algorithm}[H]
+\caption{Genetic Algorithm}
+\label{alg:genetic-algorithm}
+\KwInput{$population$, $\textsc{Fitness-Fn}$}
+\KwOutput{individu terbaik}
+\Repeat{ada individu yang cukup fit \textbf{atau} waktu habis}{
+    $new\_population \gets \emptyset$\;
+    \For{$i \gets 1$ \KwTo $\textsc{Size}(population)$}{
+        $x \gets \textsc{Random-Selection}(population, \textsc{Fitness-Fn})$\;
+        $y \gets \textsc{Random-Selection}(population, \textsc{Fitness-Fn})$\;
+        $child \gets \textsc{Reproduce}(x, y)$\;
+        \If{probabilitas acak kecil terpenuhi}{
+            $child \gets \textsc{Mutate}(child)$\;
+        }
+        tambahkan $child$ ke $new\_population$\;
+    }
+    $population \gets new\_population$\;
+}
+\KwRet individu terbaik pada $population$ menurut $\textsc{Fitness-Fn}$\;
+\end{algorithm}
