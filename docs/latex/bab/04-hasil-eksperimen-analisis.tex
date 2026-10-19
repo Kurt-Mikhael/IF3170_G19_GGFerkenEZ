@@ -97,6 +97,21 @@ Banyak \textit{restart} yang dilakukan & \hasil{jumlah restart} \\ \hline
 Banyak iterasi per \textit{restart} & \hasil{daftar/rata-rata iterasi per restart} \\ \hline
 \akhirtabel
 }
+% Argumen: test case, nomor percobaan, awalan gambar, nilai akhir, durasi,
+% banyak restart, iterasi per restart.
+\newcommand{\percobaanRestartGambar}[7]{%
+\subsubsection{Test case #1 --- Percobaan #2}
+\awaltabel
+\textit{Maximum restart} & 3 \\ \hline
+\textit{State} awal & \includegraphics[width=\linewidth]{gambar/pengujian/random-restart-hc/#1/#3_initial_state_3d.png} \\ \hline
+\textit{State} akhir terbaik & \includegraphics[width=\linewidth]{gambar/pengujian/random-restart-hc/#1/#3_final_state_3d.png} \\ \hline
+Nilai \textit{objective function} akhir & #4 \\ \hline
+Grafik \textit{objective function} terhadap iterasi & \includegraphics[width=\linewidth]{gambar/pengujian/random-restart-hc/#1/#3_experiment.png} \\ \hline
+Durasi pencarian & #5 detik \\ \hline
+Banyak \textit{restart} yang dilakukan & #6 \\ \hline
+Banyak iterasi per \textit{restart} & #7 \\ \hline
+\akhirtabel
+}
 \newcommand{\percobaanSA}[2]{%
 \subsubsection{Test case #1 --- Percobaan #2}
 \awaltabel
@@ -167,9 +182,15 @@ Durasi pencarian & \hasil{durasi (detik)} \\ \hline
 \percobaanSidewaysGambar{tc10}{3}{run3_seed44}{83}{0.075649}{11}{10}
 
 \subsection{\textit{Random Restart Hill-climbing}}
-\tigaPercobaanRestart{tc8}
-\tigaPercobaanRestart{tc9}
-\tigaPercobaanRestart{tc10}
+\percobaanRestartGambar{tc8}{1}{run1_seed42}{103}{0.090698}{3}{2, 1, 2, 1 (rata-rata: 1,5)}
+\percobaanRestartGambar{tc8}{2}{run2_seed43}{98}{0.079565}{3}{2, 1, 1, 1 (rata-rata: 1,25)}
+\percobaanRestartGambar{tc8}{3}{run3_seed44}{103}{0.074867}{3}{2, 1, 2, 1 (rata-rata: 1,5)}
+\percobaanRestartGambar{tc9}{1}{run1_seed42}{101}{0.057637}{3}{1, 2, 1, 1 (rata-rata: 1,25)}
+\percobaanRestartGambar{tc9}{2}{run2_seed43}{101}{0.074722}{3}{1, 2, 1, 2 (rata-rata: 1,5)}
+\percobaanRestartGambar{tc9}{3}{run3_seed44}{101}{0.055818}{3}{1, 1, 1, 1 (rata-rata: 1)}
+\percobaanRestartGambar{tc10}{1}{run1_seed42}{97}{0.053462}{3}{1, 2, 1, 1 (rata-rata: 1,25)}
+\percobaanRestartGambar{tc10}{2}{run2_seed43}{88}{0.055554}{3}{1, 1, 2, 1 (rata-rata: 1,25)}
+\percobaanRestartGambar{tc10}{3}{run3_seed44}{83}{0.075717}{3}{2, 2, 1, 2 (rata-rata: 1,75)}
 
 \subsection{\textit{Stochastic Hill-climbing}}
 \tigaPercobaanHC{tc8}
