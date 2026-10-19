@@ -59,7 +59,7 @@ cd
 
 
 ## How to Run
-1. 
+
 
 ## Kontributor
 | NIM      | Nama                           |
