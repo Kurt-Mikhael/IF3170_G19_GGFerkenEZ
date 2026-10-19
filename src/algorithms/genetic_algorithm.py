@@ -20,9 +20,6 @@ class GeneticAlgorithm:
         self.rng = rng
         self.packages = problem.package_map
 
-    def print(self):
-        print(f"GeneticAlgorithm(packages={len(self.problem.packages)})")
-
     def random_inside_position(self, package, orientation, rng=None, heights=None):
         rng = self.rng if rng is None else rng
         dx, dy, dz = package.effective_dims(orientation)

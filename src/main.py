@@ -28,9 +28,8 @@ def main():
     ap.add_argument("--sa-cooling-rate", type=float, default=0.995, help="Faktor pendinginan SA")
     ap.add_argument("--sa-max-iterations", type=int, default=10_000, help="Batas iterasi maksimum SA")
     ap.add_argument("--sa-stuck-patience", type=int, default=100, help="Jumlah proposal berturut-turut tanpa perbaikan agar SA dianggap stuck")
-    ap.add_argument("--ga-population-size", type=int, default=50, help="Jumlah individu GA (minimal 2)")
-    ap.add_argument("--ga-iterations", type=int, default=100, help="Jumlah generasi GA (minimal 1)")
-    ap.add_argument("--ga-experiment", action="store_true", help="Jalankan dua rangkaian eksperimen GA: populasi tetap dengan variasi iterasi, dan iterasi tetap dengan variasi populasi")
+    ap.add_argument("--ga-population-size", type=int, default=50, help="Jumlah populasi kontrol GA (minimal 2)")
+    ap.add_argument("--ga-iterations", type=int, default=100, help="Banyak iterasi kontrol GA (minimal 1)")
     ap.add_argument("--ga-iteration-variants", type=int, nargs=3, default=[50, 100, 200], help="Tiga variasi jumlah iterasi (populasi tetap = --ga-population-size)")
     ap.add_argument("--ga-population-variants", type=int, nargs=3, default=[20, 50, 100], help="Tiga variasi jumlah populasi (iterasi tetap = --ga-iterations)")
     ap.add_argument("--output-dir", default="output", help="Hasil disimpan di <output-dir>/<nama tc>/")
@@ -56,16 +55,17 @@ def main():
     for algo in algos:
         if algo != "genetic_algorithm":
             jobs.append((algo, None, None))
-        elif args.ga_experiment:
-            # konfigurasi yang muncul di kedua rangkaian cukup dijalankan sekali
+        else:
+            """ 
+            - populasi sebagai kontrol dengan 3 variasi iterasi, dan iterasi sebagai kontrol dengan 3 variasi populasi. 
+            - konfigurasi yang muncul di kedua rangkaian cukup dijalankan sekali
+            """
             configs = {}
             for it in args.ga_iteration_variants:
                 configs.setdefault((args.ga_population_size, it), []).append("vary_iterations")
             for pop in args.ga_population_variants:
                 configs.setdefault((pop, args.ga_iterations), []).append("vary_population")
             jobs.extend((algo, config, series) for config, series in configs.items())
-        else:
-            jobs.append((algo, (args.ga_population_size, args.ga_iterations), []))
 
     for algo, ga_config, series in jobs:
         for run in range(1, args.runs + 1):

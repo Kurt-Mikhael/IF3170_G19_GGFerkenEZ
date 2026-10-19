@@ -1,6 +1,4 @@
-
-
-def _ser(s):
+def ser(s):
     return s.to_dict() if hasattr(s, "to_dict") else s
 
 
@@ -22,8 +20,8 @@ def build_result(
     return {
         "algorithm": algorithm,
         "parameters": parameters,
-        "initial_state": _ser(initial_state),
-        "final_state": _ser(final_state),
+        "initial_state": ser(initial_state),
+        "final_state": ser(final_state),
         "initial_value": initial_value,
         "final_value": final_value,
         "iterations": iterations,

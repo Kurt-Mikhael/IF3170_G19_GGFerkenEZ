@@ -10,9 +10,6 @@ class HillClimb:
         self.problem = problem
         self.rng = rng
 
-    def print(self):
-        print(f"HillClimb(packages={len(self.problem.packages)})")
-
     def steepest_ascent(self, initial_state):
         # referensi: materi kuliah AI BeyondClassicalSearch bagian Stochastic Hill-climbing
         # setiap state menhidupi semua successor dan cari succesor yang menghasilkan state value terbaik. Jika tidak ada successor yang lebih baik, berhenti.
