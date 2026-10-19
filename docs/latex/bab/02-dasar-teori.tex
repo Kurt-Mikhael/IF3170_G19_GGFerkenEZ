@@ -171,3 +171,46 @@ $current \gets \textsc{Make-Node}(problem.\textsc{Initial-State})$\;
 \end{algorithm}
 
 \section{Algoritma \textit{Genetic Algorithm}}
+
+\textit{Genetic algorithm} (GA) adalah algoritma \textit{local search} yang mempertahankan sekumpulan \textit{state} (populasi). Genetic algorithm membangkitkan \textit{successor} melalui penggabungan dua \textit{state} induk (\textit{parent}). Setiap \textit{state}, yang disebut individu, direpresentasikan sebagai \textit{string} pada alfabet berhingga, umumnya \textit{string} bernilai 0 dan 1. Setiap karakter pada \textit{string} merepresentasikan satu variabel permasalahan. Kualitas setiap individu dinilai oleh fungsi evaluasi yang disebut fungsi kebugaran (\textit{fitness function}), dengan nilai yang lebih tinggi menunjukkan \textit{state} yang lebih baik. Fungsi \textit{fitness} harus dirancang sesuai permasalahan, dan nilai maksimumnya menjadi global maximum.
+
+Algoritma diawali dengan populasi awal berisi $k$ individu yang dibangkitkan secara acak. Generasi berikutnya dibentuk melalui tiga operasi berikut.
+
+\begin{enumerate}
+    \item \textbf{Selection} 
+    
+    Dua individu induk dipilih secara acak dengan probabilitas proporsional terhadap nilai \textit{fitness}. Probabilitas terpilihnya individu $i$ adalah
+    \begin{equation}
+        P(i) = \frac{F(i)}{\sum_{j=1}^{k} F(j)}
+    \end{equation}
+    Individu dengan \textit{fitness} lebih tinggi lebih berpeluang terpilih, tetapi individu dengan \textit{fitness} rendah tetap memiliki peluang. Implementasinya dapat berupa \textit{roulette wheel}, yaitu membangkitkan bilangan acak pada rentang $[0,100]$ lalu mencocokkannya dengan interval kumulatif probabilitas setiap individu.
+    \item \textbf{Crossover} 
+    
+    Sebuah titik potong (\textit{crossover point}) dipilih secara acak pada string. Anak dibentuk dengan menggabungkan bagian awal \textit{string} induk pertama dan bagian akhir \textit{string} induk kedua. Jika dilakukan pada kedua arah, dihasilkan dua anak.
+    \item \textbf{Mutation} 
+    
+    Dengan probabilitas kecil, satu karakter pada \textit{string} anak diubah secara acak pada titik mutasi (\textit{mutation point}). Mutasi menjaga keragaman populasi dan memungkinkan munculnya karakteristik yang tidak dimiliki kedua induk.
+\end{enumerate}
+
+Proses selection, crossover, dan mutation diulang hingga terbentuk populasi baru berukuran sama dengan populasi sebelumnya, kemudian populasi lama digantikan. Iterasi berlanjut hingga ada individu yang cukup fit atau waktu yang ditentukan habis. Algoritma mengembalikan individu terbaik pada populasi menurut fungsi \textit{fitness}. Berikut adalah pseudocode algoritma \textit{genetic algorithm}:
+
+\begin{algorithm}[H]
+\caption{Genetic Algorithm}
+\label{alg:genetic-algorithm}
+\KwInput{$population$, $\textsc{Fitness-Fn}$}
+\KwOutput{individu terbaik}
+\Repeat{ada individu yang cukup fit \textbf{atau} waktu habis}{
+    $new\_population \gets \emptyset$\;
+    \For{$i \gets 1$ \KwTo $\textsc{Size}(population)$}{
+        $x \gets \textsc{Random-Selection}(population, \textsc{Fitness-Fn})$\;
+        $y \gets \textsc{Random-Selection}(population, \textsc{Fitness-Fn})$\;
+        $child \gets \textsc{Reproduce}(x, y)$\;
+        \If{probabilitas acak kecil terpenuhi}{
+            $child \gets \textsc{Mutate}(child)$\;
+        }
+        tambahkan $child$ ke $new\_population$\;
+    }
+    $population \gets new\_population$\;
+}
+\KwRet individu terbaik pada $population$ menurut $\textsc{Fitness-Fn}$\;
+\end{algorithm}
