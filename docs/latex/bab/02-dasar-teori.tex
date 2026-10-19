@@ -108,9 +108,9 @@ Algoritma ini juga bersifat \textit{complete} secara probabilistik. Selama $p > 
 
 \subsection{\textit{Stochastic Hill Climbing}}
 
-\textit{Stochastic hill-climbing} adalah salah satu varian \textit{hill-climbing} yang tidak mengevaluasi seluruh \textit{successor} dari \textit{state} saat ini. Pada \textit{steepest ascent HC}, algoritma membangkitkan seluruh \textit{successor} lalu memilih yang bernilai tertinggi. Pada varian ini, algoritma hanya membangkitkan satu \textit{successor} secara acak, kemudian memutuskan apakah perpindahan dilakukan berdasarkan perbandingan nilainya dengan \textit{state} saat ini. Algoritma akan berpindah ke \textit{neighbor} acak tersebut hanya jika nilainya lebih baik daripada \textit{state} saat ini. Jika \textit{neighbor} yang terpilih lebih buruk atau sama, \textit{neighbor} tersebut diabaikan dan algoritma mencoba membangkitkan \textit{successor} acak yang lain. Dengan demikian, algoritma tetap hanya bergerak ke arah peningkatan nilai atau penurunan biaya, seperti \textit{hill-climbing} pada umumnya, tetapi arah gerakannya dipilih secara acak di antara arah-arah yang menaikkan nilai.
+\textit{Stochastic hill-climbing} adalah salah satu varian \textit{hill-climbing} yang tidak mengevaluasi seluruh \textit{successor} dari \textit{state} saat ini. Pada \textit{steepest ascent HC}, algoritma membangkitkan seluruh \textit{successor} lalu memilih yang bernilai tertinggi. Pada varian ini, algoritma hanya membangkitkan satu \textit{successor} secara acak, kemudian memutuskan apakah perpindahan dilakukan berdasarkan perbandingan nilainya dengan \textit{state} saat ini. Algoritma akan berpindah ke \textit{neighbor} acak tersebut hanya jika nilainya lebih baik daripada \textit{state} saat ini. Jika \textit{neighbor} yang terpilih lebih buruk atau sama, \textit{neighbor} tersebut diabaikan dan algoritma mencoba membangkitkan \textit{successor} acak yang lain.
 
-Algoritma tidak dapat menentukan bahwa ia telah mencapai puncak hanya dari satu kali percobaan yang gagal, karena tidak ada jaminan bahwa \textit{successor} acak yang dipilih lebih baik. Oleh karena itu, kondisi terminasi tidak lagi berupa ketiadaan \textit{neighbor} yang lebih baik, melainkan tercapainya jumlah iterasi maksimum ($n_{max}$). Algoritma berhenti setelah $n_{max}$ iterasi dan mengembalikan \textit{state} terakhir yang dicapai. Dibandingkan dengan \textit{steepest ascent}, \textit{stochastic hill-climbing} memerlukan biaya per iterasi yang lebih rendah karena hanya satu \textit{successor} yang dievaluasi, tetapi secara keseluruhan membutuhkan lebih banyak langkah untuk mencapai hasil yang sebanding sehingga berjalan lebih lambat. Algoritma ini tetap dapat terjebak pada \textit{local maximum}, karena hanya menerima perpindahan yang memperbaiki nilai. Berikut adalah pseudocode algoritma \textit{stochastic hill-climbing}
+Algoritma tidak dapat menentukan bahwa ia telah mencapai puncak hanya dari satu kali percobaan yang gagal, karena tidak ada jaminan bahwa \textit{successor} acak yang dipilih lebih baik. Oleh karena itu, kondisi terminasi adalah tercapainya jumlah iterasi maksimum ($n_{max}$). Algoritma berhenti setelah $n_{max}$ iterasi dan mengembalikan \textit{state} terakhir yang dicapai. Dibandingkan dengan \textit{steepest ascent}, \textit{stochastic hill-climbing} memerlukan biaya per iterasi yang lebih rendah karena hanya satu \textit{successor} yang dievaluasi, tetapi secara keseluruhan membutuhkan lebih banyak langkah untuk mencapai hasil yang sebanding sehingga berjalan lebih lambat. Algoritma ini tetap dapat terjebak pada \textit{local maximum}, karena hanya menerima perpindahan yang memperbaiki nilai. Berikut adalah pseudocode algoritma \textit{stochastic hill-climbing}:
 
 \begin{algorithm}[H]
 \caption{Stochastic Hill-Climbing}
@@ -129,5 +129,45 @@ $current \gets \textsc{Make-Node}(problem.\textsc{Initial-State})$\;
 
 \section{Algoritma \textit{Simulated Annealing}}
 
+\textit{Simulated annealing} adalah algoritma \textit{local search} berupa versi \textit{stochastic hill-climbing} yang mengizinkan sebagian langkah buruk agar dapat keluar dari \textit{local maximum}. Frekuensi langkah buruk ini dikurangi secara bertahap selama pencarian berlangsung. Nama algoritma ini berasal dari proses \textit{annealing} pada metalurgi, yaitu pemanasan logam lalu pendinginan perlahan. Analoginya, parameter $T$ berperan sebagai ``temperatur'' yang bernilai tinggi di awal dan menurun mengikuti jadwal pendinginan, yaitu fungsi yang memetakan waktu $t$ ke nilai $T$.
+
+Pada setiap iterasi, algoritma memilih satu successor acak dari \textit{state} saat ini, lalu menghitung selisih nilainya, yaitu $\Delta E = next.\textsc{Value} - current.\textsc{Value}$. Jika $\Delta E > 0$, \textit{neighbor} lebih baik dan algoritma selalu berpindah. Jika $\Delta E < 0$, \textit{neighbor} lebih buruk, tetapi algoritma tetap dapat berpindah dengan probabilitas $e^{\Delta E / T}$. Probabilitas ini makin kecil ketika langkah semakin buruk dan ketika $T$ semakin rendah. Akibatnya, pada $T$ tinggi algoritma berperilaku seperti \textit{random walk}, sedangkan pada $T$ mendekati 0 algoritma berperilaku seperti \textit{stochastic hill-climbing}. Algoritma berhenti ketika $T = 0$ dan mengembalikan \textit{state} saat ini.
+
+\begin{equation}
+    \Delta E = next.\textsc{Value} - current.\textsc{Value}
+\end{equation}
+
+Keputusan perpindahan bergantung pada tanda $\Delta E$. Jika $\Delta E > 0$, \textit{neighbor} lebih baik dan algoritma selalu berpindah. Jika $\Delta E < 0$, \textit{neighbor} lebih buruk, tetapi algoritma tetap dapat berpindah dengan probabilitas
+
+\begin{equation}
+    P = e^{\Delta E / T}
+\end{equation}
+
+Karena $\Delta E < 0$, nilai $P$ selalu berada di antara 0 dan 1. Probabilitas ini menurun ketika langkah semakin buruk (nilai $|\Delta E|$ makin besar) dan ketika temperatur semakin rendah. Pada temperatur tinggi, $P$ mendekati 1 sehingga hampir semua langkah buruk diterima. Pada temperatur mendekati 0, $P$ mendekati 0 sehingga langkah buruk hampir tidak pernah diterima.
+
+Untuk menentukan apakah langkah buruk diterima, nilai $P$ dibandingkan dengan suatu nilai pembanding. Terdapat dua pendekatan, yaitu membandingkan dengan nilai statis (misalnya langkah diterima jika $P > 0{,}5$), atau membandingkan dengan bilangan acak pada rentang $[0,1]$ (langkah diterima jika $P > \text{random}(0,1)$). Pendekatan kedua lebih sesuai dengan sifat stokastik algoritma karena langkah buruk yang kecil tetap memiliki peluang diterima secara proporsional dengan nilai $P$.
+
+Algoritma berhenti ketika $T = 0$ dan mengembalikan \textit{state} saat ini. Secara teoritis, apabila $T$ diturunkan cukup lambat, \textit{simulated annealing} akan menemukan global optimum dengan probabilitas mendekati 1. Kelemahannya, penurunan temperatur yang lambat membuat waktu pencarian lebih lama, sehingga pemilihan jadwal pendinginan menjadi parameter penting. Berikut adalah pseudocode algoritma \textit{simulated annealing}:
+
+\begin{algorithm}[H]
+\caption{Simulated Annealing}
+\label{alg:simulated-annealing}
+\KwInput{$problem$, $schedule$}
+\KwOutput{state solusi}
+$current \gets \textsc{Make-Node}(problem.\textsc{Initial-State})$\;
+\For{$t \gets 1$ \KwTo $\infty$}{
+    $T \gets schedule(t)$\;
+    \If{$T = 0$}{
+        \KwRet $current.\textsc{State}$\;
+    }
+    $next \gets$ a randomly selected successor of $current$\;
+    $\Delta E \gets next.\textsc{Value} - current.\textsc{Value}$\;
+    \eIf{$\Delta E > 0$}{
+        $current \gets next$\;
+    }{
+        $current \gets next$ only with probability $e^{\Delta E / T}$\;
+    }
+}
+\end{algorithm}
 
 \section{Algoritma \textit{Genetic Algorithm}}
