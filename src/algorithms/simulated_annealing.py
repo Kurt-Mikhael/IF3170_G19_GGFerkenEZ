@@ -12,9 +12,6 @@ class SimulatedAnnealing:
         self.problem = problem
         self.rng = rng
 
-    def print(self):
-        print(f"SimulatedAnnealing(packages={len(self.problem.packages)})")
-
     def run(
         self,
         initial_state,

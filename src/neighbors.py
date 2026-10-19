@@ -1,6 +1,4 @@
 from src.constraints import validate_state
-from src.package import ORIENTATIONS
-from src.placement import Placement
 
 
 def candidate_positions(problem, package, orientation):
