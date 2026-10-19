@@ -136,6 +136,19 @@ Frekuensi \textit{stuck} pada \textit{local optima} & \hasil{jumlah/frekuensi ke
 Durasi pencarian & \hasil{durasi (detik)} \\ \hline
 \akhirtabel
 }
+% Argumen: test case, nomor percobaan, awalan gambar, nilai akhir, frekuensi stuck, durasi
+\newcommand{\percobaanSAGambar}[6]{%
+\subsubsection{Test case #1 --- Percobaan #2}
+\awaltabel
+\textit{State} awal & \includegraphics[width=\linewidth]{gambar/pengujian/sa/#1/#3_initial_state_3d.png} \\ \hline
+\textit{State} akhir & \includegraphics[width=\linewidth]{gambar/pengujian/sa/#1/#3_final_state_3d.png} \\ \hline
+Nilai \textit{objective function} akhir & #4 \\ \hline
+Grafik \textit{objective function} terhadap iterasi & \includegraphics[width=\linewidth]{gambar/pengujian/sa/#1/#3_experiment.png} \\ \hline
+Grafik $e^{\Delta E/T}$ terhadap iterasi & Tercakup pada panel ke-4 grafik multi-panel di atas \\ \hline
+Frekuensi \textit{stuck} pada \textit{local optima} & #5 episode \\ \hline
+Durasi pencarian & #6 detik \\ \hline
+\akhirtabel
+}
 \newcommand{\percobaanGA}[3]{%
 \subsubsection{Test case #1 --- #2 --- Percobaan #3}
 \awaltabel
@@ -216,9 +229,15 @@ Durasi pencarian & \hasil{durasi (detik)} \\ \hline
 \percobaanStochasticGambar{tc10}{3}{run3_seed44}{83}{3.207028}{10.000}
 
 \section{Eksperimen Algoritma \textit{Simulated Annealing}}
-\tigaPercobaanSA{tc8}
-\tigaPercobaanSA{tc9}
-\tigaPercobaanSA{tc10}
+\percobaanSAGambar{tc8}{1}{run1_seed42}{103}{2}{0.332440}
+\percobaanSAGambar{tc8}{2}{run2_seed43}{103}{2}{0.338796}
+\percobaanSAGambar{tc8}{3}{run3_seed44}{103}{4}{0.337923}
+\percobaanSAGambar{tc9}{1}{run1_seed42}{103}{2}{1.752310}
+\percobaanSAGambar{tc9}{2}{run2_seed43}{110}{5}{1.432849}
+\percobaanSAGambar{tc9}{3}{run3_seed44}{103}{4}{1.663256}
+\percobaanSAGambar{tc10}{1}{run1_seed42}{87}{3}{0.407715}
+\percobaanSAGambar{tc10}{2}{run2_seed43}{87}{4}{0.469470}
+\percobaanSAGambar{tc10}{3}{run3_seed44}{84}{3}{0.475188}
 
 \section{Eksperimen Algoritma \textit{Genetic Algorithm}}
 
