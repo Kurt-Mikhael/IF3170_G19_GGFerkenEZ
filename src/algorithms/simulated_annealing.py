@@ -66,7 +66,7 @@ class SimulatedAnnealing:
             neighbour_value = evaluate(self.problem, neighbour)
             evals += 1
             delta = neighbour_value - current_value
-            exp_value = math.exp(delta / temperature) if delta <= 0 else None
+            exp_value = math.exp(min(delta / temperature, 700.0))
 
             if delta > 0:
                 # gerakan lebih baik selalu diterima (reference to materi kuliah AI BeyondClassicalSearch)

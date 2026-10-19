@@ -1,0 +1,282 @@
+{
+  "algorithm": "sideways",
+  "parameters": {
+    "maximum_sideways_move": 10
+  },
+  "initial_state": {
+    "placements": {
+      "base": {
+        "position": null,
+        "orientation": [
+          "x",
+          "y",
+          "z"
+        ]
+      },
+      "platform": {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "orientation": [
+          "x",
+          "z",
+          "y"
+        ]
+      },
+      "pillar": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "orientation": [
+          "z",
+          "x",
+          "y"
+        ]
+      },
+      "fragile_wide": {
+        "position": [
+          0,
+          0,
+          1
+        ],
+        "orientation": [
+          "y",
+          "x",
+          "z"
+        ]
+      },
+      "fragile_a": {
+        "position": [
+          1,
+          0,
+          0
+        ],
+        "orientation": [
+          "y",
+          "x",
+          "z"
+        ]
+      },
+      "fragile_b": {
+        "position": [
+          2,
+          0,
+          0
+        ],
+        "orientation": [
+          "z",
+          "x",
+          "y"
+        ]
+      },
+      "support_cube": {
+        "position": null,
+        "orientation": [
+          "x",
+          "y",
+          "z"
+        ]
+      },
+      "support_bar": {
+        "position": [
+          1,
+          1,
+          2
+        ],
+        "orientation": [
+          "x",
+          "z",
+          "y"
+        ]
+      }
+    }
+  },
+  "final_state": {
+    "placements": {
+      "base": {
+        "position": null,
+        "orientation": [
+          "x",
+          "y",
+          "z"
+        ]
+      },
+      "platform": {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "orientation": [
+          "x",
+          "z",
+          "y"
+        ]
+      },
+      "pillar": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "orientation": [
+          "x",
+          "z",
+          "y"
+        ]
+      },
+      "fragile_wide": {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "orientation": [
+          "z",
+          "x",
+          "y"
+        ]
+      },
+      "fragile_a": {
+        "position": [
+          1,
+          0,
+          0
+        ],
+        "orientation": [
+          "x",
+          "y",
+          "z"
+        ]
+      },
+      "fragile_b": {
+        "position": [
+          2,
+          0,
+          0
+        ],
+        "orientation": [
+          "z",
+          "y",
+          "x"
+        ]
+      },
+      "support_cube": {
+        "position": [
+          0,
+          0,
+          1
+        ],
+        "orientation": [
+          "z",
+          "y",
+          "x"
+        ]
+      },
+      "support_bar": {
+        "position": [
+          1,
+          1,
+          2
+        ],
+        "orientation": [
+          "x",
+          "z",
+          "y"
+        ]
+      }
+    }
+  },
+  "initial_value": 96,
+  "final_value": 101,
+  "iterations": 11,
+  "accepted_moves": 11,
+  "objective_evaluations": 267,
+  "duration_seconds": 0.09945309998875018,
+  "stop_reason": "sideways_limit_reached",
+  "history": [
+    {
+      "iteration": 0,
+      "current_value": 96,
+      "best_value": 96
+    },
+    {
+      "iteration": 1,
+      "current_value": 96,
+      "best_value": 96,
+      "sideways": true
+    },
+    {
+      "iteration": 2,
+      "current_value": 96,
+      "best_value": 96,
+      "sideways": true
+    },
+    {
+      "iteration": 3,
+      "current_value": 96,
+      "best_value": 96,
+      "sideways": true
+    },
+    {
+      "iteration": 4,
+      "current_value": 96,
+      "best_value": 96,
+      "sideways": true
+    },
+    {
+      "iteration": 5,
+      "current_value": 96,
+      "best_value": 96,
+      "sideways": true
+    },
+    {
+      "iteration": 6,
+      "current_value": 101,
+      "best_value": 101,
+      "sideways": false
+    },
+    {
+      "iteration": 7,
+      "current_value": 101,
+      "best_value": 101,
+      "sideways": true
+    },
+    {
+      "iteration": 8,
+      "current_value": 101,
+      "best_value": 101,
+      "sideways": true
+    },
+    {
+      "iteration": 9,
+      "current_value": 101,
+      "best_value": 101,
+      "sideways": true
+    },
+    {
+      "iteration": 10,
+      "current_value": 101,
+      "best_value": 101,
+      "sideways": true
+    },
+    {
+      "iteration": 11,
+      "current_value": 101,
+      "best_value": 101,
+      "sideways": true
+    }
+  ],
+  "extra": {
+    "maximum_sideways_move": 10,
+    "sideways_moves": 10
+  },
+  "total_duration_seconds": 0.10702340000716504,
+  "run_id": 3,
+  "seed": 44,
+  "input": "tc9"
+}

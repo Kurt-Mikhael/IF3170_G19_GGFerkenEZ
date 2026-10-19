@@ -1,0 +1,2900 @@
+{
+  "algorithm": "genetic_algorithm",
+  "parameters": {
+    "population_size": 20,
+    "iterations": 100
+  },
+  "initial_state": {
+    "placements": {
+      "rotate_bar": {
+        "position": null,
+        "orientation": [
+          "x",
+          "y",
+          "z"
+        ]
+      },
+      "rotate_panel": {
+        "position": null,
+        "orientation": [
+          "x",
+          "y",
+          "z"
+        ]
+      },
+      "block": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "orientation": [
+          "y",
+          "x",
+          "z"
+        ]
+      },
+      "fragile_bar": {
+        "position": [
+          1,
+          0,
+          1
+        ],
+        "orientation": [
+          "x",
+          "z",
+          "y"
+        ]
+      },
+      "fragile_cube": {
+        "position": [
+          2,
+          1,
+          0
+        ],
+        "orientation": [
+          "z",
+          "y",
+          "x"
+        ]
+      },
+      "small_a": {
+        "position": null,
+        "orientation": [
+          "x",
+          "y",
+          "z"
+        ]
+      },
+      "small_b": {
+        "position": null,
+        "orientation": [
+          "x",
+          "y",
+          "z"
+        ]
+      },
+      "dense_cube": {
+        "position": [
+          2,
+          0,
+          0
+        ],
+        "orientation": [
+          "z",
+          "y",
+          "x"
+        ]
+      },
+      "oversize": {
+        "position": null,
+        "orientation": [
+          "x",
+          "y",
+          "z"
+        ]
+      },
+      "overweight": {
+        "position": null,
+        "orientation": [
+          "x",
+          "y",
+          "z"
+        ]
+      }
+    }
+  },
+  "final_state": {
+    "placements": {
+      "rotate_bar": {
+        "position": [
+          0,
+          1,
+          0
+        ],
+        "orientation": [
+          "z",
+          "x",
+          "y"
+        ]
+      },
+      "rotate_panel": {
+        "position": null,
+        "orientation": [
+          "x",
+          "y",
+          "z"
+        ]
+      },
+      "block": {
+        "position": null,
+        "orientation": [
+          "y",
+          "x",
+          "z"
+        ]
+      },
+      "fragile_bar": {
+        "position": [
+          1,
+          0,
+          0
+        ],
+        "orientation": [
+          "z",
+          "y",
+          "x"
+        ]
+      },
+      "fragile_cube": {
+        "position": [
+          2,
+          0,
+          0
+        ],
+        "orientation": [
+          "z",
+          "y",
+          "x"
+        ]
+      },
+      "small_a": {
+        "position": null,
+        "orientation": [
+          "z",
+          "y",
+          "x"
+        ]
+      },
+      "small_b": {
+        "position": null,
+        "orientation": [
+          "z",
+          "y",
+          "x"
+        ]
+      },
+      "dense_cube": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "orientation": [
+          "z",
+          "y",
+          "x"
+        ]
+      },
+      "oversize": {
+        "position": null,
+        "orientation": [
+          "x",
+          "y",
+          "z"
+        ]
+      },
+      "overweight": {
+        "position": null,
+        "orientation": [
+          "x",
+          "y",
+          "z"
+        ]
+      }
+    }
+  },
+  "initial_value": 87,
+  "final_value": 92,
+  "iterations": 100,
+  "accepted_moves": 548,
+  "objective_evaluations": 2020,
+  "duration_seconds": 0.36104709999926854,
+  "stop_reason": "iteration_limit_reached",
+  "history": [
+    {
+      "iteration": 0,
+      "population_max": 87,
+      "population_mean": 77.9,
+      "best_so_far": 87
+    },
+    {
+      "iteration": 1,
+      "population_max": 82,
+      "population_mean": 63.0,
+      "best_so_far": 87
+    },
+    {
+      "iteration": 2,
+      "population_max": 83,
+      "population_mean": 65.65,
+      "best_so_far": 87
+    },
+    {
+      "iteration": 3,
+      "population_max": 83,
+      "population_mean": 69.75,
+      "best_so_far": 87
+    },
+    {
+      "iteration": 4,
+      "population_max": 87,
+      "population_mean": 68.3,
+      "best_so_far": 87
+    },
+    {
+      "iteration": 5,
+      "population_max": 92,
+      "population_mean": 64.7,
+      "best_so_far": 92
+    },
+    {
+      "iteration": 6,
+      "population_max": 82,
+      "population_mean": 61.4,
+      "best_so_far": 92
+    },
+    {
+      "iteration": 7,
+      "population_max": 92,
+      "population_mean": 66.25,
+      "best_so_far": 92
+    },
+    {
+      "iteration": 8,
+      "population_max": 92,
+      "population_mean": 66.1,
+      "best_so_far": 92
+    },
+    {
+      "iteration": 9,
+      "population_max": 82,
+      "population_mean": 69.55,
+      "best_so_far": 92
+    },
+    {
+      "iteration": 10,
+      "population_max": 87,
+      "population_mean": 71.25,
+      "best_so_far": 92
+    },
+    {
+      "iteration": 11,
+      "population_max": 87,
+      "population_mean": 71.5,
+      "best_so_far": 92
+    },
+    {
+      "iteration": 12,
+      "population_max": 82,
+      "population_mean": 74.6,
+      "best_so_far": 92
+    },
+    {
+      "iteration": 13,
+      "population_max": 82,
+      "population_mean": 73.35,
+      "best_so_far": 92
+    },
+    {
+      "iteration": 14,
+      "population_max": 82,
+      "population_mean": 74.75,
+      "best_so_far": 92
+    },
+    {
+      "iteration": 15,
+      "population_max": 82,
+      "population_mean": 70.55,
+      "best_so_far": 92
+    },
+    {
+      "iteration": 16,
+      "population_max": 82,
+      "population_mean": 68.25,
+      "best_so_far": 92
+    },
+    {
+      "iteration": 17,
+      "population_max": 82,
+      "population_mean": 65.9,
+      "best_so_far": 92
+    },
+    {
+      "iteration": 18,
+      "population_max": 82,
+      "population_mean": 62.1,
+      "best_so_far": 92
+    },
+    {
+      "iteration": 19,
+      "population_max": 82,
+      "population_mean": 67.55,
+      "best_so_far": 92
+    },
+    {
+      "iteration": 20,
+      "population_max": 82,
+      "population_mean": 72.4,
+      "best_so_far": 92
+    },
+    {
+      "iteration": 21,
+      "population_max": 82,
+      "population_mean": 74.15,
+      "best_so_far": 92
+    },
+    {
+      "iteration": 22,
+      "population_max": 83,
+      "population_mean": 72.6,
+      "best_so_far": 92
+    },
+    {
+      "iteration": 23,
+      "population_max": 83,
+      "population_mean": 73.85,
+      "best_so_far": 92
+    },
+    {
+      "iteration": 24,
+      "population_max": 82,
+      "population_mean": 74.1,
+      "best_so_far": 92
+    },
+    {
+      "iteration": 25,
+      "population_max": 82,
+      "population_mean": 79.6,
+      "best_so_far": 92
+    },
+    {
+      "iteration": 26,
+      "population_max": 82,
+      "population_mean": 82.0,
+      "best_so_far": 92
+    },
+    {
+      "iteration": 27,
+      "population_max": 82,
+      "population_mean": 82.0,
+      "best_so_far": 92
+    },
+    {
+      "iteration": 28,
+      "population_max": 82,
+      "population_mean": 82.0,
+      "best_so_far": 92
+    },
+    {
+      "iteration": 29,
+      "population_max": 82,
+      "population_mean": 79.3,
+      "best_so_far": 92
+    },
+    {
+      "iteration": 30,
+      "population_max": 82,
+      "population_mean": 80.8,
+      "best_so_far": 92
+    },
+    {
+      "iteration": 31,
+      "population_max": 82,
+      "population_mean": 80.45,
+      "best_so_far": 92
+    },
+    {
+      "iteration": 32,
+      "population_max": 82,
+      "population_mean": 80.5,
+      "best_so_far": 92
+    },
+    {
+      "iteration": 33,
+      "population_max": 82,
+      "population_mean": 81.35,
+      "best_so_far": 92
+    },
+    {
+      "iteration": 34,
+      "population_max": 82,
+      "population_mean": 82.0,
+      "best_so_far": 92
+    },
+    {
+      "iteration": 35,
+      "population_max": 82,
+      "population_mean": 80.5,
+      "best_so_far": 92
+    },
+    {
+      "iteration": 36,
+      "population_max": 82,
+      "population_mean": 82.0,
+      "best_so_far": 92
+    },
+    {
+      "iteration": 37,
+      "population_max": 82,
+      "population_mean": 82.0,
+      "best_so_far": 92
+    },
+    {
+      "iteration": 38,
+      "population_max": 82,
+      "population_mean": 82.0,
+      "best_so_far": 92
+    },
+    {
+      "iteration": 39,
+      "population_max": 82,
+      "population_mean": 81.65,
+      "best_so_far": 92
+    },
+    {
+      "iteration": 40,
+      "population_max": 82,
+      "population_mean": 81.6,
+      "best_so_far": 92
+    },
+    {
+      "iteration": 41,
+      "population_max": 82,
+      "population_mean": 81.25,
+      "best_so_far": 92
+    },
+    {
+      "iteration": 42,
+      "population_max": 82,
+      "population_mean": 80.4,
+      "best_so_far": 92
+    },
+    {
+      "iteration": 43,
+      "population_max": 82,
+      "population_mean": 81.2,
+      "best_so_far": 92
+    },
+    {
+      "iteration": 44,
+      "population_max": 82,
+      "population_mean": 78.9,
+      "best_so_far": 92
+    },
+    {
+      "iteration": 45,
+      "population_max": 82,
+      "population_mean": 78.85,
+      "best_so_far": 92
+    },
+    {
+      "iteration": 46,
+      "population_max": 82,
+      "population_mean": 75.85,
+      "best_so_far": 92
+    },
+    {
+      "iteration": 47,
+      "population_max": 82,
+      "population_mean": 75.55,
+      "best_so_far": 92
+    },
+    {
+      "iteration": 48,
+      "population_max": 82,
+      "population_mean": 75.2,
+      "best_so_far": 92
+    },
+    {
+      "iteration": 49,
+      "population_max": 82,
+      "population_mean": 77.05,
+      "best_so_far": 92
+    },
+    {
+      "iteration": 50,
+      "population_max": 82,
+      "population_mean": 78.5,
+      "best_so_far": 92
+    },
+    {
+      "iteration": 51,
+      "population_max": 82,
+      "population_mean": 80.05,
+      "best_so_far": 92
+    },
+    {
+      "iteration": 52,
+      "population_max": 82,
+      "population_mean": 77.7,
+      "best_so_far": 92
+    },
+    {
+      "iteration": 53,
+      "population_max": 82,
+      "population_mean": 76.5,
+      "best_so_far": 92
+    },
+    {
+      "iteration": 54,
+      "population_max": 82,
+      "population_mean": 78.2,
+      "best_so_far": 92
+    },
+    {
+      "iteration": 55,
+      "population_max": 82,
+      "population_mean": 76.85,
+      "best_so_far": 92
+    },
+    {
+      "iteration": 56,
+      "population_max": 82,
+      "population_mean": 77.85,
+      "best_so_far": 92
+    },
+    {
+      "iteration": 57,
+      "population_max": 82,
+      "population_mean": 79.05,
+      "best_so_far": 92
+    },
+    {
+      "iteration": 58,
+      "population_max": 82,
+      "population_mean": 79.4,
+      "best_so_far": 92
+    },
+    {
+      "iteration": 59,
+      "population_max": 82,
+      "population_mean": 81.65,
+      "best_so_far": 92
+    },
+    {
+      "iteration": 60,
+      "population_max": 82,
+      "population_mean": 80.1,
+      "best_so_far": 92
+    },
+    {
+      "iteration": 61,
+      "population_max": 82,
+      "population_mean": 80.1,
+      "best_so_far": 92
+    },
+    {
+      "iteration": 62,
+      "population_max": 82,
+      "population_mean": 80.45,
+      "best_so_far": 92
+    },
+    {
+      "iteration": 63,
+      "population_max": 82,
+      "population_mean": 80.45,
+      "best_so_far": 92
+    },
+    {
+      "iteration": 64,
+      "population_max": 82,
+      "population_mean": 79.4,
+      "best_so_far": 92
+    },
+    {
+      "iteration": 65,
+      "population_max": 82,
+      "population_mean": 79.25,
+      "best_so_far": 92
+    },
+    {
+      "iteration": 66,
+      "population_max": 82,
+      "population_mean": 79.85,
+      "best_so_far": 92
+    },
+    {
+      "iteration": 67,
+      "population_max": 82,
+      "population_mean": 80.5,
+      "best_so_far": 92
+    },
+    {
+      "iteration": 68,
+      "population_max": 82,
+      "population_mean": 79.0,
+      "best_so_far": 92
+    },
+    {
+      "iteration": 69,
+      "population_max": 82,
+      "population_mean": 82.0,
+      "best_so_far": 92
+    },
+    {
+      "iteration": 70,
+      "population_max": 82,
+      "population_mean": 82.0,
+      "best_so_far": 92
+    },
+    {
+      "iteration": 71,
+      "population_max": 82,
+      "population_mean": 79.55,
+      "best_so_far": 92
+    },
+    {
+      "iteration": 72,
+      "population_max": 82,
+      "population_mean": 76.8,
+      "best_so_far": 92
+    },
+    {
+      "iteration": 73,
+      "population_max": 82,
+      "population_mean": 74.45,
+      "best_so_far": 92
+    },
+    {
+      "iteration": 74,
+      "population_max": 82,
+      "population_mean": 72.8,
+      "best_so_far": 92
+    },
+    {
+      "iteration": 75,
+      "population_max": 82,
+      "population_mean": 77.45,
+      "best_so_far": 92
+    },
+    {
+      "iteration": 76,
+      "population_max": 82,
+      "population_mean": 77.75,
+      "best_so_far": 92
+    },
+    {
+      "iteration": 77,
+      "population_max": 82,
+      "population_mean": 76.9,
+      "best_so_far": 92
+    },
+    {
+      "iteration": 78,
+      "population_max": 82,
+      "population_mean": 77.75,
+      "best_so_far": 92
+    },
+    {
+      "iteration": 79,
+      "population_max": 82,
+      "population_mean": 76.1,
+      "best_so_far": 92
+    },
+    {
+      "iteration": 80,
+      "population_max": 82,
+      "population_mean": 77.5,
+      "best_so_far": 92
+    },
+    {
+      "iteration": 81,
+      "population_max": 82,
+      "population_mean": 78.8,
+      "best_so_far": 92
+    },
+    {
+      "iteration": 82,
+      "population_max": 82,
+      "population_mean": 79.65,
+      "best_so_far": 92
+    },
+    {
+      "iteration": 83,
+      "population_max": 82,
+      "population_mean": 76.45,
+      "best_so_far": 92
+    },
+    {
+      "iteration": 84,
+      "population_max": 82,
+      "population_mean": 76.25,
+      "best_so_far": 92
+    },
+    {
+      "iteration": 85,
+      "population_max": 82,
+      "population_mean": 74.05,
+      "best_so_far": 92
+    },
+    {
+      "iteration": 86,
+      "population_max": 82,
+      "population_mean": 77.45,
+      "best_so_far": 92
+    },
+    {
+      "iteration": 87,
+      "population_max": 82,
+      "population_mean": 73.75,
+      "best_so_far": 92
+    },
+    {
+      "iteration": 88,
+      "population_max": 82,
+      "population_mean": 76.2,
+      "best_so_far": 92
+    },
+    {
+      "iteration": 89,
+      "population_max": 82,
+      "population_mean": 73.6,
+      "best_so_far": 92
+    },
+    {
+      "iteration": 90,
+      "population_max": 82,
+      "population_mean": 72.8,
+      "best_so_far": 92
+    },
+    {
+      "iteration": 91,
+      "population_max": 82,
+      "population_mean": 70.7,
+      "best_so_far": 92
+    },
+    {
+      "iteration": 92,
+      "population_max": 82,
+      "population_mean": 69.65,
+      "best_so_far": 92
+    },
+    {
+      "iteration": 93,
+      "population_max": 82,
+      "population_mean": 71.85,
+      "best_so_far": 92
+    },
+    {
+      "iteration": 94,
+      "population_max": 82,
+      "population_mean": 72.4,
+      "best_so_far": 92
+    },
+    {
+      "iteration": 95,
+      "population_max": 82,
+      "population_mean": 73.35,
+      "best_so_far": 92
+    },
+    {
+      "iteration": 96,
+      "population_max": 82,
+      "population_mean": 69.9,
+      "best_so_far": 92
+    },
+    {
+      "iteration": 97,
+      "population_max": 82,
+      "population_mean": 69.4,
+      "best_so_far": 92
+    },
+    {
+      "iteration": 98,
+      "population_max": 82,
+      "population_mean": 74.25,
+      "best_so_far": 92
+    },
+    {
+      "iteration": 99,
+      "population_max": 82,
+      "population_mean": 70.7,
+      "best_so_far": 92
+    },
+    {
+      "iteration": 100,
+      "population_max": 82,
+      "population_mean": 73.35,
+      "best_so_far": 92
+    }
+  ],
+  "extra": {
+    "initial_state_selection": "best_individual_in_initial_population",
+    "initial_population": [
+      {
+        "placements": {
+          "rotate_bar": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "rotate_panel": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "block": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "fragile_bar": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "fragile_cube": {
+            "position": [
+              1,
+              1,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "small_a": {
+            "position": [
+              2,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "small_b": {
+            "position": [
+              2,
+              0,
+              1
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "dense_cube": {
+            "position": [
+              1,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "oversize": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "overweight": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "rotate_bar": {
+            "position": [
+              0,
+              0,
+              1
+            ],
+            "orientation": [
+              "z",
+              "x",
+              "y"
+            ]
+          },
+          "rotate_panel": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "block": {
+            "position": [
+              1,
+              1,
+              0
+            ],
+            "orientation": [
+              "z",
+              "x",
+              "y"
+            ]
+          },
+          "fragile_bar": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "fragile_cube": {
+            "position": [
+              0,
+              1,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "small_a": {
+            "position": [
+              1,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "small_b": {
+            "position": [
+              2,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "dense_cube": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "oversize": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "overweight": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "rotate_bar": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "rotate_panel": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "block": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "fragile_bar": {
+            "position": [
+              2,
+              1,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "fragile_cube": {
+            "position": [
+              2,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "small_a": {
+            "position": [
+              1,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "small_b": {
+            "position": [
+              1,
+              1,
+              1
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "dense_cube": {
+            "position": [
+              1,
+              1,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "oversize": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "overweight": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "rotate_bar": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "rotate_panel": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "block": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "y",
+              "x",
+              "z"
+            ]
+          },
+          "fragile_bar": {
+            "position": [
+              1,
+              0,
+              1
+            ],
+            "orientation": [
+              "x",
+              "z",
+              "y"
+            ]
+          },
+          "fragile_cube": {
+            "position": [
+              2,
+              1,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "small_a": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "small_b": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "dense_cube": {
+            "position": [
+              2,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "oversize": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "overweight": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "rotate_bar": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "rotate_panel": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "block": {
+            "position": [
+              1,
+              0,
+              0
+            ],
+            "orientation": [
+              "y",
+              "x",
+              "z"
+            ]
+          },
+          "fragile_bar": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "fragile_cube": {
+            "position": [
+              0,
+              0,
+              1
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "small_a": {
+            "position": [
+              1,
+              1,
+              1
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "small_b": {
+            "position": [
+              2,
+              0,
+              1
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "dense_cube": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "oversize": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "overweight": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "rotate_bar": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "rotate_panel": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "block": {
+            "position": [
+              2,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "fragile_bar": {
+            "position": [
+              1,
+              0,
+              0
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "fragile_cube": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "small_a": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "small_b": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "dense_cube": {
+            "position": [
+              0,
+              1,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "oversize": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "overweight": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "rotate_bar": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "rotate_panel": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "block": {
+            "position": [
+              2,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "fragile_bar": {
+            "position": [
+              1,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "fragile_cube": {
+            "position": [
+              1,
+              1,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "small_a": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "small_b": {
+            "position": [
+              0,
+              0,
+              1
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "dense_cube": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "oversize": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "overweight": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "rotate_bar": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "rotate_panel": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "block": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "fragile_bar": {
+            "position": [
+              0,
+              1,
+              1
+            ],
+            "orientation": [
+              "x",
+              "z",
+              "y"
+            ]
+          },
+          "fragile_cube": {
+            "position": [
+              1,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "small_a": {
+            "position": [
+              1,
+              1,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "small_b": {
+            "position": [
+              2,
+              1,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "dense_cube": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "oversize": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "overweight": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "rotate_bar": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "rotate_panel": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "block": {
+            "position": [
+              1,
+              1,
+              0
+            ],
+            "orientation": [
+              "z",
+              "x",
+              "y"
+            ]
+          },
+          "fragile_bar": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "fragile_cube": {
+            "position": [
+              2,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "small_a": {
+            "position": [
+              1,
+              0,
+              1
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "small_b": {
+            "position": [
+              1,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "dense_cube": {
+            "position": [
+              0,
+              1,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "oversize": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "overweight": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "rotate_bar": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "rotate_panel": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "block": {
+            "position": [
+              1,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "fragile_bar": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "fragile_cube": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "small_a": {
+            "position": [
+              2,
+              1,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "small_b": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "dense_cube": {
+            "position": [
+              2,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "oversize": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "overweight": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "rotate_bar": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "rotate_panel": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "block": {
+            "position": [
+              1,
+              1,
+              0
+            ],
+            "orientation": [
+              "z",
+              "x",
+              "y"
+            ]
+          },
+          "fragile_bar": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "fragile_cube": {
+            "position": [
+              0,
+              1,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "small_a": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "small_b": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "dense_cube": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "oversize": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "overweight": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "rotate_bar": {
+            "position": [
+              0,
+              1,
+              0
+            ],
+            "orientation": [
+              "z",
+              "x",
+              "y"
+            ]
+          },
+          "rotate_panel": {
+            "position": [
+              0,
+              0,
+              1
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "block": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "fragile_bar": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "fragile_cube": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "small_a": {
+            "position": [
+              2,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "small_b": {
+            "position": [
+              1,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "dense_cube": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "oversize": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "overweight": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "rotate_bar": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "rotate_panel": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "block": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "fragile_bar": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "fragile_cube": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "small_a": {
+            "position": [
+              2,
+              0,
+              1
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "small_b": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "dense_cube": {
+            "position": [
+              0,
+              1,
+              1
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "oversize": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "overweight": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "rotate_bar": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "rotate_panel": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "block": {
+            "position": [
+              1,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "fragile_bar": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "fragile_cube": {
+            "position": [
+              2,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "small_a": {
+            "position": [
+              2,
+              1,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "small_b": {
+            "position": [
+              2,
+              1,
+              1
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "dense_cube": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "oversize": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "overweight": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "rotate_bar": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "rotate_panel": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "block": {
+            "position": [
+              1,
+              0,
+              0
+            ],
+            "orientation": [
+              "y",
+              "x",
+              "z"
+            ]
+          },
+          "fragile_bar": {
+            "position": [
+              0,
+              1,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "fragile_cube": {
+            "position": [
+              2,
+              0,
+              1
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "small_a": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "small_b": {
+            "position": [
+              0,
+              0,
+              1
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "dense_cube": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "oversize": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "overweight": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "rotate_bar": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "rotate_panel": {
+            "position": [
+              0,
+              1,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "block": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "fragile_bar": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "fragile_cube": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "small_a": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "small_b": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "dense_cube": {
+            "position": [
+              1,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "oversize": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "overweight": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "rotate_bar": {
+            "position": [
+              0,
+              1,
+              1
+            ],
+            "orientation": [
+              "z",
+              "x",
+              "y"
+            ]
+          },
+          "rotate_panel": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "block": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "fragile_bar": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "x",
+              "z",
+              "y"
+            ]
+          },
+          "fragile_cube": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "small_a": {
+            "position": [
+              2,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "small_b": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "dense_cube": {
+            "position": [
+              1,
+              1,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "oversize": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "overweight": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "rotate_bar": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "rotate_panel": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "block": {
+            "position": [
+              0,
+              0,
+              1
+            ],
+            "orientation": [
+              "y",
+              "x",
+              "z"
+            ]
+          },
+          "fragile_bar": {
+            "position": [
+              2,
+              1,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "fragile_cube": {
+            "position": [
+              2,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "small_a": {
+            "position": [
+              1,
+              1,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "small_b": {
+            "position": [
+              1,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "dense_cube": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "oversize": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "overweight": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "rotate_bar": {
+            "position": [
+              0,
+              1,
+              0
+            ],
+            "orientation": [
+              "z",
+              "x",
+              "y"
+            ]
+          },
+          "rotate_panel": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "block": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "fragile_bar": {
+            "position": [
+              0,
+              0,
+              1
+            ],
+            "orientation": [
+              "x",
+              "z",
+              "y"
+            ]
+          },
+          "fragile_cube": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "small_a": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "small_b": {
+            "position": [
+              0,
+              1,
+              1
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "dense_cube": {
+            "position": [
+              1,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "oversize": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "overweight": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "rotate_bar": {
+            "position": [
+              0,
+              1,
+              0
+            ],
+            "orientation": [
+              "z",
+              "x",
+              "y"
+            ]
+          },
+          "rotate_panel": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "block": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "fragile_bar": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "fragile_cube": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "small_a": {
+            "position": [
+              2,
+              1,
+              1
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "small_b": {
+            "position": [
+              0,
+              1,
+              1
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "dense_cube": {
+            "position": [
+              1,
+              1,
+              1
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "oversize": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "overweight": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          }
+        }
+      }
+    ],
+    "final_population_fitness": [
+      74,
+      74,
+      50,
+      82,
+      74,
+      82,
+      82,
+      82,
+      61,
+      82,
+      67,
+      74,
+      74,
+      74,
+      70,
+      74,
+      74,
+      82,
+      61,
+      74
+    ],
+    "best_generation": 5,
+    "crossovers": 1577,
+    "mutation_calls": 620,
+    "accepted_mutations": 548,
+    "settings": {
+      "selection": "roulette_wheel_with_replacement",
+      "crossover_probability": 0.8,
+      "mutation_probability": 0.3,
+      "elitism": false,
+      "repair_attempts": 20,
+      "mutation_attempts": 10
+    }
+  },
+  "total_duration_seconds": 0.36150220000126865,
+  "run_id": 3,
+  "seed": 44,
+  "input": "tc10",
+  "experiment_series": [
+    "vary_population"
+  ]
+}

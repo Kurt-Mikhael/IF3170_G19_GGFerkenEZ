@@ -1,0 +1,2236 @@
+{
+  "algorithm": "genetic_algorithm",
+  "parameters": {
+    "population_size": 20,
+    "iterations": 100
+  },
+  "initial_state": {
+    "placements": {
+      "slab": {
+        "position": [
+          0,
+          2,
+          0
+        ],
+        "orientation": [
+          "z",
+          "x",
+          "y"
+        ]
+      },
+      "short_bar": {
+        "position": [
+          2,
+          0,
+          1
+        ],
+        "orientation": [
+          "y",
+          "z",
+          "x"
+        ]
+      },
+      "tall_box": {
+        "position": null,
+        "orientation": [
+          "x",
+          "y",
+          "z"
+        ]
+      },
+      "long_bar": {
+        "position": [
+          2,
+          0,
+          0
+        ],
+        "orientation": [
+          "y",
+          "z",
+          "x"
+        ]
+      },
+      "small_cube": {
+        "position": [
+          2,
+          2,
+          1
+        ],
+        "orientation": [
+          "z",
+          "y",
+          "x"
+        ]
+      },
+      "large_cube": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "orientation": [
+          "z",
+          "y",
+          "x"
+        ]
+      }
+    }
+  },
+  "final_state": {
+    "placements": {
+      "slab": {
+        "position": [
+          0,
+          2,
+          0
+        ],
+        "orientation": [
+          "z",
+          "x",
+          "y"
+        ]
+      },
+      "short_bar": {
+        "position": [
+          2,
+          0,
+          1
+        ],
+        "orientation": [
+          "y",
+          "z",
+          "x"
+        ]
+      },
+      "tall_box": {
+        "position": null,
+        "orientation": [
+          "x",
+          "y",
+          "z"
+        ]
+      },
+      "long_bar": {
+        "position": [
+          2,
+          0,
+          0
+        ],
+        "orientation": [
+          "y",
+          "z",
+          "x"
+        ]
+      },
+      "small_cube": {
+        "position": [
+          2,
+          2,
+          1
+        ],
+        "orientation": [
+          "z",
+          "y",
+          "x"
+        ]
+      },
+      "large_cube": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "orientation": [
+          "z",
+          "y",
+          "x"
+        ]
+      }
+    }
+  },
+  "initial_value": 78,
+  "final_value": 78,
+  "iterations": 100,
+  "accepted_moves": 390,
+  "objective_evaluations": 2020,
+  "duration_seconds": 0.2772391000034986,
+  "stop_reason": "iteration_limit_reached",
+  "history": [
+    {
+      "iteration": 0,
+      "population_max": 78,
+      "population_mean": 69.7,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 1,
+      "population_max": 78,
+      "population_mean": 59.15,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 2,
+      "population_max": 69,
+      "population_mean": 55.35,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 3,
+      "population_max": 69,
+      "population_mean": 48.25,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 4,
+      "population_max": 69,
+      "population_mean": 49.05,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 5,
+      "population_max": 56,
+      "population_mean": 42.2,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 6,
+      "population_max": 58,
+      "population_mean": 41.1,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 7,
+      "population_max": 56,
+      "population_mean": 40.4,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 8,
+      "population_max": 56,
+      "population_mean": 44.45,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 9,
+      "population_max": 56,
+      "population_mean": 45.75,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 10,
+      "population_max": 56,
+      "population_mean": 48.15,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 11,
+      "population_max": 69,
+      "population_mean": 46.85,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 12,
+      "population_max": 69,
+      "population_mean": 46.85,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 13,
+      "population_max": 69,
+      "population_mean": 48.7,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 14,
+      "population_max": 69,
+      "population_mean": 48.2,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 15,
+      "population_max": 69,
+      "population_mean": 52.25,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 16,
+      "population_max": 69,
+      "population_mean": 53.3,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 17,
+      "population_max": 69,
+      "population_mean": 51.85,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 18,
+      "population_max": 69,
+      "population_mean": 54.95,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 19,
+      "population_max": 69,
+      "population_mean": 53.85,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 20,
+      "population_max": 69,
+      "population_mean": 50.5,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 21,
+      "population_max": 69,
+      "population_mean": 53.35,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 22,
+      "population_max": 69,
+      "population_mean": 51.9,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 23,
+      "population_max": 69,
+      "population_mean": 54.6,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 24,
+      "population_max": 69,
+      "population_mean": 54.55,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 25,
+      "population_max": 69,
+      "population_mean": 57.55,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 26,
+      "population_max": 69,
+      "population_mean": 57.35,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 27,
+      "population_max": 69,
+      "population_mean": 56.45,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 28,
+      "population_max": 69,
+      "population_mean": 54.4,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 29,
+      "population_max": 69,
+      "population_mean": 57.65,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 30,
+      "population_max": 69,
+      "population_mean": 57.8,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 31,
+      "population_max": 69,
+      "population_mean": 60.55,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 32,
+      "population_max": 69,
+      "population_mean": 63.5,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 33,
+      "population_max": 69,
+      "population_mean": 65.75,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 34,
+      "population_max": 69,
+      "population_mean": 65.1,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 35,
+      "population_max": 69,
+      "population_mean": 67.55,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 36,
+      "population_max": 69,
+      "population_mean": 67.1,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 37,
+      "population_max": 69,
+      "population_mean": 67.2,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 38,
+      "population_max": 69,
+      "population_mean": 65.8,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 39,
+      "population_max": 69,
+      "population_mean": 64.75,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 40,
+      "population_max": 69,
+      "population_mean": 63.7,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 41,
+      "population_max": 69,
+      "population_mean": 62.2,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 42,
+      "population_max": 69,
+      "population_mean": 60.1,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 43,
+      "population_max": 69,
+      "population_mean": 63.45,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 44,
+      "population_max": 69,
+      "population_mean": 62.65,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 45,
+      "population_max": 69,
+      "population_mean": 61.65,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 46,
+      "population_max": 69,
+      "population_mean": 63.45,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 47,
+      "population_max": 69,
+      "population_mean": 62.9,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 48,
+      "population_max": 69,
+      "population_mean": 67.45,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 49,
+      "population_max": 69,
+      "population_mean": 66.7,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 50,
+      "population_max": 69,
+      "population_mean": 65.45,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 51,
+      "population_max": 69,
+      "population_mean": 66.0,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 52,
+      "population_max": 69,
+      "population_mean": 63.5,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 53,
+      "population_max": 69,
+      "population_mean": 61.7,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 54,
+      "population_max": 69,
+      "population_mean": 60.8,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 55,
+      "population_max": 69,
+      "population_mean": 61.65,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 56,
+      "population_max": 69,
+      "population_mean": 66.2,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 57,
+      "population_max": 69,
+      "population_mean": 66.3,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 58,
+      "population_max": 69,
+      "population_mean": 64.75,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 59,
+      "population_max": 69,
+      "population_mean": 65.25,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 60,
+      "population_max": 69,
+      "population_mean": 62.15,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 61,
+      "population_max": 69,
+      "population_mean": 61.8,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 62,
+      "population_max": 69,
+      "population_mean": 62.5,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 63,
+      "population_max": 69,
+      "population_mean": 63.6,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 64,
+      "population_max": 69,
+      "population_mean": 62.75,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 65,
+      "population_max": 69,
+      "population_mean": 65.85,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 66,
+      "population_max": 69,
+      "population_mean": 61.8,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 67,
+      "population_max": 69,
+      "population_mean": 62.35,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 68,
+      "population_max": 69,
+      "population_mean": 59.65,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 69,
+      "population_max": 69,
+      "population_mean": 59.65,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 70,
+      "population_max": 69,
+      "population_mean": 58.85,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 71,
+      "population_max": 69,
+      "population_mean": 58.8,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 72,
+      "population_max": 69,
+      "population_mean": 58.15,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 73,
+      "population_max": 69,
+      "population_mean": 55.45,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 74,
+      "population_max": 69,
+      "population_mean": 58.7,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 75,
+      "population_max": 69,
+      "population_mean": 59.9,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 76,
+      "population_max": 69,
+      "population_mean": 58.45,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 77,
+      "population_max": 69,
+      "population_mean": 59.35,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 78,
+      "population_max": 69,
+      "population_mean": 59.2,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 79,
+      "population_max": 69,
+      "population_mean": 60.55,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 80,
+      "population_max": 69,
+      "population_mean": 60.45,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 81,
+      "population_max": 69,
+      "population_mean": 62.6,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 82,
+      "population_max": 69,
+      "population_mean": 60.9,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 83,
+      "population_max": 69,
+      "population_mean": 60.9,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 84,
+      "population_max": 69,
+      "population_mean": 61.25,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 85,
+      "population_max": 69,
+      "population_mean": 58.55,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 86,
+      "population_max": 69,
+      "population_mean": 61.6,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 87,
+      "population_max": 69,
+      "population_mean": 61.9,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 88,
+      "population_max": 69,
+      "population_mean": 59.5,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 89,
+      "population_max": 69,
+      "population_mean": 57.5,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 90,
+      "population_max": 69,
+      "population_mean": 58.15,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 91,
+      "population_max": 69,
+      "population_mean": 59.3,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 92,
+      "population_max": 69,
+      "population_mean": 58.45,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 93,
+      "population_max": 69,
+      "population_mean": 56.95,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 94,
+      "population_max": 69,
+      "population_mean": 57.5,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 95,
+      "population_max": 69,
+      "population_mean": 53.0,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 96,
+      "population_max": 69,
+      "population_mean": 56.9,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 97,
+      "population_max": 69,
+      "population_mean": 58.55,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 98,
+      "population_max": 69,
+      "population_mean": 57.15,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 99,
+      "population_max": 69,
+      "population_mean": 61.95,
+      "best_so_far": 78
+    },
+    {
+      "iteration": 100,
+      "population_max": 69,
+      "population_mean": 58.5,
+      "best_so_far": 78
+    }
+  ],
+  "extra": {
+    "initial_state_selection": "best_individual_in_initial_population",
+    "initial_population": [
+      {
+        "placements": {
+          "slab": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "short_bar": {
+            "position": [
+              0,
+              1,
+              0
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "tall_box": {
+            "position": [
+              1,
+              0,
+              0
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "long_bar": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "small_cube": {
+            "position": [
+              0,
+              1,
+              1
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "large_cube": {
+            "position": [
+              1,
+              1,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "slab": {
+            "position": [
+              1,
+              1,
+              1
+            ],
+            "orientation": [
+              "y",
+              "x",
+              "z"
+            ]
+          },
+          "short_bar": {
+            "position": [
+              1,
+              2,
+              0
+            ],
+            "orientation": [
+              "x",
+              "z",
+              "y"
+            ]
+          },
+          "tall_box": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "long_bar": {
+            "position": [
+              0,
+              1,
+              0
+            ],
+            "orientation": [
+              "x",
+              "z",
+              "y"
+            ]
+          },
+          "small_cube": {
+            "position": [
+              2,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "large_cube": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "slab": {
+            "position": [
+              1,
+              1,
+              0
+            ],
+            "orientation": [
+              "y",
+              "x",
+              "z"
+            ]
+          },
+          "short_bar": {
+            "position": [
+              1,
+              0,
+              0
+            ],
+            "orientation": [
+              "x",
+              "z",
+              "y"
+            ]
+          },
+          "tall_box": {
+            "position": [
+              1,
+              0,
+              1
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "long_bar": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "small_cube": {
+            "position": [
+              2,
+              2,
+              1
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "large_cube": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "slab": {
+            "position": [
+              2,
+              1,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "short_bar": {
+            "position": [
+              0,
+              1,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "tall_box": {
+            "position": [
+              1,
+              1,
+              0
+            ],
+            "orientation": [
+              "x",
+              "z",
+              "y"
+            ]
+          },
+          "long_bar": {
+            "position": [
+              0,
+              0,
+              1
+            ],
+            "orientation": [
+              "x",
+              "z",
+              "y"
+            ]
+          },
+          "small_cube": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "large_cube": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "slab": {
+            "position": [
+              1,
+              1,
+              0
+            ],
+            "orientation": [
+              "y",
+              "x",
+              "z"
+            ]
+          },
+          "short_bar": {
+            "position": [
+              0,
+              1,
+              0
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "tall_box": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "long_bar": {
+            "position": [
+              0,
+              2,
+              1
+            ],
+            "orientation": [
+              "x",
+              "z",
+              "y"
+            ]
+          },
+          "small_cube": {
+            "position": [
+              2,
+              1,
+              1
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "large_cube": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "slab": {
+            "position": [
+              1,
+              0,
+              1
+            ],
+            "orientation": [
+              "y",
+              "x",
+              "z"
+            ]
+          },
+          "short_bar": {
+            "position": [
+              0,
+              0,
+              1
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "tall_box": {
+            "position": [
+              1,
+              2,
+              0
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "long_bar": {
+            "position": [
+              0,
+              1,
+              0
+            ],
+            "orientation": [
+              "x",
+              "z",
+              "y"
+            ]
+          },
+          "small_cube": {
+            "position": [
+              2,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "large_cube": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "slab": {
+            "position": [
+              1,
+              0,
+              1
+            ],
+            "orientation": [
+              "y",
+              "x",
+              "z"
+            ]
+          },
+          "short_bar": {
+            "position": [
+              1,
+              2,
+              0
+            ],
+            "orientation": [
+              "x",
+              "z",
+              "y"
+            ]
+          },
+          "tall_box": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "x",
+              "z",
+              "y"
+            ]
+          },
+          "long_bar": {
+            "position": [
+              0,
+              2,
+              1
+            ],
+            "orientation": [
+              "x",
+              "z",
+              "y"
+            ]
+          },
+          "small_cube": {
+            "position": [
+              2,
+              1,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "large_cube": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "slab": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "short_bar": {
+            "position": [
+              1,
+              0,
+              0
+            ],
+            "orientation": [
+              "x",
+              "z",
+              "y"
+            ]
+          },
+          "tall_box": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "long_bar": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "small_cube": {
+            "position": [
+              0,
+              2,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "large_cube": {
+            "position": [
+              1,
+              1,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "slab": {
+            "position": [
+              1,
+              0,
+              0
+            ],
+            "orientation": [
+              "y",
+              "x",
+              "z"
+            ]
+          },
+          "short_bar": {
+            "position": [
+              1,
+              1,
+              1
+            ],
+            "orientation": [
+              "x",
+              "z",
+              "y"
+            ]
+          },
+          "tall_box": {
+            "position": [
+              1,
+              2,
+              0
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "long_bar": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "small_cube": {
+            "position": [
+              2,
+              0,
+              1
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "large_cube": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "slab": {
+            "position": [
+              0,
+              1,
+              1
+            ],
+            "orientation": [
+              "y",
+              "x",
+              "z"
+            ]
+          },
+          "short_bar": {
+            "position": [
+              1,
+              0,
+              1
+            ],
+            "orientation": [
+              "x",
+              "z",
+              "y"
+            ]
+          },
+          "tall_box": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "long_bar": {
+            "position": [
+              2,
+              0,
+              0
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "small_cube": {
+            "position": [
+              0,
+              2,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "large_cube": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "slab": {
+            "position": [
+              2,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "short_bar": {
+            "position": [
+              0,
+              1,
+              1
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "tall_box": {
+            "position": [
+              1,
+              0,
+              0
+            ],
+            "orientation": [
+              "x",
+              "z",
+              "y"
+            ]
+          },
+          "long_bar": {
+            "position": [
+              0,
+              2,
+              0
+            ],
+            "orientation": [
+              "x",
+              "z",
+              "y"
+            ]
+          },
+          "small_cube": {
+            "position": [
+              0,
+              1,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "large_cube": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "slab": {
+            "position": [
+              0,
+              2,
+              0
+            ],
+            "orientation": [
+              "z",
+              "x",
+              "y"
+            ]
+          },
+          "short_bar": {
+            "position": [
+              2,
+              0,
+              1
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "tall_box": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "long_bar": {
+            "position": [
+              2,
+              0,
+              0
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "small_cube": {
+            "position": [
+              2,
+              2,
+              1
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "large_cube": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "slab": {
+            "position": [
+              2,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "short_bar": {
+            "position": [
+              2,
+              2,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "tall_box": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "long_bar": {
+            "position": [
+              0,
+              0,
+              1
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "small_cube": {
+            "position": [
+              0,
+              2,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "large_cube": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "slab": {
+            "position": [
+              1,
+              2,
+              0
+            ],
+            "orientation": [
+              "z",
+              "x",
+              "y"
+            ]
+          },
+          "short_bar": {
+            "position": [
+              0,
+              0,
+              1
+            ],
+            "orientation": [
+              "x",
+              "z",
+              "y"
+            ]
+          },
+          "tall_box": {
+            "position": [
+              0,
+              1,
+              0
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "long_bar": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "x",
+              "z",
+              "y"
+            ]
+          },
+          "small_cube": {
+            "position": [
+              2,
+              1,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "large_cube": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "slab": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "short_bar": {
+            "position": [
+              2,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "tall_box": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "long_bar": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "small_cube": {
+            "position": [
+              0,
+              2,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "large_cube": {
+            "position": [
+              1,
+              1,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "slab": {
+            "position": [
+              1,
+              1,
+              1
+            ],
+            "orientation": [
+              "y",
+              "x",
+              "z"
+            ]
+          },
+          "short_bar": {
+            "position": [
+              1,
+              0,
+              1
+            ],
+            "orientation": [
+              "x",
+              "z",
+              "y"
+            ]
+          },
+          "tall_box": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "long_bar": {
+            "position": [
+              0,
+              2,
+              0
+            ],
+            "orientation": [
+              "x",
+              "z",
+              "y"
+            ]
+          },
+          "small_cube": {
+            "position": [
+              0,
+              1,
+              1
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "large_cube": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "slab": {
+            "position": [
+              1,
+              1,
+              1
+            ],
+            "orientation": [
+              "y",
+              "x",
+              "z"
+            ]
+          },
+          "short_bar": {
+            "position": [
+              0,
+              0,
+              1
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "tall_box": {
+            "position": [
+              1,
+              0,
+              0
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "long_bar": {
+            "position": [
+              0,
+              1,
+              0
+            ],
+            "orientation": [
+              "x",
+              "z",
+              "y"
+            ]
+          },
+          "small_cube": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "large_cube": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "slab": {
+            "position": [
+              0,
+              1,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "short_bar": {
+            "position": [
+              0,
+              0,
+              1
+            ],
+            "orientation": [
+              "x",
+              "z",
+              "y"
+            ]
+          },
+          "tall_box": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "long_bar": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "x",
+              "z",
+              "y"
+            ]
+          },
+          "small_cube": {
+            "position": [
+              2,
+              0,
+              1
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "large_cube": {
+            "position": [
+              1,
+              1,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "slab": {
+            "position": [
+              0,
+              0,
+              1
+            ],
+            "orientation": [
+              "y",
+              "x",
+              "z"
+            ]
+          },
+          "short_bar": {
+            "position": [
+              0,
+              1,
+              0
+            ],
+            "orientation": [
+              "x",
+              "z",
+              "y"
+            ]
+          },
+          "tall_box": {
+            "position": [
+              0,
+              2,
+              0
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "long_bar": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "x",
+              "z",
+              "y"
+            ]
+          },
+          "small_cube": {
+            "position": [
+              2,
+              0,
+              1
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "large_cube": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "slab": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "short_bar": {
+            "position": [
+              0,
+              1,
+              0
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "tall_box": {
+            "position": [
+              1,
+              2,
+              0
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "long_bar": {
+            "position": [
+              0,
+              0,
+              1
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "small_cube": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "large_cube": {
+            "position": [
+              1,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          }
+        }
+      }
+    ],
+    "final_population_fitness": [
+      58,
+      69,
+      58,
+      69,
+      69,
+      40,
+      62,
+      49,
+      69,
+      51,
+      40,
+      69,
+      69,
+      69,
+      58,
+      69,
+      51,
+      69,
+      51,
+      31
+    ],
+    "best_generation": 0,
+    "crossovers": 1564,
+    "mutation_calls": 577,
+    "accepted_mutations": 390,
+    "settings": {
+      "selection": "roulette_wheel_with_replacement",
+      "crossover_probability": 0.8,
+      "mutation_probability": 0.3,
+      "elitism": false,
+      "repair_attempts": 20,
+      "mutation_attempts": 10
+    }
+  },
+  "total_duration_seconds": 0.27743630000622943,
+  "run_id": 3,
+  "seed": 44,
+  "input": "tc7",
+  "experiment_series": [
+    "vary_population"
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "algorithm": "steepest_ascent",
+  "parameters": {},
+  "initial_state": {
+    "placements": {
+      "A": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "orientation": [
+          "z",
+          "x",
+          "y"
+        ]
+      },
+      "B": {
+        "position": [
+          1,
+          0,
+          0
+        ],
+        "orientation": [
+          "z",
+          "x",
+          "y"
+        ]
+      }
+    }
+  },
+  "final_state": {
+    "placements": {
+      "A": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "orientation": [
+          "z",
+          "x",
+          "y"
+        ]
+      },
+      "B": {
+        "position": [
+          1,
+          0,
+          0
+        ],
+        "orientation": [
+          "z",
+          "x",
+          "y"
+        ]
+      }
+    }
+  },
+  "initial_value": 30,
+  "final_value": 30,
+  "iterations": 1,
+  "accepted_moves": 0,
+  "objective_evaluations": 8,
+  "duration_seconds": 0.0002941999991890043,
+  "stop_reason": "no_improving_neighbor",
+  "history": [
+    {
+      "iteration": 0,
+      "current_value": 30,
+      "best_value": 30
+    },
+    {
+      "iteration": 1,
+      "current_value": 30,
+      "best_value": 30
+    }
+  ],
+  "extra": {},
+  "total_duration_seconds": 0.0005031000036979094,
+  "run_id": 1,
+  "seed": 42,
+  "input": "tc2"
+}

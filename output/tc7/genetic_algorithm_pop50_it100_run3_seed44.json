@@ -1,0 +1,4383 @@
+{
+  "algorithm": "genetic_algorithm",
+  "parameters": {
+    "population_size": 50,
+    "iterations": 100
+  },
+  "initial_state": {
+    "placements": {
+      "slab": {
+        "position": null,
+        "orientation": [
+          "x",
+          "y",
+          "z"
+        ]
+      },
+      "short_bar": {
+        "position": [
+          1,
+          0,
+          1
+        ],
+        "orientation": [
+          "x",
+          "z",
+          "y"
+        ]
+      },
+      "tall_box": {
+        "position": [
+          2,
+          1,
+          0
+        ],
+        "orientation": [
+          "x",
+          "z",
+          "y"
+        ]
+      },
+      "long_bar": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "orientation": [
+          "x",
+          "z",
+          "y"
+        ]
+      },
+      "small_cube": {
+        "position": [
+          0,
+          0,
+          1
+        ],
+        "orientation": [
+          "z",
+          "y",
+          "x"
+        ]
+      },
+      "large_cube": {
+        "position": [
+          0,
+          1,
+          0
+        ],
+        "orientation": [
+          "z",
+          "y",
+          "x"
+        ]
+      }
+    }
+  },
+  "final_state": {
+    "placements": {
+      "slab": {
+        "position": null,
+        "orientation": [
+          "x",
+          "y",
+          "z"
+        ]
+      },
+      "short_bar": {
+        "position": [
+          1,
+          0,
+          1
+        ],
+        "orientation": [
+          "x",
+          "z",
+          "y"
+        ]
+      },
+      "tall_box": {
+        "position": [
+          2,
+          1,
+          0
+        ],
+        "orientation": [
+          "x",
+          "z",
+          "y"
+        ]
+      },
+      "long_bar": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "orientation": [
+          "x",
+          "z",
+          "y"
+        ]
+      },
+      "small_cube": {
+        "position": [
+          0,
+          0,
+          1
+        ],
+        "orientation": [
+          "z",
+          "y",
+          "x"
+        ]
+      },
+      "large_cube": {
+        "position": [
+          0,
+          1,
+          0
+        ],
+        "orientation": [
+          "z",
+          "y",
+          "x"
+        ]
+      }
+    }
+  },
+  "initial_value": 80,
+  "final_value": 80,
+  "iterations": 100,
+  "accepted_moves": 1329,
+  "objective_evaluations": 5050,
+  "duration_seconds": 0.5971416000102181,
+  "stop_reason": "iteration_limit_reached",
+  "history": [
+    {
+      "iteration": 0,
+      "population_max": 80,
+      "population_mean": 68.82,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 1,
+      "population_max": 78,
+      "population_mean": 60.66,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 2,
+      "population_max": 69,
+      "population_mean": 56.1,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 3,
+      "population_max": 69,
+      "population_mean": 50.94,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 4,
+      "population_max": 69,
+      "population_mean": 45.14,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 5,
+      "population_max": 74,
+      "population_mean": 44.9,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 6,
+      "population_max": 73,
+      "population_mean": 47.06,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 7,
+      "population_max": 73,
+      "population_mean": 44.86,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 8,
+      "population_max": 73,
+      "population_mean": 46.08,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 9,
+      "population_max": 74,
+      "population_mean": 46.86,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 10,
+      "population_max": 74,
+      "population_mean": 47.88,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 11,
+      "population_max": 74,
+      "population_mean": 47.32,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 12,
+      "population_max": 74,
+      "population_mean": 50.88,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 13,
+      "population_max": 74,
+      "population_mean": 48.62,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 14,
+      "population_max": 74,
+      "population_mean": 47.18,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 15,
+      "population_max": 74,
+      "population_mean": 47.7,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 16,
+      "population_max": 74,
+      "population_mean": 51.52,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 17,
+      "population_max": 78,
+      "population_mean": 53.8,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 18,
+      "population_max": 74,
+      "population_mean": 51.16,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 19,
+      "population_max": 74,
+      "population_mean": 49.48,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 20,
+      "population_max": 74,
+      "population_mean": 49.14,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 21,
+      "population_max": 74,
+      "population_mean": 46.6,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 22,
+      "population_max": 78,
+      "population_mean": 48.14,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 23,
+      "population_max": 74,
+      "population_mean": 49.86,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 24,
+      "population_max": 74,
+      "population_mean": 50.34,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 25,
+      "population_max": 74,
+      "population_mean": 48.1,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 26,
+      "population_max": 78,
+      "population_mean": 45.5,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 27,
+      "population_max": 78,
+      "population_mean": 47.38,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 28,
+      "population_max": 78,
+      "population_mean": 47.76,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 29,
+      "population_max": 78,
+      "population_mean": 50.48,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 30,
+      "population_max": 78,
+      "population_mean": 49.82,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 31,
+      "population_max": 78,
+      "population_mean": 50.64,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 32,
+      "population_max": 67,
+      "population_mean": 48.26,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 33,
+      "population_max": 74,
+      "population_mean": 46.66,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 34,
+      "population_max": 78,
+      "population_mean": 47.84,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 35,
+      "population_max": 74,
+      "population_mean": 43.74,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 36,
+      "population_max": 74,
+      "population_mean": 45.8,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 37,
+      "population_max": 65,
+      "population_mean": 42.78,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 38,
+      "population_max": 74,
+      "population_mean": 44.54,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 39,
+      "population_max": 74,
+      "population_mean": 46.0,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 40,
+      "population_max": 74,
+      "population_mean": 44.32,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 41,
+      "population_max": 74,
+      "population_mean": 45.84,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 42,
+      "population_max": 74,
+      "population_mean": 50.18,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 43,
+      "population_max": 69,
+      "population_mean": 49.32,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 44,
+      "population_max": 74,
+      "population_mean": 49.08,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 45,
+      "population_max": 74,
+      "population_mean": 47.82,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 46,
+      "population_max": 74,
+      "population_mean": 49.32,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 47,
+      "population_max": 74,
+      "population_mean": 47.04,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 48,
+      "population_max": 74,
+      "population_mean": 43.96,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 49,
+      "population_max": 74,
+      "population_mean": 46.32,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 50,
+      "population_max": 74,
+      "population_mean": 48.76,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 51,
+      "population_max": 74,
+      "population_mean": 49.26,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 52,
+      "population_max": 74,
+      "population_mean": 50.16,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 53,
+      "population_max": 78,
+      "population_mean": 48.58,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 54,
+      "population_max": 78,
+      "population_mean": 53.08,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 55,
+      "population_max": 78,
+      "population_mean": 52.72,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 56,
+      "population_max": 78,
+      "population_mean": 54.04,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 57,
+      "population_max": 78,
+      "population_mean": 55.72,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 58,
+      "population_max": 74,
+      "population_mean": 54.6,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 59,
+      "population_max": 74,
+      "population_mean": 53.3,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 60,
+      "population_max": 74,
+      "population_mean": 54.42,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 61,
+      "population_max": 78,
+      "population_mean": 54.46,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 62,
+      "population_max": 78,
+      "population_mean": 54.84,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 63,
+      "population_max": 74,
+      "population_mean": 51.22,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 64,
+      "population_max": 74,
+      "population_mean": 52.92,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 65,
+      "population_max": 78,
+      "population_mean": 54.5,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 66,
+      "population_max": 78,
+      "population_mean": 54.14,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 67,
+      "population_max": 74,
+      "population_mean": 51.58,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 68,
+      "population_max": 74,
+      "population_mean": 48.56,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 69,
+      "population_max": 74,
+      "population_mean": 48.36,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 70,
+      "population_max": 74,
+      "population_mean": 48.52,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 71,
+      "population_max": 74,
+      "population_mean": 51.64,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 72,
+      "population_max": 74,
+      "population_mean": 55.52,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 73,
+      "population_max": 74,
+      "population_mean": 57.34,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 74,
+      "population_max": 74,
+      "population_mean": 58.82,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 75,
+      "population_max": 74,
+      "population_mean": 54.22,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 76,
+      "population_max": 74,
+      "population_mean": 54.32,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 77,
+      "population_max": 74,
+      "population_mean": 51.1,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 78,
+      "population_max": 74,
+      "population_mean": 52.2,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 79,
+      "population_max": 74,
+      "population_mean": 52.86,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 80,
+      "population_max": 74,
+      "population_mean": 52.68,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 81,
+      "population_max": 74,
+      "population_mean": 52.9,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 82,
+      "population_max": 78,
+      "population_mean": 51.98,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 83,
+      "population_max": 74,
+      "population_mean": 52.5,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 84,
+      "population_max": 67,
+      "population_mean": 51.56,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 85,
+      "population_max": 74,
+      "population_mean": 51.66,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 86,
+      "population_max": 74,
+      "population_mean": 52.98,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 87,
+      "population_max": 74,
+      "population_mean": 54.34,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 88,
+      "population_max": 74,
+      "population_mean": 52.7,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 89,
+      "population_max": 78,
+      "population_mean": 51.3,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 90,
+      "population_max": 78,
+      "population_mean": 51.68,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 91,
+      "population_max": 78,
+      "population_mean": 54.16,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 92,
+      "population_max": 78,
+      "population_mean": 53.34,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 93,
+      "population_max": 78,
+      "population_mean": 51.58,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 94,
+      "population_max": 74,
+      "population_mean": 49.78,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 95,
+      "population_max": 74,
+      "population_mean": 51.0,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 96,
+      "population_max": 74,
+      "population_mean": 53.2,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 97,
+      "population_max": 74,
+      "population_mean": 53.0,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 98,
+      "population_max": 78,
+      "population_mean": 48.86,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 99,
+      "population_max": 74,
+      "population_mean": 45.44,
+      "best_so_far": 80
+    },
+    {
+      "iteration": 100,
+      "population_max": 78,
+      "population_mean": 49.78,
+      "best_so_far": 80
+    }
+  ],
+  "extra": {
+    "initial_state_selection": "best_individual_in_initial_population",
+    "initial_population": [
+      {
+        "placements": {
+          "slab": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "short_bar": {
+            "position": [
+              0,
+              1,
+              0
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "tall_box": {
+            "position": [
+              1,
+              0,
+              0
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "long_bar": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "small_cube": {
+            "position": [
+              0,
+              1,
+              1
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "large_cube": {
+            "position": [
+              1,
+              1,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "slab": {
+            "position": [
+              1,
+              1,
+              1
+            ],
+            "orientation": [
+              "y",
+              "x",
+              "z"
+            ]
+          },
+          "short_bar": {
+            "position": [
+              1,
+              2,
+              0
+            ],
+            "orientation": [
+              "x",
+              "z",
+              "y"
+            ]
+          },
+          "tall_box": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "long_bar": {
+            "position": [
+              0,
+              1,
+              0
+            ],
+            "orientation": [
+              "x",
+              "z",
+              "y"
+            ]
+          },
+          "small_cube": {
+            "position": [
+              2,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "large_cube": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "slab": {
+            "position": [
+              1,
+              1,
+              0
+            ],
+            "orientation": [
+              "y",
+              "x",
+              "z"
+            ]
+          },
+          "short_bar": {
+            "position": [
+              1,
+              0,
+              0
+            ],
+            "orientation": [
+              "x",
+              "z",
+              "y"
+            ]
+          },
+          "tall_box": {
+            "position": [
+              1,
+              0,
+              1
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "long_bar": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "small_cube": {
+            "position": [
+              2,
+              2,
+              1
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "large_cube": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "slab": {
+            "position": [
+              2,
+              1,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "short_bar": {
+            "position": [
+              0,
+              1,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "tall_box": {
+            "position": [
+              1,
+              1,
+              0
+            ],
+            "orientation": [
+              "x",
+              "z",
+              "y"
+            ]
+          },
+          "long_bar": {
+            "position": [
+              0,
+              0,
+              1
+            ],
+            "orientation": [
+              "x",
+              "z",
+              "y"
+            ]
+          },
+          "small_cube": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "large_cube": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "slab": {
+            "position": [
+              1,
+              1,
+              0
+            ],
+            "orientation": [
+              "y",
+              "x",
+              "z"
+            ]
+          },
+          "short_bar": {
+            "position": [
+              0,
+              1,
+              0
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "tall_box": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "long_bar": {
+            "position": [
+              0,
+              2,
+              1
+            ],
+            "orientation": [
+              "x",
+              "z",
+              "y"
+            ]
+          },
+          "small_cube": {
+            "position": [
+              2,
+              1,
+              1
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "large_cube": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "slab": {
+            "position": [
+              1,
+              0,
+              1
+            ],
+            "orientation": [
+              "y",
+              "x",
+              "z"
+            ]
+          },
+          "short_bar": {
+            "position": [
+              0,
+              0,
+              1
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "tall_box": {
+            "position": [
+              1,
+              2,
+              0
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "long_bar": {
+            "position": [
+              0,
+              1,
+              0
+            ],
+            "orientation": [
+              "x",
+              "z",
+              "y"
+            ]
+          },
+          "small_cube": {
+            "position": [
+              2,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "large_cube": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "slab": {
+            "position": [
+              1,
+              0,
+              1
+            ],
+            "orientation": [
+              "y",
+              "x",
+              "z"
+            ]
+          },
+          "short_bar": {
+            "position": [
+              1,
+              2,
+              0
+            ],
+            "orientation": [
+              "x",
+              "z",
+              "y"
+            ]
+          },
+          "tall_box": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "x",
+              "z",
+              "y"
+            ]
+          },
+          "long_bar": {
+            "position": [
+              0,
+              2,
+              1
+            ],
+            "orientation": [
+              "x",
+              "z",
+              "y"
+            ]
+          },
+          "small_cube": {
+            "position": [
+              2,
+              1,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "large_cube": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "slab": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "short_bar": {
+            "position": [
+              1,
+              0,
+              0
+            ],
+            "orientation": [
+              "x",
+              "z",
+              "y"
+            ]
+          },
+          "tall_box": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "long_bar": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "small_cube": {
+            "position": [
+              0,
+              2,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "large_cube": {
+            "position": [
+              1,
+              1,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "slab": {
+            "position": [
+              1,
+              0,
+              0
+            ],
+            "orientation": [
+              "y",
+              "x",
+              "z"
+            ]
+          },
+          "short_bar": {
+            "position": [
+              1,
+              1,
+              1
+            ],
+            "orientation": [
+              "x",
+              "z",
+              "y"
+            ]
+          },
+          "tall_box": {
+            "position": [
+              1,
+              2,
+              0
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "long_bar": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "small_cube": {
+            "position": [
+              2,
+              0,
+              1
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "large_cube": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "slab": {
+            "position": [
+              0,
+              1,
+              1
+            ],
+            "orientation": [
+              "y",
+              "x",
+              "z"
+            ]
+          },
+          "short_bar": {
+            "position": [
+              1,
+              0,
+              1
+            ],
+            "orientation": [
+              "x",
+              "z",
+              "y"
+            ]
+          },
+          "tall_box": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "long_bar": {
+            "position": [
+              2,
+              0,
+              0
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "small_cube": {
+            "position": [
+              0,
+              2,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "large_cube": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "slab": {
+            "position": [
+              2,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "short_bar": {
+            "position": [
+              0,
+              1,
+              1
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "tall_box": {
+            "position": [
+              1,
+              0,
+              0
+            ],
+            "orientation": [
+              "x",
+              "z",
+              "y"
+            ]
+          },
+          "long_bar": {
+            "position": [
+              0,
+              2,
+              0
+            ],
+            "orientation": [
+              "x",
+              "z",
+              "y"
+            ]
+          },
+          "small_cube": {
+            "position": [
+              0,
+              1,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "large_cube": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "slab": {
+            "position": [
+              0,
+              2,
+              0
+            ],
+            "orientation": [
+              "z",
+              "x",
+              "y"
+            ]
+          },
+          "short_bar": {
+            "position": [
+              2,
+              0,
+              1
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "tall_box": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "long_bar": {
+            "position": [
+              2,
+              0,
+              0
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "small_cube": {
+            "position": [
+              2,
+              2,
+              1
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "large_cube": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "slab": {
+            "position": [
+              2,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "short_bar": {
+            "position": [
+              2,
+              2,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "tall_box": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "long_bar": {
+            "position": [
+              0,
+              0,
+              1
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "small_cube": {
+            "position": [
+              0,
+              2,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "large_cube": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "slab": {
+            "position": [
+              1,
+              2,
+              0
+            ],
+            "orientation": [
+              "z",
+              "x",
+              "y"
+            ]
+          },
+          "short_bar": {
+            "position": [
+              0,
+              0,
+              1
+            ],
+            "orientation": [
+              "x",
+              "z",
+              "y"
+            ]
+          },
+          "tall_box": {
+            "position": [
+              0,
+              1,
+              0
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "long_bar": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "x",
+              "z",
+              "y"
+            ]
+          },
+          "small_cube": {
+            "position": [
+              2,
+              1,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "large_cube": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "slab": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "short_bar": {
+            "position": [
+              2,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "tall_box": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "long_bar": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "small_cube": {
+            "position": [
+              0,
+              2,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "large_cube": {
+            "position": [
+              1,
+              1,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "slab": {
+            "position": [
+              1,
+              1,
+              1
+            ],
+            "orientation": [
+              "y",
+              "x",
+              "z"
+            ]
+          },
+          "short_bar": {
+            "position": [
+              1,
+              0,
+              1
+            ],
+            "orientation": [
+              "x",
+              "z",
+              "y"
+            ]
+          },
+          "tall_box": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "long_bar": {
+            "position": [
+              0,
+              2,
+              0
+            ],
+            "orientation": [
+              "x",
+              "z",
+              "y"
+            ]
+          },
+          "small_cube": {
+            "position": [
+              0,
+              1,
+              1
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "large_cube": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "slab": {
+            "position": [
+              1,
+              1,
+              1
+            ],
+            "orientation": [
+              "y",
+              "x",
+              "z"
+            ]
+          },
+          "short_bar": {
+            "position": [
+              0,
+              0,
+              1
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "tall_box": {
+            "position": [
+              1,
+              0,
+              0
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "long_bar": {
+            "position": [
+              0,
+              1,
+              0
+            ],
+            "orientation": [
+              "x",
+              "z",
+              "y"
+            ]
+          },
+          "small_cube": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "large_cube": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "slab": {
+            "position": [
+              0,
+              1,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "short_bar": {
+            "position": [
+              0,
+              0,
+              1
+            ],
+            "orientation": [
+              "x",
+              "z",
+              "y"
+            ]
+          },
+          "tall_box": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "long_bar": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "x",
+              "z",
+              "y"
+            ]
+          },
+          "small_cube": {
+            "position": [
+              2,
+              0,
+              1
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "large_cube": {
+            "position": [
+              1,
+              1,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "slab": {
+            "position": [
+              0,
+              0,
+              1
+            ],
+            "orientation": [
+              "y",
+              "x",
+              "z"
+            ]
+          },
+          "short_bar": {
+            "position": [
+              0,
+              1,
+              0
+            ],
+            "orientation": [
+              "x",
+              "z",
+              "y"
+            ]
+          },
+          "tall_box": {
+            "position": [
+              0,
+              2,
+              0
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "long_bar": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "x",
+              "z",
+              "y"
+            ]
+          },
+          "small_cube": {
+            "position": [
+              2,
+              0,
+              1
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "large_cube": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "slab": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "short_bar": {
+            "position": [
+              0,
+              1,
+              0
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "tall_box": {
+            "position": [
+              1,
+              2,
+              0
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "long_bar": {
+            "position": [
+              0,
+              0,
+              1
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "small_cube": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "large_cube": {
+            "position": [
+              1,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "slab": {
+            "position": [
+              1,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "x",
+              "y"
+            ]
+          },
+          "short_bar": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "tall_box": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "long_bar": {
+            "position": [
+              0,
+              0,
+              1
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "small_cube": {
+            "position": [
+              0,
+              2,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "large_cube": {
+            "position": [
+              1,
+              1,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "slab": {
+            "position": [
+              1,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "x",
+              "y"
+            ]
+          },
+          "short_bar": {
+            "position": [
+              0,
+              1,
+              0
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "tall_box": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "long_bar": {
+            "position": [
+              0,
+              0,
+              1
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "small_cube": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "large_cube": {
+            "position": [
+              1,
+              1,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "slab": {
+            "position": [
+              2,
+              1,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "short_bar": {
+            "position": [
+              2,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "tall_box": {
+            "position": [
+              0,
+              2,
+              0
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "long_bar": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "small_cube": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "large_cube": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "slab": {
+            "position": [
+              0,
+              1,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "short_bar": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "tall_box": {
+            "position": [
+              1,
+              0,
+              1
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "long_bar": {
+            "position": [
+              1,
+              0,
+              0
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "small_cube": {
+            "position": [
+              2,
+              2,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "large_cube": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "slab": {
+            "position": [
+              0,
+              1,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "short_bar": {
+            "position": [
+              2,
+              1,
+              0
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "tall_box": {
+            "position": [
+              1,
+              1,
+              1
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "long_bar": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "x",
+              "z",
+              "y"
+            ]
+          },
+          "small_cube": {
+            "position": [
+              1,
+              2,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "large_cube": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "slab": {
+            "position": [
+              1,
+              1,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "short_bar": {
+            "position": [
+              2,
+              2,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "tall_box": {
+            "position": [
+              1,
+              0,
+              0
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "long_bar": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "small_cube": {
+            "position": [
+              2,
+              1,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "large_cube": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "slab": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "short_bar": {
+            "position": [
+              1,
+              0,
+              1
+            ],
+            "orientation": [
+              "x",
+              "z",
+              "y"
+            ]
+          },
+          "tall_box": {
+            "position": [
+              2,
+              1,
+              0
+            ],
+            "orientation": [
+              "x",
+              "z",
+              "y"
+            ]
+          },
+          "long_bar": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "x",
+              "z",
+              "y"
+            ]
+          },
+          "small_cube": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "large_cube": {
+            "position": [
+              0,
+              1,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "slab": {
+            "position": [
+              1,
+              1,
+              0
+            ],
+            "orientation": [
+              "y",
+              "x",
+              "z"
+            ]
+          },
+          "short_bar": {
+            "position": [
+              0,
+              1,
+              1
+            ],
+            "orientation": [
+              "x",
+              "z",
+              "y"
+            ]
+          },
+          "tall_box": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "long_bar": {
+            "position": [
+              0,
+              2,
+              1
+            ],
+            "orientation": [
+              "x",
+              "z",
+              "y"
+            ]
+          },
+          "small_cube": {
+            "position": [
+              0,
+              2,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "large_cube": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "slab": {
+            "position": [
+              2,
+              1,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "short_bar": {
+            "position": [
+              0,
+              2,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "tall_box": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "long_bar": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "small_cube": {
+            "position": [
+              2,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "large_cube": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "slab": {
+            "position": [
+              0,
+              1,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "short_bar": {
+            "position": [
+              1,
+              0,
+              0
+            ],
+            "orientation": [
+              "x",
+              "z",
+              "y"
+            ]
+          },
+          "tall_box": {
+            "position": [
+              1,
+              1,
+              1
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "long_bar": {
+            "position": [
+              0,
+              0,
+              1
+            ],
+            "orientation": [
+              "x",
+              "z",
+              "y"
+            ]
+          },
+          "small_cube": {
+            "position": [
+              1,
+              2,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "large_cube": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "slab": {
+            "position": [
+              1,
+              0,
+              1
+            ],
+            "orientation": [
+              "y",
+              "x",
+              "z"
+            ]
+          },
+          "short_bar": {
+            "position": [
+              1,
+              0,
+              0
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "tall_box": {
+            "position": [
+              1,
+              2,
+              0
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "long_bar": {
+            "position": [
+              0,
+              0,
+              1
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "small_cube": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "large_cube": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "slab": {
+            "position": [
+              1,
+              2,
+              0
+            ],
+            "orientation": [
+              "z",
+              "x",
+              "y"
+            ]
+          },
+          "short_bar": {
+            "position": [
+              0,
+              1,
+              0
+            ],
+            "orientation": [
+              "x",
+              "z",
+              "y"
+            ]
+          },
+          "tall_box": {
+            "position": [
+              1,
+              0,
+              1
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "long_bar": {
+            "position": [
+              0,
+              0,
+              1
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "small_cube": {
+            "position": [
+              0,
+              2,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "large_cube": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "slab": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "short_bar": {
+            "position": [
+              2,
+              0,
+              1
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "tall_box": {
+            "position": [
+              1,
+              1,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "long_bar": {
+            "position": [
+              0,
+              2,
+              1
+            ],
+            "orientation": [
+              "x",
+              "z",
+              "y"
+            ]
+          },
+          "small_cube": {
+            "position": [
+              2,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "large_cube": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "slab": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "short_bar": {
+            "position": [
+              2,
+              0,
+              0
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "tall_box": {
+            "position": [
+              1,
+              2,
+              0
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "long_bar": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "small_cube": {
+            "position": [
+              2,
+              1,
+              1
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "large_cube": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "slab": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "x",
+              "y"
+            ]
+          },
+          "short_bar": {
+            "position": [
+              0,
+              1,
+              0
+            ],
+            "orientation": [
+              "x",
+              "z",
+              "y"
+            ]
+          },
+          "tall_box": {
+            "position": [
+              2,
+              0,
+              0
+            ],
+            "orientation": [
+              "x",
+              "z",
+              "y"
+            ]
+          },
+          "long_bar": {
+            "position": [
+              0,
+              2,
+              0
+            ],
+            "orientation": [
+              "x",
+              "z",
+              "y"
+            ]
+          },
+          "small_cube": {
+            "position": [
+              0,
+              1,
+              1
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "large_cube": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "slab": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "y",
+              "x",
+              "z"
+            ]
+          },
+          "short_bar": {
+            "position": [
+              2,
+              0,
+              1
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "tall_box": {
+            "position": [
+              0,
+              1,
+              1
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "long_bar": {
+            "position": [
+              2,
+              0,
+              0
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "small_cube": {
+            "position": [
+              1,
+              0,
+              1
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "large_cube": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "slab": {
+            "position": [
+              1,
+              2,
+              0
+            ],
+            "orientation": [
+              "z",
+              "x",
+              "y"
+            ]
+          },
+          "short_bar": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "x",
+              "z",
+              "y"
+            ]
+          },
+          "tall_box": {
+            "position": [
+              1,
+              1,
+              0
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "long_bar": {
+            "position": [
+              0,
+              0,
+              1
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "small_cube": {
+            "position": [
+              1,
+              0,
+              1
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "large_cube": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "slab": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "x",
+              "y"
+            ]
+          },
+          "short_bar": {
+            "position": [
+              0,
+              1,
+              0
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "tall_box": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "long_bar": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "small_cube": {
+            "position": [
+              0,
+              1,
+              1
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "large_cube": {
+            "position": [
+              1,
+              1,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "slab": {
+            "position": [
+              0,
+              1,
+              0
+            ],
+            "orientation": [
+              "y",
+              "x",
+              "z"
+            ]
+          },
+          "short_bar": {
+            "position": [
+              1,
+              0,
+              1
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "tall_box": {
+            "position": [
+              2,
+              0,
+              0
+            ],
+            "orientation": [
+              "x",
+              "z",
+              "y"
+            ]
+          },
+          "long_bar": {
+            "position": [
+              0,
+              2,
+              1
+            ],
+            "orientation": [
+              "x",
+              "z",
+              "y"
+            ]
+          },
+          "small_cube": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "large_cube": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "slab": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "short_bar": {
+            "position": [
+              0,
+              1,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "tall_box": {
+            "position": [
+              1,
+              0,
+              0
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "long_bar": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "small_cube": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "large_cube": {
+            "position": [
+              1,
+              1,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "slab": {
+            "position": [
+              0,
+              2,
+              0
+            ],
+            "orientation": [
+              "z",
+              "x",
+              "y"
+            ]
+          },
+          "short_bar": {
+            "position": [
+              2,
+              1,
+              1
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "tall_box": {
+            "position": [
+              0,
+              1,
+              0
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "long_bar": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "x",
+              "z",
+              "y"
+            ]
+          },
+          "small_cube": {
+            "position": [
+              2,
+              1,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "large_cube": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "slab": {
+            "position": [
+              1,
+              0,
+              0
+            ],
+            "orientation": [
+              "y",
+              "x",
+              "z"
+            ]
+          },
+          "short_bar": {
+            "position": [
+              0,
+              0,
+              1
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "tall_box": {
+            "position": [
+              1,
+              1,
+              1
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "long_bar": {
+            "position": [
+              0,
+              2,
+              0
+            ],
+            "orientation": [
+              "x",
+              "z",
+              "y"
+            ]
+          },
+          "small_cube": {
+            "position": [
+              0,
+              1,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "large_cube": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "slab": {
+            "position": [
+              0,
+              1,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "short_bar": {
+            "position": [
+              2,
+              1,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "tall_box": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "long_bar": {
+            "position": [
+              1,
+              0,
+              0
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "small_cube": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "large_cube": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "slab": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "short_bar": {
+            "position": [
+              1,
+              1,
+              0
+            ],
+            "orientation": [
+              "x",
+              "z",
+              "y"
+            ]
+          },
+          "tall_box": {
+            "position": [
+              0,
+              0,
+              1
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "long_bar": {
+            "position": [
+              0,
+              2,
+              0
+            ],
+            "orientation": [
+              "x",
+              "z",
+              "y"
+            ]
+          },
+          "small_cube": {
+            "position": [
+              0,
+              1,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "large_cube": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "slab": {
+            "position": [
+              1,
+              1,
+              0
+            ],
+            "orientation": [
+              "y",
+              "x",
+              "z"
+            ]
+          },
+          "short_bar": {
+            "position": [
+              0,
+              1,
+              1
+            ],
+            "orientation": [
+              "x",
+              "z",
+              "y"
+            ]
+          },
+          "tall_box": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "long_bar": {
+            "position": [
+              0,
+              2,
+              1
+            ],
+            "orientation": [
+              "x",
+              "z",
+              "y"
+            ]
+          },
+          "small_cube": {
+            "position": [
+              2,
+              1,
+              1
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "large_cube": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "slab": {
+            "position": [
+              2,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "short_bar": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "tall_box": {
+            "position": [
+              0,
+              1,
+              0
+            ],
+            "orientation": [
+              "x",
+              "z",
+              "y"
+            ]
+          },
+          "long_bar": {
+            "position": [
+              1,
+              0,
+              0
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "small_cube": {
+            "position": [
+              1,
+              0,
+              1
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "large_cube": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "slab": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "x",
+              "y"
+            ]
+          },
+          "short_bar": {
+            "position": [
+              0,
+              1,
+              0
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "tall_box": {
+            "position": [
+              1,
+              1,
+              0
+            ],
+            "orientation": [
+              "x",
+              "z",
+              "y"
+            ]
+          },
+          "long_bar": {
+            "position": [
+              2,
+              0,
+              1
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "small_cube": {
+            "position": [
+              2,
+              1,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "large_cube": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "slab": {
+            "position": [
+              1,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "x",
+              "y"
+            ]
+          },
+          "short_bar": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "tall_box": {
+            "position": [
+              0,
+              1,
+              0
+            ],
+            "orientation": [
+              "x",
+              "z",
+              "y"
+            ]
+          },
+          "long_bar": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "small_cube": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "large_cube": {
+            "position": [
+              1,
+              1,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "slab": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "short_bar": {
+            "position": [
+              1,
+              0,
+              0
+            ],
+            "orientation": [
+              "x",
+              "z",
+              "y"
+            ]
+          },
+          "tall_box": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "long_bar": {
+            "position": [
+              0,
+              0,
+              1
+            ],
+            "orientation": [
+              "x",
+              "z",
+              "y"
+            ]
+          },
+          "small_cube": {
+            "position": [
+              0,
+              1,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "large_cube": {
+            "position": [
+              1,
+              1,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "slab": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "short_bar": {
+            "position": [
+              1,
+              0,
+              1
+            ],
+            "orientation": [
+              "x",
+              "z",
+              "y"
+            ]
+          },
+          "tall_box": {
+            "position": [
+              2,
+              1,
+              0
+            ],
+            "orientation": [
+              "x",
+              "z",
+              "y"
+            ]
+          },
+          "long_bar": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "x",
+              "z",
+              "y"
+            ]
+          },
+          "small_cube": {
+            "position": [
+              0,
+              0,
+              1
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "large_cube": {
+            "position": [
+              0,
+              1,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          }
+        }
+      }
+    ],
+    "final_population_fitness": [
+      45,
+      54,
+      47,
+      25,
+      67,
+      56,
+      56,
+      56,
+      56,
+      56,
+      27,
+      38,
+      60,
+      45,
+      45,
+      56,
+      49,
+      56,
+      74,
+      49,
+      45,
+      36,
+      47,
+      56,
+      38,
+      45,
+      56,
+      29,
+      56,
+      45,
+      38,
+      56,
+      36,
+      78,
+      56,
+      47,
+      11,
+      56,
+      45,
+      56,
+      74,
+      36,
+      45,
+      38,
+      58,
+      54,
+      45,
+      78,
+      56,
+      56
+    ],
+    "best_generation": 0,
+    "crossovers": 4013,
+    "mutation_calls": 1493,
+    "accepted_mutations": 1329,
+    "settings": {
+      "selection": "roulette_wheel_with_replacement",
+      "crossover_probability": 0.8,
+      "mutation_probability": 0.3,
+      "elitism": false,
+      "repair_attempts": 20,
+      "mutation_attempts": 10
+    }
+  },
+  "total_duration_seconds": 0.5977005000022473,
+  "run_id": 3,
+  "seed": 44,
+  "input": "tc7",
+  "experiment_series": [
+    "vary_iterations",
+    "vary_population"
+  ]
+}

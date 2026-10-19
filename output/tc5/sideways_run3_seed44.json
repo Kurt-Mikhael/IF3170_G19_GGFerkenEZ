@@ -1,0 +1,136 @@
+{
+  "algorithm": "sideways",
+  "parameters": {
+    "maximum_sideways_move": 10
+  },
+  "initial_state": {
+    "placements": {
+      "A": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "orientation": [
+          "y",
+          "x",
+          "z"
+        ]
+      },
+      "B": {
+        "position": null,
+        "orientation": [
+          "x",
+          "y",
+          "z"
+        ]
+      }
+    }
+  },
+  "final_state": {
+    "placements": {
+      "A": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "orientation": [
+          "y",
+          "z",
+          "x"
+        ]
+      },
+      "B": {
+        "position": null,
+        "orientation": [
+          "x",
+          "z",
+          "y"
+        ]
+      }
+    }
+  },
+  "initial_value": 40,
+  "final_value": 40,
+  "iterations": 10,
+  "accepted_moves": 10,
+  "objective_evaluations": 41,
+  "duration_seconds": 0.00147639999340754,
+  "stop_reason": "sideways_limit_reached",
+  "history": [
+    {
+      "iteration": 0,
+      "current_value": 40,
+      "best_value": 40
+    },
+    {
+      "iteration": 1,
+      "current_value": 40,
+      "best_value": 40,
+      "sideways": true
+    },
+    {
+      "iteration": 2,
+      "current_value": 40,
+      "best_value": 40,
+      "sideways": true
+    },
+    {
+      "iteration": 3,
+      "current_value": 40,
+      "best_value": 40,
+      "sideways": true
+    },
+    {
+      "iteration": 4,
+      "current_value": 40,
+      "best_value": 40,
+      "sideways": true
+    },
+    {
+      "iteration": 5,
+      "current_value": 40,
+      "best_value": 40,
+      "sideways": true
+    },
+    {
+      "iteration": 6,
+      "current_value": 40,
+      "best_value": 40,
+      "sideways": true
+    },
+    {
+      "iteration": 7,
+      "current_value": 40,
+      "best_value": 40,
+      "sideways": true
+    },
+    {
+      "iteration": 8,
+      "current_value": 40,
+      "best_value": 40,
+      "sideways": true
+    },
+    {
+      "iteration": 9,
+      "current_value": 40,
+      "best_value": 40,
+      "sideways": true
+    },
+    {
+      "iteration": 10,
+      "current_value": 40,
+      "best_value": 40,
+      "sideways": true
+    }
+  ],
+  "extra": {
+    "maximum_sideways_move": 10,
+    "sideways_moves": 10
+  },
+  "total_duration_seconds": 0.0016116000042529777,
+  "run_id": 3,
+  "seed": 44,
+  "input": "tc5"
+}

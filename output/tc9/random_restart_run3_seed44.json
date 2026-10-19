@@ -1,0 +1,1102 @@
+{
+  "algorithm": "random_restart",
+  "parameters": {
+    "maximum_restart": 3
+  },
+  "initial_state": {
+    "placements": {
+      "base": {
+        "position": null,
+        "orientation": [
+          "x",
+          "y",
+          "z"
+        ]
+      },
+      "platform": {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "orientation": [
+          "x",
+          "z",
+          "y"
+        ]
+      },
+      "pillar": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "orientation": [
+          "z",
+          "x",
+          "y"
+        ]
+      },
+      "fragile_wide": {
+        "position": [
+          0,
+          0,
+          1
+        ],
+        "orientation": [
+          "y",
+          "x",
+          "z"
+        ]
+      },
+      "fragile_a": {
+        "position": [
+          1,
+          0,
+          0
+        ],
+        "orientation": [
+          "y",
+          "x",
+          "z"
+        ]
+      },
+      "fragile_b": {
+        "position": [
+          2,
+          0,
+          0
+        ],
+        "orientation": [
+          "z",
+          "x",
+          "y"
+        ]
+      },
+      "support_cube": {
+        "position": null,
+        "orientation": [
+          "x",
+          "y",
+          "z"
+        ]
+      },
+      "support_bar": {
+        "position": [
+          1,
+          1,
+          2
+        ],
+        "orientation": [
+          "x",
+          "z",
+          "y"
+        ]
+      }
+    }
+  },
+  "final_state": {
+    "placements": {
+      "base": {
+        "position": null,
+        "orientation": [
+          "x",
+          "y",
+          "z"
+        ]
+      },
+      "platform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "orientation": [
+          "x",
+          "y",
+          "z"
+        ]
+      },
+      "pillar": {
+        "position": [
+          2,
+          0,
+          0
+        ],
+        "orientation": [
+          "x",
+          "z",
+          "y"
+        ]
+      },
+      "fragile_wide": {
+        "position": [
+          1,
+          1,
+          2
+        ],
+        "orientation": [
+          "x",
+          "z",
+          "y"
+        ]
+      },
+      "fragile_a": {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "orientation": [
+          "x",
+          "y",
+          "z"
+        ]
+      },
+      "fragile_b": {
+        "position": [
+          1,
+          0,
+          2
+        ],
+        "orientation": [
+          "z",
+          "y",
+          "x"
+        ]
+      },
+      "support_cube": {
+        "position": [
+          0,
+          0,
+          1
+        ],
+        "orientation": [
+          "y",
+          "z",
+          "x"
+        ]
+      },
+      "support_bar": {
+        "position": [
+          1,
+          0,
+          1
+        ],
+        "orientation": [
+          "y",
+          "x",
+          "z"
+        ]
+      }
+    }
+  },
+  "initial_value": 96,
+  "final_value": 101,
+  "iterations": 4,
+  "accepted_moves": 0,
+  "objective_evaluations": 105,
+  "duration_seconds": 0.05581839999649674,
+  "stop_reason": "no_improving_neighbor",
+  "history": [
+    {
+      "iteration": 0,
+      "search_id": 0,
+      "local_iteration": 0,
+      "current_value": 96,
+      "best_value": 96
+    },
+    {
+      "iteration": 1,
+      "search_id": 0,
+      "local_iteration": 1,
+      "current_value": 96,
+      "best_value": 96
+    },
+    {
+      "iteration": 2,
+      "search_id": 1,
+      "local_iteration": 0,
+      "current_value": 93,
+      "best_value": 96
+    },
+    {
+      "iteration": 3,
+      "search_id": 1,
+      "local_iteration": 1,
+      "current_value": 93,
+      "best_value": 96
+    },
+    {
+      "iteration": 4,
+      "search_id": 2,
+      "local_iteration": 0,
+      "current_value": 101,
+      "best_value": 101
+    },
+    {
+      "iteration": 5,
+      "search_id": 2,
+      "local_iteration": 1,
+      "current_value": 101,
+      "best_value": 101
+    },
+    {
+      "iteration": 6,
+      "search_id": 3,
+      "local_iteration": 0,
+      "current_value": 101,
+      "best_value": 101
+    },
+    {
+      "iteration": 7,
+      "search_id": 3,
+      "local_iteration": 1,
+      "current_value": 101,
+      "best_value": 101
+    }
+  ],
+  "extra": {
+    "maximum_restart": 3,
+    "num_searches": 4,
+    "restart_count": 3,
+    "best_search": 2,
+    "total_iterations": 4,
+    "iterations_per_search": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "restarts": [
+      {
+        "search_id": 0,
+        "initial_state": {
+          "placements": {
+            "base": {
+              "position": null,
+              "orientation": [
+                "x",
+                "y",
+                "z"
+              ]
+            },
+            "platform": {
+              "position": [
+                1,
+                1,
+                0
+              ],
+              "orientation": [
+                "x",
+                "z",
+                "y"
+              ]
+            },
+            "pillar": {
+              "position": [
+                0,
+                0,
+                0
+              ],
+              "orientation": [
+                "z",
+                "x",
+                "y"
+              ]
+            },
+            "fragile_wide": {
+              "position": [
+                0,
+                0,
+                1
+              ],
+              "orientation": [
+                "y",
+                "x",
+                "z"
+              ]
+            },
+            "fragile_a": {
+              "position": [
+                1,
+                0,
+                0
+              ],
+              "orientation": [
+                "y",
+                "x",
+                "z"
+              ]
+            },
+            "fragile_b": {
+              "position": [
+                2,
+                0,
+                0
+              ],
+              "orientation": [
+                "z",
+                "x",
+                "y"
+              ]
+            },
+            "support_cube": {
+              "position": null,
+              "orientation": [
+                "x",
+                "y",
+                "z"
+              ]
+            },
+            "support_bar": {
+              "position": [
+                1,
+                1,
+                2
+              ],
+              "orientation": [
+                "x",
+                "z",
+                "y"
+              ]
+            }
+          }
+        },
+        "final_state": {
+          "placements": {
+            "base": {
+              "position": null,
+              "orientation": [
+                "x",
+                "y",
+                "z"
+              ]
+            },
+            "platform": {
+              "position": [
+                1,
+                1,
+                0
+              ],
+              "orientation": [
+                "x",
+                "z",
+                "y"
+              ]
+            },
+            "pillar": {
+              "position": [
+                0,
+                0,
+                0
+              ],
+              "orientation": [
+                "z",
+                "x",
+                "y"
+              ]
+            },
+            "fragile_wide": {
+              "position": [
+                0,
+                0,
+                1
+              ],
+              "orientation": [
+                "y",
+                "x",
+                "z"
+              ]
+            },
+            "fragile_a": {
+              "position": [
+                1,
+                0,
+                0
+              ],
+              "orientation": [
+                "y",
+                "x",
+                "z"
+              ]
+            },
+            "fragile_b": {
+              "position": [
+                2,
+                0,
+                0
+              ],
+              "orientation": [
+                "z",
+                "x",
+                "y"
+              ]
+            },
+            "support_cube": {
+              "position": null,
+              "orientation": [
+                "x",
+                "y",
+                "z"
+              ]
+            },
+            "support_bar": {
+              "position": [
+                1,
+                1,
+                2
+              ],
+              "orientation": [
+                "x",
+                "z",
+                "y"
+              ]
+            }
+          }
+        },
+        "initial_value": 96,
+        "final_value": 96,
+        "iterations": 1,
+        "accepted_moves": 0,
+        "stop_reason": "no_improving_neighbor",
+        "history": [
+          {
+            "iteration": 0,
+            "current_value": 96,
+            "best_value": 96
+          },
+          {
+            "iteration": 1,
+            "current_value": 96,
+            "best_value": 96
+          }
+        ]
+      },
+      {
+        "search_id": 1,
+        "initial_state": {
+          "placements": {
+            "base": {
+              "position": [
+                2,
+                0,
+                0
+              ],
+              "orientation": [
+                "z",
+                "y",
+                "x"
+              ]
+            },
+            "platform": {
+              "position": [
+                0,
+                1,
+                0
+              ],
+              "orientation": [
+                "z",
+                "x",
+                "y"
+              ]
+            },
+            "pillar": {
+              "position": null,
+              "orientation": [
+                "x",
+                "y",
+                "z"
+              ]
+            },
+            "fragile_wide": {
+              "position": [
+                0,
+                1,
+                2
+              ],
+              "orientation": [
+                "x",
+                "z",
+                "y"
+              ]
+            },
+            "fragile_a": {
+              "position": [
+                0,
+                0,
+                0
+              ],
+              "orientation": [
+                "x",
+                "y",
+                "z"
+              ]
+            },
+            "fragile_b": {
+              "position": [
+                1,
+                0,
+                0
+              ],
+              "orientation": [
+                "z",
+                "y",
+                "x"
+              ]
+            },
+            "support_cube": {
+              "position": null,
+              "orientation": [
+                "x",
+                "y",
+                "z"
+              ]
+            },
+            "support_bar": {
+              "position": null,
+              "orientation": [
+                "x",
+                "y",
+                "z"
+              ]
+            }
+          }
+        },
+        "final_state": {
+          "placements": {
+            "base": {
+              "position": [
+                2,
+                0,
+                0
+              ],
+              "orientation": [
+                "z",
+                "y",
+                "x"
+              ]
+            },
+            "platform": {
+              "position": [
+                0,
+                1,
+                0
+              ],
+              "orientation": [
+                "z",
+                "x",
+                "y"
+              ]
+            },
+            "pillar": {
+              "position": null,
+              "orientation": [
+                "x",
+                "y",
+                "z"
+              ]
+            },
+            "fragile_wide": {
+              "position": [
+                0,
+                1,
+                2
+              ],
+              "orientation": [
+                "x",
+                "z",
+                "y"
+              ]
+            },
+            "fragile_a": {
+              "position": [
+                0,
+                0,
+                0
+              ],
+              "orientation": [
+                "x",
+                "y",
+                "z"
+              ]
+            },
+            "fragile_b": {
+              "position": [
+                1,
+                0,
+                0
+              ],
+              "orientation": [
+                "z",
+                "y",
+                "x"
+              ]
+            },
+            "support_cube": {
+              "position": null,
+              "orientation": [
+                "x",
+                "y",
+                "z"
+              ]
+            },
+            "support_bar": {
+              "position": null,
+              "orientation": [
+                "x",
+                "y",
+                "z"
+              ]
+            }
+          }
+        },
+        "initial_value": 93,
+        "final_value": 93,
+        "iterations": 1,
+        "accepted_moves": 0,
+        "stop_reason": "no_improving_neighbor",
+        "history": [
+          {
+            "iteration": 0,
+            "current_value": 93,
+            "best_value": 93
+          },
+          {
+            "iteration": 1,
+            "current_value": 93,
+            "best_value": 93
+          }
+        ]
+      },
+      {
+        "search_id": 2,
+        "initial_state": {
+          "placements": {
+            "base": {
+              "position": null,
+              "orientation": [
+                "x",
+                "y",
+                "z"
+              ]
+            },
+            "platform": {
+              "position": [
+                0,
+                0,
+                0
+              ],
+              "orientation": [
+                "x",
+                "y",
+                "z"
+              ]
+            },
+            "pillar": {
+              "position": [
+                2,
+                0,
+                0
+              ],
+              "orientation": [
+                "x",
+                "z",
+                "y"
+              ]
+            },
+            "fragile_wide": {
+              "position": [
+                1,
+                1,
+                2
+              ],
+              "orientation": [
+                "x",
+                "z",
+                "y"
+              ]
+            },
+            "fragile_a": {
+              "position": [
+                0,
+                1,
+                1
+              ],
+              "orientation": [
+                "x",
+                "y",
+                "z"
+              ]
+            },
+            "fragile_b": {
+              "position": [
+                1,
+                0,
+                2
+              ],
+              "orientation": [
+                "z",
+                "y",
+                "x"
+              ]
+            },
+            "support_cube": {
+              "position": [
+                0,
+                0,
+                1
+              ],
+              "orientation": [
+                "y",
+                "z",
+                "x"
+              ]
+            },
+            "support_bar": {
+              "position": [
+                1,
+                0,
+                1
+              ],
+              "orientation": [
+                "y",
+                "x",
+                "z"
+              ]
+            }
+          }
+        },
+        "final_state": {
+          "placements": {
+            "base": {
+              "position": null,
+              "orientation": [
+                "x",
+                "y",
+                "z"
+              ]
+            },
+            "platform": {
+              "position": [
+                0,
+                0,
+                0
+              ],
+              "orientation": [
+                "x",
+                "y",
+                "z"
+              ]
+            },
+            "pillar": {
+              "position": [
+                2,
+                0,
+                0
+              ],
+              "orientation": [
+                "x",
+                "z",
+                "y"
+              ]
+            },
+            "fragile_wide": {
+              "position": [
+                1,
+                1,
+                2
+              ],
+              "orientation": [
+                "x",
+                "z",
+                "y"
+              ]
+            },
+            "fragile_a": {
+              "position": [
+                0,
+                1,
+                1
+              ],
+              "orientation": [
+                "x",
+                "y",
+                "z"
+              ]
+            },
+            "fragile_b": {
+              "position": [
+                1,
+                0,
+                2
+              ],
+              "orientation": [
+                "z",
+                "y",
+                "x"
+              ]
+            },
+            "support_cube": {
+              "position": [
+                0,
+                0,
+                1
+              ],
+              "orientation": [
+                "y",
+                "z",
+                "x"
+              ]
+            },
+            "support_bar": {
+              "position": [
+                1,
+                0,
+                1
+              ],
+              "orientation": [
+                "y",
+                "x",
+                "z"
+              ]
+            }
+          }
+        },
+        "initial_value": 101,
+        "final_value": 101,
+        "iterations": 1,
+        "accepted_moves": 0,
+        "stop_reason": "no_improving_neighbor",
+        "history": [
+          {
+            "iteration": 0,
+            "current_value": 101,
+            "best_value": 101
+          },
+          {
+            "iteration": 1,
+            "current_value": 101,
+            "best_value": 101
+          }
+        ]
+      },
+      {
+        "search_id": 3,
+        "initial_state": {
+          "placements": {
+            "base": {
+              "position": null,
+              "orientation": [
+                "x",
+                "y",
+                "z"
+              ]
+            },
+            "platform": {
+              "position": [
+                2,
+                0,
+                1
+              ],
+              "orientation": [
+                "z",
+                "y",
+                "x"
+              ]
+            },
+            "pillar": {
+              "position": [
+                1,
+                0,
+                1
+              ],
+              "orientation": [
+                "z",
+                "x",
+                "y"
+              ]
+            },
+            "fragile_wide": {
+              "position": [
+                0,
+                0,
+                0
+              ],
+              "orientation": [
+                "z",
+                "y",
+                "x"
+              ]
+            },
+            "fragile_a": {
+              "position": [
+                1,
+                1,
+                2
+              ],
+              "orientation": [
+                "x",
+                "y",
+                "z"
+              ]
+            },
+            "fragile_b": {
+              "position": [
+                0,
+                1,
+                0
+              ],
+              "orientation": [
+                "x",
+                "z",
+                "y"
+              ]
+            },
+            "support_cube": {
+              "position": [
+                2,
+                0,
+                0
+              ],
+              "orientation": [
+                "y",
+                "x",
+                "z"
+              ]
+            },
+            "support_bar": {
+              "position": [
+                1,
+                1,
+                0
+              ],
+              "orientation": [
+                "x",
+                "y",
+                "z"
+              ]
+            }
+          }
+        },
+        "final_state": {
+          "placements": {
+            "base": {
+              "position": null,
+              "orientation": [
+                "x",
+                "y",
+                "z"
+              ]
+            },
+            "platform": {
+              "position": [
+                2,
+                0,
+                1
+              ],
+              "orientation": [
+                "z",
+                "y",
+                "x"
+              ]
+            },
+            "pillar": {
+              "position": [
+                1,
+                0,
+                1
+              ],
+              "orientation": [
+                "z",
+                "x",
+                "y"
+              ]
+            },
+            "fragile_wide": {
+              "position": [
+                0,
+                0,
+                0
+              ],
+              "orientation": [
+                "z",
+                "y",
+                "x"
+              ]
+            },
+            "fragile_a": {
+              "position": [
+                1,
+                1,
+                2
+              ],
+              "orientation": [
+                "x",
+                "y",
+                "z"
+              ]
+            },
+            "fragile_b": {
+              "position": [
+                0,
+                1,
+                0
+              ],
+              "orientation": [
+                "x",
+                "z",
+                "y"
+              ]
+            },
+            "support_cube": {
+              "position": [
+                2,
+                0,
+                0
+              ],
+              "orientation": [
+                "y",
+                "x",
+                "z"
+              ]
+            },
+            "support_bar": {
+              "position": [
+                1,
+                1,
+                0
+              ],
+              "orientation": [
+                "x",
+                "y",
+                "z"
+              ]
+            }
+          }
+        },
+        "initial_value": 101,
+        "final_value": 101,
+        "iterations": 1,
+        "accepted_moves": 0,
+        "stop_reason": "no_improving_neighbor",
+        "history": [
+          {
+            "iteration": 0,
+            "current_value": 101,
+            "best_value": 101
+          },
+          {
+            "iteration": 1,
+            "current_value": 101,
+            "best_value": 101
+          }
+        ]
+      }
+    ]
+  },
+  "total_duration_seconds": 0.06336430000374094,
+  "run_id": 3,
+  "seed": 44,
+  "input": "tc9"
+}

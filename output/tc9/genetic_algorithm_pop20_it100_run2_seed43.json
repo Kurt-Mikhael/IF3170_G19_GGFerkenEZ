@@ -1,0 +1,2696 @@
+{
+  "algorithm": "genetic_algorithm",
+  "parameters": {
+    "population_size": 20,
+    "iterations": 100
+  },
+  "initial_state": {
+    "placements": {
+      "base": {
+        "position": null,
+        "orientation": [
+          "x",
+          "y",
+          "z"
+        ]
+      },
+      "platform": {
+        "position": [
+          2,
+          0,
+          0
+        ],
+        "orientation": [
+          "z",
+          "y",
+          "x"
+        ]
+      },
+      "pillar": {
+        "position": [
+          1,
+          0,
+          0
+        ],
+        "orientation": [
+          "z",
+          "x",
+          "y"
+        ]
+      },
+      "fragile_wide": {
+        "position": [
+          1,
+          1,
+          2
+        ],
+        "orientation": [
+          "x",
+          "z",
+          "y"
+        ]
+      },
+      "fragile_a": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "orientation": [
+          "z",
+          "y",
+          "x"
+        ]
+      },
+      "fragile_b": {
+        "position": [
+          0,
+          1,
+          2
+        ],
+        "orientation": [
+          "z",
+          "y",
+          "x"
+        ]
+      },
+      "support_cube": {
+        "position": [
+          2,
+          0,
+          2
+        ],
+        "orientation": [
+          "z",
+          "y",
+          "x"
+        ]
+      },
+      "support_bar": {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "orientation": [
+          "x",
+          "z",
+          "y"
+        ]
+      }
+    }
+  },
+  "final_state": {
+    "placements": {
+      "base": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "orientation": [
+          "z",
+          "y",
+          "x"
+        ]
+      },
+      "platform": {
+        "position": [
+          2,
+          0,
+          0
+        ],
+        "orientation": [
+          "z",
+          "y",
+          "x"
+        ]
+      },
+      "pillar": {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "orientation": [
+          "y",
+          "x",
+          "z"
+        ]
+      },
+      "fragile_wide": {
+        "position": [
+          2,
+          0,
+          2
+        ],
+        "orientation": [
+          "y",
+          "z",
+          "x"
+        ]
+      },
+      "fragile_a": {
+        "position": [
+          1,
+          0,
+          0
+        ],
+        "orientation": [
+          "z",
+          "y",
+          "x"
+        ]
+      },
+      "fragile_b": {
+        "position": [
+          1,
+          1,
+          2
+        ],
+        "orientation": [
+          "z",
+          "y",
+          "x"
+        ]
+      },
+      "support_cube": {
+        "position": null,
+        "orientation": [
+          "z",
+          "y",
+          "x"
+        ]
+      },
+      "support_bar": {
+        "position": null,
+        "orientation": [
+          "x",
+          "y",
+          "z"
+        ]
+      }
+    }
+  },
+  "initial_value": 101,
+  "final_value": 105,
+  "iterations": 100,
+  "accepted_moves": 522,
+  "objective_evaluations": 2020,
+  "duration_seconds": 0.36979270000301767,
+  "stop_reason": "iteration_limit_reached",
+  "history": [
+    {
+      "iteration": 0,
+      "population_max": 101,
+      "population_mean": 89.35,
+      "best_so_far": 101
+    },
+    {
+      "iteration": 1,
+      "population_max": 101,
+      "population_mean": 85.0,
+      "best_so_far": 101
+    },
+    {
+      "iteration": 2,
+      "population_max": 105,
+      "population_mean": 82.2,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 3,
+      "population_max": 105,
+      "population_mean": 75.05,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 4,
+      "population_max": 105,
+      "population_mean": 80.45,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 5,
+      "population_max": 93,
+      "population_mean": 75.95,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 6,
+      "population_max": 92,
+      "population_mean": 67.55,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 7,
+      "population_max": 93,
+      "population_mean": 69.8,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 8,
+      "population_max": 92,
+      "population_mean": 69.35,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 9,
+      "population_max": 92,
+      "population_mean": 67.8,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 10,
+      "population_max": 98,
+      "population_mean": 64.6,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 11,
+      "population_max": 92,
+      "population_mean": 59.7,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 12,
+      "population_max": 85,
+      "population_mean": 55.15,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 13,
+      "population_max": 92,
+      "population_mean": 56.25,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 14,
+      "population_max": 92,
+      "population_mean": 49.75,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 15,
+      "population_max": 92,
+      "population_mean": 51.05,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 16,
+      "population_max": 92,
+      "population_mean": 60.65,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 17,
+      "population_max": 76,
+      "population_mean": 59.65,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 18,
+      "population_max": 76,
+      "population_mean": 59.8,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 19,
+      "population_max": 76,
+      "population_mean": 60.25,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 20,
+      "population_max": 76,
+      "population_mean": 65.4,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 21,
+      "population_max": 80,
+      "population_mean": 68.8,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 22,
+      "population_max": 92,
+      "population_mean": 69.95,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 23,
+      "population_max": 92,
+      "population_mean": 70.4,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 24,
+      "population_max": 92,
+      "population_mean": 72.85,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 25,
+      "population_max": 92,
+      "population_mean": 73.9,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 26,
+      "population_max": 92,
+      "population_mean": 70.9,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 27,
+      "population_max": 101,
+      "population_mean": 79.45,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 28,
+      "population_max": 92,
+      "population_mean": 77.25,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 29,
+      "population_max": 92,
+      "population_mean": 74.7,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 30,
+      "population_max": 92,
+      "population_mean": 74.9,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 31,
+      "population_max": 92,
+      "population_mean": 76.25,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 32,
+      "population_max": 92,
+      "population_mean": 79.45,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 33,
+      "population_max": 92,
+      "population_mean": 75.65,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 34,
+      "population_max": 80,
+      "population_mean": 71.65,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 35,
+      "population_max": 80,
+      "population_mean": 68.7,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 36,
+      "population_max": 85,
+      "population_mean": 70.35,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 37,
+      "population_max": 92,
+      "population_mean": 72.35,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 38,
+      "population_max": 92,
+      "population_mean": 70.25,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 39,
+      "population_max": 92,
+      "population_mean": 72.85,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 40,
+      "population_max": 85,
+      "population_mean": 75.35,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 41,
+      "population_max": 85,
+      "population_mean": 72.0,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 42,
+      "population_max": 85,
+      "population_mean": 73.9,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 43,
+      "population_max": 85,
+      "population_mean": 75.8,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 44,
+      "population_max": 85,
+      "population_mean": 72.1,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 45,
+      "population_max": 85,
+      "population_mean": 73.9,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 46,
+      "population_max": 85,
+      "population_mean": 76.0,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 47,
+      "population_max": 85,
+      "population_mean": 76.05,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 48,
+      "population_max": 85,
+      "population_mean": 75.5,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 49,
+      "population_max": 85,
+      "population_mean": 74.9,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 50,
+      "population_max": 85,
+      "population_mean": 77.3,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 51,
+      "population_max": 103,
+      "population_mean": 79.1,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 52,
+      "population_max": 103,
+      "population_mean": 80.4,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 53,
+      "population_max": 85,
+      "population_mean": 81.2,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 54,
+      "population_max": 85,
+      "population_mean": 80.5,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 55,
+      "population_max": 85,
+      "population_mean": 78.7,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 56,
+      "population_max": 85,
+      "population_mean": 75.25,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 57,
+      "population_max": 85,
+      "population_mean": 72.05,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 58,
+      "population_max": 85,
+      "population_mean": 72.5,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 59,
+      "population_max": 85,
+      "population_mean": 71.85,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 60,
+      "population_max": 85,
+      "population_mean": 75.1,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 61,
+      "population_max": 85,
+      "population_mean": 76.85,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 62,
+      "population_max": 85,
+      "population_mean": 72.45,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 63,
+      "population_max": 85,
+      "population_mean": 73.5,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 64,
+      "population_max": 85,
+      "population_mean": 76.5,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 65,
+      "population_max": 85,
+      "population_mean": 80.45,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 66,
+      "population_max": 86,
+      "population_mean": 78.7,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 67,
+      "population_max": 89,
+      "population_mean": 78.65,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 68,
+      "population_max": 101,
+      "population_mean": 80.2,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 69,
+      "population_max": 101,
+      "population_mean": 82.1,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 70,
+      "population_max": 101,
+      "population_mean": 81.25,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 71,
+      "population_max": 101,
+      "population_mean": 85.4,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 72,
+      "population_max": 101,
+      "population_mean": 86.75,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 73,
+      "population_max": 101,
+      "population_mean": 88.2,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 74,
+      "population_max": 101,
+      "population_mean": 86.0,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 75,
+      "population_max": 101,
+      "population_mean": 83.35,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 76,
+      "population_max": 101,
+      "population_mean": 81.05,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 77,
+      "population_max": 101,
+      "population_mean": 80.1,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 78,
+      "population_max": 101,
+      "population_mean": 80.6,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 79,
+      "population_max": 101,
+      "population_mean": 79.0,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 80,
+      "population_max": 101,
+      "population_mean": 81.35,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 81,
+      "population_max": 101,
+      "population_mean": 80.25,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 82,
+      "population_max": 92,
+      "population_mean": 79.6,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 83,
+      "population_max": 92,
+      "population_mean": 80.05,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 84,
+      "population_max": 101,
+      "population_mean": 80.35,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 85,
+      "population_max": 92,
+      "population_mean": 73.55,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 86,
+      "population_max": 101,
+      "population_mean": 77.45,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 87,
+      "population_max": 101,
+      "population_mean": 79.55,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 88,
+      "population_max": 101,
+      "population_mean": 78.5,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 89,
+      "population_max": 101,
+      "population_mean": 80.05,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 90,
+      "population_max": 101,
+      "population_mean": 81.9,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 91,
+      "population_max": 101,
+      "population_mean": 82.4,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 92,
+      "population_max": 101,
+      "population_mean": 87.8,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 93,
+      "population_max": 101,
+      "population_mean": 87.9,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 94,
+      "population_max": 101,
+      "population_mean": 89.6,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 95,
+      "population_max": 101,
+      "population_mean": 93.9,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 96,
+      "population_max": 101,
+      "population_mean": 98.05,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 97,
+      "population_max": 101,
+      "population_mean": 96.45,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 98,
+      "population_max": 101,
+      "population_mean": 96.55,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 99,
+      "population_max": 101,
+      "population_mean": 96.1,
+      "best_so_far": 105
+    },
+    {
+      "iteration": 100,
+      "population_max": 101,
+      "population_mean": 92.9,
+      "best_so_far": 105
+    }
+  ],
+  "extra": {
+    "initial_state_selection": "best_individual_in_initial_population",
+    "initial_population": [
+      {
+        "placements": {
+          "base": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "platform": {
+            "position": [
+              2,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "pillar": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "fragile_wide": {
+            "position": [
+              1,
+              0,
+              0
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "fragile_a": {
+            "position": [
+              2,
+              1,
+              2
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "fragile_b": {
+            "position": [
+              2,
+              0,
+              2
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "support_cube": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "support_bar": {
+            "position": [
+              0,
+              0,
+              1
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "base": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "platform": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "pillar": {
+            "position": [
+              1,
+              1,
+              1
+            ],
+            "orientation": [
+              "y",
+              "x",
+              "z"
+            ]
+          },
+          "fragile_wide": {
+            "position": [
+              1,
+              0,
+              1
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "fragile_a": {
+            "position": [
+              2,
+              0,
+              1
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "fragile_b": {
+            "position": [
+              0,
+              1,
+              1
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "support_cube": {
+            "position": [
+              0,
+              0,
+              1
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "support_bar": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "base": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "platform": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "pillar": {
+            "position": [
+              1,
+              1,
+              0
+            ],
+            "orientation": [
+              "y",
+              "x",
+              "z"
+            ]
+          },
+          "fragile_wide": {
+            "position": [
+              2,
+              0,
+              0
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "fragile_a": {
+            "position": [
+              1,
+              1,
+              2
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "fragile_b": {
+            "position": [
+              1,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "support_cube": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "support_bar": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "base": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "platform": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "pillar": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "fragile_wide": {
+            "position": [
+              1,
+              0,
+              0
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "fragile_a": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "fragile_b": {
+            "position": [
+              2,
+              1,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "support_cube": {
+            "position": [
+              0,
+              1,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "support_bar": {
+            "position": [
+              0,
+              1,
+              1
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "base": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "x",
+              "z",
+              "y"
+            ]
+          },
+          "platform": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "pillar": {
+            "position": [
+              0,
+              1,
+              0
+            ],
+            "orientation": [
+              "y",
+              "x",
+              "z"
+            ]
+          },
+          "fragile_wide": {
+            "position": [
+              0,
+              0,
+              2
+            ],
+            "orientation": [
+              "x",
+              "z",
+              "y"
+            ]
+          },
+          "fragile_a": {
+            "position": [
+              1,
+              1,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "fragile_b": {
+            "position": [
+              2,
+              1,
+              1
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "support_cube": {
+            "position": [
+              2,
+              1,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "support_bar": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "base": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "platform": {
+            "position": [
+              2,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "pillar": {
+            "position": [
+              1,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "x",
+              "y"
+            ]
+          },
+          "fragile_wide": {
+            "position": [
+              1,
+              1,
+              2
+            ],
+            "orientation": [
+              "x",
+              "z",
+              "y"
+            ]
+          },
+          "fragile_a": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "fragile_b": {
+            "position": [
+              0,
+              1,
+              2
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "support_cube": {
+            "position": [
+              2,
+              0,
+              2
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "support_bar": {
+            "position": [
+              0,
+              1,
+              1
+            ],
+            "orientation": [
+              "x",
+              "z",
+              "y"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "base": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "platform": {
+            "position": [
+              1,
+              0,
+              1
+            ],
+            "orientation": [
+              "z",
+              "x",
+              "y"
+            ]
+          },
+          "pillar": {
+            "position": [
+              0,
+              1,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "fragile_wide": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "fragile_a": {
+            "position": [
+              1,
+              1,
+              1
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "fragile_b": {
+            "position": [
+              0,
+              1,
+              1
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "support_cube": {
+            "position": [
+              2,
+              1,
+              1
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "support_bar": {
+            "position": [
+              2,
+              0,
+              0
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "base": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "platform": {
+            "position": [
+              2,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "pillar": {
+            "position": [
+              1,
+              0,
+              2
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "fragile_wide": {
+            "position": [
+              0,
+              0,
+              1
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "fragile_a": {
+            "position": [
+              1,
+              1,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "fragile_b": {
+            "position": [
+              2,
+              1,
+              2
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "support_cube": {
+            "position": [
+              0,
+              1,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "support_bar": {
+            "position": [
+              1,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "base": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "platform": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "pillar": {
+            "position": [
+              1,
+              1,
+              1
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "fragile_wide": {
+            "position": [
+              0,
+              0,
+              1
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "fragile_a": {
+            "position": [
+              1,
+              0,
+              1
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "fragile_b": {
+            "position": [
+              2,
+              0,
+              1
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "support_cube": {
+            "position": [
+              1,
+              1,
+              2
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "support_bar": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "base": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "platform": {
+            "position": [
+              1,
+              0,
+              1
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "pillar": {
+            "position": [
+              1,
+              1,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "fragile_wide": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "fragile_a": {
+            "position": [
+              0,
+              1,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "fragile_b": {
+            "position": [
+              2,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "support_cube": {
+            "position": [
+              2,
+              1,
+              1
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "support_bar": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "x",
+              "z",
+              "y"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "base": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "platform": {
+            "position": [
+              0,
+              0,
+              1
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "pillar": {
+            "position": [
+              1,
+              0,
+              0
+            ],
+            "orientation": [
+              "y",
+              "x",
+              "z"
+            ]
+          },
+          "fragile_wide": {
+            "position": [
+              1,
+              0,
+              2
+            ],
+            "orientation": [
+              "x",
+              "z",
+              "y"
+            ]
+          },
+          "fragile_a": {
+            "position": [
+              2,
+              1,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "fragile_b": {
+            "position": [
+              1,
+              1,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "support_cube": {
+            "position": [
+              0,
+              1,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "support_bar": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "base": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "platform": {
+            "position": [
+              1,
+              1,
+              0
+            ],
+            "orientation": [
+              "z",
+              "x",
+              "y"
+            ]
+          },
+          "pillar": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "fragile_wide": {
+            "position": [
+              1,
+              0,
+              0
+            ],
+            "orientation": [
+              "x",
+              "z",
+              "y"
+            ]
+          },
+          "fragile_a": {
+            "position": [
+              2,
+              1,
+              2
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "fragile_b": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "support_cube": {
+            "position": [
+              1,
+              1,
+              2
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "support_bar": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "base": {
+            "position": [
+              0,
+              1,
+              0
+            ],
+            "orientation": [
+              "z",
+              "x",
+              "y"
+            ]
+          },
+          "platform": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "pillar": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "y",
+              "x",
+              "z"
+            ]
+          },
+          "fragile_wide": {
+            "position": [
+              1,
+              0,
+              0
+            ],
+            "orientation": [
+              "x",
+              "z",
+              "y"
+            ]
+          },
+          "fragile_a": {
+            "position": [
+              2,
+              1,
+              1
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "fragile_b": {
+            "position": [
+              0,
+              0,
+              2
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "support_cube": {
+            "position": [
+              2,
+              1,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "support_bar": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "base": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "platform": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "pillar": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "fragile_wide": {
+            "position": [
+              1,
+              0,
+              0
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "fragile_a": {
+            "position": [
+              2,
+              1,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "fragile_b": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "support_cube": {
+            "position": [
+              2,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "support_bar": {
+            "position": [
+              2,
+              0,
+              1
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "base": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "platform": {
+            "position": [
+              0,
+              0,
+              1
+            ],
+            "orientation": [
+              "z",
+              "x",
+              "y"
+            ]
+          },
+          "pillar": {
+            "position": [
+              2,
+              0,
+              1
+            ],
+            "orientation": [
+              "z",
+              "x",
+              "y"
+            ]
+          },
+          "fragile_wide": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "fragile_a": {
+            "position": [
+              0,
+              1,
+              1
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "fragile_b": {
+            "position": [
+              1,
+              1,
+              1
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "support_cube": {
+            "position": [
+              2,
+              1,
+              2
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "support_bar": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "base": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "platform": {
+            "position": [
+              2,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "pillar": {
+            "position": [
+              1,
+              0,
+              2
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "fragile_wide": {
+            "position": [
+              0,
+              0,
+              1
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "fragile_a": {
+            "position": [
+              2,
+              1,
+              2
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "fragile_b": {
+            "position": [
+              1,
+              1,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "support_cube": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "support_bar": {
+            "position": [
+              1,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "base": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "platform": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "y",
+              "x",
+              "z"
+            ]
+          },
+          "pillar": {
+            "position": [
+              0,
+              0,
+              1
+            ],
+            "orientation": [
+              "z",
+              "x",
+              "y"
+            ]
+          },
+          "fragile_wide": {
+            "position": [
+              2,
+              0,
+              0
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "fragile_a": {
+            "position": [
+              1,
+              1,
+              1
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "fragile_b": {
+            "position": [
+              0,
+              1,
+              2
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "support_cube": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "support_bar": {
+            "position": [
+              0,
+              0,
+              2
+            ],
+            "orientation": [
+              "x",
+              "z",
+              "y"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "base": {
+            "position": [
+              0,
+              1,
+              0
+            ],
+            "orientation": [
+              "z",
+              "x",
+              "y"
+            ]
+          },
+          "platform": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "pillar": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "fragile_wide": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "fragile_a": {
+            "position": [
+              2,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "fragile_b": {
+            "position": [
+              1,
+              0,
+              1
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "support_cube": {
+            "position": [
+              1,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "support_bar": {
+            "position": [
+              2,
+              1,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "base": {
+            "position": [
+              1,
+              1,
+              0
+            ],
+            "orientation": [
+              "z",
+              "x",
+              "y"
+            ]
+          },
+          "platform": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "z",
+              "x",
+              "y"
+            ]
+          },
+          "pillar": {
+            "position": [
+              2,
+              0,
+              0
+            ],
+            "orientation": [
+              "y",
+              "x",
+              "z"
+            ]
+          },
+          "fragile_wide": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "fragile_a": {
+            "position": [
+              0,
+              0,
+              2
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "fragile_b": {
+            "position": [
+              0,
+              1,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "support_cube": {
+            "position": [
+              2,
+              0,
+              2
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "support_bar": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "base": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "platform": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          },
+          "pillar": {
+            "position": [
+              0,
+              1,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "fragile_wide": {
+            "position": [
+              0,
+              0,
+              1
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "fragile_a": {
+            "position": [
+              1,
+              0,
+              2
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "fragile_b": {
+            "position": [
+              2,
+              1,
+              0
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "support_cube": {
+            "position": [
+              1,
+              0,
+              1
+            ],
+            "orientation": [
+              "z",
+              "y",
+              "x"
+            ]
+          },
+          "support_bar": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "x",
+              "z",
+              "y"
+            ]
+          }
+        }
+      }
+    ],
+    "final_population_fitness": [
+      101,
+      76,
+      101,
+      85,
+      101,
+      85,
+      101,
+      101,
+      85,
+      85,
+      101,
+      101,
+      85,
+      85,
+      101,
+      101,
+      85,
+      101,
+      92,
+      85
+    ],
+    "best_generation": 2,
+    "crossovers": 1615,
+    "mutation_calls": 575,
+    "accepted_mutations": 522,
+    "settings": {
+      "selection": "roulette_wheel_with_replacement",
+      "crossover_probability": 0.8,
+      "mutation_probability": 0.3,
+      "elitism": false,
+      "repair_attempts": 20,
+      "mutation_attempts": 10
+    }
+  },
+  "total_duration_seconds": 0.3700339999923017,
+  "run_id": 2,
+  "seed": 43,
+  "input": "tc9",
+  "experiment_series": [
+    "vary_population"
+  ]
+}

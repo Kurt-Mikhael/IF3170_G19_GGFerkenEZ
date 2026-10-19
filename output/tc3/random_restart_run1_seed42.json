@@ -1,0 +1,410 @@
+{
+  "algorithm": "random_restart",
+  "parameters": {
+    "maximum_restart": 3
+  },
+  "initial_state": {
+    "placements": {
+      "A": {
+        "position": null,
+        "orientation": [
+          "x",
+          "y",
+          "z"
+        ]
+      },
+      "B": {
+        "position": [
+          1,
+          0,
+          0
+        ],
+        "orientation": [
+          "z",
+          "x",
+          "y"
+        ]
+      }
+    }
+  },
+  "final_state": {
+    "placements": {
+      "A": {
+        "position": null,
+        "orientation": [
+          "x",
+          "y",
+          "z"
+        ]
+      },
+      "B": {
+        "position": [
+          1,
+          0,
+          0
+        ],
+        "orientation": [
+          "z",
+          "x",
+          "y"
+        ]
+      }
+    }
+  },
+  "initial_value": 30,
+  "final_value": 30,
+  "iterations": 4,
+  "accepted_moves": 0,
+  "objective_evaluations": 36,
+  "duration_seconds": 0.0013134000037098303,
+  "stop_reason": "no_improving_neighbor",
+  "history": [
+    {
+      "iteration": 0,
+      "search_id": 0,
+      "local_iteration": 0,
+      "current_value": 30,
+      "best_value": 30
+    },
+    {
+      "iteration": 1,
+      "search_id": 0,
+      "local_iteration": 1,
+      "current_value": 30,
+      "best_value": 30
+    },
+    {
+      "iteration": 2,
+      "search_id": 1,
+      "local_iteration": 0,
+      "current_value": 30,
+      "best_value": 30
+    },
+    {
+      "iteration": 3,
+      "search_id": 1,
+      "local_iteration": 1,
+      "current_value": 30,
+      "best_value": 30
+    },
+    {
+      "iteration": 4,
+      "search_id": 2,
+      "local_iteration": 0,
+      "current_value": 30,
+      "best_value": 30
+    },
+    {
+      "iteration": 5,
+      "search_id": 2,
+      "local_iteration": 1,
+      "current_value": 30,
+      "best_value": 30
+    },
+    {
+      "iteration": 6,
+      "search_id": 3,
+      "local_iteration": 0,
+      "current_value": 30,
+      "best_value": 30
+    },
+    {
+      "iteration": 7,
+      "search_id": 3,
+      "local_iteration": 1,
+      "current_value": 30,
+      "best_value": 30
+    }
+  ],
+  "extra": {
+    "maximum_restart": 3,
+    "num_searches": 4,
+    "restart_count": 3,
+    "best_search": 0,
+    "total_iterations": 4,
+    "iterations_per_search": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "restarts": [
+      {
+        "search_id": 0,
+        "initial_state": {
+          "placements": {
+            "A": {
+              "position": null,
+              "orientation": [
+                "x",
+                "y",
+                "z"
+              ]
+            },
+            "B": {
+              "position": [
+                1,
+                0,
+                0
+              ],
+              "orientation": [
+                "z",
+                "x",
+                "y"
+              ]
+            }
+          }
+        },
+        "final_state": {
+          "placements": {
+            "A": {
+              "position": null,
+              "orientation": [
+                "x",
+                "y",
+                "z"
+              ]
+            },
+            "B": {
+              "position": [
+                1,
+                0,
+                0
+              ],
+              "orientation": [
+                "z",
+                "x",
+                "y"
+              ]
+            }
+          }
+        },
+        "initial_value": 30,
+        "final_value": 30,
+        "iterations": 1,
+        "accepted_moves": 0,
+        "stop_reason": "no_improving_neighbor",
+        "history": [
+          {
+            "iteration": 0,
+            "current_value": 30,
+            "best_value": 30
+          },
+          {
+            "iteration": 1,
+            "current_value": 30,
+            "best_value": 30
+          }
+        ]
+      },
+      {
+        "search_id": 1,
+        "initial_state": {
+          "placements": {
+            "A": {
+              "position": null,
+              "orientation": [
+                "x",
+                "y",
+                "z"
+              ]
+            },
+            "B": {
+              "position": [
+                0,
+                0,
+                0
+              ],
+              "orientation": [
+                "y",
+                "x",
+                "z"
+              ]
+            }
+          }
+        },
+        "final_state": {
+          "placements": {
+            "A": {
+              "position": null,
+              "orientation": [
+                "x",
+                "y",
+                "z"
+              ]
+            },
+            "B": {
+              "position": [
+                0,
+                0,
+                0
+              ],
+              "orientation": [
+                "y",
+                "x",
+                "z"
+              ]
+            }
+          }
+        },
+        "initial_value": 30,
+        "final_value": 30,
+        "iterations": 1,
+        "accepted_moves": 0,
+        "stop_reason": "no_improving_neighbor",
+        "history": [
+          {
+            "iteration": 0,
+            "current_value": 30,
+            "best_value": 30
+          },
+          {
+            "iteration": 1,
+            "current_value": 30,
+            "best_value": 30
+          }
+        ]
+      },
+      {
+        "search_id": 2,
+        "initial_state": {
+          "placements": {
+            "A": {
+              "position": null,
+              "orientation": [
+                "x",
+                "y",
+                "z"
+              ]
+            },
+            "B": {
+              "position": [
+                1,
+                0,
+                0
+              ],
+              "orientation": [
+                "z",
+                "x",
+                "y"
+              ]
+            }
+          }
+        },
+        "final_state": {
+          "placements": {
+            "A": {
+              "position": null,
+              "orientation": [
+                "x",
+                "y",
+                "z"
+              ]
+            },
+            "B": {
+              "position": [
+                1,
+                0,
+                0
+              ],
+              "orientation": [
+                "z",
+                "x",
+                "y"
+              ]
+            }
+          }
+        },
+        "initial_value": 30,
+        "final_value": 30,
+        "iterations": 1,
+        "accepted_moves": 0,
+        "stop_reason": "no_improving_neighbor",
+        "history": [
+          {
+            "iteration": 0,
+            "current_value": 30,
+            "best_value": 30
+          },
+          {
+            "iteration": 1,
+            "current_value": 30,
+            "best_value": 30
+          }
+        ]
+      },
+      {
+        "search_id": 3,
+        "initial_state": {
+          "placements": {
+            "A": {
+              "position": null,
+              "orientation": [
+                "x",
+                "y",
+                "z"
+              ]
+            },
+            "B": {
+              "position": [
+                1,
+                0,
+                0
+              ],
+              "orientation": [
+                "z",
+                "y",
+                "x"
+              ]
+            }
+          }
+        },
+        "final_state": {
+          "placements": {
+            "A": {
+              "position": null,
+              "orientation": [
+                "x",
+                "y",
+                "z"
+              ]
+            },
+            "B": {
+              "position": [
+                1,
+                0,
+                0
+              ],
+              "orientation": [
+                "z",
+                "y",
+                "x"
+              ]
+            }
+          }
+        },
+        "initial_value": 30,
+        "final_value": 30,
+        "iterations": 1,
+        "accepted_moves": 0,
+        "stop_reason": "no_improving_neighbor",
+        "history": [
+          {
+            "iteration": 0,
+            "current_value": 30,
+            "best_value": 30
+          },
+          {
+            "iteration": 1,
+            "current_value": 30,
+            "best_value": 30
+          }
+        ]
+      }
+    ]
+  },
+  "total_duration_seconds": 0.001581899996381253,
+  "run_id": 1,
+  "seed": 42,
+  "input": "tc3"
+}

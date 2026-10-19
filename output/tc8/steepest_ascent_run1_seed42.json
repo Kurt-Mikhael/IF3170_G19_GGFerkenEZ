@@ -1,0 +1,209 @@
+{
+  "algorithm": "steepest_ascent",
+  "parameters": {},
+  "initial_state": {
+    "placements": {
+      "heavy_slab": {
+        "position": null,
+        "orientation": [
+          "x",
+          "y",
+          "z"
+        ]
+      },
+      "heavy_bar": {
+        "position": null,
+        "orientation": [
+          "x",
+          "y",
+          "z"
+        ]
+      },
+      "light_a": {
+        "position": null,
+        "orientation": [
+          "x",
+          "y",
+          "z"
+        ]
+      },
+      "light_b": {
+        "position": [
+          1,
+          2,
+          0
+        ],
+        "orientation": [
+          "z",
+          "x",
+          "y"
+        ]
+      },
+      "light_c": {
+        "position": [
+          0,
+          1,
+          0
+        ],
+        "orientation": [
+          "y",
+          "z",
+          "x"
+        ]
+      },
+      "fragile_cube": {
+        "position": [
+          3,
+          2,
+          0
+        ],
+        "orientation": [
+          "x",
+          "y",
+          "z"
+        ]
+      },
+      "small_cube": {
+        "position": [
+          2,
+          1,
+          0
+        ],
+        "orientation": [
+          "x",
+          "z",
+          "y"
+        ]
+      },
+      "long_bar": {
+        "position": [
+          1,
+          0,
+          1
+        ],
+        "orientation": [
+          "y",
+          "x",
+          "z"
+        ]
+      }
+    }
+  },
+  "final_state": {
+    "placements": {
+      "heavy_slab": {
+        "position": null,
+        "orientation": [
+          "x",
+          "y",
+          "z"
+        ]
+      },
+      "heavy_bar": {
+        "position": null,
+        "orientation": [
+          "x",
+          "y",
+          "z"
+        ]
+      },
+      "light_a": {
+        "position": [
+          1,
+          2,
+          0
+        ],
+        "orientation": [
+          "x",
+          "y",
+          "z"
+        ]
+      },
+      "light_b": {
+        "position": null,
+        "orientation": [
+          "z",
+          "x",
+          "y"
+        ]
+      },
+      "light_c": {
+        "position": [
+          0,
+          1,
+          0
+        ],
+        "orientation": [
+          "y",
+          "z",
+          "x"
+        ]
+      },
+      "fragile_cube": {
+        "position": [
+          3,
+          2,
+          0
+        ],
+        "orientation": [
+          "x",
+          "y",
+          "z"
+        ]
+      },
+      "small_cube": {
+        "position": [
+          2,
+          1,
+          0
+        ],
+        "orientation": [
+          "x",
+          "z",
+          "y"
+        ]
+      },
+      "long_bar": {
+        "position": [
+          1,
+          0,
+          1
+        ],
+        "orientation": [
+          "y",
+          "x",
+          "z"
+        ]
+      }
+    }
+  },
+  "initial_value": 95,
+  "final_value": 98,
+  "iterations": 2,
+  "accepted_moves": 1,
+  "objective_evaluations": 105,
+  "duration_seconds": 0.017745599994668737,
+  "stop_reason": "no_improving_neighbor",
+  "history": [
+    {
+      "iteration": 0,
+      "current_value": 95,
+      "best_value": 95
+    },
+    {
+      "iteration": 1,
+      "current_value": 98,
+      "best_value": 98
+    },
+    {
+      "iteration": 2,
+      "current_value": 98,
+      "best_value": 98
+    }
+  ],
+  "extra": {},
+  "total_duration_seconds": 0.0277112999901874,
+  "run_id": 1,
+  "seed": 42,
+  "input": "tc8"
+}

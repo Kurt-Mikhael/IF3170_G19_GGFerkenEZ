@@ -1,0 +1,232 @@
+{
+  "algorithm": "sideways",
+  "parameters": {
+    "maximum_sideways_move": 10
+  },
+  "initial_state": {
+    "placements": {
+      "slab": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "orientation": [
+          "z",
+          "x",
+          "y"
+        ]
+      },
+      "short_bar": {
+        "position": [
+          1,
+          2,
+          0
+        ],
+        "orientation": [
+          "x",
+          "z",
+          "y"
+        ]
+      },
+      "tall_box": {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "orientation": [
+          "z",
+          "y",
+          "x"
+        ]
+      },
+      "long_bar": {
+        "position": [
+          0,
+          1,
+          0
+        ],
+        "orientation": [
+          "x",
+          "y",
+          "z"
+        ]
+      },
+      "small_cube": {
+        "position": [
+          2,
+          0,
+          0
+        ],
+        "orientation": [
+          "y",
+          "z",
+          "x"
+        ]
+      },
+      "large_cube": {
+        "position": null,
+        "orientation": [
+          "x",
+          "y",
+          "z"
+        ]
+      }
+    }
+  },
+  "final_state": {
+    "placements": {
+      "slab": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "orientation": [
+          "x",
+          "z",
+          "y"
+        ]
+      },
+      "short_bar": {
+        "position": [
+          0,
+          2,
+          0
+        ],
+        "orientation": [
+          "x",
+          "z",
+          "y"
+        ]
+      },
+      "tall_box": {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "orientation": [
+          "z",
+          "x",
+          "y"
+        ]
+      },
+      "long_bar": {
+        "position": [
+          0,
+          1,
+          0
+        ],
+        "orientation": [
+          "x",
+          "z",
+          "y"
+        ]
+      },
+      "small_cube": {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "orientation": [
+          "y",
+          "z",
+          "x"
+        ]
+      },
+      "large_cube": {
+        "position": null,
+        "orientation": [
+          "y",
+          "z",
+          "x"
+        ]
+      }
+    }
+  },
+  "initial_value": 69,
+  "final_value": 69,
+  "iterations": 10,
+  "accepted_moves": 10,
+  "objective_evaluations": 157,
+  "duration_seconds": 0.032760900008725,
+  "stop_reason": "sideways_limit_reached",
+  "history": [
+    {
+      "iteration": 0,
+      "current_value": 69,
+      "best_value": 69
+    },
+    {
+      "iteration": 1,
+      "current_value": 69,
+      "best_value": 69,
+      "sideways": true
+    },
+    {
+      "iteration": 2,
+      "current_value": 69,
+      "best_value": 69,
+      "sideways": true
+    },
+    {
+      "iteration": 3,
+      "current_value": 69,
+      "best_value": 69,
+      "sideways": true
+    },
+    {
+      "iteration": 4,
+      "current_value": 69,
+      "best_value": 69,
+      "sideways": true
+    },
+    {
+      "iteration": 5,
+      "current_value": 69,
+      "best_value": 69,
+      "sideways": true
+    },
+    {
+      "iteration": 6,
+      "current_value": 69,
+      "best_value": 69,
+      "sideways": true
+    },
+    {
+      "iteration": 7,
+      "current_value": 69,
+      "best_value": 69,
+      "sideways": true
+    },
+    {
+      "iteration": 8,
+      "current_value": 69,
+      "best_value": 69,
+      "sideways": true
+    },
+    {
+      "iteration": 9,
+      "current_value": 69,
+      "best_value": 69,
+      "sideways": true
+    },
+    {
+      "iteration": 10,
+      "current_value": 69,
+      "best_value": 69,
+      "sideways": true
+    }
+  ],
+  "extra": {
+    "maximum_sideways_move": 10,
+    "sideways_moves": 10
+  },
+  "total_duration_seconds": 0.03526140000030864,
+  "run_id": 1,
+  "seed": 42,
+  "input": "tc7"
+}

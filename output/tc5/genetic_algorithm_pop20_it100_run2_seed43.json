@@ -1,0 +1,1196 @@
+{
+  "algorithm": "genetic_algorithm",
+  "parameters": {
+    "population_size": 20,
+    "iterations": 100
+  },
+  "initial_state": {
+    "placements": {
+      "A": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "orientation": [
+          "y",
+          "z",
+          "x"
+        ]
+      },
+      "B": {
+        "position": null,
+        "orientation": [
+          "x",
+          "y",
+          "z"
+        ]
+      }
+    }
+  },
+  "final_state": {
+    "placements": {
+      "A": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "orientation": [
+          "y",
+          "z",
+          "x"
+        ]
+      },
+      "B": {
+        "position": null,
+        "orientation": [
+          "x",
+          "y",
+          "z"
+        ]
+      }
+    }
+  },
+  "initial_value": 40,
+  "final_value": 40,
+  "iterations": 100,
+  "accepted_moves": 129,
+  "objective_evaluations": 2020,
+  "duration_seconds": 0.14200949999212753,
+  "stop_reason": "iteration_limit_reached",
+  "history": [
+    {
+      "iteration": 0,
+      "population_max": 40,
+      "population_mean": 40.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 1,
+      "population_max": 40,
+      "population_mean": 38.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 2,
+      "population_max": 40,
+      "population_mean": 40.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 3,
+      "population_max": 40,
+      "population_mean": 34.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 4,
+      "population_max": 40,
+      "population_mean": 34.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 5,
+      "population_max": 40,
+      "population_mean": 40.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 6,
+      "population_max": 40,
+      "population_mean": 38.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 7,
+      "population_max": 40,
+      "population_mean": 36.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 8,
+      "population_max": 40,
+      "population_mean": 38.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 9,
+      "population_max": 40,
+      "population_mean": 38.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 10,
+      "population_max": 40,
+      "population_mean": 38.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 11,
+      "population_max": 40,
+      "population_mean": 38.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 12,
+      "population_max": 40,
+      "population_mean": 36.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 13,
+      "population_max": 40,
+      "population_mean": 38.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 14,
+      "population_max": 40,
+      "population_mean": 38.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 15,
+      "population_max": 40,
+      "population_mean": 36.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 16,
+      "population_max": 40,
+      "population_mean": 38.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 17,
+      "population_max": 40,
+      "population_mean": 34.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 18,
+      "population_max": 40,
+      "population_mean": 36.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 19,
+      "population_max": 40,
+      "population_mean": 38.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 20,
+      "population_max": 40,
+      "population_mean": 38.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 21,
+      "population_max": 40,
+      "population_mean": 38.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 22,
+      "population_max": 40,
+      "population_mean": 38.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 23,
+      "population_max": 40,
+      "population_mean": 38.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 24,
+      "population_max": 40,
+      "population_mean": 40.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 25,
+      "population_max": 40,
+      "population_mean": 36.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 26,
+      "population_max": 40,
+      "population_mean": 34.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 27,
+      "population_max": 40,
+      "population_mean": 38.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 28,
+      "population_max": 40,
+      "population_mean": 40.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 29,
+      "population_max": 40,
+      "population_mean": 38.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 30,
+      "population_max": 40,
+      "population_mean": 36.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 31,
+      "population_max": 40,
+      "population_mean": 32.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 32,
+      "population_max": 40,
+      "population_mean": 38.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 33,
+      "population_max": 40,
+      "population_mean": 38.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 34,
+      "population_max": 40,
+      "population_mean": 38.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 35,
+      "population_max": 40,
+      "population_mean": 34.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 36,
+      "population_max": 40,
+      "population_mean": 32.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 37,
+      "population_max": 40,
+      "population_mean": 40.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 38,
+      "population_max": 40,
+      "population_mean": 40.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 39,
+      "population_max": 40,
+      "population_mean": 36.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 40,
+      "population_max": 40,
+      "population_mean": 40.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 41,
+      "population_max": 40,
+      "population_mean": 38.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 42,
+      "population_max": 40,
+      "population_mean": 36.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 43,
+      "population_max": 40,
+      "population_mean": 40.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 44,
+      "population_max": 40,
+      "population_mean": 40.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 45,
+      "population_max": 40,
+      "population_mean": 40.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 46,
+      "population_max": 40,
+      "population_mean": 38.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 47,
+      "population_max": 40,
+      "population_mean": 38.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 48,
+      "population_max": 40,
+      "population_mean": 38.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 49,
+      "population_max": 40,
+      "population_mean": 38.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 50,
+      "population_max": 40,
+      "population_mean": 34.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 51,
+      "population_max": 40,
+      "population_mean": 40.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 52,
+      "population_max": 40,
+      "population_mean": 34.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 53,
+      "population_max": 40,
+      "population_mean": 34.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 54,
+      "population_max": 40,
+      "population_mean": 36.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 55,
+      "population_max": 40,
+      "population_mean": 38.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 56,
+      "population_max": 40,
+      "population_mean": 38.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 57,
+      "population_max": 40,
+      "population_mean": 36.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 58,
+      "population_max": 40,
+      "population_mean": 38.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 59,
+      "population_max": 40,
+      "population_mean": 38.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 60,
+      "population_max": 40,
+      "population_mean": 40.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 61,
+      "population_max": 40,
+      "population_mean": 36.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 62,
+      "population_max": 40,
+      "population_mean": 40.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 63,
+      "population_max": 40,
+      "population_mean": 34.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 64,
+      "population_max": 40,
+      "population_mean": 36.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 65,
+      "population_max": 40,
+      "population_mean": 40.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 66,
+      "population_max": 40,
+      "population_mean": 40.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 67,
+      "population_max": 40,
+      "population_mean": 36.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 68,
+      "population_max": 40,
+      "population_mean": 38.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 69,
+      "population_max": 40,
+      "population_mean": 38.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 70,
+      "population_max": 40,
+      "population_mean": 36.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 71,
+      "population_max": 40,
+      "population_mean": 38.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 72,
+      "population_max": 40,
+      "population_mean": 34.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 73,
+      "population_max": 40,
+      "population_mean": 38.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 74,
+      "population_max": 40,
+      "population_mean": 38.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 75,
+      "population_max": 40,
+      "population_mean": 38.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 76,
+      "population_max": 40,
+      "population_mean": 40.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 77,
+      "population_max": 40,
+      "population_mean": 40.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 78,
+      "population_max": 40,
+      "population_mean": 38.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 79,
+      "population_max": 40,
+      "population_mean": 36.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 80,
+      "population_max": 40,
+      "population_mean": 38.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 81,
+      "population_max": 40,
+      "population_mean": 40.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 82,
+      "population_max": 40,
+      "population_mean": 36.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 83,
+      "population_max": 40,
+      "population_mean": 38.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 84,
+      "population_max": 40,
+      "population_mean": 38.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 85,
+      "population_max": 40,
+      "population_mean": 40.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 86,
+      "population_max": 40,
+      "population_mean": 38.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 87,
+      "population_max": 40,
+      "population_mean": 34.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 88,
+      "population_max": 40,
+      "population_mean": 38.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 89,
+      "population_max": 40,
+      "population_mean": 38.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 90,
+      "population_max": 40,
+      "population_mean": 40.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 91,
+      "population_max": 40,
+      "population_mean": 40.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 92,
+      "population_max": 40,
+      "population_mean": 36.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 93,
+      "population_max": 40,
+      "population_mean": 36.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 94,
+      "population_max": 40,
+      "population_mean": 34.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 95,
+      "population_max": 40,
+      "population_mean": 40.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 96,
+      "population_max": 40,
+      "population_mean": 36.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 97,
+      "population_max": 40,
+      "population_mean": 38.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 98,
+      "population_max": 40,
+      "population_mean": 36.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 99,
+      "population_max": 40,
+      "population_mean": 38.0,
+      "best_so_far": 40
+    },
+    {
+      "iteration": 100,
+      "population_max": 40,
+      "population_mean": 36.0,
+      "best_so_far": 40
+    }
+  ],
+  "extra": {
+    "initial_state_selection": "best_individual_in_initial_population",
+    "initial_population": [
+      {
+        "placements": {
+          "A": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "B": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "A": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "B": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "A": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "B": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "A": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "B": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "A": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "B": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "A": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "B": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "A": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "B": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "A": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "B": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "A": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "B": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "A": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "B": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "A": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "B": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "A": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "B": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "A": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "B": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "A": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "B": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "A": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "B": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "A": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "B": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "A": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "B": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "A": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "B": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "A": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "B": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          }
+        }
+      },
+      {
+        "placements": {
+          "A": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "orientation": [
+              "y",
+              "z",
+              "x"
+            ]
+          },
+          "B": {
+            "position": null,
+            "orientation": [
+              "x",
+              "y",
+              "z"
+            ]
+          }
+        }
+      }
+    ],
+    "final_population_fitness": [
+      40,
+      40,
+      40,
+      40,
+      40,
+      40,
+      40,
+      40,
+      0,
+      40,
+      40,
+      40,
+      40,
+      40,
+      0,
+      40,
+      40,
+      40,
+      40,
+      40
+    ],
+    "best_generation": 0,
+    "crossovers": 1605,
+    "mutation_calls": 575,
+    "accepted_mutations": 129,
+    "settings": {
+      "selection": "roulette_wheel_with_replacement",
+      "crossover_probability": 0.8,
+      "mutation_probability": 0.3,
+      "elitism": false,
+      "repair_attempts": 20,
+      "mutation_attempts": 10
+    }
+  },
+  "total_duration_seconds": 0.14213599999493454,
+  "run_id": 2,
+  "seed": 43,
+  "input": "tc5",
+  "experiment_series": [
+    "vary_population"
+  ]
+}

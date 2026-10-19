@@ -1,0 +1,112 @@
+{
+  "algorithm": "sideways",
+  "parameters": {
+    "maximum_sideways_move": 10
+  },
+  "initial_state": {
+    "placements": {
+      "A": {
+        "position": null,
+        "orientation": [
+          "x",
+          "y",
+          "z"
+        ]
+      }
+    }
+  },
+  "final_state": {
+    "placements": {
+      "A": {
+        "position": null,
+        "orientation": [
+          "x",
+          "y",
+          "z"
+        ]
+      }
+    }
+  },
+  "initial_value": 0,
+  "final_value": 0,
+  "iterations": 10,
+  "accepted_moves": 10,
+  "objective_evaluations": 31,
+  "duration_seconds": 0.0005946000019321218,
+  "stop_reason": "sideways_limit_reached",
+  "history": [
+    {
+      "iteration": 0,
+      "current_value": 0,
+      "best_value": 0
+    },
+    {
+      "iteration": 1,
+      "current_value": 0,
+      "best_value": 0,
+      "sideways": true
+    },
+    {
+      "iteration": 2,
+      "current_value": 0,
+      "best_value": 0,
+      "sideways": true
+    },
+    {
+      "iteration": 3,
+      "current_value": 0,
+      "best_value": 0,
+      "sideways": true
+    },
+    {
+      "iteration": 4,
+      "current_value": 0,
+      "best_value": 0,
+      "sideways": true
+    },
+    {
+      "iteration": 5,
+      "current_value": 0,
+      "best_value": 0,
+      "sideways": true
+    },
+    {
+      "iteration": 6,
+      "current_value": 0,
+      "best_value": 0,
+      "sideways": true
+    },
+    {
+      "iteration": 7,
+      "current_value": 0,
+      "best_value": 0,
+      "sideways": true
+    },
+    {
+      "iteration": 8,
+      "current_value": 0,
+      "best_value": 0,
+      "sideways": true
+    },
+    {
+      "iteration": 9,
+      "current_value": 0,
+      "best_value": 0,
+      "sideways": true
+    },
+    {
+      "iteration": 10,
+      "current_value": 0,
+      "best_value": 0,
+      "sideways": true
+    }
+  ],
+  "extra": {
+    "maximum_sideways_move": 10,
+    "sideways_moves": 10
+  },
+  "total_duration_seconds": 0.000676499999826774,
+  "run_id": 2,
+  "seed": 43,
+  "input": "tc6"
+}

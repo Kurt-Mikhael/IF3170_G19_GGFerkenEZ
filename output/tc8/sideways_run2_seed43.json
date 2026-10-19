@@ -1,0 +1,270 @@
+{
+  "algorithm": "sideways",
+  "parameters": {
+    "maximum_sideways_move": 10
+  },
+  "initial_state": {
+    "placements": {
+      "heavy_slab": {
+        "position": null,
+        "orientation": [
+          "x",
+          "y",
+          "z"
+        ]
+      },
+      "heavy_bar": {
+        "position": null,
+        "orientation": [
+          "x",
+          "y",
+          "z"
+        ]
+      },
+      "light_a": {
+        "position": null,
+        "orientation": [
+          "x",
+          "y",
+          "z"
+        ]
+      },
+      "light_b": {
+        "position": [
+          0,
+          2,
+          0
+        ],
+        "orientation": [
+          "y",
+          "z",
+          "x"
+        ]
+      },
+      "light_c": {
+        "position": [
+          3,
+          1,
+          0
+        ],
+        "orientation": [
+          "x",
+          "z",
+          "y"
+        ]
+      },
+      "fragile_cube": {
+        "position": [
+          1,
+          0,
+          0
+        ],
+        "orientation": [
+          "y",
+          "x",
+          "z"
+        ]
+      },
+      "small_cube": {
+        "position": [
+          2,
+          1,
+          0
+        ],
+        "orientation": [
+          "x",
+          "z",
+          "y"
+        ]
+      },
+      "long_bar": {
+        "position": [
+          2,
+          0,
+          1
+        ],
+        "orientation": [
+          "y",
+          "x",
+          "z"
+        ]
+      }
+    }
+  },
+  "final_state": {
+    "placements": {
+      "heavy_slab": {
+        "position": null,
+        "orientation": [
+          "x",
+          "y",
+          "z"
+        ]
+      },
+      "heavy_bar": {
+        "position": null,
+        "orientation": [
+          "x",
+          "y",
+          "z"
+        ]
+      },
+      "light_a": {
+        "position": [
+          1,
+          0,
+          0
+        ],
+        "orientation": [
+          "x",
+          "y",
+          "z"
+        ]
+      },
+      "light_b": {
+        "position": null,
+        "orientation": [
+          "y",
+          "z",
+          "x"
+        ]
+      },
+      "light_c": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "orientation": [
+          "x",
+          "z",
+          "y"
+        ]
+      },
+      "fragile_cube": {
+        "position": [
+          3,
+          0,
+          0
+        ],
+        "orientation": [
+          "y",
+          "x",
+          "z"
+        ]
+      },
+      "small_cube": {
+        "position": [
+          0,
+          2,
+          0
+        ],
+        "orientation": [
+          "z",
+          "x",
+          "y"
+        ]
+      },
+      "long_bar": {
+        "position": [
+          2,
+          0,
+          1
+        ],
+        "orientation": [
+          "y",
+          "x",
+          "z"
+        ]
+      }
+    }
+  },
+  "initial_value": 95,
+  "final_value": 98,
+  "iterations": 11,
+  "accepted_moves": 11,
+  "objective_evaluations": 509,
+  "duration_seconds": 0.09450279999873601,
+  "stop_reason": "sideways_limit_reached",
+  "history": [
+    {
+      "iteration": 0,
+      "current_value": 95,
+      "best_value": 95
+    },
+    {
+      "iteration": 1,
+      "current_value": 98,
+      "best_value": 98,
+      "sideways": false
+    },
+    {
+      "iteration": 2,
+      "current_value": 98,
+      "best_value": 98,
+      "sideways": true
+    },
+    {
+      "iteration": 3,
+      "current_value": 98,
+      "best_value": 98,
+      "sideways": true
+    },
+    {
+      "iteration": 4,
+      "current_value": 98,
+      "best_value": 98,
+      "sideways": true
+    },
+    {
+      "iteration": 5,
+      "current_value": 98,
+      "best_value": 98,
+      "sideways": true
+    },
+    {
+      "iteration": 6,
+      "current_value": 98,
+      "best_value": 98,
+      "sideways": true
+    },
+    {
+      "iteration": 7,
+      "current_value": 98,
+      "best_value": 98,
+      "sideways": true
+    },
+    {
+      "iteration": 8,
+      "current_value": 98,
+      "best_value": 98,
+      "sideways": true
+    },
+    {
+      "iteration": 9,
+      "current_value": 98,
+      "best_value": 98,
+      "sideways": true
+    },
+    {
+      "iteration": 10,
+      "current_value": 98,
+      "best_value": 98,
+      "sideways": true
+    },
+    {
+      "iteration": 11,
+      "current_value": 98,
+      "best_value": 98,
+      "sideways": true
+    }
+  ],
+  "extra": {
+    "maximum_sideways_move": 10,
+    "sideways_moves": 10
+  },
+  "total_duration_seconds": 0.10474030001205392,
+  "run_id": 2,
+  "seed": 43,
+  "input": "tc8"
+}

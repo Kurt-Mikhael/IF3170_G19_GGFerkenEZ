@@ -1,0 +1,296 @@
+{
+  "algorithm": "sideways",
+  "parameters": {
+    "maximum_sideways_move": 10
+  },
+  "initial_state": {
+    "placements": {
+      "rotate_bar": {
+        "position": null,
+        "orientation": [
+          "x",
+          "y",
+          "z"
+        ]
+      },
+      "rotate_panel": {
+        "position": [
+          0,
+          1,
+          0
+        ],
+        "orientation": [
+          "z",
+          "y",
+          "x"
+        ]
+      },
+      "block": {
+        "position": null,
+        "orientation": [
+          "x",
+          "y",
+          "z"
+        ]
+      },
+      "fragile_bar": {
+        "position": [
+          1,
+          0,
+          0
+        ],
+        "orientation": [
+          "z",
+          "x",
+          "y"
+        ]
+      },
+      "fragile_cube": {
+        "position": [
+          2,
+          0,
+          1
+        ],
+        "orientation": [
+          "y",
+          "x",
+          "z"
+        ]
+      },
+      "small_a": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "orientation": [
+          "x",
+          "z",
+          "y"
+        ]
+      },
+      "small_b": {
+        "position": [
+          2,
+          0,
+          0
+        ],
+        "orientation": [
+          "x",
+          "z",
+          "y"
+        ]
+      },
+      "dense_cube": {
+        "position": null,
+        "orientation": [
+          "x",
+          "y",
+          "z"
+        ]
+      },
+      "oversize": {
+        "position": null,
+        "orientation": [
+          "x",
+          "y",
+          "z"
+        ]
+      },
+      "overweight": {
+        "position": null,
+        "orientation": [
+          "x",
+          "y",
+          "z"
+        ]
+      }
+    }
+  },
+  "final_state": {
+    "placements": {
+      "rotate_bar": {
+        "position": null,
+        "orientation": [
+          "x",
+          "y",
+          "z"
+        ]
+      },
+      "rotate_panel": {
+        "position": [
+          0,
+          1,
+          0
+        ],
+        "orientation": [
+          "z",
+          "y",
+          "x"
+        ]
+      },
+      "block": {
+        "position": null,
+        "orientation": [
+          "z",
+          "y",
+          "x"
+        ]
+      },
+      "fragile_bar": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "orientation": [
+          "z",
+          "x",
+          "y"
+        ]
+      },
+      "fragile_cube": {
+        "position": [
+          2,
+          0,
+          1
+        ],
+        "orientation": [
+          "y",
+          "z",
+          "x"
+        ]
+      },
+      "small_a": {
+        "position": [
+          1,
+          0,
+          0
+        ],
+        "orientation": [
+          "y",
+          "x",
+          "z"
+        ]
+      },
+      "small_b": {
+        "position": [
+          2,
+          0,
+          0
+        ],
+        "orientation": [
+          "x",
+          "y",
+          "z"
+        ]
+      },
+      "dense_cube": {
+        "position": null,
+        "orientation": [
+          "z",
+          "y",
+          "x"
+        ]
+      },
+      "oversize": {
+        "position": null,
+        "orientation": [
+          "x",
+          "y",
+          "z"
+        ]
+      },
+      "overweight": {
+        "position": null,
+        "orientation": [
+          "y",
+          "x",
+          "z"
+        ]
+      }
+    }
+  },
+  "initial_value": 87,
+  "final_value": 87,
+  "iterations": 10,
+  "accepted_moves": 10,
+  "objective_evaluations": 301,
+  "duration_seconds": 0.06562769999436568,
+  "stop_reason": "sideways_limit_reached",
+  "history": [
+    {
+      "iteration": 0,
+      "current_value": 87,
+      "best_value": 87
+    },
+    {
+      "iteration": 1,
+      "current_value": 87,
+      "best_value": 87,
+      "sideways": true
+    },
+    {
+      "iteration": 2,
+      "current_value": 87,
+      "best_value": 87,
+      "sideways": true
+    },
+    {
+      "iteration": 3,
+      "current_value": 87,
+      "best_value": 87,
+      "sideways": true
+    },
+    {
+      "iteration": 4,
+      "current_value": 87,
+      "best_value": 87,
+      "sideways": true
+    },
+    {
+      "iteration": 5,
+      "current_value": 87,
+      "best_value": 87,
+      "sideways": true
+    },
+    {
+      "iteration": 6,
+      "current_value": 87,
+      "best_value": 87,
+      "sideways": true
+    },
+    {
+      "iteration": 7,
+      "current_value": 87,
+      "best_value": 87,
+      "sideways": true
+    },
+    {
+      "iteration": 8,
+      "current_value": 87,
+      "best_value": 87,
+      "sideways": true
+    },
+    {
+      "iteration": 9,
+      "current_value": 87,
+      "best_value": 87,
+      "sideways": true
+    },
+    {
+      "iteration": 10,
+      "current_value": 87,
+      "best_value": 87,
+      "sideways": true
+    }
+  ],
+  "extra": {
+    "maximum_sideways_move": 10,
+    "sideways_moves": 10
+  },
+  "total_duration_seconds": 0.07233609999821056,
+  "run_id": 2,
+  "seed": 43,
+  "input": "tc10"
+}
