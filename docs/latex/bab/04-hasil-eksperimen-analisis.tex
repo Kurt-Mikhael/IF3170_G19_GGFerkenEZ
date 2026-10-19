@@ -112,6 +112,18 @@ Banyak \textit{restart} yang dilakukan & #6 \\ \hline
 Banyak iterasi per \textit{restart} & #7 \\ \hline
 \akhirtabel
 }
+% Argumen: test case, nomor percobaan, awalan gambar, nilai akhir, durasi, banyak iterasi
+\newcommand{\percobaanStochasticGambar}[6]{%
+\subsubsection{Test case #1 --- Percobaan #2}
+\awaltabel
+\textit{State} awal & \includegraphics[width=\linewidth]{gambar/pengujian/stochastic-hc/#1/#3_initial_state_3d.png} \\ \hline
+\textit{State} akhir & \includegraphics[width=\linewidth]{gambar/pengujian/stochastic-hc/#1/#3_final_state_3d.png} \\ \hline
+Nilai \textit{objective function} akhir & #4 \\ \hline
+Grafik \textit{objective function} terhadap iterasi & \includegraphics[width=\linewidth]{gambar/pengujian/stochastic-hc/#1/#3_experiment.png} \\ \hline
+Durasi pencarian & #5 detik \\ \hline
+Banyak iterasi hingga berhenti & #6 \\ \hline
+\akhirtabel
+}
 \newcommand{\percobaanSA}[2]{%
 \subsubsection{Test case #1 --- Percobaan #2}
 \awaltabel
@@ -193,9 +205,15 @@ Durasi pencarian & \hasil{durasi (detik)} \\ \hline
 \percobaanRestartGambar{tc10}{3}{run3_seed44}{83}{0.075717}{3}{2, 2, 1, 2 (rata-rata: 1,75)}
 
 \subsection{\textit{Stochastic Hill-climbing}}
-\tigaPercobaanHC{tc8}
-\tigaPercobaanHC{tc9}
-\tigaPercobaanHC{tc10}
+\percobaanStochasticGambar{tc8}{1}{run1_seed42}{98}{2.546581}{10.000}
+\percobaanStochasticGambar{tc8}{2}{run2_seed43}{98}{2.677560}{10.000}
+\percobaanStochasticGambar{tc8}{3}{run3_seed44}{103}{1.668485}{10.000}
+\percobaanStochasticGambar{tc9}{1}{run1_seed42}{101}{11.263783}{10.000}
+\percobaanStochasticGambar{tc9}{2}{run2_seed43}{101}{14.746734}{10.000}
+\percobaanStochasticGambar{tc9}{3}{run3_seed44}{96}{11.694191}{10.000}
+\percobaanStochasticGambar{tc10}{1}{run1_seed42}{82}{3.434454}{10.000}
+\percobaanStochasticGambar{tc10}{2}{run2_seed43}{87}{9.042528}{10.000}
+\percobaanStochasticGambar{tc10}{3}{run3_seed44}{83}{3.207028}{10.000}
 
 \section{Eksperimen Algoritma \textit{Simulated Annealing}}
 \tigaPercobaanSA{tc8}
