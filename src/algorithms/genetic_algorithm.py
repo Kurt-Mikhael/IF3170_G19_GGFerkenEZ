@@ -2,7 +2,7 @@ import random
 import time
 
 from src.algorithms.common import build_result
-from src.constraints import validate_state
+from src.constraints import box_overlap, validate_state
 from src.objective import evaluate
 from src.package import ORIENTATIONS
 from src.placement import Placement
@@ -12,7 +12,7 @@ from src.state import State
 class GeneticAlgorithm:
     CROSSOVER_PROBABILITY = 0.80
     MUTATION_PROBABILITY = 0.30
-    REPAIR_ATTEMPTS = 20
+    INITIAL_PLACEMENT_ATTEMPTS = 20
     MUTATION_ATTEMPTS = 10
 
     def __init__(self, problem, rng):
@@ -76,7 +76,7 @@ class GeneticAlgorithm:
 
         return supported
 
-    def _insert(self, state, pid, orientation, inside, loaded_weight, rng, preferred=None):
+    def _try_initial_placement(self, state, pid, orientation, inside, loaded_weight, rng):
         package = self.packages[pid]
         if loaded_weight + package.weight > self.problem.truck.max_capacity:
             return False
@@ -86,13 +86,8 @@ class GeneticAlgorithm:
                 if not self.packages[other_id].is_fragile
             }
         )
-        attempts = self.REPAIR_ATTEMPTS + (preferred is not None)
-
-        for attempt in range(attempts):
-            if attempt == 0 and preferred is not None:
-                position = list(preferred)
-            else:
-                position = self.random_inside_position(package, orientation, rng=rng, heights=heights)
+        for _ in range(self.INITIAL_PLACEMENT_ATTEMPTS):
+            position = self.random_inside_position(package, orientation, rng=rng, heights=heights)
 
             if position is None:
                 return False
@@ -117,7 +112,7 @@ class GeneticAlgorithm:
             }.values())
             rng.shuffle(orientations)
             for orientation in orientations:
-                if self._insert(state, pid, orientation, inside, loaded_weight, rng):
+                if self._try_initial_placement(state, pid, orientation, inside, loaded_weight, rng):
                     loaded_weight += self.packages[pid].weight
                     break
 
@@ -132,18 +127,46 @@ class GeneticAlgorithm:
             pid: Placement(None, list(gene.orientation))
             for pid, gene in inherited.items()
         })
-        ids = [pid for pid, gene in inherited.items() if gene.position is not None]
-        self.rng.shuffle(ids)
-        ids.sort(key=lambda pid: inherited[pid].position[2])
-        inside, loaded_weight = {}, 0
+        # Pertahankan koordinat dan orientasi warisan; tidak mencari posisi pengganti.
+        truck = self.problem.truck
+        candidates = {}
+        for pid, gene in inherited.items():
+            if gene.position is None:
+                continue
+            x, y, z = gene.position
+            dx, dy, dz = self.packages[pid].effective_dims(gene.orientation)
+            if not (0 <= x <= truck.w - dx and 0 <= y <= truck.l - dy and 0 <= z <= truck.h - dz):
+                continue
+            if self.packages[pid].weight > truck.max_capacity:
+                continue
+            candidates[pid] = (x, y, z, dx, dy, dz)
 
+        # Jika bertabrakan, dahulukan nilai paket; luas alas memecahkan nilai seri.
+        priority = sorted(candidates, key=lambda pid: (
+            -self.packages[pid].value,
+            -candidates[pid][3] * candidates[pid][4],
+            pid,
+        ))
+        selected = {}
+        for pid in priority:
+            if not any(box_overlap(candidates[pid], box) for box in selected.values()):
+                selected[pid] = candidates[pid]
+
+        # Periksa dari bawah agar kehilangan penyangga juga mengeluarkan paket di atasnya.
+        # Paket yang melanggar constraint tetap memiliki position=None pada child.
+        ids = sorted(selected, key=lambda pid: (
+            selected[pid][2], -self.packages[pid].value, pid,
+        ))
+        inside, loaded_weight = {}, 0
         for pid in ids:
             gene = inherited[pid]
-            if self._insert(
-                child, pid, gene.orientation, inside, loaded_weight,
-                self.rng, preferred=gene.position,
-            ):
-                loaded_weight += self.packages[pid].weight
+            if loaded_weight + self.packages[pid].weight > truck.max_capacity:
+                continue
+            if not self._can_insert(pid, gene.position, gene.orientation, inside):
+                continue
+            child.placements[pid] = Placement(list(gene.position), list(gene.orientation))
+            inside[pid] = selected[pid]
+            loaded_weight += self.packages[pid].weight
 
         return child
 
@@ -286,7 +309,10 @@ class GeneticAlgorithm:
                     "crossover_probability": self.CROSSOVER_PROBABILITY,
                     "mutation_probability": self.MUTATION_PROBABILITY,
                     "elitism": False,
-                    "repair_attempts": self.REPAIR_ATTEMPTS,
+                    "crossover": "uniform_inheritance_without_relocation",
+                    "overlap_priority": "package_value_then_footprint_area",
+                    "invalid_placement": "outside",
+                    "initial_placement_attempts": self.INITIAL_PLACEMENT_ATTEMPTS,
                     "mutation_attempts": self.MUTATION_ATTEMPTS,
                 },
             },

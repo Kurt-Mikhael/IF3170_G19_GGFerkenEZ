@@ -9,10 +9,13 @@ from plotly.subplots import make_subplots
 ALGORITHM_NAMES = {
     "steepest_ascent": "Steepest-Ascent Hill Climbing",
     "sideways": "Hill Climbing dengan Sideways",
+    "stochastic": "Stochastic Hill Climbing",
     "random_restart": "Random-Restart Hill Climbing",
     "simulated_annealing": "Simulated Annealing",
     "genetic_algorithm": "Genetic Algorithm",
 }
+
+CHART_COLORS = ["#2563eb", "#ea580c", "#7c3aed", "#0891b2", "#db2777", "#64748b"]
 
 
 def algorithm_view(result):
@@ -21,7 +24,7 @@ def algorithm_view(result):
     extra = result.get("extra", {})
     title = ALGORITHM_NAMES.get(algorithm, algorithm)
 
-    if algorithm in {"steepest_ascent", "sideways"}:
+    if algorithm in {"steepest_ascent", "sideways", "stochastic"}:
         if algorithm == "sideways":
             title += f" | Sideways diterima: {extra['sideways_moves']}"
 
@@ -30,6 +33,7 @@ def algorithm_view(result):
             x="iteration",
             y="current_value",
             markers=True,
+            color_discrete_sequence=CHART_COLORS,
             title=title,
             labels={"iteration": "Iterasi", "current_value": "Nilai state"},
         )
@@ -60,28 +64,49 @@ def algorithm_view(result):
         )
 
     elif algorithm == "simulated_annealing":
+        # E is the objective value of the current state, including rejected
+        # proposals where E stays unchanged. Delta E describes each proposal.
+        panels = [("E: nilai objective state setiap iterasi", [
+            ("current_value", "E (state saat ini)"),
+            ("best_value", "E terbaik"),
+        ], "E")]
+        if "delta_e" in history:
+            panels.append(("Delta E proposal terhadap state sebelum iterasi", [
+                ("delta_e", "Delta E proposal"),
+            ], "Delta E"))
+        panels.append(("Suhu", [("temperature", "Suhu")], "T"))
+        if "exp_delta_e_over_t" in history:
+            panels.append(("e^(Delta E/T) setiap proposal", [
+                ("exp_delta_e_over_t", "e^(Delta E/T)"),
+            ], "e^(Delta E/T)"))
+        panels.append(("Probabilitas penerimaan min(1, e^(Delta E/T))", [
+            ("acceptance_probability", "Probabilitas penerimaan"),
+        ], "Probabilitas"))
         fig = make_subplots(
-            rows=3,
+            rows=len(panels),
             cols=1,
             shared_xaxes=True,
-            subplot_titles=("Nilai state", "Suhu", "Probabilitas penerimaan min(1, e^(ΔE/T))"),
+            subplot_titles=[panel[0] for panel in panels],
         )
-        for field, label, row in [
-            ("current_value", "Nilai saat ini", 1),
-            ("best_value", "Nilai terbaik", 1),
-            ("temperature", "Suhu", 2),
-            ("acceptance_probability", "Probabilitas", 3),
-        ]:
-            fig.add_trace(
-                go.Scatter(x=history["iteration"], y=history[field], mode="lines", name=label),
-                row=row,
-                col=1,
-            )
-        fig.update_yaxes(title_text="Nilai", row=1, col=1)
-        fig.update_yaxes(title_text="Suhu", type="log", row=2, col=1)
-        fig.update_yaxes(title_text="Probabilitas", range=[0, 1.05], row=3, col=1)
-        fig.update_xaxes(title_text="Iterasi", row=3, col=1)
-        fig.update_layout(title=f"{title} | Stuck di local optima: {extra.get('stuck_count', 0)} kali", height=750)
+        for row, (_, fields, axis_title) in enumerate(panels, start=1):
+            for field, label in fields:
+                fig.add_trace(
+                    go.Scatter(
+                        x=history["iteration"], y=history[field],
+                        mode="lines+markers", marker_size=3, name=label,
+                        connectgaps=False,
+                    ), row=row, col=1,
+                )
+            fig.update_yaxes(title_text=axis_title, row=row, col=1)
+            if axis_title == "T":
+                fig.update_yaxes(type="log", row=row, col=1)
+            elif axis_title == "Probabilitas":
+                fig.update_yaxes(range=[0, 1.05], row=row, col=1)
+        fig.update_xaxes(title_text="Iterasi", row=len(panels), col=1)
+        fig.update_layout(
+            title=f"{title} | Episode stuck tercatat: {extra.get('stuck_count', 0)}",
+            height=250 * len(panels),
+        )
 
     elif algorithm == "genetic_algorithm":
         fig = go.Figure()
@@ -96,6 +121,7 @@ def algorithm_view(result):
     else:
         raise ValueError(f"Algoritma belum dikenali: {algorithm}")
 
+    fig.update_layout(colorway=CHART_COLORS, template="plotly_white")
     return fig
 
 
