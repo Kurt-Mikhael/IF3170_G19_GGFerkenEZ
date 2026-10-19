@@ -41,7 +41,8 @@ neighbors.py & Membangkitkan tetangga valid dari sebuah \textit{state} dengan op
 common.py & Menyusun format hasil \textit{run} yang seragam untuk semua algoritma. \\
 hill\_climb.py & Implementasi \textit{Hill-climbing} dengan empat varian: \textit{steepest ascent}, \textit{sideways move}, \textit{random restart}, dan \textit{stochastic}. \\
 simulated\_annealing.py & Implementasi \textit{Simulated Annealing} dengan jadwal pendinginan geometris dan pencatatan kejadian \textit{stuck}. \\
-genetic\_algorithm.py & Implementasi \textit{Genetic Algorithm}, yaitu pencarian berbasis populasi dengan \textit{roulette wheel selection}, \textit{crossover}, dan \textit{mutation}. \\
+genetic\_algorithm.py & Implementasi \textit{Genetic Algorithm}, yaitu pencarian berbasis populasi dengan \textit{roulette wheel selection}, \textit{uniform crossover}, dan \textit{mutation}. \\
+visualize.py & Membuat satu halaman HTML interaktif per berkas hasil, berisi tampilan 3D \textit{state}, peta sel per lapisan, tabel paket, metrik, dan grafik riwayat. \\
 visualization\_charts.py & Membuat grafik hasil eksperimen dengan plotly, yaitu algorithm\_view untuk satu \textit{run} dan experiment\_view untuk kumpulan \textit{run}. \\
 \end{longtable}
 
@@ -399,7 +400,7 @@ Pencarian berhenti karena salah satu dari tiga alasan, yaitu max\_iterations (ba
 
 \subsection{genetic\_algorithm.py}
 
-\textit{Genetic Algorithm} yang diimplementasikan menggunakan State sebagai individu (kromosom), dengan Placement setiap paket sebagai gen. Populasi dievolusikan selama sejumlah iterasi (generasi) tertentu melalui seleksi orang tua, \textit{crossover}, dan \textit{mutation}. Berbeda dengan algoritma lain, \textit{Genetic Algorithm} membangun individu baru dengan pengecekan \textit{constraint} inkremental pada metode \_can\_insert dan \_insert, sehingga setiap individu pada populasi selalu valid.
+\textit{Genetic Algorithm} yang diimplementasikan menggunakan State sebagai individu (kromosom), dengan Placement setiap paket sebagai gen. Populasi dievolusikan selama sejumlah iterasi (generasi) tertentu melalui seleksi orang tua, \textit{crossover}, dan \textit{mutation}. Berbeda dengan algoritma lain, individu populasi awal dan hasil \textit{crossover} dibangun dengan pengecekan \textit{constraint} inkremental pada metode \_can\_insert, sedangkan hasil \textit{mutation} divalidasi dengan validate\_state. Dengan demikian, setiap individu pada populasi selalu valid.
 
 \begin{longtable}{K D}
 \caption{Kelas/fungsi pada genetic\_algorithm.py}
@@ -422,44 +423,138 @@ Pencarian berhenti karena salah satu dari tiga alasan, yaitu max\_iterations (ba
 \bottomrule
 \endlastfoot
 
-class GeneticAlgorithm & Implementasi \textit{Genetic Algorithm} yang menyediakan siklus seleksi, \textit{crossover}, dan \textit{mutation}. Konstanta kelas: CROSSOVER\_PROBABILITY = 0,80, MUTATION\_PROBABILITY = 0,30, REPAIR\_ATTEMPTS = 20, dan MUTATION\_ATTEMPTS = 10. \\
+class GeneticAlgorithm & Implementasi \textit{Genetic Algorithm} yang menyediakan siklus seleksi, \textit{crossover}, dan \textit{mutation}. Konstanta kelas: CROSSOVER\_PROBABILITY = 0,80, MUTATION\_PROBABILITY = 0,30, INITIAL\_PLACEMENT\_ATTEMPTS = 20, dan MUTATION\_ATTEMPTS = 10. \\
 \_\_init\_\_(self, problem, rng) & Menyimpan instans masalah, generator acak, dan package\_map. \\
 random\_inside\_position(self, package, orientation, rng, heights) & Mengembalikan posisi acak yang membuat paket berada di dalam dimensi truk, atau None bila paket tidak muat pada orientasi tersebut. Jika heights diberikan, koordinat $z$ dipilih hanya dari daftar ketinggian tersebut. \\
 select\_parents(self, population, fitness\_scores) & Memilih dua orang tua dengan \textit{roulette wheel selection} dengan pengembalian, dengan peluang sebanding \textit{fitness}. Jika seluruh \textit{fitness} bernilai nol, pemilihan dilakukan seragam. \\
 \_empty\_state(self) & Membuat \textit{state} kosong, yaitu semua paket tidak dimuat. \\
 \_can\_insert(self, pid, position, orientation, inside) & Mengecek apakah sebuah paket dapat disisipkan pada posisi dan orientasi tertentu terhadap paket yang sudah berada di dalam truk (inside), mencakup batas truk, \textit{overlap}, paket \textit{fragile}, dan penyangga. \\
-\_insert(self, state, pid, orientation, inside, loaded\_weight, rng, preferred) & Mencoba menyisipkan paket ke \textit{state}. Pengecekan berat dilakukan lebih dahulu. Posisi preferred (jika ada) dicoba lebih dahulu, kemudian hingga REPAIR\_ATTEMPTS posisi acak. Mengembalikan True bila berhasil. \\
+\_try\_initial\_placement(self, state, pid, orientation, inside, loaded\_weight, rng) & Mencoba menempatkan satu paket pada \textit{state} awal. Pengecekan berat dilakukan lebih dahulu, kemudian hingga INITIAL\_PLACEMENT\_ATTEMPTS posisi acak dicoba pada ketinggian kandidat. Mengembalikan True bila berhasil. \\
 \_generate\_initial\_state(self, rng) & Membangkitkan satu individu acak dengan menyisipkan paket dalam urutan acak. \\
-crossover(self, parent\_a, parent\_b) & Menghasilkan satu anak dari dua orang tua melalui pewarisan gen per paket. \\
+crossover(self, parent\_a, parent\_b) & Menghasilkan satu anak dari dua orang tua melalui pewarisan gen per paket tanpa mencari posisi pengganti, lalu membuang paket yang melanggar \textit{constraint}. \\
 mutate(self, state) & Menerapkan satu \textit{mutation} (\textit{swap}, \textit{move}, atau \textit{rotate}) yang menghasilkan \textit{state} valid; jika gagal, mengembalikan salinan \textit{state} semula. \\
 \_statistics(iteration, scores, best\_value) & Menghitung statistik populasi per generasi (nilai maksimum, rata-rata, dan nilai terbaik sejauh ini). \\
 genetic\_algorithm(self, population\_size=50, iterations=100) & Menjalankan seluruh proses evolusi dan mengembalikan hasil dalam format build\_result. \\
 \end{longtable}
 
-\Cref{lst:ga-init} menunjukkan konstanta dan konstruktor, serta fungsi pembangkit posisi acak di dalam truk dan seleksi orang tua. Seleksi menggunakan random.choices dengan bobot berupa nilai \textit{fitness} yang sama dengan nilai \textit{objective function}. Seleksi dilakukan dengan pengembalian sehingga kedua orang tua dapat merupakan individu yang sama, dan akan muncul ValueError bila terdapat \textit{fitness} negatif.
+\Cref{lst:ga-init} menunjukkan konstanta dan konstruktor, serta \Cref{lst:ga-select} menunjukkan fungsi pembangkit posisi acak di dalam truk dan seleksi orang tua. Seleksi menggunakan random.choices dengan bobot berupa nilai \textit{fitness} yang sama dengan nilai \textit{objective function}. Seleksi dilakukan dengan pengembalian sehingga kedua orang tua dapat merupakan individu yang sama, dan akan muncul ValueError bila terdapat \textit{fitness} negatif.
 
 \pycode[firstline=1,lastline=21]{Konstanta dan konstruktor GeneticAlgorithm}{lst:ga-init}{../../src/algorithms/genetic_algorithm.py}
 
-\pycode[firstline=23,lastline=46]{Pembangkit posisi acak dan seleksi orang tua}{lst:ga-select}{../../src/algorithms/genetic_algorithm.py}
+\pycode[firstline=23,lastline=52]{Pembangkit posisi acak, seleksi orang tua, dan \textit{state} kosong}{lst:ga-select}{../../src/algorithms/genetic_algorithm.py}
 
-Metode \_can\_insert dan \_insert pada \Cref{lst:ga-insert} merupakan versi inkremental dari pengecekan \textit{constraint}. \_can\_insert menolak posisi yang keluar dari truk, bertumpang tindih dengan paket lain, berada di atas paket \textit{fragile}, atau (bila paket yang disisipkan \textit{fragile}) berada di bawah paket lain, serta mensyaratkan paket berada di lantai atau tepat di atas paket \textit{non-fragile}. \_insert lebih dahulu menolak paket yang membuat total berat melebihi kapasitas, kemudian menyusun daftar ketinggian kandidat, yaitu lantai dan sisi atas paket \textit{non-fragile} yang sudah ada, dan mencoba posisi acak pada ketinggian tersebut hingga REPAIR\_ATTEMPTS kali. Paket yang gagal disisipkan dibiarkan berada di luar truk.
+Metode \_can\_insert pada \Cref{lst:ga-insert} merupakan pengecekan \textit{constraint} secara inkremental terhadap paket yang sudah berada di dalam truk. Metode ini menolak posisi yang keluar dari truk, bertumpang tindih dengan paket lain, berada di atas paket \textit{fragile}, atau (bila paket yang disisipkan \textit{fragile}) berada di bawah paket lain, serta mensyaratkan paket berada di lantai atau tepat di atas paket \textit{non-fragile}.
 
-\pycode[firstline=48,lastline=105]{Pengecekan dan penyisipan paket secara inkremental}{lst:ga-insert}{../../src/algorithms/genetic_algorithm.py}
+\pycode[firstline=54,lastline=77]{Pengecekan penyisipan paket secara inkremental}{lst:ga-insert}{../../src/algorithms/genetic_algorithm.py}
 
-Individu populasi awal dibangkitkan oleh \_generate\_initial\_state pada \Cref{lst:ga-initial-state}. Urutan paket diacak, orientasi unik (yang menghasilkan dimensi efektif berbeda) diacak, dan setiap paket dicoba disisipkan dengan salah satu orientasi hingga berhasil.
+Individu populasi awal dibangkitkan oleh \_generate\_initial\_state pada \Cref{lst:ga-initial-state}. Urutan paket diacak, orientasi unik (yang menghasilkan dimensi efektif berbeda) diacak, dan setiap paket dicoba ditempatkan oleh \_try\_initial\_placement dengan salah satu orientasi hingga berhasil. \_try\_initial\_placement lebih dahulu menolak paket yang membuat total berat melebihi kapasitas, kemudian menyusun daftar ketinggian kandidat, yaitu lantai dan sisi atas paket \textit{non-fragile} yang sudah ada, dan mencoba posisi acak pada ketinggian tersebut hingga INITIAL\_PLACEMENT\_ATTEMPTS kali. Paket yang gagal ditempatkan dibiarkan berada di luar truk.
 
-\pycode[firstline=107,lastline=124]{Pembangkitan individu awal}{lst:ga-initial-state}{../../src/algorithms/genetic_algorithm.py}
+\pycode[firstline=79,lastline=119]{Penempatan paket dan pembangkitan individu awal}{lst:ga-initial-state}{../../src/algorithms/genetic_algorithm.py}
 
-Operator \textit{crossover} pada \Cref{lst:ga-crossover} bekerja per paket (\textit{uniform crossover}): untuk setiap paket, gen (posisi dan orientasi) diwarisi dari salah satu orang tua yang dipilih acak. Anak dibangun dengan menyisipkan kembali paket-paket berposisi tidak None secara berurutan dari ketinggian $z$ terkecil, dengan posisi warisan sebagai percobaan pertama dan posisi acak sebagai perbaikan bila posisi warisan tidak valid. Dengan cara ini, anak selalu valid, tetapi sebagian paket dapat tidak termuat.
+Operator \textit{crossover} pada \Cref{lst:ga-crossover} bekerja per paket (\textit{uniform crossover}): untuk setiap paket, gen (posisi dan orientasi) diwarisi dari salah satu orang tua yang dipilih acak. Koordinat dan orientasi warisan dipertahankan; operator tidak mencari posisi pengganti. Pembentukan anak dilakukan dalam empat tahap. Pertama, gen berposisi None atau yang keluar dari batas truk dibuang dari kandidat. Kedua, bila beberapa kandidat saling bertumpang tindih, kandidat dengan \textit{value} lebih besar dipertahankan lebih dahulu, dengan luas alas sebagai pemecah nilai seri. Ketiga, kandidat yang tersisa diperiksa dari ketinggian $z$ terkecil, sehingga paket yang kehilangan penyangga juga ikut dikeluarkan. Keempat, setiap paket dicek terhadap kapasitas berat dan \_can\_insert. Paket yang tidak lolos tetap berposisi None pada anak, sehingga anak selalu valid tetapi sebagian paket dapat tidak termuat.
 
-\pycode[firstline=126,lastline=148]{Operator \textit{crossover}}{lst:ga-crossover}{../../src/algorithms/genetic_algorithm.py}
+\pycode[firstline=121,lastline=171]{Operator \textit{crossover}}{lst:ga-crossover}{../../src/algorithms/genetic_algorithm.py}
 
-Operator \textit{mutation} pada \Cref{lst:ga-mutate} memilih secara seragam salah satu dari tiga jenis perubahan: \textit{swap} (menukar posisi dua paket), \textit{move} (memindahkan satu paket ke posisi acak, dengan peluang 20\% paket dikeluarkan dari truk), atau \textit{rotate} (merotasi satu paket pada sumbu acak, hanya dihitung bila dimensi efektif berubah). Kandidat harus berbeda dari \textit{state} semula dan lolos validate\_state. Hingga MUTATION\_ATTEMPTS percobaan dilakukan, dan bila tidak ada yang valid, salinan \textit{state} semula dikembalikan.
+Operator \textit{mutation} pada \Cref{lst:ga-mutate} memilih secara seragam salah satu dari tiga jenis perubahan: \textit{swap} (menukar posisi dua paket, orientasi tetap), \textit{move} (memindahkan satu paket ke posisi acak di dalam truk, dengan peluang 20\% paket dikeluarkan dari truk), atau \textit{rotate} (merotasi satu paket pada sumbu acak, hanya dihitung bila dimensi efektif berubah). Kandidat harus berbeda dari \textit{state} semula dan lolos validate\_state. Hingga MUTATION\_ATTEMPTS percobaan dilakukan, dan bila tidak ada yang valid, salinan \textit{state} semula dikembalikan.
 
-\pycode[firstline=150,lastline=198]{Operator \textit{mutation}}{lst:ga-mutate}{../../src/algorithms/genetic_algorithm.py}
+\pycode[firstline=173,lastline=221]{Operator \textit{mutation}}{lst:ga-mutate}{../../src/algorithms/genetic_algorithm.py}
 
-Proses evolusi pada \Cref{lst:ga-main} berjalan sebagai berikut. Populasi awal dibangkitkan dengan generator acak terpisah yang diturunkan dari rng, kemudian dievaluasi, dan individu terbaiknya dicatat sebagai initial\_state. Pada setiap generasi, populasi baru dibentuk dengan mengulangi langkah berikut hingga ukurannya sama dengan population\_size: dua orang tua dipilih dengan \textit{roulette wheel}; dengan probabilitas 0,80 anak dibentuk melalui \textit{crossover}, selain itu anak berupa salinan salah satu orang tua; kemudian dengan probabilitas 0,30 anak dimutasi. Populasi baru menggantikan seluruh populasi lama (tanpa \textit{elitism}), tetapi individu terbaik sepanjang pencarian disimpan terpisah pada best\_state. Pencarian berhenti setelah iterations generasi dengan alasan iteration\_limit\_reached, dan jumlah evaluasi \textit{objective function} adalah population\_size $\times$ (iterations $+ 1$). Pada main.py, eksperimen dijalankan pada dua rangkaian: populasi sebagai kontrol dengan tiga variasi jumlah iterasi, dan iterasi sebagai kontrol dengan tiga variasi ukuran populasi.
+Proses evolusi pada \Cref{lst:ga-main} berjalan sebagai berikut. Populasi awal dibangkitkan dengan generator acak terpisah yang diturunkan dari rng, kemudian dievaluasi, dan individu terbaiknya dicatat sebagai initial\_state. Pada setiap generasi, populasi baru dibentuk dengan mengulangi langkah berikut hingga ukurannya sama dengan population\_size: dua orang tua dipilih dengan \textit{roulette wheel}; dengan probabilitas 0,80 anak dibentuk melalui \textit{crossover}, selain itu anak berupa salinan salah satu orang tua; kemudian dengan probabilitas 0,30 anak dimutasi. Populasi baru menggantikan seluruh populasi lama (tanpa \textit{elitism}), tetapi individu terbaik sepanjang pencarian disimpan terpisah pada best\_state. Pencarian berhenti setelah iterations generasi dengan alasan iteration\_limit\_reached, dan jumlah evaluasi \textit{objective function} adalah population\_size $\times$ (iterations $+ 1$). Pada main.py, eksperimen dijalankan pada dua rangkaian: populasi sebagai kontrol dengan tiga variasi jumlah iterasi (bawaan 50, 100, dan 200), dan iterasi sebagai kontrol dengan tiga variasi ukuran populasi (bawaan 20, 50, dan 100). Konfigurasi yang muncul pada kedua rangkaian hanya dijalankan sekali.
 
-\pycode[firstline=200,lastline=261]{Statistik populasi dan proses evolusi \textit{Genetic Algorithm}}{lst:ga-main}{../../src/algorithms/genetic_algorithm.py}
+\pycode[firstline=223,lastline=282]{Statistik populasi dan proses evolusi \textit{Genetic Algorithm}}{lst:ga-main}{../../src/algorithms/genetic_algorithm.py}
 
-\pycode[firstline=263,lastline=293]{Penyusunan hasil \textit{Genetic Algorithm}}{lst:ga-result}{../../src/algorithms/genetic_algorithm.py}
+Hasil akhir pada \Cref{lst:ga-result} berisi individu terbaik sepanjang pencarian sebagai \textit{final state}, jumlah perpindahan yang diterima (jumlah \textit{mutation} yang benar-benar mengubah \textit{state}), serta informasi tambahan berupa populasi awal, \textit{fitness} populasi akhir, generasi tempat individu terbaik ditemukan, jumlah \textit{crossover} dan \textit{mutation}, dan pengaturan yang digunakan.
+
+\pycode[firstline=284,lastline=319]{Penyusunan hasil \textit{Genetic Algorithm}}{lst:ga-result}{../../src/algorithms/genetic_algorithm.py}
+
+\section{Implementasi Visualizer}
+\label{sec:visualizer-impl}
+
+Visualizer mengubah berkas JSON hasil pencarian menjadi halaman HTML interaktif, sehingga \textit{state} awal, \textit{state} akhir, dan riwayat pencarian dapat diperiksa tanpa membaca JSON secara manual. Visualizer terdiri atas dua modul, yaitu visualize.py yang menyusun tampilan \textit{state} dan halaman HTML, serta visualization\_charts.py yang menyusun grafik hasil eksperimen. Pustaka pandas dan plotly dipakai pada kedua modul. Setiap berkas JSON hasil menghasilkan satu berkas HTML dengan nama yang sama, ditambah satu berkas plotly.min.js bersama sehingga halaman dapat dibuka tanpa koneksi internet.
+
+\subsection{visualize.py}
+
+\begin{longtable}{K D}
+\caption{Fungsi pada visualize.py}
+\label{tab:viz} \\
+\toprule
+\textbf{Fungsi} & \textbf{Deskripsi} \\
+\midrule
+\endfirsthead
+
+\multicolumn{2}{c}{\tablename\ \thetable{} -- lanjutan} \\
+\toprule
+\textbf{Fungsi} & \textbf{Deskripsi} \\
+\midrule
+\endhead
+
+\midrule
+\multicolumn{2}{r}{Dilanjutkan ke halaman berikutnya} \\
+\endfoot
+
+\bottomrule
+\endlastfoot
+
+package\_colors(problem) & Memberikan satu warna tetap untuk setiap ID paket dari palet plotly. \\
+read\_state(problem, data) & Membaca \textit{state} dari JSON, memeriksa kelengkapan ID paket, format posisi dan orientasi, lalu memvalidasinya dengan validate\_state. Memunculkan ValueError bila \textit{state} tidak valid. \\
+box\_vertices(position, dimensions), box\_mesh(position, dimensions, color, info) & Menghitung delapan titik sudut balok dan membentuk objek Mesh3d berwarna untuk satu paket, dengan teks \textit{hover}. \\
+truck\_frame(dimensions) & Membentuk rangka garis peti kemas dari dua belas rusuk balok. \\
+state\_view(problem, data, title) & Membuat tampilan 3D berisi dua \textit{scene}, yaitu paket di dalam peti dan paket di luar peti. Fungsi ini juga mengembalikan tabel paket dan peta sel peti. \\
+grid\_view(problem, grid, title) & Membuat peta sel per lapisan $z$ (\textit{heatmap}) dengan \textit{slider} lapisan. \\
+figure\_html, table\_html, write\_page & Mengubah grafik dan tabel menjadi HTML, menambahkan tombol Unduh PNG (2x), dan menulis halaman akhir. \\
+write\_result(problem, result, path) & Menyusun seluruh isi halaman satu berkas hasil. \\
+main() & Membaca argumen \textit{command line} dan memproses seluruh berkas hasil. \\
+\end{longtable}
+
+Fungsi read\_state pada \Cref{lst:viz-read} memeriksa bahwa himpunan ID paket pada hasil sama dengan masukan, setiap posisi berupa tiga bilangan bulat atau None, dan setiap orientasi merupakan permutasi x, y, z. Setelah itu \textit{state} divalidasi dengan validate\_state yang sama dengan yang dipakai algoritma, sehingga visualizer tidak pernah menampilkan konfigurasi yang melanggar \textit{constraint}.
+
+\pycode[firstline=46,lastline=71]{Pembacaan dan validasi \textit{state}}{lst:viz-read}{../../src/visualize.py}
+
+Fungsi state\_view pada \Cref{lst:viz-state} membangun tampilan 3D. Paket yang berada di dalam peti digambar pada posisi \textit{state} di \textit{scene} pertama, sedangkan paket di luar peti (posisi None) digambar berderet pada \textit{scene} kedua dengan posisi ilustrasi saja. Judul grafik memuat nilai \textit{objective}, jumlah paket masuk dan luar, persentase volume terisi, dan berat terhadap kapasitas. Fungsi ini juga memetakan setiap sel satuan peti ke ID paket penghuninya yang digunakan oleh grid\_view.
+
+\pycode[firstline=104,lastline=194]{Tampilan 3D \textit{state}}{lst:viz-state}{../../src/visualize.py}
+
+Peta sel pada \Cref{lst:viz-grid} menampilkan satu lapisan $z$ sebagai \textit{heatmap} dua dimensi, dengan sel kosong berwarna abu-abu. \textit{Slider} memungkinkan pengguna berpindah antar-lapisan untuk memeriksa susunan tumpukan paket.
+
+\pycode[firstline=197,lastline=244]{Peta sel per lapisan}{lst:viz-grid}{../../src/visualize.py}
+
+Fungsi write\_result pada \Cref{lst:viz-result} menyusun halaman satu \textit{run}. Untuk \textit{initial state} dan \textit{final state}, fungsi ini menampilkan grafik 3D, peta sel, dan tabel seluruh paket, setelah memeriksa bahwa nilai \textit{objective} yang dihitung ulang sama dengan initial\_value dan final\_value pada JSON. Selanjutnya ditampilkan tabel metrik (algoritma, \textit{seed}, nilai awal dan akhir, durasi, jumlah iterasi atau generasi, alasan berhenti, serta metrik khusus algoritma seperti jumlah \textit{sideways}, jumlah \textit{restart}, atau frekuensi \textit{stuck}), tabel parameter, catatan penjelasan, dan grafik riwayat pencarian dari algorithm\_view.
+
+\pycode[firstline=321,lastline=409]{Penyusunan halaman hasil satu \textit{run}}{lst:viz-result}{../../src/visualize.py}
+
+Program dijalankan dengan perintah python -m src.visualize --input <berkas masukan> yang menerima opsi --results (berkas atau direktori JSON hasil, bawaan output) dan --output-dir (bawaan output/visualizations). Setiap grafik dilengkapi tombol Unduh PNG (2x) untuk menyimpan tampilan grafik saat itu sebagai gambar.
+
+\pycode[firstline=412,lastline=437]{Fungsi utama visualizer}{lst:viz-main}{../../src/visualize.py}
+
+\subsection{visualization\_charts.py}
+
+Modul ini memiliki dua fungsi. algorithm\_view membuat grafik riwayat satu \textit{run} sesuai jenis algoritma, dan experiment\_view merangkum kumpulan \textit{run} untuk perbandingan antar-algoritma. Pemetaan nama algoritma ke nama tampilan disimpan pada ALGORITHM\_NAMES.
+
+\begin{longtable}{K D}
+\caption{Grafik riwayat per algoritma pada algorithm\_view}
+\label{tab:viz-charts} \\
+\toprule
+\textbf{Algoritma} & \textbf{Grafik} \\
+\midrule
+\endfirsthead
+
+\multicolumn{2}{c}{\tablename\ \thetable{} -- lanjutan} \\
+\toprule
+\textbf{Algoritma} & \textbf{Grafik} \\
+\midrule
+\endhead
+
+\bottomrule
+\endlastfoot
+
+\textit{Steepest ascent}, \textit{sideways}, \textit{stochastic} & Satu garis nilai \textit{state} terhadap iterasi, dengan anotasi alasan berhenti. \\
+\textit{Random restart} & Satu garis per pencarian dan satu garis putus-putus untuk nilai terbaik sepanjang pencarian, dengan iterasi kumulatif. \\
+\textit{Simulated Annealing} & Beberapa panel bersusun: nilai $E$ (saat ini dan terbaik), $\Delta E$, suhu (skala logaritmik), $e^{\Delta E/T}$, dan probabilitas penerimaan. \\
+\textit{Genetic Algorithm} & Tiga garis terhadap generasi: maksimum populasi, rata-rata populasi, dan terbaik sepanjang pencarian. \\
+\end{longtable}
+
+\pycode[firstline=21,lastline=125]{Grafik riwayat per algoritma}{lst:viz-algorithm}{../../src/visualization_charts.py}
+
+Fungsi experiment\_view pada \Cref{lst:viz-experiment} mengumpulkan metrik setiap \textit{run} ke dalam tabel pandas (nilai awal dan akhir, selisih, durasi, jumlah iterasi, dan alasan berhenti), lalu mengelompokkannya berdasarkan algoritma dan parameter untuk menghitung jumlah \textit{run}, rata-rata, simpangan baku, nilai minimum dan maksimum, serta rata-rata durasi. Fungsi mengembalikan data mentah, tabel ringkasan, \textit{box plot} sebaran nilai akhir antar-\textit{run}, dan diagram sebar durasi terhadap nilai akhir.
+
+\pycode[firstline=128,lastline=191]{Ringkasan eksperimen}{lst:viz-experiment}{../../src/visualization_charts.py}

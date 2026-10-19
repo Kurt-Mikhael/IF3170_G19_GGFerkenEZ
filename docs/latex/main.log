@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.12.3)  19 OCT 2026 22:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.12.3)  20 OCT 2026 00:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -703,21 +703,21 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 ) [1
 
 {C:/Users/HERY/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]) (main.toc
-<gambar/Institut_Teknologi_Bandung_logo.png, id=237, 142.131pt x 142.131pt>
+<gambar/Institut_Teknologi_Bandung_logo.png, id=250, 142.131pt x 142.131pt>
 File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
 <use gambar/Institut_Teknologi_Bandung_logo.png>
-Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 34.
+Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 36.
 (pdftex.def)             Requested size: 31.2971pt x 31.2982pt.
-<gambar/logo_stei_itb.png, id=239, 225.84375pt x 225.84375pt>
+<gambar/logo_stei_itb.png, id=252, 225.84375pt x 225.84375pt>
 File: gambar/logo_stei_itb.png Graphic file (type png)
 <use gambar/logo_stei_itb.png>
-Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 34.
+Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 36.
 (pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.34 ...il Eksperimen dan Analisis}{60}{chapter.4}
+l.36 ...lization\_charts.py}{70}{subsection.3.8.2}
                                                   % [1
 
 
@@ -758,7 +758,7 @@ Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 1.
 (pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
  [2]
 Bab 2.
-<gambar/steepest-ascent-hc-graph.png, id=280, 300.26465pt x 165.61874pt>
+<gambar/steepest-ascent-hc-graph.png, id=295, 300.26465pt x 165.61874pt>
 File: gambar/steepest-ascent-hc-graph.png Graphic file (type png)
 <use gambar/steepest-ascent-hc-graph.png>
 Package pdftex.def Info: gambar/steepest-ascent-hc-graph.png  used on input line 14.
@@ -906,59 +906,59 @@ Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 8.
 Bab 3.
 File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
 <use gambar/Institut_Teknologi_Bandung_logo.png>
-Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 46.
+Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 47.
 (pdftex.def)             Requested size: 31.2971pt x 31.2982pt.
 File: gambar/logo_stei_itb.png Graphic file (type png)
 <use gambar/logo_stei_itb.png>
-Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 46.
+Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 47.
 (pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
 [12
 
 ]
 File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
 <use gambar/Institut_Teknologi_Bandung_logo.png>
-Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 52.
+Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 51.
 (pdftex.def)             Requested size: 31.2971pt x 31.2982pt.
 File: gambar/logo_stei_itb.png Graphic file (type png)
 <use gambar/logo_stei_itb.png>
-Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 52.
+Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 51.
 (pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
  [13]
 File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
 <use gambar/Institut_Teknologi_Bandung_logo.png>
-Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 71.
+Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 70.
 (pdftex.def)             Requested size: 31.2971pt x 31.2982pt.
 File: gambar/logo_stei_itb.png Graphic file (type png)
 <use gambar/logo_stei_itb.png>
-Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 71.
+Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 70.
 (pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
  [14] (C:\Users\HERY\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2023/02/27 1.9 listings language file
 )
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 80.
-LaTeX Font Info:    Trying to load font information for T1+zi4 on input line 80.
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 81.
+LaTeX Font Info:    Trying to load font information for T1+zi4 on input line 81.
  (C:\Users\HERY\AppData\Local\Programs\MiKTeX\tex/latex/inconsolata\t1zi4.fd
 File: t1zi4.fd 2018/01/14 T1/zi4 (Inconsolata)
 )
 LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
-(Font)              scaled to size 12.0pt on input line 80.
+(Font)              scaled to size 12.0pt on input line 81.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `zi4' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
-(Font)              scaled to size 10.95pt on input line 80.
+(Font)              scaled to size 10.95pt on input line 81.
  (../../src/objective.py
 LaTeX Font Info:    Font shape `T1/zi4/b/n' will be
 (Font)              scaled to size 10.95pt on input line 1.
 )
 File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
 <use gambar/Institut_Teknologi_Bandung_logo.png>
-Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 113.
+Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 87.
 (pdftex.def)             Requested size: 31.2971pt x 31.2982pt.
 File: gambar/logo_stei_itb.png Graphic file (type png)
 <use gambar/logo_stei_itb.png>
-Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 113.
+Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 87.
 (pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
  [15{C:/Users/HERY/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/inconsolata/i4-t1-0.enc}] (../../src/constraints.py
 File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
@@ -972,194 +972,136 @@ Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 5.
  [16]
 File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
 <use gambar/Institut_Teknologi_Bandung_logo.png>
-Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 43.
-(pdftex.def)             Requested size: 31.2971pt x 31.2982pt.
-File: gambar/logo_stei_itb.png Graphic file (type png)
-<use gambar/logo_stei_itb.png>
-Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 43.
-(pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
- [17]
-File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
-<use gambar/Institut_Teknologi_Bandung_logo.png>
-Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 82.
-(pdftex.def)             Requested size: 31.2971pt x 31.2982pt.
-File: gambar/logo_stei_itb.png Graphic file (type png)
-<use gambar/logo_stei_itb.png>
-Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 82.
-(pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
- [18]) (../../src/initialization.py
-File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
-<use gambar/Institut_Teknologi_Bandung_logo.png>
-Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 15.
-(pdftex.def)             Requested size: 31.2971pt x 31.2982pt.
-File: gambar/logo_stei_itb.png Graphic file (type png)
-<use gambar/logo_stei_itb.png>
-Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 15.
-(pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
- [19])
-Overfull \hbox (45.85327pt too wide) in paragraph at lines 126--127
-\T1/cmr/m/it/12 sta-te \T1/cmr/m/n/12 leng-kap. In-di-vi-du di-bang-kitk-an oleh me-to-de Ge-ne-ti-cAl-go-ri-thm._generate_initial_state
- []
-
-File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
-<use gambar/Institut_Teknologi_Bandung_logo.png>
-Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 134.
-(pdftex.def)             Requested size: 31.2971pt x 31.2982pt.
-File: gambar/logo_stei_itb.png Graphic file (type png)
-<use gambar/logo_stei_itb.png>
-Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 134.
-(pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
-[20]
-Overfull \hbox (40.22919pt too wide) in paragraph at lines 141--142
-\T1/cmr/m/n/12 urut-an ke-ti-ga ope-ra-tor di-a-cak, la-lu un-tuk se-ti-ap ope-ra-tor di-co-ba hing-ga max_attempts
- []
-
-(../../src/neighbors.py
-File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
-<use gambar/Institut_Teknologi_Bandung_logo.png>
-Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 14.
-(pdftex.def)             Requested size: 31.2971pt x 31.2982pt.
-File: gambar/logo_stei_itb.png Graphic file (type png)
-<use gambar/logo_stei_itb.png>
-Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 14.
-(pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
- [21]) (../../src/neighbors.py
-
-LaTeX Font Warning: Font shape `T1/zi4/m/it' undefined
-(Font)              using `T1/zi4/m/n' instead on input line 32.
-
-LaTeX Font Info:    Font shape `T1/zi4/m/it' will be
-(Font)              scaled to size 10.95pt on input line 32.
-LaTeX Font Info:    Trying to load font information for TS1+zi4 on input line 41.
-(C:\Users\HERY\AppData\Local\Programs\MiKTeX\tex/latex/inconsolata\ts1zi4.fd
-File: ts1zi4.fd 2018/01/14 TS1/zi4 (Inconsolata)
-)
-
-LaTeX Font Warning: Font shape `TS1/zi4/m/it' undefined
-(Font)              using `TS1/zi4/m/n' instead
-(Font)              for symbol `textdegree' on input line 41.
-
-LaTeX Font Info:    Font shape `TS1/zi4/m/n' will be
-(Font)              scaled to size 10.95pt on input line 41.
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `zi4' (encoding: TS1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
-<use gambar/Institut_Teknologi_Bandung_logo.png>
-Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 51.
-(pdftex.def)             Requested size: 31.2971pt x 31.2982pt.
-File: gambar/logo_stei_itb.png Graphic file (type png)
-<use gambar/logo_stei_itb.png>
-Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 51.
-(pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
-[22{C:/Users/HERY/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/inconsolata/i4-ts1.enc}]) (../../src/neighbors.py
-File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
-<use gambar/Institut_Teknologi_Bandung_logo.png>
-Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 85.
-(pdftex.def)             Requested size: 31.2971pt x 31.2982pt.
-File: gambar/logo_stei_itb.png Graphic file (type png)
-<use gambar/logo_stei_itb.png>
-Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 85.
-(pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
- [23])
-File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
-<use gambar/Institut_Teknologi_Bandung_logo.png>
-Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 171.
-(pdftex.def)             Requested size: 31.2971pt x 31.2982pt.
-File: gambar/logo_stei_itb.png Graphic file (type png)
-<use gambar/logo_stei_itb.png>
-Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 171.
-(pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
- [24] (../../src/truck.py)
-File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
-<use gambar/Institut_Teknologi_Bandung_logo.png>
-Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 194.
-(pdftex.def)             Requested size: 31.2971pt x 31.2982pt.
-File: gambar/logo_stei_itb.png Graphic file (type png)
-<use gambar/logo_stei_itb.png>
-Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 194.
-(pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
- [25] (../../src/package.py)
-File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
-<use gambar/Institut_Teknologi_Bandung_logo.png>
-Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 198.
-(pdftex.def)             Requested size: 31.2971pt x 31.2982pt.
-File: gambar/logo_stei_itb.png Graphic file (type png)
-<use gambar/logo_stei_itb.png>
-Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 198.
-(pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
- [26] (../../src/problem.py) (../../src/placement.py
-File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
-<use gambar/Institut_Teknologi_Bandung_logo.png>
-Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 1.
-(pdftex.def)             Requested size: 31.2971pt x 31.2982pt.
-File: gambar/logo_stei_itb.png Graphic file (type png)
-<use gambar/logo_stei_itb.png>
-Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 1.
-(pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
- [27]
-LaTeX Font Info:    Font shape `TS1/zi4/m/it' will be
-(Font)              scaled to size 10.95pt on input line 10.
-)
-File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
-<use gambar/Institut_Teknologi_Bandung_logo.png>
-Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 263.
-(pdftex.def)             Requested size: 31.2971pt x 31.2982pt.
-File: gambar/logo_stei_itb.png Graphic file (type png)
-<use gambar/logo_stei_itb.png>
-Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 263.
-(pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
- [28] (../../src/state.py
-File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
-<use gambar/Institut_Teknologi_Bandung_logo.png>
 Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 40.
 (pdftex.def)             Requested size: 31.2971pt x 31.2982pt.
 File: gambar/logo_stei_itb.png Graphic file (type png)
 <use gambar/logo_stei_itb.png>
 Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 40.
 (pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
- [29]) (../../src/reader.py
+ [17]
 File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
 <use gambar/Institut_Teknologi_Bandung_logo.png>
-Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 8.
+Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 79.
 (pdftex.def)             Requested size: 31.2971pt x 31.2982pt.
 File: gambar/logo_stei_itb.png Graphic file (type png)
 <use gambar/logo_stei_itb.png>
-Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 8.
+Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 79.
 (pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
- [30]) (../../src/algorithms/common.py
+ [18]) (../../src/initialization.py
 File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
 <use gambar/Institut_Teknologi_Bandung_logo.png>
-Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 7.
+Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 13.
 (pdftex.def)             Requested size: 31.2971pt x 31.2982pt.
 File: gambar/logo_stei_itb.png Graphic file (type png)
 <use gambar/logo_stei_itb.png>
-Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 7.
+Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 13.
 (pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
- [31])
-Overfull \hbox (1.05682pt too wide) in paragraph at lines 310--311
-\T1/cmr/m/n/12 Seluruh va-ri-an \T1/cmr/m/it/12 Hill-climbing \T1/cmr/m/n/12 di-im-ple-men-ta-sik-an se-ba-gai me-to-de pa-da ke-las Hi-llClimb
+ [19])
+Overfull \hbox (45.85327pt too wide) in paragraph at lines 127--128
+\T1/cmr/m/it/12 sta-te \T1/cmr/m/n/12 leng-kap. In-di-vi-du di-bang-kitk-an oleh me-to-de Ge-ne-ti-cAl-go-ri-thm._generate_initial_state
  []
 
 File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
 <use gambar/Institut_Teknologi_Bandung_logo.png>
-Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 311.
+Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 135.
 (pdftex.def)             Requested size: 31.2971pt x 31.2982pt.
 File: gambar/logo_stei_itb.png Graphic file (type png)
 <use gambar/logo_stei_itb.png>
-Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 311.
+Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 135.
 (pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
-[32]
+[20]
+Overfull \hbox (40.22919pt too wide) in paragraph at lines 142--143
+\T1/cmr/m/n/12 urut-an ke-ti-ga ope-ra-tor di-a-cak, la-lu un-tuk se-ti-ap ope-ra-tor di-co-ba hing-ga max_attempts
+ []
+
+(../../src/neighbors.py
 File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
 <use gambar/Institut_Teknologi_Bandung_logo.png>
-Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 339.
+Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 12.
 (pdftex.def)             Requested size: 31.2971pt x 31.2982pt.
 File: gambar/logo_stei_itb.png Graphic file (type png)
 <use gambar/logo_stei_itb.png>
-Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 339.
+Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 12.
 (pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
- [33] (../../src/algorithms/hill_climb.py
+ [21]) (../../src/neighbors.py
+
+LaTeX Font Warning: Font shape `T1/zi4/m/it' undefined
+(Font)              using `T1/zi4/m/n' instead on input line 30.
+
+LaTeX Font Info:    Font shape `T1/zi4/m/it' will be
+(Font)              scaled to size 10.95pt on input line 30.
+LaTeX Font Info:    Trying to load font information for TS1+zi4 on input line 39.
+(C:\Users\HERY\AppData\Local\Programs\MiKTeX\tex/latex/inconsolata\ts1zi4.fd
+File: ts1zi4.fd 2018/01/14 TS1/zi4 (Inconsolata)
+)
+
+LaTeX Font Warning: Font shape `TS1/zi4/m/it' undefined
+(Font)              using `TS1/zi4/m/n' instead
+(Font)              for symbol `textdegree' on input line 39.
+
+LaTeX Font Info:    Font shape `TS1/zi4/m/n' will be
+(Font)              scaled to size 10.95pt on input line 39.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `zi4' (encoding: TS1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
+<use gambar/Institut_Teknologi_Bandung_logo.png>
+Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 49.
+(pdftex.def)             Requested size: 31.2971pt x 31.2982pt.
+File: gambar/logo_stei_itb.png Graphic file (type png)
+<use gambar/logo_stei_itb.png>
+Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 49.
+(pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
+[22{C:/Users/HERY/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/inconsolata/i4-ts1.enc}]) (../../src/neighbors.py
+File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
+<use gambar/Institut_Teknologi_Bandung_logo.png>
+Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 83.
+(pdftex.def)             Requested size: 31.2971pt x 31.2982pt.
+File: gambar/logo_stei_itb.png Graphic file (type png)
+<use gambar/logo_stei_itb.png>
+Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 83.
+(pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
+ [23])
+File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
+<use gambar/Institut_Teknologi_Bandung_logo.png>
+Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 172.
+(pdftex.def)             Requested size: 31.2971pt x 31.2982pt.
+File: gambar/logo_stei_itb.png Graphic file (type png)
+<use gambar/logo_stei_itb.png>
+Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 172.
+(pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
+ [24] (../../src/truck.py)
+File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
+<use gambar/Institut_Teknologi_Bandung_logo.png>
+Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 197.
+(pdftex.def)             Requested size: 31.2971pt x 31.2982pt.
+File: gambar/logo_stei_itb.png Graphic file (type png)
+<use gambar/logo_stei_itb.png>
+Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 197.
+(pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
+ [25] (../../src/package.py)
+File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
+<use gambar/Institut_Teknologi_Bandung_logo.png>
+Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 216.
+(pdftex.def)             Requested size: 31.2971pt x 31.2982pt.
+File: gambar/logo_stei_itb.png Graphic file (type png)
+<use gambar/logo_stei_itb.png>
+Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 216.
+(pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
+ [26] (../../src/problem.py) (../../src/placement.py
+LaTeX Font Info:    Font shape `TS1/zi4/m/it' will be
+(Font)              scaled to size 10.95pt on input line 7.
+)
+File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
+<use gambar/Institut_Teknologi_Bandung_logo.png>
+Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 240.
+(pdftex.def)             Requested size: 31.2971pt x 31.2982pt.
+File: gambar/logo_stei_itb.png Graphic file (type png)
+<use gambar/logo_stei_itb.png>
+Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 240.
+(pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
+ [27] (../../src/state.py
 File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
 <use gambar/Institut_Teknologi_Bandung_logo.png>
 Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 17.
@@ -1168,75 +1110,47 @@ File: gambar/logo_stei_itb.png Graphic file (type png)
 <use gambar/logo_stei_itb.png>
 Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 17.
 (pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
- [34]
+ [28]) (../../src/reader.py
 File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
 <use gambar/Institut_Teknologi_Bandung_logo.png>
-Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 50.
+Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 3.
 (pdftex.def)             Requested size: 31.2971pt x 31.2982pt.
 File: gambar/logo_stei_itb.png Graphic file (type png)
 <use gambar/logo_stei_itb.png>
-Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 50.
+Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 3.
 (pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
- [35]) (../../src/algorithms/hill_climb.py
+ [29])
 File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
 <use gambar/Institut_Teknologi_Bandung_logo.png>
-Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 77.
+Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 305.
 (pdftex.def)             Requested size: 31.2971pt x 31.2982pt.
 File: gambar/logo_stei_itb.png Graphic file (type png)
 <use gambar/logo_stei_itb.png>
-Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 77.
+Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 305.
 (pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
- [36]
-File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
-<use gambar/Institut_Teknologi_Bandung_logo.png>
-Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 110.
-(pdftex.def)             Requested size: 31.2971pt x 31.2982pt.
-File: gambar/logo_stei_itb.png Graphic file (type png)
-<use gambar/logo_stei_itb.png>
-Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 110.
-(pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
- [37])
-Overfull \hbox (25.71696pt too wide) in paragraph at lines 349--350
-[]\T1/cmr/m/n/12 Varian \T1/cmr/m/it/12 ran-dom res-tart \T1/cmr/m/n/12 pa-da []Ko-de 3.16[] men-ja-lank-an \T1/cmr/m/it/12 ste-e-pest ascent \T1/cmr/m/n/12 se-ba-nyak max_restart
+ [30] (../../src/algorithms/common.py)
+Overfull \hbox (1.05682pt too wide) in paragraph at lines 311--312
+\T1/cmr/m/n/12 Seluruh va-ri-an \T1/cmr/m/it/12 Hill-climbing \T1/cmr/m/n/12 di-im-ple-men-ta-sik-an se-ba-gai me-to-de pa-da ke-las Hi-llClimb
  []
 
-(../../src/algorithms/hill_climb.py
 File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
 <use gambar/Institut_Teknologi_Bandung_logo.png>
-Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 136.
+Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 312.
 (pdftex.def)             Requested size: 31.2971pt x 31.2982pt.
 File: gambar/logo_stei_itb.png Graphic file (type png)
 <use gambar/logo_stei_itb.png>
-Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 136.
+Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 312.
 (pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
- [38]
+[31]
 File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
 <use gambar/Institut_Teknologi_Bandung_logo.png>
-Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 175.
+Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 340.
 (pdftex.def)             Requested size: 31.2971pt x 31.2982pt.
 File: gambar/logo_stei_itb.png Graphic file (type png)
 <use gambar/logo_stei_itb.png>
-Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 175.
+Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 340.
 (pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
- [39]) (../../src/algorithms/hill_climb.py
-File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
-<use gambar/Institut_Teknologi_Bandung_logo.png>
-Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 205.
-(pdftex.def)             Requested size: 31.2971pt x 31.2982pt.
-File: gambar/logo_stei_itb.png Graphic file (type png)
-<use gambar/logo_stei_itb.png>
-Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 205.
-(pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
- [40])
-File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
-<use gambar/Institut_Teknologi_Bandung_logo.png>
-Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 377.
-(pdftex.def)             Requested size: 31.2971pt x 31.2982pt.
-File: gambar/logo_stei_itb.png Graphic file (type png)
-<use gambar/logo_stei_itb.png>
-Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 377.
-(pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
- [41] (../../src/algorithms/simulated_annealing.py
+ [32] (../../src/algorithms/hill_climb.py
 File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
 <use gambar/Institut_Teknologi_Bandung_logo.png>
 Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 16.
@@ -1245,7 +1159,84 @@ File: gambar/logo_stei_itb.png Graphic file (type png)
 <use gambar/logo_stei_itb.png>
 Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 16.
 (pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
- [42]
+ [33]
+File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
+<use gambar/Institut_Teknologi_Bandung_logo.png>
+Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 49.
+(pdftex.def)             Requested size: 31.2971pt x 31.2982pt.
+File: gambar/logo_stei_itb.png Graphic file (type png)
+<use gambar/logo_stei_itb.png>
+Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 49.
+(pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
+ [34]) (../../src/algorithms/hill_climb.py
+File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
+<use gambar/Institut_Teknologi_Bandung_logo.png>
+Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 77.
+(pdftex.def)             Requested size: 31.2971pt x 31.2982pt.
+File: gambar/logo_stei_itb.png Graphic file (type png)
+<use gambar/logo_stei_itb.png>
+Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 77.
+(pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
+ [35]
+File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
+<use gambar/Institut_Teknologi_Bandung_logo.png>
+Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 110.
+(pdftex.def)             Requested size: 31.2971pt x 31.2982pt.
+File: gambar/logo_stei_itb.png Graphic file (type png)
+<use gambar/logo_stei_itb.png>
+Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 110.
+(pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
+ [36])
+Overfull \hbox (25.71696pt too wide) in paragraph at lines 350--351
+[]\T1/cmr/m/n/12 Varian \T1/cmr/m/it/12 ran-dom res-tart \T1/cmr/m/n/12 pa-da []Ko-de 3.16[] men-ja-lank-an \T1/cmr/m/it/12 ste-e-pest ascent \T1/cmr/m/n/12 se-ba-nyak max_restart
+ []
+
+(../../src/algorithms/hill_climb.py
+File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
+<use gambar/Institut_Teknologi_Bandung_logo.png>
+Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 135.
+(pdftex.def)             Requested size: 31.2971pt x 31.2982pt.
+File: gambar/logo_stei_itb.png Graphic file (type png)
+<use gambar/logo_stei_itb.png>
+Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 135.
+(pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
+ [37]
+File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
+<use gambar/Institut_Teknologi_Bandung_logo.png>
+Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 174.
+(pdftex.def)             Requested size: 31.2971pt x 31.2982pt.
+File: gambar/logo_stei_itb.png Graphic file (type png)
+<use gambar/logo_stei_itb.png>
+Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 174.
+(pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
+ [38]) (../../src/algorithms/hill_climb.py
+File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
+<use gambar/Institut_Teknologi_Bandung_logo.png>
+Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 205.
+(pdftex.def)             Requested size: 31.2971pt x 31.2982pt.
+File: gambar/logo_stei_itb.png Graphic file (type png)
+<use gambar/logo_stei_itb.png>
+Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 205.
+(pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
+ [39])
+File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
+<use gambar/Institut_Teknologi_Bandung_logo.png>
+Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 378.
+(pdftex.def)             Requested size: 31.2971pt x 31.2982pt.
+File: gambar/logo_stei_itb.png Graphic file (type png)
+<use gambar/logo_stei_itb.png>
+Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 378.
+(pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
+ [40] (../../src/algorithms/simulated_annealing.py
+File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
+<use gambar/Institut_Teknologi_Bandung_logo.png>
+Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 16.
+(pdftex.def)             Requested size: 31.2971pt x 31.2982pt.
+File: gambar/logo_stei_itb.png Graphic file (type png)
+<use gambar/logo_stei_itb.png>
+Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 16.
+(pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
+ [41]
 File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
 <use gambar/Institut_Teknologi_Bandung_logo.png>
 Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 52.
@@ -1254,84 +1245,21 @@ File: gambar/logo_stei_itb.png Graphic file (type png)
 <use gambar/logo_stei_itb.png>
 Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 52.
 (pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
- [43])
-Overfull \hbox (8.184pt too wide) in paragraph at lines 383--384
+ [42])
+Overfull \hbox (8.184pt too wide) in paragraph at lines 384--385
 \T1/cmr/m/n/12 max_iterations dan su-hu ma-sih le-bih be-sar atau sa-ma de-ngan mi-ni-mum_temperature.
  []
 
 (../../src/algorithms/simulated_annealing.py
 File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
 <use gambar/Institut_Teknologi_Bandung_logo.png>
-Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 67.
+Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 68.
 (pdftex.def)             Requested size: 31.2971pt x 31.2982pt.
 File: gambar/logo_stei_itb.png Graphic file (type png)
 <use gambar/logo_stei_itb.png>
-Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 67.
+Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 68.
 (pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
- [44]
-File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
-<use gambar/Institut_Teknologi_Bandung_logo.png>
-Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 101.
-(pdftex.def)             Requested size: 31.2971pt x 31.2982pt.
-File: gambar/logo_stei_itb.png Graphic file (type png)
-<use gambar/logo_stei_itb.png>
-Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 101.
-(pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
- [45]) (../../src/algorithms/simulated_annealing.py
-File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
-<use gambar/Institut_Teknologi_Bandung_logo.png>
-Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 130.
-(pdftex.def)             Requested size: 31.2971pt x 31.2982pt.
-File: gambar/logo_stei_itb.png Graphic file (type png)
-<use gambar/logo_stei_itb.png>
-Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 130.
-(pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
- [46])
-File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
-<use gambar/Institut_Teknologi_Bandung_logo.png>
-Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 403.
-(pdftex.def)             Requested size: 31.2971pt x 31.2982pt.
-File: gambar/logo_stei_itb.png Graphic file (type png)
-<use gambar/logo_stei_itb.png>
-Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 403.
-(pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
- [47]
-File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
-<use gambar/Institut_Teknologi_Bandung_logo.png>
-Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 437.
-(pdftex.def)             Requested size: 31.2971pt x 31.2982pt.
-File: gambar/logo_stei_itb.png Graphic file (type png)
-<use gambar/logo_stei_itb.png>
-Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 437.
-(pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
- [48] (../../src/algorithms/genetic_algorithm.py
-File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
-<use gambar/Institut_Teknologi_Bandung_logo.png>
-Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 5.
-(pdftex.def)             Requested size: 31.2971pt x 31.2982pt.
-File: gambar/logo_stei_itb.png Graphic file (type png)
-<use gambar/logo_stei_itb.png>
-Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 5.
-(pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
- [49]) (../../src/algorithms/genetic_algorithm.py
-File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
-<use gambar/Institut_Teknologi_Bandung_logo.png>
-Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 40.
-(pdftex.def)             Requested size: 31.2971pt x 31.2982pt.
-File: gambar/logo_stei_itb.png Graphic file (type png)
-<use gambar/logo_stei_itb.png>
-Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 40.
-(pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
- [50]) (../../src/algorithms/genetic_algorithm.py
-File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
-<use gambar/Institut_Teknologi_Bandung_logo.png>
-Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 67.
-(pdftex.def)             Requested size: 31.2971pt x 31.2982pt.
-File: gambar/logo_stei_itb.png Graphic file (type png)
-<use gambar/logo_stei_itb.png>
-Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 67.
-(pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
- [51]
+ [43]
 File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
 <use gambar/Institut_Teknologi_Bandung_logo.png>
 Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 103.
@@ -1340,7 +1268,75 @@ File: gambar/logo_stei_itb.png Graphic file (type png)
 <use gambar/logo_stei_itb.png>
 Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 103.
 (pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
- [52]) (../../src/algorithms/genetic_algorithm.py)
+ [44]) (../../src/algorithms/simulated_annealing.py
+File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
+<use gambar/Institut_Teknologi_Bandung_logo.png>
+Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 132.
+(pdftex.def)             Requested size: 31.2971pt x 31.2982pt.
+File: gambar/logo_stei_itb.png Graphic file (type png)
+<use gambar/logo_stei_itb.png>
+Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 132.
+(pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
+ [45])
+File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
+<use gambar/Institut_Teknologi_Bandung_logo.png>
+Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 404.
+(pdftex.def)             Requested size: 31.2971pt x 31.2982pt.
+File: gambar/logo_stei_itb.png Graphic file (type png)
+<use gambar/logo_stei_itb.png>
+Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 404.
+(pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
+ [46]
+File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
+<use gambar/Institut_Teknologi_Bandung_logo.png>
+Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 438.
+(pdftex.def)             Requested size: 31.2971pt x 31.2982pt.
+File: gambar/logo_stei_itb.png Graphic file (type png)
+<use gambar/logo_stei_itb.png>
+Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 438.
+(pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
+ [47]
+File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
+<use gambar/Institut_Teknologi_Bandung_logo.png>
+Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 442.
+(pdftex.def)             Requested size: 31.2971pt x 31.2982pt.
+File: gambar/logo_stei_itb.png Graphic file (type png)
+<use gambar/logo_stei_itb.png>
+Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 442.
+(pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
+ [48] (../../src/algorithms/genetic_algorithm.py) (../../src/algorithms/genetic_algorithm.py
+File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
+<use gambar/Institut_Teknologi_Bandung_logo.png>
+Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 35.
+(pdftex.def)             Requested size: 31.2971pt x 31.2982pt.
+File: gambar/logo_stei_itb.png Graphic file (type png)
+<use gambar/logo_stei_itb.png>
+Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 35.
+(pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
+ [49]) (../../src/algorithms/genetic_algorithm.py
+File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
+<use gambar/Institut_Teknologi_Bandung_logo.png>
+Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 66.
+(pdftex.def)             Requested size: 31.2971pt x 31.2982pt.
+File: gambar/logo_stei_itb.png Graphic file (type png)
+<use gambar/logo_stei_itb.png>
+Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 66.
+(pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
+ [50])
+Overfull \hbox (27.40733pt too wide) in paragraph at lines 450--451
+\T1/cmr/m/n/12 co-ba po-si-si acak pa-da ke-ting-gi-an ter-se-but hing-ga INI-TI-AL_PLACEMENT_ATTEMPTS
+ []
+
+(../../src/algorithms/genetic_algorithm.py
+File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
+<use gambar/Institut_Teknologi_Bandung_logo.png>
+Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 92.
+(pdftex.def)             Requested size: 31.2971pt x 31.2982pt.
+File: gambar/logo_stei_itb.png Graphic file (type png)
+<use gambar/logo_stei_itb.png>
+Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 92.
+(pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
+ [51])
 File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
 <use gambar/Institut_Teknologi_Bandung_logo.png>
 Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 455.
@@ -1349,52 +1345,205 @@ File: gambar/logo_stei_itb.png Graphic file (type png)
 <use gambar/logo_stei_itb.png>
 Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 455.
 (pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
- [53] (../../src/algorithms/genetic_algorithm.py) (../../src/algorithms/genetic_algorithm.py
+ [52] (../../src/algorithms/genetic_algorithm.py
 File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
 <use gambar/Institut_Teknologi_Bandung_logo.png>
-Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 154.
+Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 150.
 (pdftex.def)             Requested size: 31.2971pt x 31.2982pt.
 File: gambar/logo_stei_itb.png Graphic file (type png)
 <use gambar/logo_stei_itb.png>
-Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 154.
+Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 150.
+(pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
+ [53]) (../../src/algorithms/genetic_algorithm.py
+File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
+<use gambar/Institut_Teknologi_Bandung_logo.png>
+Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 174.
+(pdftex.def)             Requested size: 31.2971pt x 31.2982pt.
+File: gambar/logo_stei_itb.png Graphic file (type png)
+<use gambar/logo_stei_itb.png>
+Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 174.
 (pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
  [54]
 File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
 <use gambar/Institut_Teknologi_Bandung_logo.png>
-Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 192.
+Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 211.
 (pdftex.def)             Requested size: 31.2971pt x 31.2982pt.
 File: gambar/logo_stei_itb.png Graphic file (type png)
 <use gambar/logo_stei_itb.png>
-Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 192.
+Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 211.
 (pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
  [55]) (../../src/algorithms/genetic_algorithm.py
 File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
 <use gambar/Institut_Teknologi_Bandung_logo.png>
-Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 214.
+Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 232.
 (pdftex.def)             Requested size: 31.2971pt x 31.2982pt.
 File: gambar/logo_stei_itb.png Graphic file (type png)
 <use gambar/logo_stei_itb.png>
-Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 214.
+Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 232.
 (pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
  [56]
 File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
 <use gambar/Institut_Teknologi_Bandung_logo.png>
-Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 253.
+Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 271.
 (pdftex.def)             Requested size: 31.2971pt x 31.2982pt.
 File: gambar/logo_stei_itb.png Graphic file (type png)
 <use gambar/logo_stei_itb.png>
-Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 253.
+Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 271.
 (pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
  [57]) (../../src/algorithms/genetic_algorithm.py
 File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
 <use gambar/Institut_Teknologi_Bandung_logo.png>
-Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 287.
+Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 298.
 (pdftex.def)             Requested size: 31.2971pt x 31.2982pt.
 File: gambar/logo_stei_itb.png Graphic file (type png)
 <use gambar/logo_stei_itb.png>
-Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 287.
+Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 298.
 (pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
- [58])) (bab/04-hasil-eksperimen-analisis.tex
+ [58])
+File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
+<use gambar/Institut_Teknologi_Bandung_logo.png>
+Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 475.
+(pdftex.def)             Requested size: 31.2971pt x 31.2982pt.
+File: gambar/logo_stei_itb.png Graphic file (type png)
+<use gambar/logo_stei_itb.png>
+Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 475.
+(pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
+ [59]
+File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
+<use gambar/Institut_Teknologi_Bandung_logo.png>
+Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 510.
+(pdftex.def)             Requested size: 31.2971pt x 31.2982pt.
+File: gambar/logo_stei_itb.png Graphic file (type png)
+<use gambar/logo_stei_itb.png>
+Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 510.
+(pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
+ [60] (../../src/visualize.py)
+File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
+<use gambar/Institut_Teknologi_Bandung_logo.png>
+Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 514.
+(pdftex.def)             Requested size: 31.2971pt x 31.2982pt.
+File: gambar/logo_stei_itb.png Graphic file (type png)
+<use gambar/logo_stei_itb.png>
+Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 514.
+(pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
+ [61] (../../src/visualize.py
+File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
+<use gambar/Institut_Teknologi_Bandung_logo.png>
+Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 138.
+(pdftex.def)             Requested size: 31.2971pt x 31.2982pt.
+File: gambar/logo_stei_itb.png Graphic file (type png)
+<use gambar/logo_stei_itb.png>
+Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 138.
+(pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
+ [62]
+File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
+<use gambar/Institut_Teknologi_Bandung_logo.png>
+Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 175.
+(pdftex.def)             Requested size: 31.2971pt x 31.2982pt.
+File: gambar/logo_stei_itb.png Graphic file (type png)
+<use gambar/logo_stei_itb.png>
+Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 175.
+(pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
+ [63]) (../../src/visualize.py
+File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
+<use gambar/Institut_Teknologi_Bandung_logo.png>
+Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 207.
+(pdftex.def)             Requested size: 31.2971pt x 31.2982pt.
+File: gambar/logo_stei_itb.png Graphic file (type png)
+<use gambar/logo_stei_itb.png>
+Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 207.
+(pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
+ [64])
+File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
+<use gambar/Institut_Teknologi_Bandung_logo.png>
+Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 519.
+(pdftex.def)             Requested size: 31.2971pt x 31.2982pt.
+File: gambar/logo_stei_itb.png Graphic file (type png)
+<use gambar/logo_stei_itb.png>
+Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 519.
+(pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
+ [65] (../../src/visualize.py
+File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
+<use gambar/Institut_Teknologi_Bandung_logo.png>
+Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 340.
+(pdftex.def)             Requested size: 31.2971pt x 31.2982pt.
+File: gambar/logo_stei_itb.png Graphic file (type png)
+<use gambar/logo_stei_itb.png>
+Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 340.
+(pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
+ [66]
+File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
+<use gambar/Institut_Teknologi_Bandung_logo.png>
+Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 374.
+(pdftex.def)             Requested size: 31.2971pt x 31.2982pt.
+File: gambar/logo_stei_itb.png Graphic file (type png)
+<use gambar/logo_stei_itb.png>
+Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 374.
+(pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
+ [67]
+File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
+<use gambar/Institut_Teknologi_Bandung_logo.png>
+Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 403.
+(pdftex.def)             Requested size: 31.2971pt x 31.2982pt.
+File: gambar/logo_stei_itb.png Graphic file (type png)
+<use gambar/logo_stei_itb.png>
+Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 403.
+(pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
+ [68]) (../../src/visualize.py
+File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
+<use gambar/Institut_Teknologi_Bandung_logo.png>
+Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 429.
+(pdftex.def)             Requested size: 31.2971pt x 31.2982pt.
+File: gambar/logo_stei_itb.png Graphic file (type png)
+<use gambar/logo_stei_itb.png>
+Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 429.
+(pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
+ [69]) (../../src/visualization_charts.py
+File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
+<use gambar/Institut_Teknologi_Bandung_logo.png>
+Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 23.
+(pdftex.def)             Requested size: 31.2971pt x 31.2982pt.
+File: gambar/logo_stei_itb.png Graphic file (type png)
+<use gambar/logo_stei_itb.png>
+Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 23.
+(pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
+ [70]
+File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
+<use gambar/Institut_Teknologi_Bandung_logo.png>
+Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 59.
+(pdftex.def)             Requested size: 31.2971pt x 31.2982pt.
+File: gambar/logo_stei_itb.png Graphic file (type png)
+<use gambar/logo_stei_itb.png>
+Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 59.
+(pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
+ [71]
+File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
+<use gambar/Institut_Teknologi_Bandung_logo.png>
+Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 95.
+(pdftex.def)             Requested size: 31.2971pt x 31.2982pt.
+File: gambar/logo_stei_itb.png Graphic file (type png)
+<use gambar/logo_stei_itb.png>
+Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 95.
+(pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
+ [72])
+File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
+<use gambar/Institut_Teknologi_Bandung_logo.png>
+Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 559.
+(pdftex.def)             Requested size: 31.2971pt x 31.2982pt.
+File: gambar/logo_stei_itb.png Graphic file (type png)
+<use gambar/logo_stei_itb.png>
+Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 559.
+(pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
+ [73] (../../src/visualization_charts.py
+File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
+<use gambar/Institut_Teknologi_Bandung_logo.png>
+Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 162.
+(pdftex.def)             Requested size: 31.2971pt x 31.2982pt.
+File: gambar/logo_stei_itb.png Graphic file (type png)
+<use gambar/logo_stei_itb.png>
+Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 162.
+(pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
+ [74])) (bab/04-hasil-eksperimen-analisis.tex
 File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
 <use gambar/Institut_Teknologi_Bandung_logo.png>
 Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 1.
@@ -1403,7 +1552,7 @@ File: gambar/logo_stei_itb.png Graphic file (type png)
 <use gambar/logo_stei_itb.png>
 Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 1.
 (pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
- [59]
+ [75]
 Bab 4.
 ) (bab/05-kesimpulan-saran.tex
 File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
@@ -1414,7 +1563,7 @@ File: gambar/logo_stei_itb.png Graphic file (type png)
 <use gambar/logo_stei_itb.png>
 Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 1.
 (pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
- [60
+ [76
 
 ]
 Bab 5.
@@ -1427,7 +1576,7 @@ File: gambar/logo_stei_itb.png Graphic file (type png)
 <use gambar/logo_stei_itb.png>
 Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 217.
 (pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
- [61
+ [77
 
 ] (bab/referensi.tex)
 File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
@@ -1438,7 +1587,7 @@ File: gambar/logo_stei_itb.png Graphic file (type png)
 <use gambar/logo_stei_itb.png>
 Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 220.
 (pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
- [62
+ [78
 
 ] (bab/lampiran.tex
 File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
@@ -1449,7 +1598,7 @@ File: gambar/logo_stei_itb.png Graphic file (type png)
 <use gambar/logo_stei_itb.png>
 Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 61.
 (pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
- [63
+ [79
 
 ]) 
 AED: lastpage setting LastPage
@@ -1461,7 +1610,7 @@ File: gambar/logo_stei_itb.png Graphic file (type png)
 <use gambar/logo_stei_itb.png>
 Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 224.
 (pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
-[64] (main.aux)
+[80] (main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
@@ -1471,20 +1620,20 @@ L3 programming layer <2024-01-04>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 2BE38D6E2F90F2170EF5B6DAF7DCB711;8316.
+(rerunfilecheck)             Checksum: 4BB2B1469737BC2832D551CD4CA27D62;8791.
  ) 
 Here is how much of TeX's memory you used:
- 23862 strings out of 474486
- 400290 string characters out of 5744227
- 2543542 words of memory out of 5000000
- 44393 multiletter control sequences out of 15000+600000
- 581798 words of font info for 84 fonts, out of 8000000 for 9000
+ 24561 strings out of 474486
+ 411635 string characters out of 5744227
+ 2539542 words of memory out of 5000000
+ 44608 multiletter control sequences out of 15000+600000
+ 582487 words of font info for 85 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 70i,19n,77p,1306b,2390s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\HERY\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\HERY\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\HERY\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\HERY\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbi1200.pk> <C:\Users\HERY\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsc1200.pk> <C:\Users\HERY\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1200.pk> <C:\Users\HERY\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx0800.pk> <C:\Users\HERY\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbi1440.pk> <C:\Users\HERY\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\HERY\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbi1728.pk> <C:\Users\HERY\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\HERY\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\HERY\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\HERY\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\HERY\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\HERY\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1095.pk><C:/Users/HERY/AppData/Local/Programs/MiKTeX/fonts/type1/public/inconsolata/Inconsolata-zi4b.pfb><C:/Users/HERY/AppData/Local/Programs/MiKTeX/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb><C:/Users/HERY/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/HERY/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/HERY/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/HERY/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/HERY/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/HERY/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/HERY/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/HERY/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (67 pages, 863060 bytes).
+ 70i,19n,77p,1338b,2390s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\HERY\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1095.pk> <C:\Users\HERY\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\HERY\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\HERY\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\HERY\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbi1200.pk> <C:\Users\HERY\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsc1200.pk> <C:\Users\HERY\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1200.pk> <C:\Users\HERY\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx0800.pk> <C:\Users\HERY\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbi1440.pk> <C:\Users\HERY\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\HERY\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbi1728.pk> <C:\Users\HERY\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\HERY\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\HERY\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\HERY\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\HERY\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\HERY\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1095.pk><C:/Users/HERY/AppData/Local/Programs/MiKTeX/fonts/type1/public/inconsolata/Inconsolata-zi4b.pfb><C:/Users/HERY/AppData/Local/Programs/MiKTeX/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb><C:/Users/HERY/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/HERY/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/HERY/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/HERY/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/HERY/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/HERY/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/HERY/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/HERY/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on main.pdf (83 pages, 1010138 bytes).
 PDF statistics:
- 2686 PDF objects out of 2984 (max. 8388607)
- 1317 named destinations out of 1440 (max. 500000)
- 16272 words of extra memory for PDF output out of 17280 (max. 10000000)
+ 3368 PDF objects out of 3580 (max. 8388607)
+ 1784 named destinations out of 2073 (max. 500000)
+ 16808 words of extra memory for PDF output out of 17280 (max. 10000000)
 
