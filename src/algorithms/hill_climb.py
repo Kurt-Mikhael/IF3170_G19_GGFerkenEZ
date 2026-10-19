@@ -14,6 +14,8 @@ class HillClimb:
         print(f"HillClimb(packages={len(self.problem.packages)})")
 
     def steepest_ascent(self, initial_state):
+        # referensi: materi kuliah AI BeyondClassicalSearch bagian Stochastic Hill-climbing
+        # setiap state menhidupi semua successor dan cari succesor yang menghasilkan state value terbaik. Jika tidak ada successor yang lebih baik, berhenti.
         t0 = time.perf_counter()
         start = initial_state.copy()
         current = initial_state.copy()
@@ -24,6 +26,7 @@ class HillClimb:
         iteration = 0
 
         while True:
+            # cari semua tetangga yang valid, pilih yang terbaik
             best_value, best_list = current_value, []
             for cand in iter_valid_neighbors(self.problem, current):
                 v = evaluate(self.problem, cand)
@@ -32,6 +35,7 @@ class HillClimb:
                     best_value, best_list = v, [cand]
                 elif v == best_value:
                     best_list.append(cand)
+            # jika ada tetangga yang lebih baik, pindah ke salah satunya. Jika tidak ada, berhenti.
             if best_value > current_value:
                 current = self.rng.choice(best_list) if len(best_list) > 1 else best_list[0]
                 current_value = best_value
@@ -55,6 +59,8 @@ class HillClimb:
         )
 
     def sideways(self, initial_state, max_sideways=10):
+        # referensi: materi kuliah AI BeyondClassicalSearch bagian Stochastic Hill-climbing
+        # sama seperti steepest ascent, tapi jika ada tetangga yang sama baiknya dengan
         t0 = time.perf_counter()
         start = initial_state.copy()
         current = initial_state.copy()
@@ -72,8 +78,10 @@ class HillClimb:
                     best_value, best_list = v, [cand]
                 elif v == best_value:
                     best_list.append(cand)
+            # jika ada tetangga yang lebih baik, pindah ke salah satunya. Jika tidak ada, tapi ada tetangga yang sama baiknya dan belum melewati batas sideways, pindah ke salah satunya. Jika tidak ada tetangga yang lebih baik atau sama baiknya, berhenti.
             if best_value > current_value:
                 move, sideways_move = True, False
+            # jika ada tetangga yang sama baiknya, pindah ke salah satunya, iterasi sideways bertambah 1. 
             elif best_list and sideways < max_sideways:
                 move, sideways_move = True, True
             else:
@@ -95,8 +103,12 @@ class HillClimb:
             accepted += 1
             sideways += sideways_move
             history.append(
-                {"iteration": iteration, "current_value": current_value, "best_value": current_value}
+                {"iteration": iteration, "current_value": current_value, "best_value": current_value,
+                 "sideways": sideways_move}
             )
+            if sideways_move and sideways >= max_sideways:
+                stop = "sideways_limit_reached"
+                break
 
         return build_result(
             "sideways", {"maximum_sideways_move": max_sideways},
@@ -107,6 +119,8 @@ class HillClimb:
 
     def random_restart(self, initial_state, max_restart=3):
         from src.initialization import generate_initial_state
+        # referensi: materi kuliah AI BeyondClassicalSearch bagian Stochastic Hill-climbing
+        # jalankan steepest ascent beberapa kali dari initial state yang berbeda, ambil hasil terbaik
 
         t0 = time.perf_counter()
         starts = [initial_state.copy()] + [
@@ -124,21 +138,43 @@ class HillClimb:
                 "final_value": r["final_value"],
                 "iterations": r["iterations"],
                 "accepted_moves": r["accepted_moves"],
+                "stop_reason": r["stop_reason"],
+                "history": r["history"],
             }
             for i, r in enumerate(runs)
         ]
+
+        # gabungin riwayat semua pencarian dalam satu sumbu iterasi global
+        history, offset, global_best = [], 0, None
+        for i, r in enumerate(runs):
+            for h in r["history"]:
+                if i > 0 and h["iteration"] == 0:
+                    offset += 1
+                global_best = h["current_value"] if global_best is None else max(global_best, h["current_value"])
+                history.append({
+                    "iteration": offset + h["iteration"],
+                    "search_id": i,
+                    "local_iteration": h["iteration"],
+                    "current_value": h["current_value"],
+                    "best_value": global_best,
+                })
+            offset += r["history"][-1]["iteration"]
+        total_iterations = sum(r["iterations"] for r in runs)
+
         return build_result(
             "random_restart", {"maximum_restart": max_restart},
             starts[0].copy(), runs[0]["initial_value"],
             best["final_state"], best["final_value"],
-            best["iterations"], best["accepted_moves"],
+            total_iterations, sum(r["accepted_moves"] for r in runs),
             sum(r["objective_evaluations"] for r in runs),
-            time.perf_counter() - t0, best["stop_reason"], best["history"],
+            time.perf_counter() - t0, best["stop_reason"], history,
             {
                 "maximum_restart": max_restart,
                 "num_searches": len(runs),
+                "restart_count": len(runs) - 1,
                 "best_search": best_idx,
-                "total_iterations": sum(r["iterations"] for r in runs),
+                "total_iterations": total_iterations,
+                "iterations_per_search": [r["iterations"] for r in runs],
                 "restarts": searches,
             },
         )
