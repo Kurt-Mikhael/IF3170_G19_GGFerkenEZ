@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.12.3)  20 OCT 2026 03:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.12.3)  20 OCT 2026 04:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -689,7 +689,7 @@ Package hyperref Info: Link coloring OFF on input line 204.
  (C:\Users\HERY\AppData\Local\Programs\MiKTeX\tex/latex/upquote\upquote.sty
 Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verbatim
 ) (bab/00-cover.tex
-<gambar/foto-tim.jpeg, id=215, 738.76pt x 698.61pt>
+<gambar/foto-tim.jpeg, id=243, 738.76pt x 698.61pt>
 File: gambar/foto-tim.jpeg Graphic file (type jpg)
 <use gambar/foto-tim.jpeg>
 Package pdftex.def Info: gambar/foto-tim.jpeg  used on input line 10.
@@ -708,12 +708,12 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 ) [1
 
 {C:/Users/HERY/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./gambar/foto-tim.jpeg>]) (main.toc
-<gambar/Institut_Teknologi_Bandung_logo.png, id=261, 142.131pt x 142.131pt>
+<gambar/Institut_Teknologi_Bandung_logo.png, id=289, 142.131pt x 142.131pt>
 File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
 <use gambar/Institut_Teknologi_Bandung_logo.png>
 Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 36.
 (pdftex.def)             Requested size: 31.2971pt x 31.2982pt.
-<gambar/logo_stei_itb.png, id=263, 225.84375pt x 225.84375pt>
+<gambar/logo_stei_itb.png, id=291, 225.84375pt x 225.84375pt>
 File: gambar/logo_stei_itb.png Graphic file (type png)
 <use gambar/logo_stei_itb.png>
 Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 36.
@@ -763,7 +763,7 @@ Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 1.
 (pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
  [2]
 Bab 2.
-<gambar/steepest-ascent-hc-graph.png, id=307, 300.26465pt x 165.61874pt>
+<gambar/steepest-ascent-hc-graph.png, id=343, 300.26465pt x 165.61874pt>
 File: gambar/steepest-ascent-hc-graph.png Graphic file (type png)
 <use gambar/steepest-ascent-hc-graph.png>
 Package pdftex.def Info: gambar/steepest-ascent-hc-graph.png  used on input line 14.
@@ -1586,12 +1586,12 @@ Overfull \hbox (2.43767pt too wide) in alignment at lines 213--213
  [] [] 
  []
 
-<gambar/pengujian/steepest-ascent-hc/tc8/run1_seed42_initial_state_3d.png, id=2381, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/steepest-ascent-hc/tc8/run1_seed42_initial_state_3d.png, id=2417, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/steepest-ascent-hc/tc8/run1_seed42_initial_state_3d.png Graphic file (type png)
 <use gambar/pengujian/steepest-ascent-hc/tc8/run1_seed42_initial_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/steepest-ascent-hc/tc8/run1_seed42_initial_state_3d.png  used on input line 213.
 (pdftex.def)             Requested size: 290.21802pt x 153.02646pt.
-<gambar/pengujian/steepest-ascent-hc/tc8/run1_seed42_final_state_3d.png, id=2382, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/steepest-ascent-hc/tc8/run1_seed42_final_state_3d.png, id=2418, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/steepest-ascent-hc/tc8/run1_seed42_final_state_3d.png Graphic file (type png)
 <use gambar/pengujian/steepest-ascent-hc/tc8/run1_seed42_final_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/steepest-ascent-hc/tc8/run1_seed42_final_state_3d.png  used on input line 213.
@@ -1606,7 +1606,7 @@ Underfull \hbox (badness 2103) in paragraph at lines 213--213
 []|\T1/cmr/m/n/12 Grafik \T1/cmr/m/it/12 ob-je-cti-ve fun-
  []
 
-<gambar/pengujian/steepest-ascent-hc/tc8/run1_seed42_experiment.png, id=2383, 2093.8225pt x 903.375pt>
+<gambar/pengujian/steepest-ascent-hc/tc8/run1_seed42_experiment.png, id=2419, 2093.8225pt x 903.375pt>
 File: gambar/pengujian/steepest-ascent-hc/tc8/run1_seed42_experiment.png Graphic file (type png)
 <use gambar/pengujian/steepest-ascent-hc/tc8/run1_seed42_experiment.png>
 Package pdftex.def Info: gambar/pengujian/steepest-ascent-hc/tc8/run1_seed42_experiment.png  used on input line 213.
@@ -1646,12 +1646,12 @@ Overfull \hbox (2.43767pt too wide) in alignment at lines 214--214
  [] [] 
  []
 
-<gambar/pengujian/steepest-ascent-hc/tc8/run2_seed43_initial_state_3d.png, id=2393, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/steepest-ascent-hc/tc8/run2_seed43_initial_state_3d.png, id=2429, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/steepest-ascent-hc/tc8/run2_seed43_initial_state_3d.png Graphic file (type png)
 <use gambar/pengujian/steepest-ascent-hc/tc8/run2_seed43_initial_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/steepest-ascent-hc/tc8/run2_seed43_initial_state_3d.png  used on input line 214.
 (pdftex.def)             Requested size: 290.21802pt x 153.02646pt.
-<gambar/pengujian/steepest-ascent-hc/tc8/run2_seed43_final_state_3d.png, id=2394, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/steepest-ascent-hc/tc8/run2_seed43_final_state_3d.png, id=2430, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/steepest-ascent-hc/tc8/run2_seed43_final_state_3d.png Graphic file (type png)
 <use gambar/pengujian/steepest-ascent-hc/tc8/run2_seed43_final_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/steepest-ascent-hc/tc8/run2_seed43_final_state_3d.png  used on input line 214.
@@ -1666,7 +1666,7 @@ Underfull \hbox (badness 2103) in paragraph at lines 214--214
 []|\T1/cmr/m/n/12 Grafik \T1/cmr/m/it/12 ob-je-cti-ve fun-
  []
 
-<gambar/pengujian/steepest-ascent-hc/tc8/run2_seed43_experiment.png, id=2395, 2093.8225pt x 903.375pt>
+<gambar/pengujian/steepest-ascent-hc/tc8/run2_seed43_experiment.png, id=2431, 2093.8225pt x 903.375pt>
 File: gambar/pengujian/steepest-ascent-hc/tc8/run2_seed43_experiment.png Graphic file (type png)
 <use gambar/pengujian/steepest-ascent-hc/tc8/run2_seed43_experiment.png>
 Package pdftex.def Info: gambar/pengujian/steepest-ascent-hc/tc8/run2_seed43_experiment.png  used on input line 214.
@@ -1704,12 +1704,12 @@ Overfull \hbox (2.43767pt too wide) in alignment at lines 215--215
  [] [] 
  []
 
-<gambar/pengujian/steepest-ascent-hc/tc8/run3_seed44_initial_state_3d.png, id=2405, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/steepest-ascent-hc/tc8/run3_seed44_initial_state_3d.png, id=2441, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/steepest-ascent-hc/tc8/run3_seed44_initial_state_3d.png Graphic file (type png)
 <use gambar/pengujian/steepest-ascent-hc/tc8/run3_seed44_initial_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/steepest-ascent-hc/tc8/run3_seed44_initial_state_3d.png  used on input line 215.
 (pdftex.def)             Requested size: 290.21802pt x 153.02646pt.
-<gambar/pengujian/steepest-ascent-hc/tc8/run3_seed44_final_state_3d.png, id=2406, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/steepest-ascent-hc/tc8/run3_seed44_final_state_3d.png, id=2442, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/steepest-ascent-hc/tc8/run3_seed44_final_state_3d.png Graphic file (type png)
 <use gambar/pengujian/steepest-ascent-hc/tc8/run3_seed44_final_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/steepest-ascent-hc/tc8/run3_seed44_final_state_3d.png  used on input line 215.
@@ -1724,7 +1724,7 @@ Underfull \hbox (badness 2103) in paragraph at lines 215--215
 []|\T1/cmr/m/n/12 Grafik \T1/cmr/m/it/12 ob-je-cti-ve fun-
  []
 
-<gambar/pengujian/steepest-ascent-hc/tc8/run3_seed44_experiment.png, id=2407, 2093.8225pt x 903.375pt>
+<gambar/pengujian/steepest-ascent-hc/tc8/run3_seed44_experiment.png, id=2443, 2093.8225pt x 903.375pt>
 File: gambar/pengujian/steepest-ascent-hc/tc8/run3_seed44_experiment.png Graphic file (type png)
 <use gambar/pengujian/steepest-ascent-hc/tc8/run3_seed44_experiment.png>
 Package pdftex.def Info: gambar/pengujian/steepest-ascent-hc/tc8/run3_seed44_experiment.png  used on input line 215.
@@ -1762,12 +1762,12 @@ Overfull \hbox (2.43767pt too wide) in alignment at lines 216--216
  [] [] 
  []
 
-<gambar/pengujian/steepest-ascent-hc/tc9/run1_seed42_initial_state_3d.png, id=2416, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/steepest-ascent-hc/tc9/run1_seed42_initial_state_3d.png, id=2452, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/steepest-ascent-hc/tc9/run1_seed42_initial_state_3d.png Graphic file (type png)
 <use gambar/pengujian/steepest-ascent-hc/tc9/run1_seed42_initial_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/steepest-ascent-hc/tc9/run1_seed42_initial_state_3d.png  used on input line 216.
 (pdftex.def)             Requested size: 290.21802pt x 153.02646pt.
-<gambar/pengujian/steepest-ascent-hc/tc9/run1_seed42_final_state_3d.png, id=2417, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/steepest-ascent-hc/tc9/run1_seed42_final_state_3d.png, id=2453, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/steepest-ascent-hc/tc9/run1_seed42_final_state_3d.png Graphic file (type png)
 <use gambar/pengujian/steepest-ascent-hc/tc9/run1_seed42_final_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/steepest-ascent-hc/tc9/run1_seed42_final_state_3d.png  used on input line 216.
@@ -1782,7 +1782,7 @@ Underfull \hbox (badness 2103) in paragraph at lines 216--216
 []|\T1/cmr/m/n/12 Grafik \T1/cmr/m/it/12 ob-je-cti-ve fun-
  []
 
-<gambar/pengujian/steepest-ascent-hc/tc9/run1_seed42_experiment.png, id=2418, 2093.8225pt x 903.375pt>
+<gambar/pengujian/steepest-ascent-hc/tc9/run1_seed42_experiment.png, id=2454, 2093.8225pt x 903.375pt>
 File: gambar/pengujian/steepest-ascent-hc/tc9/run1_seed42_experiment.png Graphic file (type png)
 <use gambar/pengujian/steepest-ascent-hc/tc9/run1_seed42_experiment.png>
 Package pdftex.def Info: gambar/pengujian/steepest-ascent-hc/tc9/run1_seed42_experiment.png  used on input line 216.
@@ -1820,12 +1820,12 @@ Overfull \hbox (2.43767pt too wide) in alignment at lines 217--217
  [] [] 
  []
 
-<gambar/pengujian/steepest-ascent-hc/tc9/run2_seed43_initial_state_3d.png, id=2426, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/steepest-ascent-hc/tc9/run2_seed43_initial_state_3d.png, id=2462, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/steepest-ascent-hc/tc9/run2_seed43_initial_state_3d.png Graphic file (type png)
 <use gambar/pengujian/steepest-ascent-hc/tc9/run2_seed43_initial_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/steepest-ascent-hc/tc9/run2_seed43_initial_state_3d.png  used on input line 217.
 (pdftex.def)             Requested size: 290.21802pt x 153.02646pt.
-<gambar/pengujian/steepest-ascent-hc/tc9/run2_seed43_final_state_3d.png, id=2427, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/steepest-ascent-hc/tc9/run2_seed43_final_state_3d.png, id=2463, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/steepest-ascent-hc/tc9/run2_seed43_final_state_3d.png Graphic file (type png)
 <use gambar/pengujian/steepest-ascent-hc/tc9/run2_seed43_final_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/steepest-ascent-hc/tc9/run2_seed43_final_state_3d.png  used on input line 217.
@@ -1840,7 +1840,7 @@ Underfull \hbox (badness 2103) in paragraph at lines 217--217
 []|\T1/cmr/m/n/12 Grafik \T1/cmr/m/it/12 ob-je-cti-ve fun-
  []
 
-<gambar/pengujian/steepest-ascent-hc/tc9/run2_seed43_experiment.png, id=2428, 2093.8225pt x 903.375pt>
+<gambar/pengujian/steepest-ascent-hc/tc9/run2_seed43_experiment.png, id=2464, 2093.8225pt x 903.375pt>
 File: gambar/pengujian/steepest-ascent-hc/tc9/run2_seed43_experiment.png Graphic file (type png)
 <use gambar/pengujian/steepest-ascent-hc/tc9/run2_seed43_experiment.png>
 Package pdftex.def Info: gambar/pengujian/steepest-ascent-hc/tc9/run2_seed43_experiment.png  used on input line 217.
@@ -1878,12 +1878,12 @@ Overfull \hbox (2.43767pt too wide) in alignment at lines 218--218
  [] [] 
  []
 
-<gambar/pengujian/steepest-ascent-hc/tc9/run3_seed44_initial_state_3d.png, id=2438, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/steepest-ascent-hc/tc9/run3_seed44_initial_state_3d.png, id=2474, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/steepest-ascent-hc/tc9/run3_seed44_initial_state_3d.png Graphic file (type png)
 <use gambar/pengujian/steepest-ascent-hc/tc9/run3_seed44_initial_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/steepest-ascent-hc/tc9/run3_seed44_initial_state_3d.png  used on input line 218.
 (pdftex.def)             Requested size: 290.21802pt x 153.02646pt.
-<gambar/pengujian/steepest-ascent-hc/tc9/run3_seed44_final_state_3d.png, id=2439, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/steepest-ascent-hc/tc9/run3_seed44_final_state_3d.png, id=2475, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/steepest-ascent-hc/tc9/run3_seed44_final_state_3d.png Graphic file (type png)
 <use gambar/pengujian/steepest-ascent-hc/tc9/run3_seed44_final_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/steepest-ascent-hc/tc9/run3_seed44_final_state_3d.png  used on input line 218.
@@ -1898,7 +1898,7 @@ Underfull \hbox (badness 2103) in paragraph at lines 218--218
 []|\T1/cmr/m/n/12 Grafik \T1/cmr/m/it/12 ob-je-cti-ve fun-
  []
 
-<gambar/pengujian/steepest-ascent-hc/tc9/run3_seed44_experiment.png, id=2440, 2093.8225pt x 903.375pt>
+<gambar/pengujian/steepest-ascent-hc/tc9/run3_seed44_experiment.png, id=2476, 2093.8225pt x 903.375pt>
 File: gambar/pengujian/steepest-ascent-hc/tc9/run3_seed44_experiment.png Graphic file (type png)
 <use gambar/pengujian/steepest-ascent-hc/tc9/run3_seed44_experiment.png>
 Package pdftex.def Info: gambar/pengujian/steepest-ascent-hc/tc9/run3_seed44_experiment.png  used on input line 218.
@@ -1936,12 +1936,12 @@ Overfull \hbox (2.43767pt too wide) in alignment at lines 219--219
  [] [] 
  []
 
-<gambar/pengujian/steepest-ascent-hc/tc10/run1_seed42_initial_state_3d.png, id=2450, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/steepest-ascent-hc/tc10/run1_seed42_initial_state_3d.png, id=2486, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/steepest-ascent-hc/tc10/run1_seed42_initial_state_3d.png Graphic file (type png)
 <use gambar/pengujian/steepest-ascent-hc/tc10/run1_seed42_initial_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/steepest-ascent-hc/tc10/run1_seed42_initial_state_3d.png  used on input line 219.
 (pdftex.def)             Requested size: 290.21802pt x 153.02646pt.
-<gambar/pengujian/steepest-ascent-hc/tc10/run1_seed42_final_state_3d.png, id=2451, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/steepest-ascent-hc/tc10/run1_seed42_final_state_3d.png, id=2487, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/steepest-ascent-hc/tc10/run1_seed42_final_state_3d.png Graphic file (type png)
 <use gambar/pengujian/steepest-ascent-hc/tc10/run1_seed42_final_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/steepest-ascent-hc/tc10/run1_seed42_final_state_3d.png  used on input line 219.
@@ -1956,7 +1956,7 @@ Underfull \hbox (badness 2103) in paragraph at lines 219--219
 []|\T1/cmr/m/n/12 Grafik \T1/cmr/m/it/12 ob-je-cti-ve fun-
  []
 
-<gambar/pengujian/steepest-ascent-hc/tc10/run1_seed42_experiment.png, id=2452, 2093.8225pt x 903.375pt>
+<gambar/pengujian/steepest-ascent-hc/tc10/run1_seed42_experiment.png, id=2488, 2093.8225pt x 903.375pt>
 File: gambar/pengujian/steepest-ascent-hc/tc10/run1_seed42_experiment.png Graphic file (type png)
 <use gambar/pengujian/steepest-ascent-hc/tc10/run1_seed42_experiment.png>
 Package pdftex.def Info: gambar/pengujian/steepest-ascent-hc/tc10/run1_seed42_experiment.png  used on input line 219.
@@ -1994,12 +1994,12 @@ Overfull \hbox (2.43767pt too wide) in alignment at lines 220--220
  [] [] 
  []
 
-<gambar/pengujian/steepest-ascent-hc/tc10/run2_seed43_initial_state_3d.png, id=2463, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/steepest-ascent-hc/tc10/run2_seed43_initial_state_3d.png, id=2499, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/steepest-ascent-hc/tc10/run2_seed43_initial_state_3d.png Graphic file (type png)
 <use gambar/pengujian/steepest-ascent-hc/tc10/run2_seed43_initial_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/steepest-ascent-hc/tc10/run2_seed43_initial_state_3d.png  used on input line 220.
 (pdftex.def)             Requested size: 290.21802pt x 153.02646pt.
-<gambar/pengujian/steepest-ascent-hc/tc10/run2_seed43_final_state_3d.png, id=2464, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/steepest-ascent-hc/tc10/run2_seed43_final_state_3d.png, id=2500, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/steepest-ascent-hc/tc10/run2_seed43_final_state_3d.png Graphic file (type png)
 <use gambar/pengujian/steepest-ascent-hc/tc10/run2_seed43_final_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/steepest-ascent-hc/tc10/run2_seed43_final_state_3d.png  used on input line 220.
@@ -2014,7 +2014,7 @@ Underfull \hbox (badness 2103) in paragraph at lines 220--220
 []|\T1/cmr/m/n/12 Grafik \T1/cmr/m/it/12 ob-je-cti-ve fun-
  []
 
-<gambar/pengujian/steepest-ascent-hc/tc10/run2_seed43_experiment.png, id=2465, 2093.8225pt x 903.375pt>
+<gambar/pengujian/steepest-ascent-hc/tc10/run2_seed43_experiment.png, id=2501, 2093.8225pt x 903.375pt>
 File: gambar/pengujian/steepest-ascent-hc/tc10/run2_seed43_experiment.png Graphic file (type png)
 <use gambar/pengujian/steepest-ascent-hc/tc10/run2_seed43_experiment.png>
 Package pdftex.def Info: gambar/pengujian/steepest-ascent-hc/tc10/run2_seed43_experiment.png  used on input line 220.
@@ -2052,12 +2052,12 @@ Overfull \hbox (2.43767pt too wide) in alignment at lines 221--221
  [] [] 
  []
 
-<gambar/pengujian/steepest-ascent-hc/tc10/run3_seed44_initial_state_3d.png, id=2475, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/steepest-ascent-hc/tc10/run3_seed44_initial_state_3d.png, id=2511, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/steepest-ascent-hc/tc10/run3_seed44_initial_state_3d.png Graphic file (type png)
 <use gambar/pengujian/steepest-ascent-hc/tc10/run3_seed44_initial_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/steepest-ascent-hc/tc10/run3_seed44_initial_state_3d.png  used on input line 221.
 (pdftex.def)             Requested size: 290.21802pt x 153.02646pt.
-<gambar/pengujian/steepest-ascent-hc/tc10/run3_seed44_final_state_3d.png, id=2476, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/steepest-ascent-hc/tc10/run3_seed44_final_state_3d.png, id=2512, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/steepest-ascent-hc/tc10/run3_seed44_final_state_3d.png Graphic file (type png)
 <use gambar/pengujian/steepest-ascent-hc/tc10/run3_seed44_final_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/steepest-ascent-hc/tc10/run3_seed44_final_state_3d.png  used on input line 221.
@@ -2072,7 +2072,7 @@ Underfull \hbox (badness 2103) in paragraph at lines 221--221
 []|\T1/cmr/m/n/12 Grafik \T1/cmr/m/it/12 ob-je-cti-ve fun-
  []
 
-<gambar/pengujian/steepest-ascent-hc/tc10/run3_seed44_experiment.png, id=2477, 2093.8225pt x 903.375pt>
+<gambar/pengujian/steepest-ascent-hc/tc10/run3_seed44_experiment.png, id=2513, 2093.8225pt x 903.375pt>
 File: gambar/pengujian/steepest-ascent-hc/tc10/run3_seed44_experiment.png Graphic file (type png)
 <use gambar/pengujian/steepest-ascent-hc/tc10/run3_seed44_experiment.png>
 Package pdftex.def Info: gambar/pengujian/steepest-ascent-hc/tc10/run3_seed44_experiment.png  used on input line 221.
@@ -2115,12 +2115,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 225--225
 []|\T1/cmr/m/it/12 Maximum si-de-wa-ys
  []
 
-<gambar/pengujian/sideways-move-hc/tc8/run1_seed42_initial_state_3d.png, id=2487, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/sideways-move-hc/tc8/run1_seed42_initial_state_3d.png, id=2523, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/sideways-move-hc/tc8/run1_seed42_initial_state_3d.png Graphic file (type png)
 <use gambar/pengujian/sideways-move-hc/tc8/run1_seed42_initial_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/sideways-move-hc/tc8/run1_seed42_initial_state_3d.png  used on input line 225.
 (pdftex.def)             Requested size: 290.21802pt x 153.02646pt.
-<gambar/pengujian/sideways-move-hc/tc8/run1_seed42_final_state_3d.png, id=2488, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/sideways-move-hc/tc8/run1_seed42_final_state_3d.png, id=2524, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/sideways-move-hc/tc8/run1_seed42_final_state_3d.png Graphic file (type png)
 <use gambar/pengujian/sideways-move-hc/tc8/run1_seed42_final_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/sideways-move-hc/tc8/run1_seed42_final_state_3d.png  used on input line 225.
@@ -2135,7 +2135,7 @@ Underfull \hbox (badness 2103) in paragraph at lines 225--225
 []|\T1/cmr/m/n/12 Grafik \T1/cmr/m/it/12 ob-je-cti-ve fun-
  []
 
-<gambar/pengujian/sideways-move-hc/tc8/run1_seed42_experiment.png, id=2489, 2093.8225pt x 903.375pt>
+<gambar/pengujian/sideways-move-hc/tc8/run1_seed42_experiment.png, id=2525, 2093.8225pt x 903.375pt>
 File: gambar/pengujian/sideways-move-hc/tc8/run1_seed42_experiment.png Graphic file (type png)
 <use gambar/pengujian/sideways-move-hc/tc8/run1_seed42_experiment.png>
 Package pdftex.def Info: gambar/pengujian/sideways-move-hc/tc8/run1_seed42_experiment.png  used on input line 225.
@@ -2187,12 +2187,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 226--226
 []|\T1/cmr/m/it/12 Maximum si-de-wa-ys
  []
 
-<gambar/pengujian/sideways-move-hc/tc8/run2_seed43_initial_state_3d.png, id=2508, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/sideways-move-hc/tc8/run2_seed43_initial_state_3d.png, id=2544, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/sideways-move-hc/tc8/run2_seed43_initial_state_3d.png Graphic file (type png)
 <use gambar/pengujian/sideways-move-hc/tc8/run2_seed43_initial_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/sideways-move-hc/tc8/run2_seed43_initial_state_3d.png  used on input line 226.
 (pdftex.def)             Requested size: 290.21802pt x 153.02646pt.
-<gambar/pengujian/sideways-move-hc/tc8/run2_seed43_final_state_3d.png, id=2509, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/sideways-move-hc/tc8/run2_seed43_final_state_3d.png, id=2545, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/sideways-move-hc/tc8/run2_seed43_final_state_3d.png Graphic file (type png)
 <use gambar/pengujian/sideways-move-hc/tc8/run2_seed43_final_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/sideways-move-hc/tc8/run2_seed43_final_state_3d.png  used on input line 226.
@@ -2207,7 +2207,7 @@ Underfull \hbox (badness 2103) in paragraph at lines 226--226
 []|\T1/cmr/m/n/12 Grafik \T1/cmr/m/it/12 ob-je-cti-ve fun-
  []
 
-<gambar/pengujian/sideways-move-hc/tc8/run2_seed43_experiment.png, id=2510, 2093.8225pt x 903.375pt>
+<gambar/pengujian/sideways-move-hc/tc8/run2_seed43_experiment.png, id=2546, 2093.8225pt x 903.375pt>
 File: gambar/pengujian/sideways-move-hc/tc8/run2_seed43_experiment.png Graphic file (type png)
 <use gambar/pengujian/sideways-move-hc/tc8/run2_seed43_experiment.png>
 Package pdftex.def Info: gambar/pengujian/sideways-move-hc/tc8/run2_seed43_experiment.png  used on input line 226.
@@ -2250,12 +2250,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 227--227
 []|\T1/cmr/m/it/12 Maximum si-de-wa-ys
  []
 
-<gambar/pengujian/sideways-move-hc/tc8/run3_seed44_initial_state_3d.png, id=2519, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/sideways-move-hc/tc8/run3_seed44_initial_state_3d.png, id=2555, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/sideways-move-hc/tc8/run3_seed44_initial_state_3d.png Graphic file (type png)
 <use gambar/pengujian/sideways-move-hc/tc8/run3_seed44_initial_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/sideways-move-hc/tc8/run3_seed44_initial_state_3d.png  used on input line 227.
 (pdftex.def)             Requested size: 290.21802pt x 153.02646pt.
-<gambar/pengujian/sideways-move-hc/tc8/run3_seed44_final_state_3d.png, id=2520, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/sideways-move-hc/tc8/run3_seed44_final_state_3d.png, id=2556, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/sideways-move-hc/tc8/run3_seed44_final_state_3d.png Graphic file (type png)
 <use gambar/pengujian/sideways-move-hc/tc8/run3_seed44_final_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/sideways-move-hc/tc8/run3_seed44_final_state_3d.png  used on input line 227.
@@ -2270,7 +2270,7 @@ Underfull \hbox (badness 2103) in paragraph at lines 227--227
 []|\T1/cmr/m/n/12 Grafik \T1/cmr/m/it/12 ob-je-cti-ve fun-
  []
 
-<gambar/pengujian/sideways-move-hc/tc8/run3_seed44_experiment.png, id=2521, 2093.8225pt x 903.375pt>
+<gambar/pengujian/sideways-move-hc/tc8/run3_seed44_experiment.png, id=2557, 2093.8225pt x 903.375pt>
 File: gambar/pengujian/sideways-move-hc/tc8/run3_seed44_experiment.png Graphic file (type png)
 <use gambar/pengujian/sideways-move-hc/tc8/run3_seed44_experiment.png>
 Package pdftex.def Info: gambar/pengujian/sideways-move-hc/tc8/run3_seed44_experiment.png  used on input line 227.
@@ -2313,12 +2313,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 228--228
 []|\T1/cmr/m/it/12 Maximum si-de-wa-ys
  []
 
-<gambar/pengujian/sideways-move-hc/tc9/run1_seed42_initial_state_3d.png, id=2531, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/sideways-move-hc/tc9/run1_seed42_initial_state_3d.png, id=2567, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/sideways-move-hc/tc9/run1_seed42_initial_state_3d.png Graphic file (type png)
 <use gambar/pengujian/sideways-move-hc/tc9/run1_seed42_initial_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/sideways-move-hc/tc9/run1_seed42_initial_state_3d.png  used on input line 228.
 (pdftex.def)             Requested size: 290.21802pt x 153.02646pt.
-<gambar/pengujian/sideways-move-hc/tc9/run1_seed42_final_state_3d.png, id=2532, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/sideways-move-hc/tc9/run1_seed42_final_state_3d.png, id=2568, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/sideways-move-hc/tc9/run1_seed42_final_state_3d.png Graphic file (type png)
 <use gambar/pengujian/sideways-move-hc/tc9/run1_seed42_final_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/sideways-move-hc/tc9/run1_seed42_final_state_3d.png  used on input line 228.
@@ -2333,7 +2333,7 @@ Underfull \hbox (badness 2103) in paragraph at lines 228--228
 []|\T1/cmr/m/n/12 Grafik \T1/cmr/m/it/12 ob-je-cti-ve fun-
  []
 
-<gambar/pengujian/sideways-move-hc/tc9/run1_seed42_experiment.png, id=2533, 2093.8225pt x 903.375pt>
+<gambar/pengujian/sideways-move-hc/tc9/run1_seed42_experiment.png, id=2569, 2093.8225pt x 903.375pt>
 File: gambar/pengujian/sideways-move-hc/tc9/run1_seed42_experiment.png Graphic file (type png)
 <use gambar/pengujian/sideways-move-hc/tc9/run1_seed42_experiment.png>
 Package pdftex.def Info: gambar/pengujian/sideways-move-hc/tc9/run1_seed42_experiment.png  used on input line 228.
@@ -2376,12 +2376,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 229--229
 []|\T1/cmr/m/it/12 Maximum si-de-wa-ys
  []
 
-<gambar/pengujian/sideways-move-hc/tc9/run2_seed43_initial_state_3d.png, id=2542, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/sideways-move-hc/tc9/run2_seed43_initial_state_3d.png, id=2578, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/sideways-move-hc/tc9/run2_seed43_initial_state_3d.png Graphic file (type png)
 <use gambar/pengujian/sideways-move-hc/tc9/run2_seed43_initial_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/sideways-move-hc/tc9/run2_seed43_initial_state_3d.png  used on input line 229.
 (pdftex.def)             Requested size: 290.21802pt x 153.02646pt.
-<gambar/pengujian/sideways-move-hc/tc9/run2_seed43_final_state_3d.png, id=2543, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/sideways-move-hc/tc9/run2_seed43_final_state_3d.png, id=2579, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/sideways-move-hc/tc9/run2_seed43_final_state_3d.png Graphic file (type png)
 <use gambar/pengujian/sideways-move-hc/tc9/run2_seed43_final_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/sideways-move-hc/tc9/run2_seed43_final_state_3d.png  used on input line 229.
@@ -2396,7 +2396,7 @@ Underfull \hbox (badness 2103) in paragraph at lines 229--229
 []|\T1/cmr/m/n/12 Grafik \T1/cmr/m/it/12 ob-je-cti-ve fun-
  []
 
-<gambar/pengujian/sideways-move-hc/tc9/run2_seed43_experiment.png, id=2544, 2093.8225pt x 903.375pt>
+<gambar/pengujian/sideways-move-hc/tc9/run2_seed43_experiment.png, id=2580, 2093.8225pt x 903.375pt>
 File: gambar/pengujian/sideways-move-hc/tc9/run2_seed43_experiment.png Graphic file (type png)
 <use gambar/pengujian/sideways-move-hc/tc9/run2_seed43_experiment.png>
 Package pdftex.def Info: gambar/pengujian/sideways-move-hc/tc9/run2_seed43_experiment.png  used on input line 229.
@@ -2448,12 +2448,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 230--230
 []|\T1/cmr/m/it/12 Maximum si-de-wa-ys
  []
 
-<gambar/pengujian/sideways-move-hc/tc9/run3_seed44_initial_state_3d.png, id=2562, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/sideways-move-hc/tc9/run3_seed44_initial_state_3d.png, id=2598, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/sideways-move-hc/tc9/run3_seed44_initial_state_3d.png Graphic file (type png)
 <use gambar/pengujian/sideways-move-hc/tc9/run3_seed44_initial_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/sideways-move-hc/tc9/run3_seed44_initial_state_3d.png  used on input line 230.
 (pdftex.def)             Requested size: 290.21802pt x 153.02646pt.
-<gambar/pengujian/sideways-move-hc/tc9/run3_seed44_final_state_3d.png, id=2563, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/sideways-move-hc/tc9/run3_seed44_final_state_3d.png, id=2599, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/sideways-move-hc/tc9/run3_seed44_final_state_3d.png Graphic file (type png)
 <use gambar/pengujian/sideways-move-hc/tc9/run3_seed44_final_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/sideways-move-hc/tc9/run3_seed44_final_state_3d.png  used on input line 230.
@@ -2468,7 +2468,7 @@ Underfull \hbox (badness 2103) in paragraph at lines 230--230
 []|\T1/cmr/m/n/12 Grafik \T1/cmr/m/it/12 ob-je-cti-ve fun-
  []
 
-<gambar/pengujian/sideways-move-hc/tc9/run3_seed44_experiment.png, id=2564, 2093.8225pt x 903.375pt>
+<gambar/pengujian/sideways-move-hc/tc9/run3_seed44_experiment.png, id=2600, 2093.8225pt x 903.375pt>
 File: gambar/pengujian/sideways-move-hc/tc9/run3_seed44_experiment.png Graphic file (type png)
 <use gambar/pengujian/sideways-move-hc/tc9/run3_seed44_experiment.png>
 Package pdftex.def Info: gambar/pengujian/sideways-move-hc/tc9/run3_seed44_experiment.png  used on input line 230.
@@ -2511,12 +2511,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 231--231
 []|\T1/cmr/m/it/12 Maximum si-de-wa-ys
  []
 
-<gambar/pengujian/sideways-move-hc/tc10/run1_seed42_initial_state_3d.png, id=2573, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/sideways-move-hc/tc10/run1_seed42_initial_state_3d.png, id=2609, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/sideways-move-hc/tc10/run1_seed42_initial_state_3d.png Graphic file (type png)
 <use gambar/pengujian/sideways-move-hc/tc10/run1_seed42_initial_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/sideways-move-hc/tc10/run1_seed42_initial_state_3d.png  used on input line 231.
 (pdftex.def)             Requested size: 290.21802pt x 153.02646pt.
-<gambar/pengujian/sideways-move-hc/tc10/run1_seed42_final_state_3d.png, id=2574, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/sideways-move-hc/tc10/run1_seed42_final_state_3d.png, id=2610, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/sideways-move-hc/tc10/run1_seed42_final_state_3d.png Graphic file (type png)
 <use gambar/pengujian/sideways-move-hc/tc10/run1_seed42_final_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/sideways-move-hc/tc10/run1_seed42_final_state_3d.png  used on input line 231.
@@ -2531,7 +2531,7 @@ Underfull \hbox (badness 2103) in paragraph at lines 231--231
 []|\T1/cmr/m/n/12 Grafik \T1/cmr/m/it/12 ob-je-cti-ve fun-
  []
 
-<gambar/pengujian/sideways-move-hc/tc10/run1_seed42_experiment.png, id=2575, 2093.8225pt x 903.375pt>
+<gambar/pengujian/sideways-move-hc/tc10/run1_seed42_experiment.png, id=2611, 2093.8225pt x 903.375pt>
 File: gambar/pengujian/sideways-move-hc/tc10/run1_seed42_experiment.png Graphic file (type png)
 <use gambar/pengujian/sideways-move-hc/tc10/run1_seed42_experiment.png>
 Package pdftex.def Info: gambar/pengujian/sideways-move-hc/tc10/run1_seed42_experiment.png  used on input line 231.
@@ -2574,12 +2574,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 232--232
 []|\T1/cmr/m/it/12 Maximum si-de-wa-ys
  []
 
-<gambar/pengujian/sideways-move-hc/tc10/run2_seed43_initial_state_3d.png, id=2584, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/sideways-move-hc/tc10/run2_seed43_initial_state_3d.png, id=2620, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/sideways-move-hc/tc10/run2_seed43_initial_state_3d.png Graphic file (type png)
 <use gambar/pengujian/sideways-move-hc/tc10/run2_seed43_initial_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/sideways-move-hc/tc10/run2_seed43_initial_state_3d.png  used on input line 232.
 (pdftex.def)             Requested size: 290.21802pt x 153.02646pt.
-<gambar/pengujian/sideways-move-hc/tc10/run2_seed43_final_state_3d.png, id=2585, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/sideways-move-hc/tc10/run2_seed43_final_state_3d.png, id=2621, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/sideways-move-hc/tc10/run2_seed43_final_state_3d.png Graphic file (type png)
 <use gambar/pengujian/sideways-move-hc/tc10/run2_seed43_final_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/sideways-move-hc/tc10/run2_seed43_final_state_3d.png  used on input line 232.
@@ -2594,7 +2594,7 @@ Underfull \hbox (badness 2103) in paragraph at lines 232--232
 []|\T1/cmr/m/n/12 Grafik \T1/cmr/m/it/12 ob-je-cti-ve fun-
  []
 
-<gambar/pengujian/sideways-move-hc/tc10/run2_seed43_experiment.png, id=2586, 2093.8225pt x 903.375pt>
+<gambar/pengujian/sideways-move-hc/tc10/run2_seed43_experiment.png, id=2622, 2093.8225pt x 903.375pt>
 File: gambar/pengujian/sideways-move-hc/tc10/run2_seed43_experiment.png Graphic file (type png)
 <use gambar/pengujian/sideways-move-hc/tc10/run2_seed43_experiment.png>
 Package pdftex.def Info: gambar/pengujian/sideways-move-hc/tc10/run2_seed43_experiment.png  used on input line 232.
@@ -2637,12 +2637,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 233--233
 []|\T1/cmr/m/it/12 Maximum si-de-wa-ys
  []
 
-<gambar/pengujian/sideways-move-hc/tc10/run3_seed44_initial_state_3d.png, id=2596, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/sideways-move-hc/tc10/run3_seed44_initial_state_3d.png, id=2632, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/sideways-move-hc/tc10/run3_seed44_initial_state_3d.png Graphic file (type png)
 <use gambar/pengujian/sideways-move-hc/tc10/run3_seed44_initial_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/sideways-move-hc/tc10/run3_seed44_initial_state_3d.png  used on input line 233.
 (pdftex.def)             Requested size: 290.21802pt x 153.02646pt.
-<gambar/pengujian/sideways-move-hc/tc10/run3_seed44_final_state_3d.png, id=2597, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/sideways-move-hc/tc10/run3_seed44_final_state_3d.png, id=2633, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/sideways-move-hc/tc10/run3_seed44_final_state_3d.png Graphic file (type png)
 <use gambar/pengujian/sideways-move-hc/tc10/run3_seed44_final_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/sideways-move-hc/tc10/run3_seed44_final_state_3d.png  used on input line 233.
@@ -2657,7 +2657,7 @@ Underfull \hbox (badness 2103) in paragraph at lines 233--233
 []|\T1/cmr/m/n/12 Grafik \T1/cmr/m/it/12 ob-je-cti-ve fun-
  []
 
-<gambar/pengujian/sideways-move-hc/tc10/run3_seed44_experiment.png, id=2598, 2093.8225pt x 903.375pt>
+<gambar/pengujian/sideways-move-hc/tc10/run3_seed44_experiment.png, id=2634, 2093.8225pt x 903.375pt>
 File: gambar/pengujian/sideways-move-hc/tc10/run3_seed44_experiment.png Graphic file (type png)
 <use gambar/pengujian/sideways-move-hc/tc10/run3_seed44_experiment.png>
 Package pdftex.def Info: gambar/pengujian/sideways-move-hc/tc10/run3_seed44_experiment.png  used on input line 233.
@@ -2704,12 +2704,12 @@ Overfull \hbox (2.43767pt too wide) in alignment at lines 236--236
  [] [] 
  []
 
-<gambar/pengujian/random-restart-hc/tc8/run1_seed42_initial_state_3d.png, id=2616, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/random-restart-hc/tc8/run1_seed42_initial_state_3d.png, id=2652, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/random-restart-hc/tc8/run1_seed42_initial_state_3d.png Graphic file (type png)
 <use gambar/pengujian/random-restart-hc/tc8/run1_seed42_initial_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/random-restart-hc/tc8/run1_seed42_initial_state_3d.png  used on input line 236.
 (pdftex.def)             Requested size: 290.21802pt x 153.02646pt.
-<gambar/pengujian/random-restart-hc/tc8/run1_seed42_final_state_3d.png, id=2617, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/random-restart-hc/tc8/run1_seed42_final_state_3d.png, id=2653, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/random-restart-hc/tc8/run1_seed42_final_state_3d.png Graphic file (type png)
 <use gambar/pengujian/random-restart-hc/tc8/run1_seed42_final_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/random-restart-hc/tc8/run1_seed42_final_state_3d.png  used on input line 236.
@@ -2724,7 +2724,7 @@ Underfull \hbox (badness 2103) in paragraph at lines 236--236
 []|\T1/cmr/m/n/12 Grafik \T1/cmr/m/it/12 ob-je-cti-ve fun-
  []
 
-<gambar/pengujian/random-restart-hc/tc8/run1_seed42_experiment.png, id=2618, 2093.8225pt x 903.375pt>
+<gambar/pengujian/random-restart-hc/tc8/run1_seed42_experiment.png, id=2654, 2093.8225pt x 903.375pt>
 File: gambar/pengujian/random-restart-hc/tc8/run1_seed42_experiment.png Graphic file (type png)
 <use gambar/pengujian/random-restart-hc/tc8/run1_seed42_experiment.png>
 Package pdftex.def Info: gambar/pengujian/random-restart-hc/tc8/run1_seed42_experiment.png  used on input line 236.
@@ -2767,12 +2767,12 @@ Overfull \hbox (2.43767pt too wide) in alignment at lines 237--237
  [] [] 
  []
 
-<gambar/pengujian/random-restart-hc/tc8/run2_seed43_initial_state_3d.png, id=2627, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/random-restart-hc/tc8/run2_seed43_initial_state_3d.png, id=2663, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/random-restart-hc/tc8/run2_seed43_initial_state_3d.png Graphic file (type png)
 <use gambar/pengujian/random-restart-hc/tc8/run2_seed43_initial_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/random-restart-hc/tc8/run2_seed43_initial_state_3d.png  used on input line 237.
 (pdftex.def)             Requested size: 290.21802pt x 153.02646pt.
-<gambar/pengujian/random-restart-hc/tc8/run2_seed43_final_state_3d.png, id=2628, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/random-restart-hc/tc8/run2_seed43_final_state_3d.png, id=2664, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/random-restart-hc/tc8/run2_seed43_final_state_3d.png Graphic file (type png)
 <use gambar/pengujian/random-restart-hc/tc8/run2_seed43_final_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/random-restart-hc/tc8/run2_seed43_final_state_3d.png  used on input line 237.
@@ -2787,7 +2787,7 @@ Underfull \hbox (badness 2103) in paragraph at lines 237--237
 []|\T1/cmr/m/n/12 Grafik \T1/cmr/m/it/12 ob-je-cti-ve fun-
  []
 
-<gambar/pengujian/random-restart-hc/tc8/run2_seed43_experiment.png, id=2629, 2093.8225pt x 903.375pt>
+<gambar/pengujian/random-restart-hc/tc8/run2_seed43_experiment.png, id=2665, 2093.8225pt x 903.375pt>
 File: gambar/pengujian/random-restart-hc/tc8/run2_seed43_experiment.png Graphic file (type png)
 <use gambar/pengujian/random-restart-hc/tc8/run2_seed43_experiment.png>
 Package pdftex.def Info: gambar/pengujian/random-restart-hc/tc8/run2_seed43_experiment.png  used on input line 237.
@@ -2830,12 +2830,12 @@ Overfull \hbox (2.43767pt too wide) in alignment at lines 238--238
  [] [] 
  []
 
-<gambar/pengujian/random-restart-hc/tc8/run3_seed44_initial_state_3d.png, id=2638, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/random-restart-hc/tc8/run3_seed44_initial_state_3d.png, id=2674, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/random-restart-hc/tc8/run3_seed44_initial_state_3d.png Graphic file (type png)
 <use gambar/pengujian/random-restart-hc/tc8/run3_seed44_initial_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/random-restart-hc/tc8/run3_seed44_initial_state_3d.png  used on input line 238.
 (pdftex.def)             Requested size: 290.21802pt x 153.02646pt.
-<gambar/pengujian/random-restart-hc/tc8/run3_seed44_final_state_3d.png, id=2639, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/random-restart-hc/tc8/run3_seed44_final_state_3d.png, id=2675, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/random-restart-hc/tc8/run3_seed44_final_state_3d.png Graphic file (type png)
 <use gambar/pengujian/random-restart-hc/tc8/run3_seed44_final_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/random-restart-hc/tc8/run3_seed44_final_state_3d.png  used on input line 238.
@@ -2850,7 +2850,7 @@ Underfull \hbox (badness 2103) in paragraph at lines 238--238
 []|\T1/cmr/m/n/12 Grafik \T1/cmr/m/it/12 ob-je-cti-ve fun-
  []
 
-<gambar/pengujian/random-restart-hc/tc8/run3_seed44_experiment.png, id=2640, 2093.8225pt x 903.375pt>
+<gambar/pengujian/random-restart-hc/tc8/run3_seed44_experiment.png, id=2676, 2093.8225pt x 903.375pt>
 File: gambar/pengujian/random-restart-hc/tc8/run3_seed44_experiment.png Graphic file (type png)
 <use gambar/pengujian/random-restart-hc/tc8/run3_seed44_experiment.png>
 Package pdftex.def Info: gambar/pengujian/random-restart-hc/tc8/run3_seed44_experiment.png  used on input line 238.
@@ -2893,12 +2893,12 @@ Overfull \hbox (2.43767pt too wide) in alignment at lines 239--239
  [] [] 
  []
 
-<gambar/pengujian/random-restart-hc/tc9/run1_seed42_initial_state_3d.png, id=2649, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/random-restart-hc/tc9/run1_seed42_initial_state_3d.png, id=2685, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/random-restart-hc/tc9/run1_seed42_initial_state_3d.png Graphic file (type png)
 <use gambar/pengujian/random-restart-hc/tc9/run1_seed42_initial_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/random-restart-hc/tc9/run1_seed42_initial_state_3d.png  used on input line 239.
 (pdftex.def)             Requested size: 290.21802pt x 153.02646pt.
-<gambar/pengujian/random-restart-hc/tc9/run1_seed42_final_state_3d.png, id=2650, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/random-restart-hc/tc9/run1_seed42_final_state_3d.png, id=2686, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/random-restart-hc/tc9/run1_seed42_final_state_3d.png Graphic file (type png)
 <use gambar/pengujian/random-restart-hc/tc9/run1_seed42_final_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/random-restart-hc/tc9/run1_seed42_final_state_3d.png  used on input line 239.
@@ -2913,7 +2913,7 @@ Underfull \hbox (badness 2103) in paragraph at lines 239--239
 []|\T1/cmr/m/n/12 Grafik \T1/cmr/m/it/12 ob-je-cti-ve fun-
  []
 
-<gambar/pengujian/random-restart-hc/tc9/run1_seed42_experiment.png, id=2651, 2093.8225pt x 903.375pt>
+<gambar/pengujian/random-restart-hc/tc9/run1_seed42_experiment.png, id=2687, 2093.8225pt x 903.375pt>
 File: gambar/pengujian/random-restart-hc/tc9/run1_seed42_experiment.png Graphic file (type png)
 <use gambar/pengujian/random-restart-hc/tc9/run1_seed42_experiment.png>
 Package pdftex.def Info: gambar/pengujian/random-restart-hc/tc9/run1_seed42_experiment.png  used on input line 239.
@@ -2965,12 +2965,12 @@ Overfull \hbox (2.43767pt too wide) in alignment at lines 240--240
  [] [] 
  []
 
-<gambar/pengujian/random-restart-hc/tc9/run2_seed43_initial_state_3d.png, id=2670, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/random-restart-hc/tc9/run2_seed43_initial_state_3d.png, id=2706, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/random-restart-hc/tc9/run2_seed43_initial_state_3d.png Graphic file (type png)
 <use gambar/pengujian/random-restart-hc/tc9/run2_seed43_initial_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/random-restart-hc/tc9/run2_seed43_initial_state_3d.png  used on input line 240.
 (pdftex.def)             Requested size: 290.21802pt x 153.02646pt.
-<gambar/pengujian/random-restart-hc/tc9/run2_seed43_final_state_3d.png, id=2671, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/random-restart-hc/tc9/run2_seed43_final_state_3d.png, id=2707, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/random-restart-hc/tc9/run2_seed43_final_state_3d.png Graphic file (type png)
 <use gambar/pengujian/random-restart-hc/tc9/run2_seed43_final_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/random-restart-hc/tc9/run2_seed43_final_state_3d.png  used on input line 240.
@@ -2985,7 +2985,7 @@ Underfull \hbox (badness 2103) in paragraph at lines 240--240
 []|\T1/cmr/m/n/12 Grafik \T1/cmr/m/it/12 ob-je-cti-ve fun-
  []
 
-<gambar/pengujian/random-restart-hc/tc9/run2_seed43_experiment.png, id=2672, 2093.8225pt x 903.375pt>
+<gambar/pengujian/random-restart-hc/tc9/run2_seed43_experiment.png, id=2708, 2093.8225pt x 903.375pt>
 File: gambar/pengujian/random-restart-hc/tc9/run2_seed43_experiment.png Graphic file (type png)
 <use gambar/pengujian/random-restart-hc/tc9/run2_seed43_experiment.png>
 Package pdftex.def Info: gambar/pengujian/random-restart-hc/tc9/run2_seed43_experiment.png  used on input line 240.
@@ -3028,12 +3028,12 @@ Overfull \hbox (2.43767pt too wide) in alignment at lines 241--241
  [] [] 
  []
 
-<gambar/pengujian/random-restart-hc/tc9/run3_seed44_initial_state_3d.png, id=2681, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/random-restart-hc/tc9/run3_seed44_initial_state_3d.png, id=2717, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/random-restart-hc/tc9/run3_seed44_initial_state_3d.png Graphic file (type png)
 <use gambar/pengujian/random-restart-hc/tc9/run3_seed44_initial_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/random-restart-hc/tc9/run3_seed44_initial_state_3d.png  used on input line 241.
 (pdftex.def)             Requested size: 290.21802pt x 153.02646pt.
-<gambar/pengujian/random-restart-hc/tc9/run3_seed44_final_state_3d.png, id=2682, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/random-restart-hc/tc9/run3_seed44_final_state_3d.png, id=2718, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/random-restart-hc/tc9/run3_seed44_final_state_3d.png Graphic file (type png)
 <use gambar/pengujian/random-restart-hc/tc9/run3_seed44_final_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/random-restart-hc/tc9/run3_seed44_final_state_3d.png  used on input line 241.
@@ -3048,7 +3048,7 @@ Underfull \hbox (badness 2103) in paragraph at lines 241--241
 []|\T1/cmr/m/n/12 Grafik \T1/cmr/m/it/12 ob-je-cti-ve fun-
  []
 
-<gambar/pengujian/random-restart-hc/tc9/run3_seed44_experiment.png, id=2683, 2093.8225pt x 903.375pt>
+<gambar/pengujian/random-restart-hc/tc9/run3_seed44_experiment.png, id=2719, 2093.8225pt x 903.375pt>
 File: gambar/pengujian/random-restart-hc/tc9/run3_seed44_experiment.png Graphic file (type png)
 <use gambar/pengujian/random-restart-hc/tc9/run3_seed44_experiment.png>
 Package pdftex.def Info: gambar/pengujian/random-restart-hc/tc9/run3_seed44_experiment.png  used on input line 241.
@@ -3091,12 +3091,12 @@ Overfull \hbox (2.43767pt too wide) in alignment at lines 242--242
  [] [] 
  []
 
-<gambar/pengujian/random-restart-hc/tc10/run1_seed42_initial_state_3d.png, id=2692, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/random-restart-hc/tc10/run1_seed42_initial_state_3d.png, id=2728, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/random-restart-hc/tc10/run1_seed42_initial_state_3d.png Graphic file (type png)
 <use gambar/pengujian/random-restart-hc/tc10/run1_seed42_initial_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/random-restart-hc/tc10/run1_seed42_initial_state_3d.png  used on input line 242.
 (pdftex.def)             Requested size: 290.21802pt x 153.02646pt.
-<gambar/pengujian/random-restart-hc/tc10/run1_seed42_final_state_3d.png, id=2693, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/random-restart-hc/tc10/run1_seed42_final_state_3d.png, id=2729, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/random-restart-hc/tc10/run1_seed42_final_state_3d.png Graphic file (type png)
 <use gambar/pengujian/random-restart-hc/tc10/run1_seed42_final_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/random-restart-hc/tc10/run1_seed42_final_state_3d.png  used on input line 242.
@@ -3111,7 +3111,7 @@ Underfull \hbox (badness 2103) in paragraph at lines 242--242
 []|\T1/cmr/m/n/12 Grafik \T1/cmr/m/it/12 ob-je-cti-ve fun-
  []
 
-<gambar/pengujian/random-restart-hc/tc10/run1_seed42_experiment.png, id=2694, 2093.8225pt x 903.375pt>
+<gambar/pengujian/random-restart-hc/tc10/run1_seed42_experiment.png, id=2730, 2093.8225pt x 903.375pt>
 File: gambar/pengujian/random-restart-hc/tc10/run1_seed42_experiment.png Graphic file (type png)
 <use gambar/pengujian/random-restart-hc/tc10/run1_seed42_experiment.png>
 Package pdftex.def Info: gambar/pengujian/random-restart-hc/tc10/run1_seed42_experiment.png  used on input line 242.
@@ -3154,12 +3154,12 @@ Overfull \hbox (2.43767pt too wide) in alignment at lines 243--243
  [] [] 
  []
 
-<gambar/pengujian/random-restart-hc/tc10/run2_seed43_initial_state_3d.png, id=2703, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/random-restart-hc/tc10/run2_seed43_initial_state_3d.png, id=2739, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/random-restart-hc/tc10/run2_seed43_initial_state_3d.png Graphic file (type png)
 <use gambar/pengujian/random-restart-hc/tc10/run2_seed43_initial_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/random-restart-hc/tc10/run2_seed43_initial_state_3d.png  used on input line 243.
 (pdftex.def)             Requested size: 290.21802pt x 153.02646pt.
-<gambar/pengujian/random-restart-hc/tc10/run2_seed43_final_state_3d.png, id=2704, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/random-restart-hc/tc10/run2_seed43_final_state_3d.png, id=2740, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/random-restart-hc/tc10/run2_seed43_final_state_3d.png Graphic file (type png)
 <use gambar/pengujian/random-restart-hc/tc10/run2_seed43_final_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/random-restart-hc/tc10/run2_seed43_final_state_3d.png  used on input line 243.
@@ -3174,7 +3174,7 @@ Underfull \hbox (badness 2103) in paragraph at lines 243--243
 []|\T1/cmr/m/n/12 Grafik \T1/cmr/m/it/12 ob-je-cti-ve fun-
  []
 
-<gambar/pengujian/random-restart-hc/tc10/run2_seed43_experiment.png, id=2705, 2093.8225pt x 903.375pt>
+<gambar/pengujian/random-restart-hc/tc10/run2_seed43_experiment.png, id=2741, 2093.8225pt x 903.375pt>
 File: gambar/pengujian/random-restart-hc/tc10/run2_seed43_experiment.png Graphic file (type png)
 <use gambar/pengujian/random-restart-hc/tc10/run2_seed43_experiment.png>
 Package pdftex.def Info: gambar/pengujian/random-restart-hc/tc10/run2_seed43_experiment.png  used on input line 243.
@@ -3226,12 +3226,12 @@ Overfull \hbox (2.43767pt too wide) in alignment at lines 244--244
  [] [] 
  []
 
-<gambar/pengujian/random-restart-hc/tc10/run3_seed44_initial_state_3d.png, id=2724, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/random-restart-hc/tc10/run3_seed44_initial_state_3d.png, id=2760, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/random-restart-hc/tc10/run3_seed44_initial_state_3d.png Graphic file (type png)
 <use gambar/pengujian/random-restart-hc/tc10/run3_seed44_initial_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/random-restart-hc/tc10/run3_seed44_initial_state_3d.png  used on input line 244.
 (pdftex.def)             Requested size: 290.21802pt x 153.02646pt.
-<gambar/pengujian/random-restart-hc/tc10/run3_seed44_final_state_3d.png, id=2725, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/random-restart-hc/tc10/run3_seed44_final_state_3d.png, id=2761, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/random-restart-hc/tc10/run3_seed44_final_state_3d.png Graphic file (type png)
 <use gambar/pengujian/random-restart-hc/tc10/run3_seed44_final_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/random-restart-hc/tc10/run3_seed44_final_state_3d.png  used on input line 244.
@@ -3246,7 +3246,7 @@ Underfull \hbox (badness 2103) in paragraph at lines 244--244
 []|\T1/cmr/m/n/12 Grafik \T1/cmr/m/it/12 ob-je-cti-ve fun-
  []
 
-<gambar/pengujian/random-restart-hc/tc10/run3_seed44_experiment.png, id=2726, 2093.8225pt x 903.375pt>
+<gambar/pengujian/random-restart-hc/tc10/run3_seed44_experiment.png, id=2762, 2093.8225pt x 903.375pt>
 File: gambar/pengujian/random-restart-hc/tc10/run3_seed44_experiment.png Graphic file (type png)
 <use gambar/pengujian/random-restart-hc/tc10/run3_seed44_experiment.png>
 Package pdftex.def Info: gambar/pengujian/random-restart-hc/tc10/run3_seed44_experiment.png  used on input line 244.
@@ -3289,12 +3289,12 @@ Overfull \hbox (2.43767pt too wide) in alignment at lines 247--247
  [] [] 
  []
 
-<gambar/pengujian/stochastic-hc/tc8/run1_seed42_initial_state_3d.png, id=2735, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/stochastic-hc/tc8/run1_seed42_initial_state_3d.png, id=2771, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/stochastic-hc/tc8/run1_seed42_initial_state_3d.png Graphic file (type png)
 <use gambar/pengujian/stochastic-hc/tc8/run1_seed42_initial_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/stochastic-hc/tc8/run1_seed42_initial_state_3d.png  used on input line 247.
 (pdftex.def)             Requested size: 290.21802pt x 153.02646pt.
-<gambar/pengujian/stochastic-hc/tc8/run1_seed42_final_state_3d.png, id=2736, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/stochastic-hc/tc8/run1_seed42_final_state_3d.png, id=2772, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/stochastic-hc/tc8/run1_seed42_final_state_3d.png Graphic file (type png)
 <use gambar/pengujian/stochastic-hc/tc8/run1_seed42_final_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/stochastic-hc/tc8/run1_seed42_final_state_3d.png  used on input line 247.
@@ -3309,7 +3309,7 @@ Underfull \hbox (badness 2103) in paragraph at lines 247--247
 []|\T1/cmr/m/n/12 Grafik \T1/cmr/m/it/12 ob-je-cti-ve fun-
  []
 
-<gambar/pengujian/stochastic-hc/tc8/run1_seed42_experiment.png, id=2737, 2093.8225pt x 903.375pt>
+<gambar/pengujian/stochastic-hc/tc8/run1_seed42_experiment.png, id=2773, 2093.8225pt x 903.375pt>
 File: gambar/pengujian/stochastic-hc/tc8/run1_seed42_experiment.png Graphic file (type png)
 <use gambar/pengujian/stochastic-hc/tc8/run1_seed42_experiment.png>
 Package pdftex.def Info: gambar/pengujian/stochastic-hc/tc8/run1_seed42_experiment.png  used on input line 247.
@@ -3347,12 +3347,12 @@ Overfull \hbox (2.43767pt too wide) in alignment at lines 248--248
  [] [] 
  []
 
-<gambar/pengujian/stochastic-hc/tc8/run2_seed43_initial_state_3d.png, id=2746, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/stochastic-hc/tc8/run2_seed43_initial_state_3d.png, id=2782, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/stochastic-hc/tc8/run2_seed43_initial_state_3d.png Graphic file (type png)
 <use gambar/pengujian/stochastic-hc/tc8/run2_seed43_initial_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/stochastic-hc/tc8/run2_seed43_initial_state_3d.png  used on input line 248.
 (pdftex.def)             Requested size: 290.21802pt x 153.02646pt.
-<gambar/pengujian/stochastic-hc/tc8/run2_seed43_final_state_3d.png, id=2747, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/stochastic-hc/tc8/run2_seed43_final_state_3d.png, id=2783, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/stochastic-hc/tc8/run2_seed43_final_state_3d.png Graphic file (type png)
 <use gambar/pengujian/stochastic-hc/tc8/run2_seed43_final_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/stochastic-hc/tc8/run2_seed43_final_state_3d.png  used on input line 248.
@@ -3367,7 +3367,7 @@ Underfull \hbox (badness 2103) in paragraph at lines 248--248
 []|\T1/cmr/m/n/12 Grafik \T1/cmr/m/it/12 ob-je-cti-ve fun-
  []
 
-<gambar/pengujian/stochastic-hc/tc8/run2_seed43_experiment.png, id=2748, 2093.8225pt x 903.375pt>
+<gambar/pengujian/stochastic-hc/tc8/run2_seed43_experiment.png, id=2784, 2093.8225pt x 903.375pt>
 File: gambar/pengujian/stochastic-hc/tc8/run2_seed43_experiment.png Graphic file (type png)
 <use gambar/pengujian/stochastic-hc/tc8/run2_seed43_experiment.png>
 Package pdftex.def Info: gambar/pengujian/stochastic-hc/tc8/run2_seed43_experiment.png  used on input line 248.
@@ -3405,12 +3405,12 @@ Overfull \hbox (2.43767pt too wide) in alignment at lines 249--249
  [] [] 
  []
 
-<gambar/pengujian/stochastic-hc/tc8/run3_seed44_initial_state_3d.png, id=2756, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/stochastic-hc/tc8/run3_seed44_initial_state_3d.png, id=2792, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/stochastic-hc/tc8/run3_seed44_initial_state_3d.png Graphic file (type png)
 <use gambar/pengujian/stochastic-hc/tc8/run3_seed44_initial_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/stochastic-hc/tc8/run3_seed44_initial_state_3d.png  used on input line 249.
 (pdftex.def)             Requested size: 290.21802pt x 153.02646pt.
-<gambar/pengujian/stochastic-hc/tc8/run3_seed44_final_state_3d.png, id=2757, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/stochastic-hc/tc8/run3_seed44_final_state_3d.png, id=2793, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/stochastic-hc/tc8/run3_seed44_final_state_3d.png Graphic file (type png)
 <use gambar/pengujian/stochastic-hc/tc8/run3_seed44_final_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/stochastic-hc/tc8/run3_seed44_final_state_3d.png  used on input line 249.
@@ -3425,7 +3425,7 @@ Underfull \hbox (badness 2103) in paragraph at lines 249--249
 []|\T1/cmr/m/n/12 Grafik \T1/cmr/m/it/12 ob-je-cti-ve fun-
  []
 
-<gambar/pengujian/stochastic-hc/tc8/run3_seed44_experiment.png, id=2758, 2093.8225pt x 903.375pt>
+<gambar/pengujian/stochastic-hc/tc8/run3_seed44_experiment.png, id=2794, 2093.8225pt x 903.375pt>
 File: gambar/pengujian/stochastic-hc/tc8/run3_seed44_experiment.png Graphic file (type png)
 <use gambar/pengujian/stochastic-hc/tc8/run3_seed44_experiment.png>
 Package pdftex.def Info: gambar/pengujian/stochastic-hc/tc8/run3_seed44_experiment.png  used on input line 249.
@@ -3463,12 +3463,12 @@ Overfull \hbox (2.43767pt too wide) in alignment at lines 250--250
  [] [] 
  []
 
-<gambar/pengujian/stochastic-hc/tc9/run1_seed42_initial_state_3d.png, id=2768, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/stochastic-hc/tc9/run1_seed42_initial_state_3d.png, id=2804, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/stochastic-hc/tc9/run1_seed42_initial_state_3d.png Graphic file (type png)
 <use gambar/pengujian/stochastic-hc/tc9/run1_seed42_initial_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/stochastic-hc/tc9/run1_seed42_initial_state_3d.png  used on input line 250.
 (pdftex.def)             Requested size: 290.21802pt x 153.02646pt.
-<gambar/pengujian/stochastic-hc/tc9/run1_seed42_final_state_3d.png, id=2769, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/stochastic-hc/tc9/run1_seed42_final_state_3d.png, id=2805, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/stochastic-hc/tc9/run1_seed42_final_state_3d.png Graphic file (type png)
 <use gambar/pengujian/stochastic-hc/tc9/run1_seed42_final_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/stochastic-hc/tc9/run1_seed42_final_state_3d.png  used on input line 250.
@@ -3483,7 +3483,7 @@ Underfull \hbox (badness 2103) in paragraph at lines 250--250
 []|\T1/cmr/m/n/12 Grafik \T1/cmr/m/it/12 ob-je-cti-ve fun-
  []
 
-<gambar/pengujian/stochastic-hc/tc9/run1_seed42_experiment.png, id=2770, 2093.8225pt x 903.375pt>
+<gambar/pengujian/stochastic-hc/tc9/run1_seed42_experiment.png, id=2806, 2093.8225pt x 903.375pt>
 File: gambar/pengujian/stochastic-hc/tc9/run1_seed42_experiment.png Graphic file (type png)
 <use gambar/pengujian/stochastic-hc/tc9/run1_seed42_experiment.png>
 Package pdftex.def Info: gambar/pengujian/stochastic-hc/tc9/run1_seed42_experiment.png  used on input line 250.
@@ -3521,12 +3521,12 @@ Overfull \hbox (2.43767pt too wide) in alignment at lines 251--251
  [] [] 
  []
 
-<gambar/pengujian/stochastic-hc/tc9/run2_seed43_initial_state_3d.png, id=2780, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/stochastic-hc/tc9/run2_seed43_initial_state_3d.png, id=2816, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/stochastic-hc/tc9/run2_seed43_initial_state_3d.png Graphic file (type png)
 <use gambar/pengujian/stochastic-hc/tc9/run2_seed43_initial_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/stochastic-hc/tc9/run2_seed43_initial_state_3d.png  used on input line 251.
 (pdftex.def)             Requested size: 290.21802pt x 153.02646pt.
-<gambar/pengujian/stochastic-hc/tc9/run2_seed43_final_state_3d.png, id=2781, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/stochastic-hc/tc9/run2_seed43_final_state_3d.png, id=2817, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/stochastic-hc/tc9/run2_seed43_final_state_3d.png Graphic file (type png)
 <use gambar/pengujian/stochastic-hc/tc9/run2_seed43_final_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/stochastic-hc/tc9/run2_seed43_final_state_3d.png  used on input line 251.
@@ -3541,7 +3541,7 @@ Underfull \hbox (badness 2103) in paragraph at lines 251--251
 []|\T1/cmr/m/n/12 Grafik \T1/cmr/m/it/12 ob-je-cti-ve fun-
  []
 
-<gambar/pengujian/stochastic-hc/tc9/run2_seed43_experiment.png, id=2782, 2093.8225pt x 903.375pt>
+<gambar/pengujian/stochastic-hc/tc9/run2_seed43_experiment.png, id=2818, 2093.8225pt x 903.375pt>
 File: gambar/pengujian/stochastic-hc/tc9/run2_seed43_experiment.png Graphic file (type png)
 <use gambar/pengujian/stochastic-hc/tc9/run2_seed43_experiment.png>
 Package pdftex.def Info: gambar/pengujian/stochastic-hc/tc9/run2_seed43_experiment.png  used on input line 251.
@@ -3579,12 +3579,12 @@ Overfull \hbox (2.43767pt too wide) in alignment at lines 252--252
  [] [] 
  []
 
-<gambar/pengujian/stochastic-hc/tc9/run3_seed44_initial_state_3d.png, id=2793, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/stochastic-hc/tc9/run3_seed44_initial_state_3d.png, id=2829, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/stochastic-hc/tc9/run3_seed44_initial_state_3d.png Graphic file (type png)
 <use gambar/pengujian/stochastic-hc/tc9/run3_seed44_initial_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/stochastic-hc/tc9/run3_seed44_initial_state_3d.png  used on input line 252.
 (pdftex.def)             Requested size: 290.21802pt x 153.02646pt.
-<gambar/pengujian/stochastic-hc/tc9/run3_seed44_final_state_3d.png, id=2794, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/stochastic-hc/tc9/run3_seed44_final_state_3d.png, id=2830, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/stochastic-hc/tc9/run3_seed44_final_state_3d.png Graphic file (type png)
 <use gambar/pengujian/stochastic-hc/tc9/run3_seed44_final_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/stochastic-hc/tc9/run3_seed44_final_state_3d.png  used on input line 252.
@@ -3599,7 +3599,7 @@ Underfull \hbox (badness 2103) in paragraph at lines 252--252
 []|\T1/cmr/m/n/12 Grafik \T1/cmr/m/it/12 ob-je-cti-ve fun-
  []
 
-<gambar/pengujian/stochastic-hc/tc9/run3_seed44_experiment.png, id=2795, 2093.8225pt x 903.375pt>
+<gambar/pengujian/stochastic-hc/tc9/run3_seed44_experiment.png, id=2831, 2093.8225pt x 903.375pt>
 File: gambar/pengujian/stochastic-hc/tc9/run3_seed44_experiment.png Graphic file (type png)
 <use gambar/pengujian/stochastic-hc/tc9/run3_seed44_experiment.png>
 Package pdftex.def Info: gambar/pengujian/stochastic-hc/tc9/run3_seed44_experiment.png  used on input line 252.
@@ -3637,12 +3637,12 @@ Overfull \hbox (2.43767pt too wide) in alignment at lines 253--253
  [] [] 
  []
 
-<gambar/pengujian/stochastic-hc/tc10/run1_seed42_initial_state_3d.png, id=2805, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/stochastic-hc/tc10/run1_seed42_initial_state_3d.png, id=2841, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/stochastic-hc/tc10/run1_seed42_initial_state_3d.png Graphic file (type png)
 <use gambar/pengujian/stochastic-hc/tc10/run1_seed42_initial_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/stochastic-hc/tc10/run1_seed42_initial_state_3d.png  used on input line 253.
 (pdftex.def)             Requested size: 290.21802pt x 153.02646pt.
-<gambar/pengujian/stochastic-hc/tc10/run1_seed42_final_state_3d.png, id=2806, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/stochastic-hc/tc10/run1_seed42_final_state_3d.png, id=2842, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/stochastic-hc/tc10/run1_seed42_final_state_3d.png Graphic file (type png)
 <use gambar/pengujian/stochastic-hc/tc10/run1_seed42_final_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/stochastic-hc/tc10/run1_seed42_final_state_3d.png  used on input line 253.
@@ -3657,7 +3657,7 @@ Underfull \hbox (badness 2103) in paragraph at lines 253--253
 []|\T1/cmr/m/n/12 Grafik \T1/cmr/m/it/12 ob-je-cti-ve fun-
  []
 
-<gambar/pengujian/stochastic-hc/tc10/run1_seed42_experiment.png, id=2807, 2093.8225pt x 903.375pt>
+<gambar/pengujian/stochastic-hc/tc10/run1_seed42_experiment.png, id=2843, 2093.8225pt x 903.375pt>
 File: gambar/pengujian/stochastic-hc/tc10/run1_seed42_experiment.png Graphic file (type png)
 <use gambar/pengujian/stochastic-hc/tc10/run1_seed42_experiment.png>
 Package pdftex.def Info: gambar/pengujian/stochastic-hc/tc10/run1_seed42_experiment.png  used on input line 253.
@@ -3695,12 +3695,12 @@ Overfull \hbox (2.43767pt too wide) in alignment at lines 254--254
  [] [] 
  []
 
-<gambar/pengujian/stochastic-hc/tc10/run2_seed43_initial_state_3d.png, id=2817, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/stochastic-hc/tc10/run2_seed43_initial_state_3d.png, id=2853, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/stochastic-hc/tc10/run2_seed43_initial_state_3d.png Graphic file (type png)
 <use gambar/pengujian/stochastic-hc/tc10/run2_seed43_initial_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/stochastic-hc/tc10/run2_seed43_initial_state_3d.png  used on input line 254.
 (pdftex.def)             Requested size: 290.21802pt x 153.02646pt.
-<gambar/pengujian/stochastic-hc/tc10/run2_seed43_final_state_3d.png, id=2818, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/stochastic-hc/tc10/run2_seed43_final_state_3d.png, id=2854, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/stochastic-hc/tc10/run2_seed43_final_state_3d.png Graphic file (type png)
 <use gambar/pengujian/stochastic-hc/tc10/run2_seed43_final_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/stochastic-hc/tc10/run2_seed43_final_state_3d.png  used on input line 254.
@@ -3715,7 +3715,7 @@ Underfull \hbox (badness 2103) in paragraph at lines 254--254
 []|\T1/cmr/m/n/12 Grafik \T1/cmr/m/it/12 ob-je-cti-ve fun-
  []
 
-<gambar/pengujian/stochastic-hc/tc10/run2_seed43_experiment.png, id=2819, 2093.8225pt x 903.375pt>
+<gambar/pengujian/stochastic-hc/tc10/run2_seed43_experiment.png, id=2855, 2093.8225pt x 903.375pt>
 File: gambar/pengujian/stochastic-hc/tc10/run2_seed43_experiment.png Graphic file (type png)
 <use gambar/pengujian/stochastic-hc/tc10/run2_seed43_experiment.png>
 Package pdftex.def Info: gambar/pengujian/stochastic-hc/tc10/run2_seed43_experiment.png  used on input line 254.
@@ -3753,12 +3753,12 @@ Overfull \hbox (2.43767pt too wide) in alignment at lines 255--255
  [] [] 
  []
 
-<gambar/pengujian/stochastic-hc/tc10/run3_seed44_initial_state_3d.png, id=2829, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/stochastic-hc/tc10/run3_seed44_initial_state_3d.png, id=2865, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/stochastic-hc/tc10/run3_seed44_initial_state_3d.png Graphic file (type png)
 <use gambar/pengujian/stochastic-hc/tc10/run3_seed44_initial_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/stochastic-hc/tc10/run3_seed44_initial_state_3d.png  used on input line 255.
 (pdftex.def)             Requested size: 290.21802pt x 153.02646pt.
-<gambar/pengujian/stochastic-hc/tc10/run3_seed44_final_state_3d.png, id=2830, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/stochastic-hc/tc10/run3_seed44_final_state_3d.png, id=2866, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/stochastic-hc/tc10/run3_seed44_final_state_3d.png Graphic file (type png)
 <use gambar/pengujian/stochastic-hc/tc10/run3_seed44_final_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/stochastic-hc/tc10/run3_seed44_final_state_3d.png  used on input line 255.
@@ -3773,7 +3773,7 @@ Underfull \hbox (badness 2103) in paragraph at lines 255--255
 []|\T1/cmr/m/n/12 Grafik \T1/cmr/m/it/12 ob-je-cti-ve fun-
  []
 
-<gambar/pengujian/stochastic-hc/tc10/run3_seed44_experiment.png, id=2831, 2093.8225pt x 903.375pt>
+<gambar/pengujian/stochastic-hc/tc10/run3_seed44_experiment.png, id=2867, 2093.8225pt x 903.375pt>
 File: gambar/pengujian/stochastic-hc/tc10/run3_seed44_experiment.png Graphic file (type png)
 <use gambar/pengujian/stochastic-hc/tc10/run3_seed44_experiment.png>
 Package pdftex.def Info: gambar/pengujian/stochastic-hc/tc10/run3_seed44_experiment.png  used on input line 255.
@@ -3811,12 +3811,12 @@ Overfull \hbox (2.43767pt too wide) in alignment at lines 258--258
  [] [] 
  []
 
-<gambar/pengujian/sa/tc8/run1_seed42_initial_state_3d.png, id=2841, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/sa/tc8/run1_seed42_initial_state_3d.png, id=2877, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/sa/tc8/run1_seed42_initial_state_3d.png Graphic file (type png)
 <use gambar/pengujian/sa/tc8/run1_seed42_initial_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/sa/tc8/run1_seed42_initial_state_3d.png  used on input line 258.
 (pdftex.def)             Requested size: 290.21802pt x 153.02646pt.
-<gambar/pengujian/sa/tc8/run1_seed42_final_state_3d.png, id=2842, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/sa/tc8/run1_seed42_final_state_3d.png, id=2878, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/sa/tc8/run1_seed42_final_state_3d.png Graphic file (type png)
 <use gambar/pengujian/sa/tc8/run1_seed42_final_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/sa/tc8/run1_seed42_final_state_3d.png  used on input line 258.
@@ -3831,7 +3831,7 @@ Underfull \hbox (badness 2103) in paragraph at lines 258--258
 []|\T1/cmr/m/n/12 Grafik \T1/cmr/m/it/12 ob-je-cti-ve fun-
  []
 
-<gambar/pengujian/sa/tc8/run1_seed42_experiment.png, id=2843, 2093.8225pt x 2509.375pt>
+<gambar/pengujian/sa/tc8/run1_seed42_experiment.png, id=2879, 2093.8225pt x 2509.375pt>
 File: gambar/pengujian/sa/tc8/run1_seed42_experiment.png Graphic file (type png)
 <use gambar/pengujian/sa/tc8/run1_seed42_experiment.png>
 Package pdftex.def Info: gambar/pengujian/sa/tc8/run1_seed42_experiment.png  used on input line 258.
@@ -3878,12 +3878,12 @@ Overfull \hbox (2.43767pt too wide) in alignment at lines 259--259
  [] [] 
  []
 
-<gambar/pengujian/sa/tc8/run2_seed43_initial_state_3d.png, id=2862, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/sa/tc8/run2_seed43_initial_state_3d.png, id=2898, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/sa/tc8/run2_seed43_initial_state_3d.png Graphic file (type png)
 <use gambar/pengujian/sa/tc8/run2_seed43_initial_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/sa/tc8/run2_seed43_initial_state_3d.png  used on input line 259.
 (pdftex.def)             Requested size: 290.21802pt x 153.02646pt.
-<gambar/pengujian/sa/tc8/run2_seed43_final_state_3d.png, id=2863, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/sa/tc8/run2_seed43_final_state_3d.png, id=2899, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/sa/tc8/run2_seed43_final_state_3d.png Graphic file (type png)
 <use gambar/pengujian/sa/tc8/run2_seed43_final_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/sa/tc8/run2_seed43_final_state_3d.png  used on input line 259.
@@ -3898,7 +3898,7 @@ Underfull \hbox (badness 2103) in paragraph at lines 259--259
 []|\T1/cmr/m/n/12 Grafik \T1/cmr/m/it/12 ob-je-cti-ve fun-
  []
 
-<gambar/pengujian/sa/tc8/run2_seed43_experiment.png, id=2864, 2093.8225pt x 2509.375pt>
+<gambar/pengujian/sa/tc8/run2_seed43_experiment.png, id=2900, 2093.8225pt x 2509.375pt>
 File: gambar/pengujian/sa/tc8/run2_seed43_experiment.png Graphic file (type png)
 <use gambar/pengujian/sa/tc8/run2_seed43_experiment.png>
 Package pdftex.def Info: gambar/pengujian/sa/tc8/run2_seed43_experiment.png  used on input line 259.
@@ -3945,12 +3945,12 @@ Overfull \hbox (2.43767pt too wide) in alignment at lines 260--260
  [] [] 
  []
 
-<gambar/pengujian/sa/tc8/run3_seed44_initial_state_3d.png, id=2879, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/sa/tc8/run3_seed44_initial_state_3d.png, id=2915, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/sa/tc8/run3_seed44_initial_state_3d.png Graphic file (type png)
 <use gambar/pengujian/sa/tc8/run3_seed44_initial_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/sa/tc8/run3_seed44_initial_state_3d.png  used on input line 260.
 (pdftex.def)             Requested size: 290.21802pt x 153.02646pt.
-<gambar/pengujian/sa/tc8/run3_seed44_final_state_3d.png, id=2880, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/sa/tc8/run3_seed44_final_state_3d.png, id=2916, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/sa/tc8/run3_seed44_final_state_3d.png Graphic file (type png)
 <use gambar/pengujian/sa/tc8/run3_seed44_final_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/sa/tc8/run3_seed44_final_state_3d.png  used on input line 260.
@@ -3965,7 +3965,7 @@ Underfull \hbox (badness 2103) in paragraph at lines 260--260
 []|\T1/cmr/m/n/12 Grafik \T1/cmr/m/it/12 ob-je-cti-ve fun-
  []
 
-<gambar/pengujian/sa/tc8/run3_seed44_experiment.png, id=2881, 2093.8225pt x 2509.375pt>
+<gambar/pengujian/sa/tc8/run3_seed44_experiment.png, id=2917, 2093.8225pt x 2509.375pt>
 File: gambar/pengujian/sa/tc8/run3_seed44_experiment.png Graphic file (type png)
 <use gambar/pengujian/sa/tc8/run3_seed44_experiment.png>
 Package pdftex.def Info: gambar/pengujian/sa/tc8/run3_seed44_experiment.png  used on input line 260.
@@ -4012,12 +4012,12 @@ Overfull \hbox (2.43767pt too wide) in alignment at lines 261--261
  [] [] 
  []
 
-<gambar/pengujian/sa/tc9/run1_seed42_initial_state_3d.png, id=2896, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/sa/tc9/run1_seed42_initial_state_3d.png, id=2932, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/sa/tc9/run1_seed42_initial_state_3d.png Graphic file (type png)
 <use gambar/pengujian/sa/tc9/run1_seed42_initial_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/sa/tc9/run1_seed42_initial_state_3d.png  used on input line 261.
 (pdftex.def)             Requested size: 290.21802pt x 153.02646pt.
-<gambar/pengujian/sa/tc9/run1_seed42_final_state_3d.png, id=2897, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/sa/tc9/run1_seed42_final_state_3d.png, id=2933, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/sa/tc9/run1_seed42_final_state_3d.png Graphic file (type png)
 <use gambar/pengujian/sa/tc9/run1_seed42_final_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/sa/tc9/run1_seed42_final_state_3d.png  used on input line 261.
@@ -4032,7 +4032,7 @@ Underfull \hbox (badness 2103) in paragraph at lines 261--261
 []|\T1/cmr/m/n/12 Grafik \T1/cmr/m/it/12 ob-je-cti-ve fun-
  []
 
-<gambar/pengujian/sa/tc9/run1_seed42_experiment.png, id=2898, 2093.8225pt x 2509.375pt>
+<gambar/pengujian/sa/tc9/run1_seed42_experiment.png, id=2934, 2093.8225pt x 2509.375pt>
 File: gambar/pengujian/sa/tc9/run1_seed42_experiment.png Graphic file (type png)
 <use gambar/pengujian/sa/tc9/run1_seed42_experiment.png>
 Package pdftex.def Info: gambar/pengujian/sa/tc9/run1_seed42_experiment.png  used on input line 261.
@@ -4079,12 +4079,12 @@ Overfull \hbox (2.43767pt too wide) in alignment at lines 262--262
  [] [] 
  []
 
-<gambar/pengujian/sa/tc9/run2_seed43_initial_state_3d.png, id=2914, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/sa/tc9/run2_seed43_initial_state_3d.png, id=2950, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/sa/tc9/run2_seed43_initial_state_3d.png Graphic file (type png)
 <use gambar/pengujian/sa/tc9/run2_seed43_initial_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/sa/tc9/run2_seed43_initial_state_3d.png  used on input line 262.
 (pdftex.def)             Requested size: 290.21802pt x 153.02646pt.
-<gambar/pengujian/sa/tc9/run2_seed43_final_state_3d.png, id=2915, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/sa/tc9/run2_seed43_final_state_3d.png, id=2951, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/sa/tc9/run2_seed43_final_state_3d.png Graphic file (type png)
 <use gambar/pengujian/sa/tc9/run2_seed43_final_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/sa/tc9/run2_seed43_final_state_3d.png  used on input line 262.
@@ -4099,7 +4099,7 @@ Underfull \hbox (badness 2103) in paragraph at lines 262--262
 []|\T1/cmr/m/n/12 Grafik \T1/cmr/m/it/12 ob-je-cti-ve fun-
  []
 
-<gambar/pengujian/sa/tc9/run2_seed43_experiment.png, id=2916, 2093.8225pt x 2509.375pt>
+<gambar/pengujian/sa/tc9/run2_seed43_experiment.png, id=2952, 2093.8225pt x 2509.375pt>
 File: gambar/pengujian/sa/tc9/run2_seed43_experiment.png Graphic file (type png)
 <use gambar/pengujian/sa/tc9/run2_seed43_experiment.png>
 Package pdftex.def Info: gambar/pengujian/sa/tc9/run2_seed43_experiment.png  used on input line 262.
@@ -4146,12 +4146,12 @@ Overfull \hbox (2.43767pt too wide) in alignment at lines 263--263
  [] [] 
  []
 
-<gambar/pengujian/sa/tc9/run3_seed44_initial_state_3d.png, id=2931, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/sa/tc9/run3_seed44_initial_state_3d.png, id=2967, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/sa/tc9/run3_seed44_initial_state_3d.png Graphic file (type png)
 <use gambar/pengujian/sa/tc9/run3_seed44_initial_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/sa/tc9/run3_seed44_initial_state_3d.png  used on input line 263.
 (pdftex.def)             Requested size: 290.21802pt x 153.02646pt.
-<gambar/pengujian/sa/tc9/run3_seed44_final_state_3d.png, id=2932, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/sa/tc9/run3_seed44_final_state_3d.png, id=2968, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/sa/tc9/run3_seed44_final_state_3d.png Graphic file (type png)
 <use gambar/pengujian/sa/tc9/run3_seed44_final_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/sa/tc9/run3_seed44_final_state_3d.png  used on input line 263.
@@ -4166,7 +4166,7 @@ Underfull \hbox (badness 2103) in paragraph at lines 263--263
 []|\T1/cmr/m/n/12 Grafik \T1/cmr/m/it/12 ob-je-cti-ve fun-
  []
 
-<gambar/pengujian/sa/tc9/run3_seed44_experiment.png, id=2933, 2093.8225pt x 2509.375pt>
+<gambar/pengujian/sa/tc9/run3_seed44_experiment.png, id=2969, 2093.8225pt x 2509.375pt>
 File: gambar/pengujian/sa/tc9/run3_seed44_experiment.png Graphic file (type png)
 <use gambar/pengujian/sa/tc9/run3_seed44_experiment.png>
 Package pdftex.def Info: gambar/pengujian/sa/tc9/run3_seed44_experiment.png  used on input line 263.
@@ -4213,12 +4213,12 @@ Overfull \hbox (2.43767pt too wide) in alignment at lines 264--264
  [] [] 
  []
 
-<gambar/pengujian/sa/tc10/run1_seed42_initial_state_3d.png, id=2948, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/sa/tc10/run1_seed42_initial_state_3d.png, id=2984, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/sa/tc10/run1_seed42_initial_state_3d.png Graphic file (type png)
 <use gambar/pengujian/sa/tc10/run1_seed42_initial_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/sa/tc10/run1_seed42_initial_state_3d.png  used on input line 264.
 (pdftex.def)             Requested size: 290.21802pt x 153.02646pt.
-<gambar/pengujian/sa/tc10/run1_seed42_final_state_3d.png, id=2949, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/sa/tc10/run1_seed42_final_state_3d.png, id=2985, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/sa/tc10/run1_seed42_final_state_3d.png Graphic file (type png)
 <use gambar/pengujian/sa/tc10/run1_seed42_final_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/sa/tc10/run1_seed42_final_state_3d.png  used on input line 264.
@@ -4233,7 +4233,7 @@ Underfull \hbox (badness 2103) in paragraph at lines 264--264
 []|\T1/cmr/m/n/12 Grafik \T1/cmr/m/it/12 ob-je-cti-ve fun-
  []
 
-<gambar/pengujian/sa/tc10/run1_seed42_experiment.png, id=2950, 2093.8225pt x 2509.375pt>
+<gambar/pengujian/sa/tc10/run1_seed42_experiment.png, id=2986, 2093.8225pt x 2509.375pt>
 File: gambar/pengujian/sa/tc10/run1_seed42_experiment.png Graphic file (type png)
 <use gambar/pengujian/sa/tc10/run1_seed42_experiment.png>
 Package pdftex.def Info: gambar/pengujian/sa/tc10/run1_seed42_experiment.png  used on input line 264.
@@ -4280,12 +4280,12 @@ Overfull \hbox (2.43767pt too wide) in alignment at lines 265--265
  [] [] 
  []
 
-<gambar/pengujian/sa/tc10/run2_seed43_initial_state_3d.png, id=2966, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/sa/tc10/run2_seed43_initial_state_3d.png, id=3002, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/sa/tc10/run2_seed43_initial_state_3d.png Graphic file (type png)
 <use gambar/pengujian/sa/tc10/run2_seed43_initial_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/sa/tc10/run2_seed43_initial_state_3d.png  used on input line 265.
 (pdftex.def)             Requested size: 290.21802pt x 153.02646pt.
-<gambar/pengujian/sa/tc10/run2_seed43_final_state_3d.png, id=2967, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/sa/tc10/run2_seed43_final_state_3d.png, id=3003, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/sa/tc10/run2_seed43_final_state_3d.png Graphic file (type png)
 <use gambar/pengujian/sa/tc10/run2_seed43_final_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/sa/tc10/run2_seed43_final_state_3d.png  used on input line 265.
@@ -4300,7 +4300,7 @@ Underfull \hbox (badness 2103) in paragraph at lines 265--265
 []|\T1/cmr/m/n/12 Grafik \T1/cmr/m/it/12 ob-je-cti-ve fun-
  []
 
-<gambar/pengujian/sa/tc10/run2_seed43_experiment.png, id=2968, 2093.8225pt x 2509.375pt>
+<gambar/pengujian/sa/tc10/run2_seed43_experiment.png, id=3004, 2093.8225pt x 2509.375pt>
 File: gambar/pengujian/sa/tc10/run2_seed43_experiment.png Graphic file (type png)
 <use gambar/pengujian/sa/tc10/run2_seed43_experiment.png>
 Package pdftex.def Info: gambar/pengujian/sa/tc10/run2_seed43_experiment.png  used on input line 265.
@@ -4347,12 +4347,12 @@ Overfull \hbox (2.43767pt too wide) in alignment at lines 266--266
  [] [] 
  []
 
-<gambar/pengujian/sa/tc10/run3_seed44_initial_state_3d.png, id=2983, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/sa/tc10/run3_seed44_initial_state_3d.png, id=3019, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/sa/tc10/run3_seed44_initial_state_3d.png Graphic file (type png)
 <use gambar/pengujian/sa/tc10/run3_seed44_initial_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/sa/tc10/run3_seed44_initial_state_3d.png  used on input line 266.
 (pdftex.def)             Requested size: 290.21802pt x 153.02646pt.
-<gambar/pengujian/sa/tc10/run3_seed44_final_state_3d.png, id=2984, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/sa/tc10/run3_seed44_final_state_3d.png, id=3020, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/sa/tc10/run3_seed44_final_state_3d.png Graphic file (type png)
 <use gambar/pengujian/sa/tc10/run3_seed44_final_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/sa/tc10/run3_seed44_final_state_3d.png  used on input line 266.
@@ -4367,7 +4367,7 @@ Underfull \hbox (badness 2103) in paragraph at lines 266--266
 []|\T1/cmr/m/n/12 Grafik \T1/cmr/m/it/12 ob-je-cti-ve fun-
  []
 
-<gambar/pengujian/sa/tc10/run3_seed44_experiment.png, id=2985, 2093.8225pt x 2509.375pt>
+<gambar/pengujian/sa/tc10/run3_seed44_experiment.png, id=3021, 2093.8225pt x 2509.375pt>
 File: gambar/pengujian/sa/tc10/run3_seed44_experiment.png Graphic file (type png)
 <use gambar/pengujian/sa/tc10/run3_seed44_experiment.png>
 Package pdftex.def Info: gambar/pengujian/sa/tc10/run3_seed44_experiment.png  used on input line 266.
@@ -4419,12 +4419,12 @@ Underfull \hbox (badness 1237) in paragraph at lines 273--273
 []|\T1/cmr/m/it/12 State \T1/cmr/m/n/12 awal (po-pu-la-si
  []
 
-<gambar/pengujian/ga/tc8/pop50_it50_run1_seed42_initial_state_3d.png, id=3000, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/ga/tc8/pop50_it50_run1_seed42_initial_state_3d.png, id=3036, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/ga/tc8/pop50_it50_run1_seed42_initial_state_3d.png Graphic file (type png)
 <use gambar/pengujian/ga/tc8/pop50_it50_run1_seed42_initial_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc8/pop50_it50_run1_seed42_initial_state_3d.png  used on input line 273.
 (pdftex.def)             Requested size: 290.21802pt x 153.02646pt.
-<gambar/pengujian/ga/tc8/pop50_it50_run1_seed42_final_state_3d.png, id=3001, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/ga/tc8/pop50_it50_run1_seed42_final_state_3d.png, id=3037, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/ga/tc8/pop50_it50_run1_seed42_final_state_3d.png Graphic file (type png)
 <use gambar/pengujian/ga/tc8/pop50_it50_run1_seed42_final_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc8/pop50_it50_run1_seed42_final_state_3d.png  used on input line 273.
@@ -4439,7 +4439,7 @@ Underfull \hbox (badness 1810) in paragraph at lines 273--273
 []|\T1/cmr/m/n/12 Grafik ob-jek-tif mak-
  []
 
-<gambar/pengujian/ga/tc8/pop50_it50_run1_seed42_experiment.png, id=3002, 2093.8225pt x 903.375pt>
+<gambar/pengujian/ga/tc8/pop50_it50_run1_seed42_experiment.png, id=3038, 2093.8225pt x 903.375pt>
 File: gambar/pengujian/ga/tc8/pop50_it50_run1_seed42_experiment.png Graphic file (type png)
 <use gambar/pengujian/ga/tc8/pop50_it50_run1_seed42_experiment.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc8/pop50_it50_run1_seed42_experiment.png  used on input line 273.
@@ -4491,12 +4491,12 @@ Underfull \hbox (badness 1237) in paragraph at lines 274--274
 []|\T1/cmr/m/it/12 State \T1/cmr/m/n/12 awal (po-pu-la-si
  []
 
-<gambar/pengujian/ga/tc8/pop50_it50_run2_seed43_initial_state_3d.png, id=3019, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/ga/tc8/pop50_it50_run2_seed43_initial_state_3d.png, id=3055, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/ga/tc8/pop50_it50_run2_seed43_initial_state_3d.png Graphic file (type png)
 <use gambar/pengujian/ga/tc8/pop50_it50_run2_seed43_initial_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc8/pop50_it50_run2_seed43_initial_state_3d.png  used on input line 274.
 (pdftex.def)             Requested size: 290.21802pt x 153.02646pt.
-<gambar/pengujian/ga/tc8/pop50_it50_run2_seed43_final_state_3d.png, id=3020, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/ga/tc8/pop50_it50_run2_seed43_final_state_3d.png, id=3056, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/ga/tc8/pop50_it50_run2_seed43_final_state_3d.png Graphic file (type png)
 <use gambar/pengujian/ga/tc8/pop50_it50_run2_seed43_final_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc8/pop50_it50_run2_seed43_final_state_3d.png  used on input line 274.
@@ -4511,7 +4511,7 @@ Underfull \hbox (badness 1810) in paragraph at lines 274--274
 []|\T1/cmr/m/n/12 Grafik ob-jek-tif mak-
  []
 
-<gambar/pengujian/ga/tc8/pop50_it50_run2_seed43_experiment.png, id=3021, 2093.8225pt x 903.375pt>
+<gambar/pengujian/ga/tc8/pop50_it50_run2_seed43_experiment.png, id=3057, 2093.8225pt x 903.375pt>
 File: gambar/pengujian/ga/tc8/pop50_it50_run2_seed43_experiment.png Graphic file (type png)
 <use gambar/pengujian/ga/tc8/pop50_it50_run2_seed43_experiment.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc8/pop50_it50_run2_seed43_experiment.png  used on input line 274.
@@ -4554,12 +4554,12 @@ Underfull \hbox (badness 1237) in paragraph at lines 275--275
 []|\T1/cmr/m/it/12 State \T1/cmr/m/n/12 awal (po-pu-la-si
  []
 
-<gambar/pengujian/ga/tc8/pop50_it50_run3_seed44_initial_state_3d.png, id=3030, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/ga/tc8/pop50_it50_run3_seed44_initial_state_3d.png, id=3066, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/ga/tc8/pop50_it50_run3_seed44_initial_state_3d.png Graphic file (type png)
 <use gambar/pengujian/ga/tc8/pop50_it50_run3_seed44_initial_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc8/pop50_it50_run3_seed44_initial_state_3d.png  used on input line 275.
 (pdftex.def)             Requested size: 290.21802pt x 153.02646pt.
-<gambar/pengujian/ga/tc8/pop50_it50_run3_seed44_final_state_3d.png, id=3031, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/ga/tc8/pop50_it50_run3_seed44_final_state_3d.png, id=3067, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/ga/tc8/pop50_it50_run3_seed44_final_state_3d.png Graphic file (type png)
 <use gambar/pengujian/ga/tc8/pop50_it50_run3_seed44_final_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc8/pop50_it50_run3_seed44_final_state_3d.png  used on input line 275.
@@ -4574,7 +4574,7 @@ Underfull \hbox (badness 1810) in paragraph at lines 275--275
 []|\T1/cmr/m/n/12 Grafik ob-jek-tif mak-
  []
 
-<gambar/pengujian/ga/tc8/pop50_it50_run3_seed44_experiment.png, id=3032, 2093.8225pt x 903.375pt>
+<gambar/pengujian/ga/tc8/pop50_it50_run3_seed44_experiment.png, id=3068, 2093.8225pt x 903.375pt>
 File: gambar/pengujian/ga/tc8/pop50_it50_run3_seed44_experiment.png Graphic file (type png)
 <use gambar/pengujian/ga/tc8/pop50_it50_run3_seed44_experiment.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc8/pop50_it50_run3_seed44_experiment.png  used on input line 275.
@@ -4617,12 +4617,12 @@ Underfull \hbox (badness 1237) in paragraph at lines 276--276
 []|\T1/cmr/m/it/12 State \T1/cmr/m/n/12 awal (po-pu-la-si
  []
 
-<gambar/pengujian/ga/tc8/pop50_it100_run1_seed42_initial_state_3d.png, id=3041, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/ga/tc8/pop50_it100_run1_seed42_initial_state_3d.png, id=3077, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/ga/tc8/pop50_it100_run1_seed42_initial_state_3d.png Graphic file (type png)
 <use gambar/pengujian/ga/tc8/pop50_it100_run1_seed42_initial_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc8/pop50_it100_run1_seed42_initial_state_3d.png  used on input line 276.
 (pdftex.def)             Requested size: 290.21802pt x 153.02646pt.
-<gambar/pengujian/ga/tc8/pop50_it100_run1_seed42_final_state_3d.png, id=3042, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/ga/tc8/pop50_it100_run1_seed42_final_state_3d.png, id=3078, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/ga/tc8/pop50_it100_run1_seed42_final_state_3d.png Graphic file (type png)
 <use gambar/pengujian/ga/tc8/pop50_it100_run1_seed42_final_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc8/pop50_it100_run1_seed42_final_state_3d.png  used on input line 276.
@@ -4637,7 +4637,7 @@ Underfull \hbox (badness 1810) in paragraph at lines 276--276
 []|\T1/cmr/m/n/12 Grafik ob-jek-tif mak-
  []
 
-<gambar/pengujian/ga/tc8/pop50_it100_run1_seed42_experiment.png, id=3043, 2093.8225pt x 903.375pt>
+<gambar/pengujian/ga/tc8/pop50_it100_run1_seed42_experiment.png, id=3079, 2093.8225pt x 903.375pt>
 File: gambar/pengujian/ga/tc8/pop50_it100_run1_seed42_experiment.png Graphic file (type png)
 <use gambar/pengujian/ga/tc8/pop50_it100_run1_seed42_experiment.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc8/pop50_it100_run1_seed42_experiment.png  used on input line 276.
@@ -4680,12 +4680,12 @@ Underfull \hbox (badness 1237) in paragraph at lines 277--277
 []|\T1/cmr/m/it/12 State \T1/cmr/m/n/12 awal (po-pu-la-si
  []
 
-<gambar/pengujian/ga/tc8/pop50_it100_run2_seed43_initial_state_3d.png, id=3051, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/ga/tc8/pop50_it100_run2_seed43_initial_state_3d.png, id=3087, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/ga/tc8/pop50_it100_run2_seed43_initial_state_3d.png Graphic file (type png)
 <use gambar/pengujian/ga/tc8/pop50_it100_run2_seed43_initial_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc8/pop50_it100_run2_seed43_initial_state_3d.png  used on input line 277.
 (pdftex.def)             Requested size: 290.21802pt x 153.02646pt.
-<gambar/pengujian/ga/tc8/pop50_it100_run2_seed43_final_state_3d.png, id=3052, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/ga/tc8/pop50_it100_run2_seed43_final_state_3d.png, id=3088, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/ga/tc8/pop50_it100_run2_seed43_final_state_3d.png Graphic file (type png)
 <use gambar/pengujian/ga/tc8/pop50_it100_run2_seed43_final_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc8/pop50_it100_run2_seed43_final_state_3d.png  used on input line 277.
@@ -4700,7 +4700,7 @@ Underfull \hbox (badness 1810) in paragraph at lines 277--277
 []|\T1/cmr/m/n/12 Grafik ob-jek-tif mak-
  []
 
-<gambar/pengujian/ga/tc8/pop50_it100_run2_seed43_experiment.png, id=3053, 2093.8225pt x 903.375pt>
+<gambar/pengujian/ga/tc8/pop50_it100_run2_seed43_experiment.png, id=3089, 2093.8225pt x 903.375pt>
 File: gambar/pengujian/ga/tc8/pop50_it100_run2_seed43_experiment.png Graphic file (type png)
 <use gambar/pengujian/ga/tc8/pop50_it100_run2_seed43_experiment.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc8/pop50_it100_run2_seed43_experiment.png  used on input line 277.
@@ -4752,12 +4752,12 @@ Underfull \hbox (badness 1237) in paragraph at lines 278--278
 []|\T1/cmr/m/it/12 State \T1/cmr/m/n/12 awal (po-pu-la-si
  []
 
-<gambar/pengujian/ga/tc8/pop50_it100_run3_seed44_initial_state_3d.png, id=3072, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/ga/tc8/pop50_it100_run3_seed44_initial_state_3d.png, id=3108, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/ga/tc8/pop50_it100_run3_seed44_initial_state_3d.png Graphic file (type png)
 <use gambar/pengujian/ga/tc8/pop50_it100_run3_seed44_initial_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc8/pop50_it100_run3_seed44_initial_state_3d.png  used on input line 278.
 (pdftex.def)             Requested size: 290.21802pt x 153.02646pt.
-<gambar/pengujian/ga/tc8/pop50_it100_run3_seed44_final_state_3d.png, id=3073, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/ga/tc8/pop50_it100_run3_seed44_final_state_3d.png, id=3109, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/ga/tc8/pop50_it100_run3_seed44_final_state_3d.png Graphic file (type png)
 <use gambar/pengujian/ga/tc8/pop50_it100_run3_seed44_final_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc8/pop50_it100_run3_seed44_final_state_3d.png  used on input line 278.
@@ -4772,7 +4772,7 @@ Underfull \hbox (badness 1810) in paragraph at lines 278--278
 []|\T1/cmr/m/n/12 Grafik ob-jek-tif mak-
  []
 
-<gambar/pengujian/ga/tc8/pop50_it100_run3_seed44_experiment.png, id=3074, 2093.8225pt x 903.375pt>
+<gambar/pengujian/ga/tc8/pop50_it100_run3_seed44_experiment.png, id=3110, 2093.8225pt x 903.375pt>
 File: gambar/pengujian/ga/tc8/pop50_it100_run3_seed44_experiment.png Graphic file (type png)
 <use gambar/pengujian/ga/tc8/pop50_it100_run3_seed44_experiment.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc8/pop50_it100_run3_seed44_experiment.png  used on input line 278.
@@ -4815,12 +4815,12 @@ Underfull \hbox (badness 1237) in paragraph at lines 279--279
 []|\T1/cmr/m/it/12 State \T1/cmr/m/n/12 awal (po-pu-la-si
  []
 
-<gambar/pengujian/ga/tc8/pop50_it200_run1_seed42_initial_state_3d.png, id=3084, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/ga/tc8/pop50_it200_run1_seed42_initial_state_3d.png, id=3120, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/ga/tc8/pop50_it200_run1_seed42_initial_state_3d.png Graphic file (type png)
 <use gambar/pengujian/ga/tc8/pop50_it200_run1_seed42_initial_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc8/pop50_it200_run1_seed42_initial_state_3d.png  used on input line 279.
 (pdftex.def)             Requested size: 290.21802pt x 153.02646pt.
-<gambar/pengujian/ga/tc8/pop50_it200_run1_seed42_final_state_3d.png, id=3085, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/ga/tc8/pop50_it200_run1_seed42_final_state_3d.png, id=3121, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/ga/tc8/pop50_it200_run1_seed42_final_state_3d.png Graphic file (type png)
 <use gambar/pengujian/ga/tc8/pop50_it200_run1_seed42_final_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc8/pop50_it200_run1_seed42_final_state_3d.png  used on input line 279.
@@ -4835,7 +4835,7 @@ Underfull \hbox (badness 1810) in paragraph at lines 279--279
 []|\T1/cmr/m/n/12 Grafik ob-jek-tif mak-
  []
 
-<gambar/pengujian/ga/tc8/pop50_it200_run1_seed42_experiment.png, id=3086, 2093.8225pt x 903.375pt>
+<gambar/pengujian/ga/tc8/pop50_it200_run1_seed42_experiment.png, id=3122, 2093.8225pt x 903.375pt>
 File: gambar/pengujian/ga/tc8/pop50_it200_run1_seed42_experiment.png Graphic file (type png)
 <use gambar/pengujian/ga/tc8/pop50_it200_run1_seed42_experiment.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc8/pop50_it200_run1_seed42_experiment.png  used on input line 279.
@@ -4878,12 +4878,12 @@ Underfull \hbox (badness 1237) in paragraph at lines 280--280
 []|\T1/cmr/m/it/12 State \T1/cmr/m/n/12 awal (po-pu-la-si
  []
 
-<gambar/pengujian/ga/tc8/pop50_it200_run2_seed43_initial_state_3d.png, id=3095, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/ga/tc8/pop50_it200_run2_seed43_initial_state_3d.png, id=3131, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/ga/tc8/pop50_it200_run2_seed43_initial_state_3d.png Graphic file (type png)
 <use gambar/pengujian/ga/tc8/pop50_it200_run2_seed43_initial_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc8/pop50_it200_run2_seed43_initial_state_3d.png  used on input line 280.
 (pdftex.def)             Requested size: 290.21802pt x 153.02646pt.
-<gambar/pengujian/ga/tc8/pop50_it200_run2_seed43_final_state_3d.png, id=3096, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/ga/tc8/pop50_it200_run2_seed43_final_state_3d.png, id=3132, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/ga/tc8/pop50_it200_run2_seed43_final_state_3d.png Graphic file (type png)
 <use gambar/pengujian/ga/tc8/pop50_it200_run2_seed43_final_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc8/pop50_it200_run2_seed43_final_state_3d.png  used on input line 280.
@@ -4898,7 +4898,7 @@ Underfull \hbox (badness 1810) in paragraph at lines 280--280
 []|\T1/cmr/m/n/12 Grafik ob-jek-tif mak-
  []
 
-<gambar/pengujian/ga/tc8/pop50_it200_run2_seed43_experiment.png, id=3097, 2093.8225pt x 903.375pt>
+<gambar/pengujian/ga/tc8/pop50_it200_run2_seed43_experiment.png, id=3133, 2093.8225pt x 903.375pt>
 File: gambar/pengujian/ga/tc8/pop50_it200_run2_seed43_experiment.png Graphic file (type png)
 <use gambar/pengujian/ga/tc8/pop50_it200_run2_seed43_experiment.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc8/pop50_it200_run2_seed43_experiment.png  used on input line 280.
@@ -4941,12 +4941,12 @@ Underfull \hbox (badness 1237) in paragraph at lines 281--281
 []|\T1/cmr/m/it/12 State \T1/cmr/m/n/12 awal (po-pu-la-si
  []
 
-<gambar/pengujian/ga/tc8/pop50_it200_run3_seed44_initial_state_3d.png, id=3105, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/ga/tc8/pop50_it200_run3_seed44_initial_state_3d.png, id=3141, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/ga/tc8/pop50_it200_run3_seed44_initial_state_3d.png Graphic file (type png)
 <use gambar/pengujian/ga/tc8/pop50_it200_run3_seed44_initial_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc8/pop50_it200_run3_seed44_initial_state_3d.png  used on input line 281.
 (pdftex.def)             Requested size: 290.21802pt x 153.02646pt.
-<gambar/pengujian/ga/tc8/pop50_it200_run3_seed44_final_state_3d.png, id=3106, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/ga/tc8/pop50_it200_run3_seed44_final_state_3d.png, id=3142, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/ga/tc8/pop50_it200_run3_seed44_final_state_3d.png Graphic file (type png)
 <use gambar/pengujian/ga/tc8/pop50_it200_run3_seed44_final_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc8/pop50_it200_run3_seed44_final_state_3d.png  used on input line 281.
@@ -4961,7 +4961,7 @@ Underfull \hbox (badness 1810) in paragraph at lines 281--281
 []|\T1/cmr/m/n/12 Grafik ob-jek-tif mak-
  []
 
-<gambar/pengujian/ga/tc8/pop50_it200_run3_seed44_experiment.png, id=3107, 2093.8225pt x 903.375pt>
+<gambar/pengujian/ga/tc8/pop50_it200_run3_seed44_experiment.png, id=3143, 2093.8225pt x 903.375pt>
 File: gambar/pengujian/ga/tc8/pop50_it200_run3_seed44_experiment.png Graphic file (type png)
 <use gambar/pengujian/ga/tc8/pop50_it200_run3_seed44_experiment.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc8/pop50_it200_run3_seed44_experiment.png  used on input line 281.
@@ -5013,12 +5013,12 @@ Underfull \hbox (badness 1237) in paragraph at lines 282--282
 []|\T1/cmr/m/it/12 State \T1/cmr/m/n/12 awal (po-pu-la-si
  []
 
-<gambar/pengujian/ga/tc9/pop50_it50_run1_seed42_initial_state_3d.png, id=3126, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/ga/tc9/pop50_it50_run1_seed42_initial_state_3d.png, id=3162, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/ga/tc9/pop50_it50_run1_seed42_initial_state_3d.png Graphic file (type png)
 <use gambar/pengujian/ga/tc9/pop50_it50_run1_seed42_initial_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc9/pop50_it50_run1_seed42_initial_state_3d.png  used on input line 282.
 (pdftex.def)             Requested size: 290.21802pt x 153.02646pt.
-<gambar/pengujian/ga/tc9/pop50_it50_run1_seed42_final_state_3d.png, id=3127, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/ga/tc9/pop50_it50_run1_seed42_final_state_3d.png, id=3163, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/ga/tc9/pop50_it50_run1_seed42_final_state_3d.png Graphic file (type png)
 <use gambar/pengujian/ga/tc9/pop50_it50_run1_seed42_final_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc9/pop50_it50_run1_seed42_final_state_3d.png  used on input line 282.
@@ -5033,7 +5033,7 @@ Underfull \hbox (badness 1810) in paragraph at lines 282--282
 []|\T1/cmr/m/n/12 Grafik ob-jek-tif mak-
  []
 
-<gambar/pengujian/ga/tc9/pop50_it50_run1_seed42_experiment.png, id=3128, 2093.8225pt x 903.375pt>
+<gambar/pengujian/ga/tc9/pop50_it50_run1_seed42_experiment.png, id=3164, 2093.8225pt x 903.375pt>
 File: gambar/pengujian/ga/tc9/pop50_it50_run1_seed42_experiment.png Graphic file (type png)
 <use gambar/pengujian/ga/tc9/pop50_it50_run1_seed42_experiment.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc9/pop50_it50_run1_seed42_experiment.png  used on input line 282.
@@ -5076,12 +5076,12 @@ Underfull \hbox (badness 1237) in paragraph at lines 283--283
 []|\T1/cmr/m/it/12 State \T1/cmr/m/n/12 awal (po-pu-la-si
  []
 
-<gambar/pengujian/ga/tc9/pop50_it50_run2_seed43_initial_state_3d.png, id=3137, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/ga/tc9/pop50_it50_run2_seed43_initial_state_3d.png, id=3173, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/ga/tc9/pop50_it50_run2_seed43_initial_state_3d.png Graphic file (type png)
 <use gambar/pengujian/ga/tc9/pop50_it50_run2_seed43_initial_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc9/pop50_it50_run2_seed43_initial_state_3d.png  used on input line 283.
 (pdftex.def)             Requested size: 290.21802pt x 153.02646pt.
-<gambar/pengujian/ga/tc9/pop50_it50_run2_seed43_final_state_3d.png, id=3138, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/ga/tc9/pop50_it50_run2_seed43_final_state_3d.png, id=3174, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/ga/tc9/pop50_it50_run2_seed43_final_state_3d.png Graphic file (type png)
 <use gambar/pengujian/ga/tc9/pop50_it50_run2_seed43_final_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc9/pop50_it50_run2_seed43_final_state_3d.png  used on input line 283.
@@ -5096,7 +5096,7 @@ Underfull \hbox (badness 1810) in paragraph at lines 283--283
 []|\T1/cmr/m/n/12 Grafik ob-jek-tif mak-
  []
 
-<gambar/pengujian/ga/tc9/pop50_it50_run2_seed43_experiment.png, id=3139, 2093.8225pt x 903.375pt>
+<gambar/pengujian/ga/tc9/pop50_it50_run2_seed43_experiment.png, id=3175, 2093.8225pt x 903.375pt>
 File: gambar/pengujian/ga/tc9/pop50_it50_run2_seed43_experiment.png Graphic file (type png)
 <use gambar/pengujian/ga/tc9/pop50_it50_run2_seed43_experiment.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc9/pop50_it50_run2_seed43_experiment.png  used on input line 283.
@@ -5139,12 +5139,12 @@ Underfull \hbox (badness 1237) in paragraph at lines 284--284
 []|\T1/cmr/m/it/12 State \T1/cmr/m/n/12 awal (po-pu-la-si
  []
 
-<gambar/pengujian/ga/tc9/pop50_it50_run3_seed44_initial_state_3d.png, id=3149, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/ga/tc9/pop50_it50_run3_seed44_initial_state_3d.png, id=3185, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/ga/tc9/pop50_it50_run3_seed44_initial_state_3d.png Graphic file (type png)
 <use gambar/pengujian/ga/tc9/pop50_it50_run3_seed44_initial_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc9/pop50_it50_run3_seed44_initial_state_3d.png  used on input line 284.
 (pdftex.def)             Requested size: 290.21802pt x 153.02646pt.
-<gambar/pengujian/ga/tc9/pop50_it50_run3_seed44_final_state_3d.png, id=3150, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/ga/tc9/pop50_it50_run3_seed44_final_state_3d.png, id=3186, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/ga/tc9/pop50_it50_run3_seed44_final_state_3d.png Graphic file (type png)
 <use gambar/pengujian/ga/tc9/pop50_it50_run3_seed44_final_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc9/pop50_it50_run3_seed44_final_state_3d.png  used on input line 284.
@@ -5159,7 +5159,7 @@ Underfull \hbox (badness 1810) in paragraph at lines 284--284
 []|\T1/cmr/m/n/12 Grafik ob-jek-tif mak-
  []
 
-<gambar/pengujian/ga/tc9/pop50_it50_run3_seed44_experiment.png, id=3151, 2093.8225pt x 903.375pt>
+<gambar/pengujian/ga/tc9/pop50_it50_run3_seed44_experiment.png, id=3187, 2093.8225pt x 903.375pt>
 File: gambar/pengujian/ga/tc9/pop50_it50_run3_seed44_experiment.png Graphic file (type png)
 <use gambar/pengujian/ga/tc9/pop50_it50_run3_seed44_experiment.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc9/pop50_it50_run3_seed44_experiment.png  used on input line 284.
@@ -5202,12 +5202,12 @@ Underfull \hbox (badness 1237) in paragraph at lines 285--285
 []|\T1/cmr/m/it/12 State \T1/cmr/m/n/12 awal (po-pu-la-si
  []
 
-<gambar/pengujian/ga/tc9/pop50_it100_run1_seed42_initial_state_3d.png, id=3159, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/ga/tc9/pop50_it100_run1_seed42_initial_state_3d.png, id=3195, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/ga/tc9/pop50_it100_run1_seed42_initial_state_3d.png Graphic file (type png)
 <use gambar/pengujian/ga/tc9/pop50_it100_run1_seed42_initial_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc9/pop50_it100_run1_seed42_initial_state_3d.png  used on input line 285.
 (pdftex.def)             Requested size: 290.21802pt x 153.02646pt.
-<gambar/pengujian/ga/tc9/pop50_it100_run1_seed42_final_state_3d.png, id=3160, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/ga/tc9/pop50_it100_run1_seed42_final_state_3d.png, id=3196, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/ga/tc9/pop50_it100_run1_seed42_final_state_3d.png Graphic file (type png)
 <use gambar/pengujian/ga/tc9/pop50_it100_run1_seed42_final_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc9/pop50_it100_run1_seed42_final_state_3d.png  used on input line 285.
@@ -5222,7 +5222,7 @@ Underfull \hbox (badness 1810) in paragraph at lines 285--285
 []|\T1/cmr/m/n/12 Grafik ob-jek-tif mak-
  []
 
-<gambar/pengujian/ga/tc9/pop50_it100_run1_seed42_experiment.png, id=3161, 2093.8225pt x 903.375pt>
+<gambar/pengujian/ga/tc9/pop50_it100_run1_seed42_experiment.png, id=3197, 2093.8225pt x 903.375pt>
 File: gambar/pengujian/ga/tc9/pop50_it100_run1_seed42_experiment.png Graphic file (type png)
 <use gambar/pengujian/ga/tc9/pop50_it100_run1_seed42_experiment.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc9/pop50_it100_run1_seed42_experiment.png  used on input line 285.
@@ -5274,12 +5274,12 @@ Underfull \hbox (badness 1237) in paragraph at lines 286--286
 []|\T1/cmr/m/it/12 State \T1/cmr/m/n/12 awal (po-pu-la-si
  []
 
-<gambar/pengujian/ga/tc9/pop50_it100_run2_seed43_initial_state_3d.png, id=3180, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/ga/tc9/pop50_it100_run2_seed43_initial_state_3d.png, id=3216, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/ga/tc9/pop50_it100_run2_seed43_initial_state_3d.png Graphic file (type png)
 <use gambar/pengujian/ga/tc9/pop50_it100_run2_seed43_initial_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc9/pop50_it100_run2_seed43_initial_state_3d.png  used on input line 286.
 (pdftex.def)             Requested size: 290.21802pt x 153.02646pt.
-<gambar/pengujian/ga/tc9/pop50_it100_run2_seed43_final_state_3d.png, id=3181, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/ga/tc9/pop50_it100_run2_seed43_final_state_3d.png, id=3217, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/ga/tc9/pop50_it100_run2_seed43_final_state_3d.png Graphic file (type png)
 <use gambar/pengujian/ga/tc9/pop50_it100_run2_seed43_final_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc9/pop50_it100_run2_seed43_final_state_3d.png  used on input line 286.
@@ -5294,7 +5294,7 @@ Underfull \hbox (badness 1810) in paragraph at lines 286--286
 []|\T1/cmr/m/n/12 Grafik ob-jek-tif mak-
  []
 
-<gambar/pengujian/ga/tc9/pop50_it100_run2_seed43_experiment.png, id=3182, 2093.8225pt x 903.375pt>
+<gambar/pengujian/ga/tc9/pop50_it100_run2_seed43_experiment.png, id=3218, 2093.8225pt x 903.375pt>
 File: gambar/pengujian/ga/tc9/pop50_it100_run2_seed43_experiment.png Graphic file (type png)
 <use gambar/pengujian/ga/tc9/pop50_it100_run2_seed43_experiment.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc9/pop50_it100_run2_seed43_experiment.png  used on input line 286.
@@ -5337,12 +5337,12 @@ Underfull \hbox (badness 1237) in paragraph at lines 287--287
 []|\T1/cmr/m/it/12 State \T1/cmr/m/n/12 awal (po-pu-la-si
  []
 
-<gambar/pengujian/ga/tc9/pop50_it100_run3_seed44_initial_state_3d.png, id=3191, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/ga/tc9/pop50_it100_run3_seed44_initial_state_3d.png, id=3227, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/ga/tc9/pop50_it100_run3_seed44_initial_state_3d.png Graphic file (type png)
 <use gambar/pengujian/ga/tc9/pop50_it100_run3_seed44_initial_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc9/pop50_it100_run3_seed44_initial_state_3d.png  used on input line 287.
 (pdftex.def)             Requested size: 290.21802pt x 153.02646pt.
-<gambar/pengujian/ga/tc9/pop50_it100_run3_seed44_final_state_3d.png, id=3192, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/ga/tc9/pop50_it100_run3_seed44_final_state_3d.png, id=3228, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/ga/tc9/pop50_it100_run3_seed44_final_state_3d.png Graphic file (type png)
 <use gambar/pengujian/ga/tc9/pop50_it100_run3_seed44_final_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc9/pop50_it100_run3_seed44_final_state_3d.png  used on input line 287.
@@ -5357,7 +5357,7 @@ Underfull \hbox (badness 1810) in paragraph at lines 287--287
 []|\T1/cmr/m/n/12 Grafik ob-jek-tif mak-
  []
 
-<gambar/pengujian/ga/tc9/pop50_it100_run3_seed44_experiment.png, id=3193, 2093.8225pt x 903.375pt>
+<gambar/pengujian/ga/tc9/pop50_it100_run3_seed44_experiment.png, id=3229, 2093.8225pt x 903.375pt>
 File: gambar/pengujian/ga/tc9/pop50_it100_run3_seed44_experiment.png Graphic file (type png)
 <use gambar/pengujian/ga/tc9/pop50_it100_run3_seed44_experiment.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc9/pop50_it100_run3_seed44_experiment.png  used on input line 287.
@@ -5400,12 +5400,12 @@ Underfull \hbox (badness 1237) in paragraph at lines 288--288
 []|\T1/cmr/m/it/12 State \T1/cmr/m/n/12 awal (po-pu-la-si
  []
 
-<gambar/pengujian/ga/tc9/pop50_it200_run1_seed42_initial_state_3d.png, id=3202, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/ga/tc9/pop50_it200_run1_seed42_initial_state_3d.png, id=3238, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/ga/tc9/pop50_it200_run1_seed42_initial_state_3d.png Graphic file (type png)
 <use gambar/pengujian/ga/tc9/pop50_it200_run1_seed42_initial_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc9/pop50_it200_run1_seed42_initial_state_3d.png  used on input line 288.
 (pdftex.def)             Requested size: 290.21802pt x 153.02646pt.
-<gambar/pengujian/ga/tc9/pop50_it200_run1_seed42_final_state_3d.png, id=3203, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/ga/tc9/pop50_it200_run1_seed42_final_state_3d.png, id=3239, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/ga/tc9/pop50_it200_run1_seed42_final_state_3d.png Graphic file (type png)
 <use gambar/pengujian/ga/tc9/pop50_it200_run1_seed42_final_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc9/pop50_it200_run1_seed42_final_state_3d.png  used on input line 288.
@@ -5420,7 +5420,7 @@ Underfull \hbox (badness 1810) in paragraph at lines 288--288
 []|\T1/cmr/m/n/12 Grafik ob-jek-tif mak-
  []
 
-<gambar/pengujian/ga/tc9/pop50_it200_run1_seed42_experiment.png, id=3204, 2093.8225pt x 903.375pt>
+<gambar/pengujian/ga/tc9/pop50_it200_run1_seed42_experiment.png, id=3240, 2093.8225pt x 903.375pt>
 File: gambar/pengujian/ga/tc9/pop50_it200_run1_seed42_experiment.png Graphic file (type png)
 <use gambar/pengujian/ga/tc9/pop50_it200_run1_seed42_experiment.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc9/pop50_it200_run1_seed42_experiment.png  used on input line 288.
@@ -5463,12 +5463,12 @@ Underfull \hbox (badness 1237) in paragraph at lines 289--289
 []|\T1/cmr/m/it/12 State \T1/cmr/m/n/12 awal (po-pu-la-si
  []
 
-<gambar/pengujian/ga/tc9/pop50_it200_run2_seed43_initial_state_3d.png, id=3213, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/ga/tc9/pop50_it200_run2_seed43_initial_state_3d.png, id=3249, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/ga/tc9/pop50_it200_run2_seed43_initial_state_3d.png Graphic file (type png)
 <use gambar/pengujian/ga/tc9/pop50_it200_run2_seed43_initial_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc9/pop50_it200_run2_seed43_initial_state_3d.png  used on input line 289.
 (pdftex.def)             Requested size: 290.21802pt x 153.02646pt.
-<gambar/pengujian/ga/tc9/pop50_it200_run2_seed43_final_state_3d.png, id=3214, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/ga/tc9/pop50_it200_run2_seed43_final_state_3d.png, id=3250, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/ga/tc9/pop50_it200_run2_seed43_final_state_3d.png Graphic file (type png)
 <use gambar/pengujian/ga/tc9/pop50_it200_run2_seed43_final_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc9/pop50_it200_run2_seed43_final_state_3d.png  used on input line 289.
@@ -5483,7 +5483,7 @@ Underfull \hbox (badness 1810) in paragraph at lines 289--289
 []|\T1/cmr/m/n/12 Grafik ob-jek-tif mak-
  []
 
-<gambar/pengujian/ga/tc9/pop50_it200_run2_seed43_experiment.png, id=3215, 2093.8225pt x 903.375pt>
+<gambar/pengujian/ga/tc9/pop50_it200_run2_seed43_experiment.png, id=3251, 2093.8225pt x 903.375pt>
 File: gambar/pengujian/ga/tc9/pop50_it200_run2_seed43_experiment.png Graphic file (type png)
 <use gambar/pengujian/ga/tc9/pop50_it200_run2_seed43_experiment.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc9/pop50_it200_run2_seed43_experiment.png  used on input line 289.
@@ -5535,12 +5535,12 @@ Underfull \hbox (badness 1237) in paragraph at lines 290--290
 []|\T1/cmr/m/it/12 State \T1/cmr/m/n/12 awal (po-pu-la-si
  []
 
-<gambar/pengujian/ga/tc9/pop50_it200_run3_seed44_initial_state_3d.png, id=3234, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/ga/tc9/pop50_it200_run3_seed44_initial_state_3d.png, id=3270, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/ga/tc9/pop50_it200_run3_seed44_initial_state_3d.png Graphic file (type png)
 <use gambar/pengujian/ga/tc9/pop50_it200_run3_seed44_initial_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc9/pop50_it200_run3_seed44_initial_state_3d.png  used on input line 290.
 (pdftex.def)             Requested size: 290.21802pt x 153.02646pt.
-<gambar/pengujian/ga/tc9/pop50_it200_run3_seed44_final_state_3d.png, id=3235, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/ga/tc9/pop50_it200_run3_seed44_final_state_3d.png, id=3271, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/ga/tc9/pop50_it200_run3_seed44_final_state_3d.png Graphic file (type png)
 <use gambar/pengujian/ga/tc9/pop50_it200_run3_seed44_final_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc9/pop50_it200_run3_seed44_final_state_3d.png  used on input line 290.
@@ -5555,7 +5555,7 @@ Underfull \hbox (badness 1810) in paragraph at lines 290--290
 []|\T1/cmr/m/n/12 Grafik ob-jek-tif mak-
  []
 
-<gambar/pengujian/ga/tc9/pop50_it200_run3_seed44_experiment.png, id=3236, 2093.8225pt x 903.375pt>
+<gambar/pengujian/ga/tc9/pop50_it200_run3_seed44_experiment.png, id=3272, 2093.8225pt x 903.375pt>
 File: gambar/pengujian/ga/tc9/pop50_it200_run3_seed44_experiment.png Graphic file (type png)
 <use gambar/pengujian/ga/tc9/pop50_it200_run3_seed44_experiment.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc9/pop50_it200_run3_seed44_experiment.png  used on input line 290.
@@ -5598,12 +5598,12 @@ Underfull \hbox (badness 1237) in paragraph at lines 291--291
 []|\T1/cmr/m/it/12 State \T1/cmr/m/n/12 awal (po-pu-la-si
  []
 
-<gambar/pengujian/ga/tc10/pop50_it50_run1_seed42_initial_state_3d.png, id=3245, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/ga/tc10/pop50_it50_run1_seed42_initial_state_3d.png, id=3281, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/ga/tc10/pop50_it50_run1_seed42_initial_state_3d.png Graphic file (type png)
 <use gambar/pengujian/ga/tc10/pop50_it50_run1_seed42_initial_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc10/pop50_it50_run1_seed42_initial_state_3d.png  used on input line 291.
 (pdftex.def)             Requested size: 290.21802pt x 153.02646pt.
-<gambar/pengujian/ga/tc10/pop50_it50_run1_seed42_final_state_3d.png, id=3246, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/ga/tc10/pop50_it50_run1_seed42_final_state_3d.png, id=3282, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/ga/tc10/pop50_it50_run1_seed42_final_state_3d.png Graphic file (type png)
 <use gambar/pengujian/ga/tc10/pop50_it50_run1_seed42_final_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc10/pop50_it50_run1_seed42_final_state_3d.png  used on input line 291.
@@ -5618,7 +5618,7 @@ Underfull \hbox (badness 1810) in paragraph at lines 291--291
 []|\T1/cmr/m/n/12 Grafik ob-jek-tif mak-
  []
 
-<gambar/pengujian/ga/tc10/pop50_it50_run1_seed42_experiment.png, id=3247, 2093.8225pt x 903.375pt>
+<gambar/pengujian/ga/tc10/pop50_it50_run1_seed42_experiment.png, id=3283, 2093.8225pt x 903.375pt>
 File: gambar/pengujian/ga/tc10/pop50_it50_run1_seed42_experiment.png Graphic file (type png)
 <use gambar/pengujian/ga/tc10/pop50_it50_run1_seed42_experiment.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc10/pop50_it50_run1_seed42_experiment.png  used on input line 291.
@@ -5661,12 +5661,12 @@ Underfull \hbox (badness 1237) in paragraph at lines 292--292
 []|\T1/cmr/m/it/12 State \T1/cmr/m/n/12 awal (po-pu-la-si
  []
 
-<gambar/pengujian/ga/tc10/pop50_it50_run2_seed43_initial_state_3d.png, id=3256, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/ga/tc10/pop50_it50_run2_seed43_initial_state_3d.png, id=3292, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/ga/tc10/pop50_it50_run2_seed43_initial_state_3d.png Graphic file (type png)
 <use gambar/pengujian/ga/tc10/pop50_it50_run2_seed43_initial_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc10/pop50_it50_run2_seed43_initial_state_3d.png  used on input line 292.
 (pdftex.def)             Requested size: 290.21802pt x 153.02646pt.
-<gambar/pengujian/ga/tc10/pop50_it50_run2_seed43_final_state_3d.png, id=3257, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/ga/tc10/pop50_it50_run2_seed43_final_state_3d.png, id=3293, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/ga/tc10/pop50_it50_run2_seed43_final_state_3d.png Graphic file (type png)
 <use gambar/pengujian/ga/tc10/pop50_it50_run2_seed43_final_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc10/pop50_it50_run2_seed43_final_state_3d.png  used on input line 292.
@@ -5681,7 +5681,7 @@ Underfull \hbox (badness 1810) in paragraph at lines 292--292
 []|\T1/cmr/m/n/12 Grafik ob-jek-tif mak-
  []
 
-<gambar/pengujian/ga/tc10/pop50_it50_run2_seed43_experiment.png, id=3258, 2093.8225pt x 903.375pt>
+<gambar/pengujian/ga/tc10/pop50_it50_run2_seed43_experiment.png, id=3294, 2093.8225pt x 903.375pt>
 File: gambar/pengujian/ga/tc10/pop50_it50_run2_seed43_experiment.png Graphic file (type png)
 <use gambar/pengujian/ga/tc10/pop50_it50_run2_seed43_experiment.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc10/pop50_it50_run2_seed43_experiment.png  used on input line 292.
@@ -5724,12 +5724,12 @@ Underfull \hbox (badness 1237) in paragraph at lines 293--293
 []|\T1/cmr/m/it/12 State \T1/cmr/m/n/12 awal (po-pu-la-si
  []
 
-<gambar/pengujian/ga/tc10/pop50_it50_run3_seed44_initial_state_3d.png, id=3266, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/ga/tc10/pop50_it50_run3_seed44_initial_state_3d.png, id=3302, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/ga/tc10/pop50_it50_run3_seed44_initial_state_3d.png Graphic file (type png)
 <use gambar/pengujian/ga/tc10/pop50_it50_run3_seed44_initial_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc10/pop50_it50_run3_seed44_initial_state_3d.png  used on input line 293.
 (pdftex.def)             Requested size: 290.21802pt x 153.02646pt.
-<gambar/pengujian/ga/tc10/pop50_it50_run3_seed44_final_state_3d.png, id=3267, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/ga/tc10/pop50_it50_run3_seed44_final_state_3d.png, id=3303, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/ga/tc10/pop50_it50_run3_seed44_final_state_3d.png Graphic file (type png)
 <use gambar/pengujian/ga/tc10/pop50_it50_run3_seed44_final_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc10/pop50_it50_run3_seed44_final_state_3d.png  used on input line 293.
@@ -5744,7 +5744,7 @@ Underfull \hbox (badness 1810) in paragraph at lines 293--293
 []|\T1/cmr/m/n/12 Grafik ob-jek-tif mak-
  []
 
-<gambar/pengujian/ga/tc10/pop50_it50_run3_seed44_experiment.png, id=3268, 2093.8225pt x 903.375pt>
+<gambar/pengujian/ga/tc10/pop50_it50_run3_seed44_experiment.png, id=3304, 2093.8225pt x 903.375pt>
 File: gambar/pengujian/ga/tc10/pop50_it50_run3_seed44_experiment.png Graphic file (type png)
 <use gambar/pengujian/ga/tc10/pop50_it50_run3_seed44_experiment.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc10/pop50_it50_run3_seed44_experiment.png  used on input line 293.
@@ -5796,12 +5796,12 @@ Underfull \hbox (badness 1237) in paragraph at lines 294--294
 []|\T1/cmr/m/it/12 State \T1/cmr/m/n/12 awal (po-pu-la-si
  []
 
-<gambar/pengujian/ga/tc10/pop50_it100_run1_seed42_initial_state_3d.png, id=3288, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/ga/tc10/pop50_it100_run1_seed42_initial_state_3d.png, id=3324, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/ga/tc10/pop50_it100_run1_seed42_initial_state_3d.png Graphic file (type png)
 <use gambar/pengujian/ga/tc10/pop50_it100_run1_seed42_initial_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc10/pop50_it100_run1_seed42_initial_state_3d.png  used on input line 294.
 (pdftex.def)             Requested size: 290.21802pt x 153.02646pt.
-<gambar/pengujian/ga/tc10/pop50_it100_run1_seed42_final_state_3d.png, id=3289, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/ga/tc10/pop50_it100_run1_seed42_final_state_3d.png, id=3325, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/ga/tc10/pop50_it100_run1_seed42_final_state_3d.png Graphic file (type png)
 <use gambar/pengujian/ga/tc10/pop50_it100_run1_seed42_final_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc10/pop50_it100_run1_seed42_final_state_3d.png  used on input line 294.
@@ -5816,7 +5816,7 @@ Underfull \hbox (badness 1810) in paragraph at lines 294--294
 []|\T1/cmr/m/n/12 Grafik ob-jek-tif mak-
  []
 
-<gambar/pengujian/ga/tc10/pop50_it100_run1_seed42_experiment.png, id=3290, 2093.8225pt x 903.375pt>
+<gambar/pengujian/ga/tc10/pop50_it100_run1_seed42_experiment.png, id=3326, 2093.8225pt x 903.375pt>
 File: gambar/pengujian/ga/tc10/pop50_it100_run1_seed42_experiment.png Graphic file (type png)
 <use gambar/pengujian/ga/tc10/pop50_it100_run1_seed42_experiment.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc10/pop50_it100_run1_seed42_experiment.png  used on input line 294.
@@ -5859,12 +5859,12 @@ Underfull \hbox (badness 1237) in paragraph at lines 295--295
 []|\T1/cmr/m/it/12 State \T1/cmr/m/n/12 awal (po-pu-la-si
  []
 
-<gambar/pengujian/ga/tc10/pop50_it100_run2_seed43_initial_state_3d.png, id=3299, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/ga/tc10/pop50_it100_run2_seed43_initial_state_3d.png, id=3335, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/ga/tc10/pop50_it100_run2_seed43_initial_state_3d.png Graphic file (type png)
 <use gambar/pengujian/ga/tc10/pop50_it100_run2_seed43_initial_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc10/pop50_it100_run2_seed43_initial_state_3d.png  used on input line 295.
 (pdftex.def)             Requested size: 290.21802pt x 153.02646pt.
-<gambar/pengujian/ga/tc10/pop50_it100_run2_seed43_final_state_3d.png, id=3300, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/ga/tc10/pop50_it100_run2_seed43_final_state_3d.png, id=3336, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/ga/tc10/pop50_it100_run2_seed43_final_state_3d.png Graphic file (type png)
 <use gambar/pengujian/ga/tc10/pop50_it100_run2_seed43_final_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc10/pop50_it100_run2_seed43_final_state_3d.png  used on input line 295.
@@ -5879,7 +5879,7 @@ Underfull \hbox (badness 1810) in paragraph at lines 295--295
 []|\T1/cmr/m/n/12 Grafik ob-jek-tif mak-
  []
 
-<gambar/pengujian/ga/tc10/pop50_it100_run2_seed43_experiment.png, id=3301, 2093.8225pt x 903.375pt>
+<gambar/pengujian/ga/tc10/pop50_it100_run2_seed43_experiment.png, id=3337, 2093.8225pt x 903.375pt>
 File: gambar/pengujian/ga/tc10/pop50_it100_run2_seed43_experiment.png Graphic file (type png)
 <use gambar/pengujian/ga/tc10/pop50_it100_run2_seed43_experiment.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc10/pop50_it100_run2_seed43_experiment.png  used on input line 295.
@@ -5922,12 +5922,12 @@ Underfull \hbox (badness 1237) in paragraph at lines 296--296
 []|\T1/cmr/m/it/12 State \T1/cmr/m/n/12 awal (po-pu-la-si
  []
 
-<gambar/pengujian/ga/tc10/pop50_it100_run3_seed44_initial_state_3d.png, id=3310, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/ga/tc10/pop50_it100_run3_seed44_initial_state_3d.png, id=3346, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/ga/tc10/pop50_it100_run3_seed44_initial_state_3d.png Graphic file (type png)
 <use gambar/pengujian/ga/tc10/pop50_it100_run3_seed44_initial_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc10/pop50_it100_run3_seed44_initial_state_3d.png  used on input line 296.
 (pdftex.def)             Requested size: 290.21802pt x 153.02646pt.
-<gambar/pengujian/ga/tc10/pop50_it100_run3_seed44_final_state_3d.png, id=3311, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/ga/tc10/pop50_it100_run3_seed44_final_state_3d.png, id=3347, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/ga/tc10/pop50_it100_run3_seed44_final_state_3d.png Graphic file (type png)
 <use gambar/pengujian/ga/tc10/pop50_it100_run3_seed44_final_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc10/pop50_it100_run3_seed44_final_state_3d.png  used on input line 296.
@@ -5942,7 +5942,7 @@ Underfull \hbox (badness 1810) in paragraph at lines 296--296
 []|\T1/cmr/m/n/12 Grafik ob-jek-tif mak-
  []
 
-<gambar/pengujian/ga/tc10/pop50_it100_run3_seed44_experiment.png, id=3312, 2093.8225pt x 903.375pt>
+<gambar/pengujian/ga/tc10/pop50_it100_run3_seed44_experiment.png, id=3348, 2093.8225pt x 903.375pt>
 File: gambar/pengujian/ga/tc10/pop50_it100_run3_seed44_experiment.png Graphic file (type png)
 <use gambar/pengujian/ga/tc10/pop50_it100_run3_seed44_experiment.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc10/pop50_it100_run3_seed44_experiment.png  used on input line 296.
@@ -5985,12 +5985,12 @@ Underfull \hbox (badness 1237) in paragraph at lines 297--297
 []|\T1/cmr/m/it/12 State \T1/cmr/m/n/12 awal (po-pu-la-si
  []
 
-<gambar/pengujian/ga/tc10/pop50_it200_run1_seed42_initial_state_3d.png, id=3320, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/ga/tc10/pop50_it200_run1_seed42_initial_state_3d.png, id=3356, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/ga/tc10/pop50_it200_run1_seed42_initial_state_3d.png Graphic file (type png)
 <use gambar/pengujian/ga/tc10/pop50_it200_run1_seed42_initial_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc10/pop50_it200_run1_seed42_initial_state_3d.png  used on input line 297.
 (pdftex.def)             Requested size: 290.21802pt x 153.02646pt.
-<gambar/pengujian/ga/tc10/pop50_it200_run1_seed42_final_state_3d.png, id=3321, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/ga/tc10/pop50_it200_run1_seed42_final_state_3d.png, id=3357, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/ga/tc10/pop50_it200_run1_seed42_final_state_3d.png Graphic file (type png)
 <use gambar/pengujian/ga/tc10/pop50_it200_run1_seed42_final_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc10/pop50_it200_run1_seed42_final_state_3d.png  used on input line 297.
@@ -6005,7 +6005,7 @@ Underfull \hbox (badness 1810) in paragraph at lines 297--297
 []|\T1/cmr/m/n/12 Grafik ob-jek-tif mak-
  []
 
-<gambar/pengujian/ga/tc10/pop50_it200_run1_seed42_experiment.png, id=3322, 2093.8225pt x 903.375pt>
+<gambar/pengujian/ga/tc10/pop50_it200_run1_seed42_experiment.png, id=3358, 2093.8225pt x 903.375pt>
 File: gambar/pengujian/ga/tc10/pop50_it200_run1_seed42_experiment.png Graphic file (type png)
 <use gambar/pengujian/ga/tc10/pop50_it200_run1_seed42_experiment.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc10/pop50_it200_run1_seed42_experiment.png  used on input line 297.
@@ -6057,12 +6057,12 @@ Underfull \hbox (badness 1237) in paragraph at lines 298--298
 []|\T1/cmr/m/it/12 State \T1/cmr/m/n/12 awal (po-pu-la-si
  []
 
-<gambar/pengujian/ga/tc10/pop50_it200_run2_seed43_initial_state_3d.png, id=3342, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/ga/tc10/pop50_it200_run2_seed43_initial_state_3d.png, id=3378, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/ga/tc10/pop50_it200_run2_seed43_initial_state_3d.png Graphic file (type png)
 <use gambar/pengujian/ga/tc10/pop50_it200_run2_seed43_initial_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc10/pop50_it200_run2_seed43_initial_state_3d.png  used on input line 298.
 (pdftex.def)             Requested size: 290.21802pt x 153.02646pt.
-<gambar/pengujian/ga/tc10/pop50_it200_run2_seed43_final_state_3d.png, id=3343, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/ga/tc10/pop50_it200_run2_seed43_final_state_3d.png, id=3379, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/ga/tc10/pop50_it200_run2_seed43_final_state_3d.png Graphic file (type png)
 <use gambar/pengujian/ga/tc10/pop50_it200_run2_seed43_final_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc10/pop50_it200_run2_seed43_final_state_3d.png  used on input line 298.
@@ -6077,7 +6077,7 @@ Underfull \hbox (badness 1810) in paragraph at lines 298--298
 []|\T1/cmr/m/n/12 Grafik ob-jek-tif mak-
  []
 
-<gambar/pengujian/ga/tc10/pop50_it200_run2_seed43_experiment.png, id=3344, 2093.8225pt x 903.375pt>
+<gambar/pengujian/ga/tc10/pop50_it200_run2_seed43_experiment.png, id=3380, 2093.8225pt x 903.375pt>
 File: gambar/pengujian/ga/tc10/pop50_it200_run2_seed43_experiment.png Graphic file (type png)
 <use gambar/pengujian/ga/tc10/pop50_it200_run2_seed43_experiment.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc10/pop50_it200_run2_seed43_experiment.png  used on input line 298.
@@ -6120,12 +6120,12 @@ Underfull \hbox (badness 1237) in paragraph at lines 299--299
 []|\T1/cmr/m/it/12 State \T1/cmr/m/n/12 awal (po-pu-la-si
  []
 
-<gambar/pengujian/ga/tc10/pop50_it200_run3_seed44_initial_state_3d.png, id=3353, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/ga/tc10/pop50_it200_run3_seed44_initial_state_3d.png, id=3389, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/ga/tc10/pop50_it200_run3_seed44_initial_state_3d.png Graphic file (type png)
 <use gambar/pengujian/ga/tc10/pop50_it200_run3_seed44_initial_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc10/pop50_it200_run3_seed44_initial_state_3d.png  used on input line 299.
 (pdftex.def)             Requested size: 290.21802pt x 153.02646pt.
-<gambar/pengujian/ga/tc10/pop50_it200_run3_seed44_final_state_3d.png, id=3354, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/ga/tc10/pop50_it200_run3_seed44_final_state_3d.png, id=3390, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/ga/tc10/pop50_it200_run3_seed44_final_state_3d.png Graphic file (type png)
 <use gambar/pengujian/ga/tc10/pop50_it200_run3_seed44_final_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc10/pop50_it200_run3_seed44_final_state_3d.png  used on input line 299.
@@ -6140,7 +6140,7 @@ Underfull \hbox (badness 1810) in paragraph at lines 299--299
 []|\T1/cmr/m/n/12 Grafik ob-jek-tif mak-
  []
 
-<gambar/pengujian/ga/tc10/pop50_it200_run3_seed44_experiment.png, id=3355, 2093.8225pt x 903.375pt>
+<gambar/pengujian/ga/tc10/pop50_it200_run3_seed44_experiment.png, id=3391, 2093.8225pt x 903.375pt>
 File: gambar/pengujian/ga/tc10/pop50_it200_run3_seed44_experiment.png Graphic file (type png)
 <use gambar/pengujian/ga/tc10/pop50_it200_run3_seed44_experiment.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc10/pop50_it200_run3_seed44_experiment.png  used on input line 299.
@@ -6183,12 +6183,12 @@ Underfull \hbox (badness 1237) in paragraph at lines 302--302
 []|\T1/cmr/m/it/12 State \T1/cmr/m/n/12 awal (po-pu-la-si
  []
 
-<gambar/pengujian/ga/tc8/pop20_it100_run1_seed42_initial_state_3d.png, id=3364, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/ga/tc8/pop20_it100_run1_seed42_initial_state_3d.png, id=3400, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/ga/tc8/pop20_it100_run1_seed42_initial_state_3d.png Graphic file (type png)
 <use gambar/pengujian/ga/tc8/pop20_it100_run1_seed42_initial_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc8/pop20_it100_run1_seed42_initial_state_3d.png  used on input line 302.
 (pdftex.def)             Requested size: 290.21802pt x 153.02646pt.
-<gambar/pengujian/ga/tc8/pop20_it100_run1_seed42_final_state_3d.png, id=3365, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/ga/tc8/pop20_it100_run1_seed42_final_state_3d.png, id=3401, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/ga/tc8/pop20_it100_run1_seed42_final_state_3d.png Graphic file (type png)
 <use gambar/pengujian/ga/tc8/pop20_it100_run1_seed42_final_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc8/pop20_it100_run1_seed42_final_state_3d.png  used on input line 302.
@@ -6203,7 +6203,7 @@ Underfull \hbox (badness 1810) in paragraph at lines 302--302
 []|\T1/cmr/m/n/12 Grafik ob-jek-tif mak-
  []
 
-<gambar/pengujian/ga/tc8/pop20_it100_run1_seed42_experiment.png, id=3366, 2093.8225pt x 903.375pt>
+<gambar/pengujian/ga/tc8/pop20_it100_run1_seed42_experiment.png, id=3402, 2093.8225pt x 903.375pt>
 File: gambar/pengujian/ga/tc8/pop20_it100_run1_seed42_experiment.png Graphic file (type png)
 <use gambar/pengujian/ga/tc8/pop20_it100_run1_seed42_experiment.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc8/pop20_it100_run1_seed42_experiment.png  used on input line 302.
@@ -6246,12 +6246,12 @@ Underfull \hbox (badness 1237) in paragraph at lines 303--303
 []|\T1/cmr/m/it/12 State \T1/cmr/m/n/12 awal (po-pu-la-si
  []
 
-<gambar/pengujian/ga/tc8/pop20_it100_run2_seed43_initial_state_3d.png, id=3374, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/ga/tc8/pop20_it100_run2_seed43_initial_state_3d.png, id=3410, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/ga/tc8/pop20_it100_run2_seed43_initial_state_3d.png Graphic file (type png)
 <use gambar/pengujian/ga/tc8/pop20_it100_run2_seed43_initial_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc8/pop20_it100_run2_seed43_initial_state_3d.png  used on input line 303.
 (pdftex.def)             Requested size: 290.21802pt x 153.02646pt.
-<gambar/pengujian/ga/tc8/pop20_it100_run2_seed43_final_state_3d.png, id=3375, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/ga/tc8/pop20_it100_run2_seed43_final_state_3d.png, id=3411, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/ga/tc8/pop20_it100_run2_seed43_final_state_3d.png Graphic file (type png)
 <use gambar/pengujian/ga/tc8/pop20_it100_run2_seed43_final_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc8/pop20_it100_run2_seed43_final_state_3d.png  used on input line 303.
@@ -6266,7 +6266,7 @@ Underfull \hbox (badness 1810) in paragraph at lines 303--303
 []|\T1/cmr/m/n/12 Grafik ob-jek-tif mak-
  []
 
-<gambar/pengujian/ga/tc8/pop20_it100_run2_seed43_experiment.png, id=3376, 2093.8225pt x 903.375pt>
+<gambar/pengujian/ga/tc8/pop20_it100_run2_seed43_experiment.png, id=3412, 2093.8225pt x 903.375pt>
 File: gambar/pengujian/ga/tc8/pop20_it100_run2_seed43_experiment.png Graphic file (type png)
 <use gambar/pengujian/ga/tc8/pop20_it100_run2_seed43_experiment.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc8/pop20_it100_run2_seed43_experiment.png  used on input line 303.
@@ -6318,12 +6318,12 @@ Underfull \hbox (badness 1237) in paragraph at lines 304--304
 []|\T1/cmr/m/it/12 State \T1/cmr/m/n/12 awal (po-pu-la-si
  []
 
-<gambar/pengujian/ga/tc8/pop20_it100_run3_seed44_initial_state_3d.png, id=3395, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/ga/tc8/pop20_it100_run3_seed44_initial_state_3d.png, id=3431, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/ga/tc8/pop20_it100_run3_seed44_initial_state_3d.png Graphic file (type png)
 <use gambar/pengujian/ga/tc8/pop20_it100_run3_seed44_initial_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc8/pop20_it100_run3_seed44_initial_state_3d.png  used on input line 304.
 (pdftex.def)             Requested size: 290.21802pt x 153.02646pt.
-<gambar/pengujian/ga/tc8/pop20_it100_run3_seed44_final_state_3d.png, id=3396, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/ga/tc8/pop20_it100_run3_seed44_final_state_3d.png, id=3432, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/ga/tc8/pop20_it100_run3_seed44_final_state_3d.png Graphic file (type png)
 <use gambar/pengujian/ga/tc8/pop20_it100_run3_seed44_final_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc8/pop20_it100_run3_seed44_final_state_3d.png  used on input line 304.
@@ -6338,7 +6338,7 @@ Underfull \hbox (badness 1810) in paragraph at lines 304--304
 []|\T1/cmr/m/n/12 Grafik ob-jek-tif mak-
  []
 
-<gambar/pengujian/ga/tc8/pop20_it100_run3_seed44_experiment.png, id=3397, 2093.8225pt x 903.375pt>
+<gambar/pengujian/ga/tc8/pop20_it100_run3_seed44_experiment.png, id=3433, 2093.8225pt x 903.375pt>
 File: gambar/pengujian/ga/tc8/pop20_it100_run3_seed44_experiment.png Graphic file (type png)
 <use gambar/pengujian/ga/tc8/pop20_it100_run3_seed44_experiment.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc8/pop20_it100_run3_seed44_experiment.png  used on input line 304.
@@ -6570,12 +6570,12 @@ Underfull \hbox (badness 1237) in paragraph at lines 308--308
 []|\T1/cmr/m/it/12 State \T1/cmr/m/n/12 awal (po-pu-la-si
  []
 
-<gambar/pengujian/ga/tc8/pop100_it100_run1_seed42_initial_state_3d.png, id=3431, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/ga/tc8/pop100_it100_run1_seed42_initial_state_3d.png, id=3467, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/ga/tc8/pop100_it100_run1_seed42_initial_state_3d.png Graphic file (type png)
 <use gambar/pengujian/ga/tc8/pop100_it100_run1_seed42_initial_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc8/pop100_it100_run1_seed42_initial_state_3d.png  used on input line 308.
 (pdftex.def)             Requested size: 290.21802pt x 153.02646pt.
-<gambar/pengujian/ga/tc8/pop100_it100_run1_seed42_final_state_3d.png, id=3432, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/ga/tc8/pop100_it100_run1_seed42_final_state_3d.png, id=3468, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/ga/tc8/pop100_it100_run1_seed42_final_state_3d.png Graphic file (type png)
 <use gambar/pengujian/ga/tc8/pop100_it100_run1_seed42_final_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc8/pop100_it100_run1_seed42_final_state_3d.png  used on input line 308.
@@ -6590,7 +6590,7 @@ Underfull \hbox (badness 1810) in paragraph at lines 308--308
 []|\T1/cmr/m/n/12 Grafik ob-jek-tif mak-
  []
 
-<gambar/pengujian/ga/tc8/pop100_it100_run1_seed42_experiment.png, id=3433, 2093.8225pt x 903.375pt>
+<gambar/pengujian/ga/tc8/pop100_it100_run1_seed42_experiment.png, id=3469, 2093.8225pt x 903.375pt>
 File: gambar/pengujian/ga/tc8/pop100_it100_run1_seed42_experiment.png Graphic file (type png)
 <use gambar/pengujian/ga/tc8/pop100_it100_run1_seed42_experiment.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc8/pop100_it100_run1_seed42_experiment.png  used on input line 308.
@@ -6633,12 +6633,12 @@ Underfull \hbox (badness 1237) in paragraph at lines 309--309
 []|\T1/cmr/m/it/12 State \T1/cmr/m/n/12 awal (po-pu-la-si
  []
 
-<gambar/pengujian/ga/tc8/pop100_it100_run2_seed43_initial_state_3d.png, id=3442, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/ga/tc8/pop100_it100_run2_seed43_initial_state_3d.png, id=3478, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/ga/tc8/pop100_it100_run2_seed43_initial_state_3d.png Graphic file (type png)
 <use gambar/pengujian/ga/tc8/pop100_it100_run2_seed43_initial_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc8/pop100_it100_run2_seed43_initial_state_3d.png  used on input line 309.
 (pdftex.def)             Requested size: 290.21802pt x 153.02646pt.
-<gambar/pengujian/ga/tc8/pop100_it100_run2_seed43_final_state_3d.png, id=3443, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/ga/tc8/pop100_it100_run2_seed43_final_state_3d.png, id=3479, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/ga/tc8/pop100_it100_run2_seed43_final_state_3d.png Graphic file (type png)
 <use gambar/pengujian/ga/tc8/pop100_it100_run2_seed43_final_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc8/pop100_it100_run2_seed43_final_state_3d.png  used on input line 309.
@@ -6653,7 +6653,7 @@ Underfull \hbox (badness 1810) in paragraph at lines 309--309
 []|\T1/cmr/m/n/12 Grafik ob-jek-tif mak-
  []
 
-<gambar/pengujian/ga/tc8/pop100_it100_run2_seed43_experiment.png, id=3444, 2093.8225pt x 903.375pt>
+<gambar/pengujian/ga/tc8/pop100_it100_run2_seed43_experiment.png, id=3480, 2093.8225pt x 903.375pt>
 File: gambar/pengujian/ga/tc8/pop100_it100_run2_seed43_experiment.png Graphic file (type png)
 <use gambar/pengujian/ga/tc8/pop100_it100_run2_seed43_experiment.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc8/pop100_it100_run2_seed43_experiment.png  used on input line 309.
@@ -6696,12 +6696,12 @@ Underfull \hbox (badness 1237) in paragraph at lines 310--310
 []|\T1/cmr/m/it/12 State \T1/cmr/m/n/12 awal (po-pu-la-si
  []
 
-<gambar/pengujian/ga/tc8/pop100_it100_run3_seed44_initial_state_3d.png, id=3454, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/ga/tc8/pop100_it100_run3_seed44_initial_state_3d.png, id=3490, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/ga/tc8/pop100_it100_run3_seed44_initial_state_3d.png Graphic file (type png)
 <use gambar/pengujian/ga/tc8/pop100_it100_run3_seed44_initial_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc8/pop100_it100_run3_seed44_initial_state_3d.png  used on input line 310.
 (pdftex.def)             Requested size: 290.21802pt x 153.02646pt.
-<gambar/pengujian/ga/tc8/pop100_it100_run3_seed44_final_state_3d.png, id=3455, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/ga/tc8/pop100_it100_run3_seed44_final_state_3d.png, id=3491, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/ga/tc8/pop100_it100_run3_seed44_final_state_3d.png Graphic file (type png)
 <use gambar/pengujian/ga/tc8/pop100_it100_run3_seed44_final_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc8/pop100_it100_run3_seed44_final_state_3d.png  used on input line 310.
@@ -6716,7 +6716,7 @@ Underfull \hbox (badness 1810) in paragraph at lines 310--310
 []|\T1/cmr/m/n/12 Grafik ob-jek-tif mak-
  []
 
-<gambar/pengujian/ga/tc8/pop100_it100_run3_seed44_experiment.png, id=3456, 2093.8225pt x 903.375pt>
+<gambar/pengujian/ga/tc8/pop100_it100_run3_seed44_experiment.png, id=3492, 2093.8225pt x 903.375pt>
 File: gambar/pengujian/ga/tc8/pop100_it100_run3_seed44_experiment.png Graphic file (type png)
 <use gambar/pengujian/ga/tc8/pop100_it100_run3_seed44_experiment.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc8/pop100_it100_run3_seed44_experiment.png  used on input line 310.
@@ -6759,12 +6759,12 @@ Underfull \hbox (badness 1237) in paragraph at lines 311--311
 []|\T1/cmr/m/it/12 State \T1/cmr/m/n/12 awal (po-pu-la-si
  []
 
-<gambar/pengujian/ga/tc9/pop20_it100_run1_seed42_initial_state_3d.png, id=3464, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/ga/tc9/pop20_it100_run1_seed42_initial_state_3d.png, id=3500, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/ga/tc9/pop20_it100_run1_seed42_initial_state_3d.png Graphic file (type png)
 <use gambar/pengujian/ga/tc9/pop20_it100_run1_seed42_initial_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc9/pop20_it100_run1_seed42_initial_state_3d.png  used on input line 311.
 (pdftex.def)             Requested size: 290.21802pt x 153.02646pt.
-<gambar/pengujian/ga/tc9/pop20_it100_run1_seed42_final_state_3d.png, id=3465, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/ga/tc9/pop20_it100_run1_seed42_final_state_3d.png, id=3501, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/ga/tc9/pop20_it100_run1_seed42_final_state_3d.png Graphic file (type png)
 <use gambar/pengujian/ga/tc9/pop20_it100_run1_seed42_final_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc9/pop20_it100_run1_seed42_final_state_3d.png  used on input line 311.
@@ -6779,7 +6779,7 @@ Underfull \hbox (badness 1810) in paragraph at lines 311--311
 []|\T1/cmr/m/n/12 Grafik ob-jek-tif mak-
  []
 
-<gambar/pengujian/ga/tc9/pop20_it100_run1_seed42_experiment.png, id=3466, 2093.8225pt x 903.375pt>
+<gambar/pengujian/ga/tc9/pop20_it100_run1_seed42_experiment.png, id=3502, 2093.8225pt x 903.375pt>
 File: gambar/pengujian/ga/tc9/pop20_it100_run1_seed42_experiment.png Graphic file (type png)
 <use gambar/pengujian/ga/tc9/pop20_it100_run1_seed42_experiment.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc9/pop20_it100_run1_seed42_experiment.png  used on input line 311.
@@ -6831,12 +6831,12 @@ Underfull \hbox (badness 1237) in paragraph at lines 312--312
 []|\T1/cmr/m/it/12 State \T1/cmr/m/n/12 awal (po-pu-la-si
  []
 
-<gambar/pengujian/ga/tc9/pop20_it100_run2_seed43_initial_state_3d.png, id=3485, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/ga/tc9/pop20_it100_run2_seed43_initial_state_3d.png, id=3521, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/ga/tc9/pop20_it100_run2_seed43_initial_state_3d.png Graphic file (type png)
 <use gambar/pengujian/ga/tc9/pop20_it100_run2_seed43_initial_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc9/pop20_it100_run2_seed43_initial_state_3d.png  used on input line 312.
 (pdftex.def)             Requested size: 290.21802pt x 153.02646pt.
-<gambar/pengujian/ga/tc9/pop20_it100_run2_seed43_final_state_3d.png, id=3486, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/ga/tc9/pop20_it100_run2_seed43_final_state_3d.png, id=3522, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/ga/tc9/pop20_it100_run2_seed43_final_state_3d.png Graphic file (type png)
 <use gambar/pengujian/ga/tc9/pop20_it100_run2_seed43_final_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc9/pop20_it100_run2_seed43_final_state_3d.png  used on input line 312.
@@ -6851,7 +6851,7 @@ Underfull \hbox (badness 1810) in paragraph at lines 312--312
 []|\T1/cmr/m/n/12 Grafik ob-jek-tif mak-
  []
 
-<gambar/pengujian/ga/tc9/pop20_it100_run2_seed43_experiment.png, id=3487, 2093.8225pt x 903.375pt>
+<gambar/pengujian/ga/tc9/pop20_it100_run2_seed43_experiment.png, id=3523, 2093.8225pt x 903.375pt>
 File: gambar/pengujian/ga/tc9/pop20_it100_run2_seed43_experiment.png Graphic file (type png)
 <use gambar/pengujian/ga/tc9/pop20_it100_run2_seed43_experiment.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc9/pop20_it100_run2_seed43_experiment.png  used on input line 312.
@@ -6894,12 +6894,12 @@ Underfull \hbox (badness 1237) in paragraph at lines 313--313
 []|\T1/cmr/m/it/12 State \T1/cmr/m/n/12 awal (po-pu-la-si
  []
 
-<gambar/pengujian/ga/tc9/pop20_it100_run3_seed44_initial_state_3d.png, id=3496, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/ga/tc9/pop20_it100_run3_seed44_initial_state_3d.png, id=3532, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/ga/tc9/pop20_it100_run3_seed44_initial_state_3d.png Graphic file (type png)
 <use gambar/pengujian/ga/tc9/pop20_it100_run3_seed44_initial_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc9/pop20_it100_run3_seed44_initial_state_3d.png  used on input line 313.
 (pdftex.def)             Requested size: 290.21802pt x 153.02646pt.
-<gambar/pengujian/ga/tc9/pop20_it100_run3_seed44_final_state_3d.png, id=3497, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/ga/tc9/pop20_it100_run3_seed44_final_state_3d.png, id=3533, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/ga/tc9/pop20_it100_run3_seed44_final_state_3d.png Graphic file (type png)
 <use gambar/pengujian/ga/tc9/pop20_it100_run3_seed44_final_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc9/pop20_it100_run3_seed44_final_state_3d.png  used on input line 313.
@@ -6914,7 +6914,7 @@ Underfull \hbox (badness 1810) in paragraph at lines 313--313
 []|\T1/cmr/m/n/12 Grafik ob-jek-tif mak-
  []
 
-<gambar/pengujian/ga/tc9/pop20_it100_run3_seed44_experiment.png, id=3498, 2093.8225pt x 903.375pt>
+<gambar/pengujian/ga/tc9/pop20_it100_run3_seed44_experiment.png, id=3534, 2093.8225pt x 903.375pt>
 File: gambar/pengujian/ga/tc9/pop20_it100_run3_seed44_experiment.png Graphic file (type png)
 <use gambar/pengujian/ga/tc9/pop20_it100_run3_seed44_experiment.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc9/pop20_it100_run3_seed44_experiment.png  used on input line 313.
@@ -7146,12 +7146,12 @@ Underfull \hbox (badness 1237) in paragraph at lines 317--317
 []|\T1/cmr/m/it/12 State \T1/cmr/m/n/12 awal (po-pu-la-si
  []
 
-<gambar/pengujian/ga/tc9/pop100_it100_run1_seed42_initial_state_3d.png, id=3533, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/ga/tc9/pop100_it100_run1_seed42_initial_state_3d.png, id=3569, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/ga/tc9/pop100_it100_run1_seed42_initial_state_3d.png Graphic file (type png)
 <use gambar/pengujian/ga/tc9/pop100_it100_run1_seed42_initial_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc9/pop100_it100_run1_seed42_initial_state_3d.png  used on input line 317.
 (pdftex.def)             Requested size: 290.21802pt x 153.02646pt.
-<gambar/pengujian/ga/tc9/pop100_it100_run1_seed42_final_state_3d.png, id=3534, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/ga/tc9/pop100_it100_run1_seed42_final_state_3d.png, id=3570, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/ga/tc9/pop100_it100_run1_seed42_final_state_3d.png Graphic file (type png)
 <use gambar/pengujian/ga/tc9/pop100_it100_run1_seed42_final_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc9/pop100_it100_run1_seed42_final_state_3d.png  used on input line 317.
@@ -7166,7 +7166,7 @@ Underfull \hbox (badness 1810) in paragraph at lines 317--317
 []|\T1/cmr/m/n/12 Grafik ob-jek-tif mak-
  []
 
-<gambar/pengujian/ga/tc9/pop100_it100_run1_seed42_experiment.png, id=3535, 2093.8225pt x 903.375pt>
+<gambar/pengujian/ga/tc9/pop100_it100_run1_seed42_experiment.png, id=3571, 2093.8225pt x 903.375pt>
 File: gambar/pengujian/ga/tc9/pop100_it100_run1_seed42_experiment.png Graphic file (type png)
 <use gambar/pengujian/ga/tc9/pop100_it100_run1_seed42_experiment.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc9/pop100_it100_run1_seed42_experiment.png  used on input line 317.
@@ -7209,12 +7209,12 @@ Underfull \hbox (badness 1237) in paragraph at lines 318--318
 []|\T1/cmr/m/it/12 State \T1/cmr/m/n/12 awal (po-pu-la-si
  []
 
-<gambar/pengujian/ga/tc9/pop100_it100_run2_seed43_initial_state_3d.png, id=3543, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/ga/tc9/pop100_it100_run2_seed43_initial_state_3d.png, id=3579, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/ga/tc9/pop100_it100_run2_seed43_initial_state_3d.png Graphic file (type png)
 <use gambar/pengujian/ga/tc9/pop100_it100_run2_seed43_initial_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc9/pop100_it100_run2_seed43_initial_state_3d.png  used on input line 318.
 (pdftex.def)             Requested size: 290.21802pt x 153.02646pt.
-<gambar/pengujian/ga/tc9/pop100_it100_run2_seed43_final_state_3d.png, id=3544, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/ga/tc9/pop100_it100_run2_seed43_final_state_3d.png, id=3580, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/ga/tc9/pop100_it100_run2_seed43_final_state_3d.png Graphic file (type png)
 <use gambar/pengujian/ga/tc9/pop100_it100_run2_seed43_final_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc9/pop100_it100_run2_seed43_final_state_3d.png  used on input line 318.
@@ -7229,7 +7229,7 @@ Underfull \hbox (badness 1810) in paragraph at lines 318--318
 []|\T1/cmr/m/n/12 Grafik ob-jek-tif mak-
  []
 
-<gambar/pengujian/ga/tc9/pop100_it100_run2_seed43_experiment.png, id=3545, 2093.8225pt x 903.375pt>
+<gambar/pengujian/ga/tc9/pop100_it100_run2_seed43_experiment.png, id=3581, 2093.8225pt x 903.375pt>
 File: gambar/pengujian/ga/tc9/pop100_it100_run2_seed43_experiment.png Graphic file (type png)
 <use gambar/pengujian/ga/tc9/pop100_it100_run2_seed43_experiment.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc9/pop100_it100_run2_seed43_experiment.png  used on input line 318.
@@ -7272,12 +7272,12 @@ Underfull \hbox (badness 1237) in paragraph at lines 319--319
 []|\T1/cmr/m/it/12 State \T1/cmr/m/n/12 awal (po-pu-la-si
  []
 
-<gambar/pengujian/ga/tc9/pop100_it100_run3_seed44_initial_state_3d.png, id=3553, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/ga/tc9/pop100_it100_run3_seed44_initial_state_3d.png, id=3589, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/ga/tc9/pop100_it100_run3_seed44_initial_state_3d.png Graphic file (type png)
 <use gambar/pengujian/ga/tc9/pop100_it100_run3_seed44_initial_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc9/pop100_it100_run3_seed44_initial_state_3d.png  used on input line 319.
 (pdftex.def)             Requested size: 290.21802pt x 153.02646pt.
-<gambar/pengujian/ga/tc9/pop100_it100_run3_seed44_final_state_3d.png, id=3554, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/ga/tc9/pop100_it100_run3_seed44_final_state_3d.png, id=3590, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/ga/tc9/pop100_it100_run3_seed44_final_state_3d.png Graphic file (type png)
 <use gambar/pengujian/ga/tc9/pop100_it100_run3_seed44_final_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc9/pop100_it100_run3_seed44_final_state_3d.png  used on input line 319.
@@ -7292,7 +7292,7 @@ Underfull \hbox (badness 1810) in paragraph at lines 319--319
 []|\T1/cmr/m/n/12 Grafik ob-jek-tif mak-
  []
 
-<gambar/pengujian/ga/tc9/pop100_it100_run3_seed44_experiment.png, id=3555, 2093.8225pt x 903.375pt>
+<gambar/pengujian/ga/tc9/pop100_it100_run3_seed44_experiment.png, id=3591, 2093.8225pt x 903.375pt>
 File: gambar/pengujian/ga/tc9/pop100_it100_run3_seed44_experiment.png Graphic file (type png)
 <use gambar/pengujian/ga/tc9/pop100_it100_run3_seed44_experiment.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc9/pop100_it100_run3_seed44_experiment.png  used on input line 319.
@@ -7344,12 +7344,12 @@ Underfull \hbox (badness 1237) in paragraph at lines 320--320
 []|\T1/cmr/m/it/12 State \T1/cmr/m/n/12 awal (po-pu-la-si
  []
 
-<gambar/pengujian/ga/tc10/pop20_it100_run1_seed42_initial_state_3d.png, id=3575, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/ga/tc10/pop20_it100_run1_seed42_initial_state_3d.png, id=3611, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/ga/tc10/pop20_it100_run1_seed42_initial_state_3d.png Graphic file (type png)
 <use gambar/pengujian/ga/tc10/pop20_it100_run1_seed42_initial_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc10/pop20_it100_run1_seed42_initial_state_3d.png  used on input line 320.
 (pdftex.def)             Requested size: 290.21802pt x 153.02646pt.
-<gambar/pengujian/ga/tc10/pop20_it100_run1_seed42_final_state_3d.png, id=3576, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/ga/tc10/pop20_it100_run1_seed42_final_state_3d.png, id=3612, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/ga/tc10/pop20_it100_run1_seed42_final_state_3d.png Graphic file (type png)
 <use gambar/pengujian/ga/tc10/pop20_it100_run1_seed42_final_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc10/pop20_it100_run1_seed42_final_state_3d.png  used on input line 320.
@@ -7364,7 +7364,7 @@ Underfull \hbox (badness 1810) in paragraph at lines 320--320
 []|\T1/cmr/m/n/12 Grafik ob-jek-tif mak-
  []
 
-<gambar/pengujian/ga/tc10/pop20_it100_run1_seed42_experiment.png, id=3577, 2093.8225pt x 903.375pt>
+<gambar/pengujian/ga/tc10/pop20_it100_run1_seed42_experiment.png, id=3613, 2093.8225pt x 903.375pt>
 File: gambar/pengujian/ga/tc10/pop20_it100_run1_seed42_experiment.png Graphic file (type png)
 <use gambar/pengujian/ga/tc10/pop20_it100_run1_seed42_experiment.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc10/pop20_it100_run1_seed42_experiment.png  used on input line 320.
@@ -7407,12 +7407,12 @@ Underfull \hbox (badness 1237) in paragraph at lines 321--321
 []|\T1/cmr/m/it/12 State \T1/cmr/m/n/12 awal (po-pu-la-si
  []
 
-<gambar/pengujian/ga/tc10/pop20_it100_run2_seed43_initial_state_3d.png, id=3586, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/ga/tc10/pop20_it100_run2_seed43_initial_state_3d.png, id=3622, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/ga/tc10/pop20_it100_run2_seed43_initial_state_3d.png Graphic file (type png)
 <use gambar/pengujian/ga/tc10/pop20_it100_run2_seed43_initial_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc10/pop20_it100_run2_seed43_initial_state_3d.png  used on input line 321.
 (pdftex.def)             Requested size: 290.21802pt x 153.02646pt.
-<gambar/pengujian/ga/tc10/pop20_it100_run2_seed43_final_state_3d.png, id=3587, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/ga/tc10/pop20_it100_run2_seed43_final_state_3d.png, id=3623, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/ga/tc10/pop20_it100_run2_seed43_final_state_3d.png Graphic file (type png)
 <use gambar/pengujian/ga/tc10/pop20_it100_run2_seed43_final_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc10/pop20_it100_run2_seed43_final_state_3d.png  used on input line 321.
@@ -7427,7 +7427,7 @@ Underfull \hbox (badness 1810) in paragraph at lines 321--321
 []|\T1/cmr/m/n/12 Grafik ob-jek-tif mak-
  []
 
-<gambar/pengujian/ga/tc10/pop20_it100_run2_seed43_experiment.png, id=3588, 2093.8225pt x 903.375pt>
+<gambar/pengujian/ga/tc10/pop20_it100_run2_seed43_experiment.png, id=3624, 2093.8225pt x 903.375pt>
 File: gambar/pengujian/ga/tc10/pop20_it100_run2_seed43_experiment.png Graphic file (type png)
 <use gambar/pengujian/ga/tc10/pop20_it100_run2_seed43_experiment.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc10/pop20_it100_run2_seed43_experiment.png  used on input line 321.
@@ -7470,12 +7470,12 @@ Underfull \hbox (badness 1237) in paragraph at lines 322--322
 []|\T1/cmr/m/it/12 State \T1/cmr/m/n/12 awal (po-pu-la-si
  []
 
-<gambar/pengujian/ga/tc10/pop20_it100_run3_seed44_initial_state_3d.png, id=3596, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/ga/tc10/pop20_it100_run3_seed44_initial_state_3d.png, id=3633, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/ga/tc10/pop20_it100_run3_seed44_initial_state_3d.png Graphic file (type png)
 <use gambar/pengujian/ga/tc10/pop20_it100_run3_seed44_initial_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc10/pop20_it100_run3_seed44_initial_state_3d.png  used on input line 322.
 (pdftex.def)             Requested size: 290.21802pt x 153.02646pt.
-<gambar/pengujian/ga/tc10/pop20_it100_run3_seed44_final_state_3d.png, id=3597, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/ga/tc10/pop20_it100_run3_seed44_final_state_3d.png, id=3634, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/ga/tc10/pop20_it100_run3_seed44_final_state_3d.png Graphic file (type png)
 <use gambar/pengujian/ga/tc10/pop20_it100_run3_seed44_final_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc10/pop20_it100_run3_seed44_final_state_3d.png  used on input line 322.
@@ -7490,7 +7490,7 @@ Underfull \hbox (badness 1810) in paragraph at lines 322--322
 []|\T1/cmr/m/n/12 Grafik ob-jek-tif mak-
  []
 
-<gambar/pengujian/ga/tc10/pop20_it100_run3_seed44_experiment.png, id=3598, 2093.8225pt x 903.375pt>
+<gambar/pengujian/ga/tc10/pop20_it100_run3_seed44_experiment.png, id=3635, 2093.8225pt x 903.375pt>
 File: gambar/pengujian/ga/tc10/pop20_it100_run3_seed44_experiment.png Graphic file (type png)
 <use gambar/pengujian/ga/tc10/pop20_it100_run3_seed44_experiment.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc10/pop20_it100_run3_seed44_experiment.png  used on input line 322.
@@ -7722,12 +7722,12 @@ Underfull \hbox (badness 1237) in paragraph at lines 326--326
 []|\T1/cmr/m/it/12 State \T1/cmr/m/n/12 awal (po-pu-la-si
  []
 
-<gambar/pengujian/ga/tc10/pop100_it100_run1_seed42_initial_state_3d.png, id=3634, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/ga/tc10/pop100_it100_run1_seed42_initial_state_3d.png, id=3671, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/ga/tc10/pop100_it100_run1_seed42_initial_state_3d.png Graphic file (type png)
 <use gambar/pengujian/ga/tc10/pop100_it100_run1_seed42_initial_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc10/pop100_it100_run1_seed42_initial_state_3d.png  used on input line 326.
 (pdftex.def)             Requested size: 290.21802pt x 153.02646pt.
-<gambar/pengujian/ga/tc10/pop100_it100_run1_seed42_final_state_3d.png, id=3635, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/ga/tc10/pop100_it100_run1_seed42_final_state_3d.png, id=3672, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/ga/tc10/pop100_it100_run1_seed42_final_state_3d.png Graphic file (type png)
 <use gambar/pengujian/ga/tc10/pop100_it100_run1_seed42_final_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc10/pop100_it100_run1_seed42_final_state_3d.png  used on input line 326.
@@ -7742,7 +7742,7 @@ Underfull \hbox (badness 1810) in paragraph at lines 326--326
 []|\T1/cmr/m/n/12 Grafik ob-jek-tif mak-
  []
 
-<gambar/pengujian/ga/tc10/pop100_it100_run1_seed42_experiment.png, id=3636, 2093.8225pt x 903.375pt>
+<gambar/pengujian/ga/tc10/pop100_it100_run1_seed42_experiment.png, id=3673, 2093.8225pt x 903.375pt>
 File: gambar/pengujian/ga/tc10/pop100_it100_run1_seed42_experiment.png Graphic file (type png)
 <use gambar/pengujian/ga/tc10/pop100_it100_run1_seed42_experiment.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc10/pop100_it100_run1_seed42_experiment.png  used on input line 326.
@@ -7785,12 +7785,12 @@ Underfull \hbox (badness 1237) in paragraph at lines 327--327
 []|\T1/cmr/m/it/12 State \T1/cmr/m/n/12 awal (po-pu-la-si
  []
 
-<gambar/pengujian/ga/tc10/pop100_it100_run2_seed43_initial_state_3d.png, id=3642, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/ga/tc10/pop100_it100_run2_seed43_initial_state_3d.png, id=3679, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/ga/tc10/pop100_it100_run2_seed43_initial_state_3d.png Graphic file (type png)
 <use gambar/pengujian/ga/tc10/pop100_it100_run2_seed43_initial_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc10/pop100_it100_run2_seed43_initial_state_3d.png  used on input line 327.
 (pdftex.def)             Requested size: 290.21802pt x 153.02646pt.
-<gambar/pengujian/ga/tc10/pop100_it100_run2_seed43_final_state_3d.png, id=3643, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/ga/tc10/pop100_it100_run2_seed43_final_state_3d.png, id=3680, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/ga/tc10/pop100_it100_run2_seed43_final_state_3d.png Graphic file (type png)
 <use gambar/pengujian/ga/tc10/pop100_it100_run2_seed43_final_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc10/pop100_it100_run2_seed43_final_state_3d.png  used on input line 327.
@@ -7805,7 +7805,7 @@ Underfull \hbox (badness 1810) in paragraph at lines 327--327
 []|\T1/cmr/m/n/12 Grafik ob-jek-tif mak-
  []
 
-<gambar/pengujian/ga/tc10/pop100_it100_run2_seed43_experiment.png, id=3644, 2093.8225pt x 903.375pt>
+<gambar/pengujian/ga/tc10/pop100_it100_run2_seed43_experiment.png, id=3681, 2093.8225pt x 903.375pt>
 File: gambar/pengujian/ga/tc10/pop100_it100_run2_seed43_experiment.png Graphic file (type png)
 <use gambar/pengujian/ga/tc10/pop100_it100_run2_seed43_experiment.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc10/pop100_it100_run2_seed43_experiment.png  used on input line 327.
@@ -7857,12 +7857,12 @@ Underfull \hbox (badness 1237) in paragraph at lines 328--328
 []|\T1/cmr/m/it/12 State \T1/cmr/m/n/12 awal (po-pu-la-si
  []
 
-<gambar/pengujian/ga/tc10/pop100_it100_run3_seed44_initial_state_3d.png, id=3663, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/ga/tc10/pop100_it100_run3_seed44_initial_state_3d.png, id=3700, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/ga/tc10/pop100_it100_run3_seed44_initial_state_3d.png Graphic file (type png)
 <use gambar/pengujian/ga/tc10/pop100_it100_run3_seed44_initial_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc10/pop100_it100_run3_seed44_initial_state_3d.png  used on input line 328.
 (pdftex.def)             Requested size: 290.21802pt x 153.02646pt.
-<gambar/pengujian/ga/tc10/pop100_it100_run3_seed44_final_state_3d.png, id=3664, 2093.8225pt x 1104.125pt>
+<gambar/pengujian/ga/tc10/pop100_it100_run3_seed44_final_state_3d.png, id=3701, 2093.8225pt x 1104.125pt>
 File: gambar/pengujian/ga/tc10/pop100_it100_run3_seed44_final_state_3d.png Graphic file (type png)
 <use gambar/pengujian/ga/tc10/pop100_it100_run3_seed44_final_state_3d.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc10/pop100_it100_run3_seed44_final_state_3d.png  used on input line 328.
@@ -7877,7 +7877,7 @@ Underfull \hbox (badness 1810) in paragraph at lines 328--328
 []|\T1/cmr/m/n/12 Grafik ob-jek-tif mak-
  []
 
-<gambar/pengujian/ga/tc10/pop100_it100_run3_seed44_experiment.png, id=3665, 2093.8225pt x 903.375pt>
+<gambar/pengujian/ga/tc10/pop100_it100_run3_seed44_experiment.png, id=3702, 2093.8225pt x 903.375pt>
 File: gambar/pengujian/ga/tc10/pop100_it100_run3_seed44_experiment.png Graphic file (type png)
 <use gambar/pengujian/ga/tc10/pop100_it100_run3_seed44_experiment.png>
 Package pdftex.def Info: gambar/pengujian/ga/tc10/pop100_it100_run3_seed44_experiment.png  used on input line 328.
@@ -7895,7 +7895,126 @@ File: gambar/logo_stei_itb.png Graphic file (type png)
 <use gambar/logo_stei_itb.png>
 Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 328.
 (pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
-[202 <./gambar/pengujian/ga/tc10/pop100_it100_run3_seed44_initial_state_3d.png> <./gambar/pengujian/ga/tc10/pop100_it100_run3_seed44_final_state_3d.png>]) (bab/05-kesimpulan-saran.tex
+[202 <./gambar/pengujian/ga/tc10/pop100_it100_run3_seed44_initial_state_3d.png> <./gambar/pengujian/ga/tc10/pop100_it100_run3_seed44_final_state_3d.png>]
+Underfull \hbox (badness 2762) in paragraph at lines 347--347
+[]|\T1/cmr/bx/n/12 Algoritma/ kon-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 347--347
+[]|\T1/cmr/bx/n/12 Min.--
+ []
+
+
+Overfull \hbox (9.11896pt too wide) in paragraph at lines 347--347
+[]|\T1/cmr/bx/n/12 Standar
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 347--347
+\T1/cmr/bx/n/12 De-vi-a-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 347--347
+[]|\T1/cmr/bx/n/12 Rata-rata
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 347--347
+\T1/cmr/bx/n/12 Du-ra-si
+ []
+
+
+Underfull \hbox (badness 2762) in paragraph at lines 350--350
+[]|\T1/cmr/bx/n/12 Algoritma/ kon-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 350--350
+[]|\T1/cmr/bx/n/12 Min.--
+ []
+
+
+Overfull \hbox (9.11896pt too wide) in paragraph at lines 350--350
+[]|\T1/cmr/bx/n/12 Standar
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 350--350
+\T1/cmr/bx/n/12 De-vi-a-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 350--350
+[]|\T1/cmr/bx/n/12 Rata-rata
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 350--350
+\T1/cmr/bx/n/12 Du-ra-si
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 359--359
+[]|\T1/cmr/m/n/12 Simulated An-ne-a-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 369--369
+[]|\T1/cmr/m/n/12 Simulated An-ne-a-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 379--379
+[]|\T1/cmr/m/n/12 Simulated An-ne-a-
+ []
+
+File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
+<use gambar/Institut_Teknologi_Bandung_logo.png>
+Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 385.
+(pdftex.def)             Requested size: 31.2971pt x 31.2982pt.
+File: gambar/logo_stei_itb.png Graphic file (type png)
+<use gambar/logo_stei_itb.png>
+Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 385.
+(pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
+[203 <./gambar/pengujian/ga/tc10/pop100_it100_run3_seed44_experiment.png>]
+File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
+<use gambar/Institut_Teknologi_Bandung_logo.png>
+Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 390.
+(pdftex.def)             Requested size: 31.2971pt x 31.2982pt.
+File: gambar/logo_stei_itb.png Graphic file (type png)
+<use gambar/logo_stei_itb.png>
+Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 390.
+(pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
+ [204]
+File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
+<use gambar/Institut_Teknologi_Bandung_logo.png>
+Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 404.
+(pdftex.def)             Requested size: 31.2971pt x 31.2982pt.
+File: gambar/logo_stei_itb.png Graphic file (type png)
+<use gambar/logo_stei_itb.png>
+Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 404.
+(pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
+ [205]
+File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
+<use gambar/Institut_Teknologi_Bandung_logo.png>
+Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 425.
+(pdftex.def)             Requested size: 31.2971pt x 31.2982pt.
+File: gambar/logo_stei_itb.png Graphic file (type png)
+<use gambar/logo_stei_itb.png>
+Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 425.
+(pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
+ [206]
+File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
+<use gambar/Institut_Teknologi_Bandung_logo.png>
+Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 443.
+(pdftex.def)             Requested size: 31.2971pt x 31.2982pt.
+File: gambar/logo_stei_itb.png Graphic file (type png)
+<use gambar/logo_stei_itb.png>
+Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 443.
+(pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
+ [207]) (bab/05-kesimpulan-saran.tex
 File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
 <use gambar/Institut_Teknologi_Bandung_logo.png>
 Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 1.
@@ -7904,7 +8023,16 @@ File: gambar/logo_stei_itb.png Graphic file (type png)
 <use gambar/logo_stei_itb.png>
 Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 1.
 (pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
- [203 <./gambar/pengujian/ga/tc10/pop100_it100_run3_seed44_experiment.png>]
+ [208]
+File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
+<use gambar/Institut_Teknologi_Bandung_logo.png>
+Package pdftex.def Info: gambar/Institut_Teknologi_Bandung_logo.png  used on input line 1.
+(pdftex.def)             Requested size: 31.2971pt x 31.2982pt.
+File: gambar/logo_stei_itb.png Graphic file (type png)
+<use gambar/logo_stei_itb.png>
+Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 1.
+(pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
+ [209]
 Bab 5.
 )
 File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
@@ -7915,7 +8043,7 @@ File: gambar/logo_stei_itb.png Graphic file (type png)
 <use gambar/logo_stei_itb.png>
 Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 217.
 (pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
- [204
+ [210
 
 ] (bab/referensi.tex)
 File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
@@ -7926,7 +8054,7 @@ File: gambar/logo_stei_itb.png Graphic file (type png)
 <use gambar/logo_stei_itb.png>
 Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 220.
 (pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
- [205
+ [211
 
 ] (bab/lampiran.tex
 File: gambar/Institut_Teknologi_Bandung_logo.png Graphic file (type png)
@@ -7937,7 +8065,7 @@ File: gambar/logo_stei_itb.png Graphic file (type png)
 <use gambar/logo_stei_itb.png>
 Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 61.
 (pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
- [206
+ [212
 
 ]) 
 AED: lastpage setting LastPage
@@ -7949,7 +8077,7 @@ File: gambar/logo_stei_itb.png Graphic file (type png)
 <use gambar/logo_stei_itb.png>
 Package pdftex.def Info: gambar/logo_stei_itb.png  used on input line 224.
 (pdftex.def)             Requested size: 31.29741pt x 31.2982pt.
-[207] (main.aux)
+[213] (main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
@@ -7958,24 +8086,21 @@ L3 programming layer <2024-01-04>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: FD1842B5E953BCE29C0A4FF999884E63;9311.
+(rerunfilecheck)             Checksum: 5E172A785DDF596710AF741DA3097660;11231.
  ) 
 Here is how much of TeX's memory you used:
- 26811 strings out of 474486
- 551258 string characters out of 5744227
+ 26843 strings out of 474486
+ 551699 string characters out of 5744227
  2518542 words of memory out of 5000000
- 46630 multiletter control sequences out of 15000+600000
+ 46642 multiletter control sequences out of 15000+600000
  582487 words of font info for 85 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  70i,19n,77p,1338b,2390s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\HERY\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1095.pk> <C:\Users\HERY\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\HERY\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\HERY\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\HERY\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbi1200.pk> <C:\Users\HERY\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsc1200.pk> <C:\Users\HERY\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1200.pk> <C:\Users\HERY\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx0800.pk> <C:\Users\HERY\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbi1440.pk> <C:\Users\HERY\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbi1728.pk> <C:\Users\HERY\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\HERY\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\HERY\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\HERY\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\HERY\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\HERY\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\HERY\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1095.pk><C:/Users/HERY/AppData/Local/Programs/MiKTeX/fonts/type1/public/inconsolata/Inconsolata-zi4b.pfb><C:/Users/HERY/AppData/Local/Programs/MiKTeX/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb><C:/Users/HERY/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/HERY/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/HERY/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/HERY/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/HERY/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/HERY/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/HERY/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/HERY/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (210 pages, 25725376 bytes).
+Output written on main.pdf (216 pages, 25766994 bytes).
 PDF statistics:
- 4738 PDF objects out of 5155 (max. 8388607)
- 2012 named destinations out of 2073 (max. 500000)
- 18179 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 4845 PDF objects out of 5155 (max. 8388607)
+ 2032 named destinations out of 2073 (max. 500000)
+ 18235 words of extra memory for PDF output out of 20736 (max. 10000000)
 

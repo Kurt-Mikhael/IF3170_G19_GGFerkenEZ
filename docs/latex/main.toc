@@ -144,10 +144,19 @@
 \contentsline {subsubsection}{Test case tc10 --- Populasi 100, iterasi 100 --- Percobaan 2}{201}{table.4.97}%
 \contentsline {subsubsection}{Test case tc10 --- Populasi 100, iterasi 100 --- Percobaan 3}{202}{table.4.98}%
 \contentsline {section}{\numberline {4.4}Analisis Hasil Eksperimen}{203}{section.4.4}%
-\contentsline {chapter}{\numberline {5}Kesimpulan dan Saran}{204}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Kesimpulan}{204}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Saran}{204}{section.5.2}%
-\contentsline {chapter}{Referensi}{205}{chapter*.3}%
-\contentsline {chapter}{Lampiran}{206}{section*.5}%
-\contentsline {section}{Pembagian Tugas}{206}{section*.6}%
-\contentsline {section}{Form Pengunaan AI}{207}{table.Alph0.1}%
+\contentsline {subsection}{\numberline {4.4.1}Ringkasan Perbandingan Nilai Akhir dan Durasi}{203}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Kedekatan terhadap Nilai Terbaik yang Ditemukan}{205}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}Konsistensi Hasil antar-\textit {Run}}{205}{subsection.4.4.3}%
+\contentsline {subsection}{\numberline {4.4.4}Perbandingan Durasi dan Biaya Pencarian}{206}{subsection.4.4.4}%
+\contentsline {subsection}{\numberline {4.4.5}Perilaku Khusus Algoritma \textit {Hill-climbing} dan \textit {Simulated Annealing}}{207}{subsection.4.4.5}%
+\contentsline {subsection}{\numberline {4.4.6}Pengaruh Parameter pada \textit {Genetic Algorithm}}{208}{subsection.4.4.6}%
+\contentsline {paragraph}{Variasi jumlah iterasi (populasi tetap 50).}{208}{subsection.4.4.6}%
+\contentsline {paragraph}{Variasi jumlah populasi (iterasi tetap 100).}{208}{subsection.4.4.6}%
+\contentsline {subsection}{\numberline {4.4.7}Kesimpulan Analisis}{208}{subsection.4.4.7}%
+\contentsline {chapter}{\numberline {5}Kesimpulan dan Saran}{210}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Kesimpulan}{210}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Saran}{210}{section.5.2}%
+\contentsline {chapter}{Referensi}{211}{chapter*.3}%
+\contentsline {chapter}{Lampiran}{212}{section*.5}%
+\contentsline {section}{Pembagian Tugas}{212}{section*.6}%
+\contentsline {section}{Form Pengunaan AI}{213}{table.Alph0.1}%
