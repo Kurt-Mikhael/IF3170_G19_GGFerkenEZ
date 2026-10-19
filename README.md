@@ -33,26 +33,20 @@ Langkah tetangga yang digunakan adalah menukar dua paket, memindahkan sebuah pak
 
 ```
 IF3170_G19_GGFerkenEZ
-├── docs/
-│   └── latex/                      # sumber dan PDF laporan
-├── output/
-│   └── <nama tc>/                  # hasil run algoritma (JSON) per test case
-├── src/
-│   ├── algorithms/
-│   │   ├── common.py               # format hasil run
-│   │   ├── hill_climb.py           # steepest ascent, sideways, random restart, stochastic
-│   │   ├── simulated_annealing.py
-│   │   └── genetic_algorithm.py
-│   ├── constraints.py              # validasi constraint state
-│   ├── initialization.py           # pembangkitan initial state acak
-│   ├── main.py                     # program utama (CLI)
-│   ├── neighbors.py                # pembangkitan tetangga (swap, move, rotate)
-│   ├── objective.py                # objective function
-│   ├── package.py, placement.py, problem.py, reader.py, state.py, truck.py
-│   └── visualization_charts.py     # grafik hasil eksperimen
-├── test/                           # test case (tc1.json - tc10.json)
-├── requirements-visualization.txt
-└── README.md
+├── docs/                                          
+├── output/                    
+├── src/ 
+│   ├──       
+│   │   ├──
+│   │   └── 
+│   ├──                
+│   │   ├──   
+│   │   └── 
+│   └──               
+│       ├──             
+│       └── 
+├──                           
+└──        
 ```
 
 ## Prerequisites
@@ -80,11 +74,6 @@ atau unduh zip proyek ini dan extract folder
 cd IF3170_G19_GGFerkenEZ
 ```
 
-3. (Opsional, untuk visualisasi) Pasang library yang dibutuhkan:
-
-```bash
-pip install -r requirements-visualization.txt
-```
 
 ## How to Run
 
