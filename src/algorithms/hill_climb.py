@@ -1,7 +1,7 @@
 import time
 
 from src.algorithms.common import build_result
-from src.neighbors import iter_valid_neighbors
+from src.neighbors import iter_valid_neighbors, sample_random_neighbor
 from src.objective import evaluate
 
 
@@ -141,4 +141,56 @@ class HillClimb:
                 "total_iterations": sum(r["iterations"] for r in runs),
                 "restarts": searches,
             },
+        )
+
+    def stochastic(self, initial_state, max_iterations=10_000):
+        # ambil satu  neighbour acak, pindah hanya jika lebih baik dari state saat ini
+        # referensi: materi kuliah AI BeyondClassicalSearch bagian Stochastic Hill-climbing
+        t0 = time.perf_counter()
+        start = initial_state.copy()
+        current = initial_state.copy()
+        current_value = evaluate(self.problem, current)
+        evals = 1
+        best = current.copy()
+        best_value = current_value
+        accepted = iteration = 0
+        history = [
+            {"iteration": 0, "current_value": current_value, "best_value": best_value, "accepted": False}
+        ]
+        stop = "max_iterations"
+
+        while iteration < max_iterations:
+            neighbour = sample_random_neighbor(self.problem, current, self.rng)
+            if neighbour is None:
+                stop = "no_valid_neighbors"
+                break
+
+            neighbour_value = evaluate(self.problem, neighbour)
+            evals += 1
+            delta = neighbour_value - current_value
+
+            is_accepted = delta > 0
+            if is_accepted:
+                current = neighbour
+                current_value = neighbour_value
+                accepted += 1
+                if current_value > best_value:
+                    best = current.copy()
+                    best_value = current_value
+
+            iteration += 1
+            history.append(
+                {
+                    "iteration": iteration,
+                    "current_value": current_value,
+                    "best_value": best_value,
+                    "accepted": is_accepted,
+                }
+            )
+
+        return build_result(
+            "stochastic", {"max_iterations": max_iterations},
+            start, history[0]["current_value"], best, best_value,
+            iteration, accepted, evals, time.perf_counter() - t0, stop, history,
+            {"max_iterations": max_iterations, "rejected_moves": iteration - accepted},
         )
