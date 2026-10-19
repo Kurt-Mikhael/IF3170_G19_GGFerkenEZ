@@ -10,25 +10,40 @@
 \contentsline {section}{\numberline {2.3}Algoritma \textit {Genetic Algorithm}}{10}{section.2.3}%
 \contentsline {chapter}{\numberline {3}Implementasi}{12}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Arsitektur dan Struktur Program}{12}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Representasi State, Fungsi Objektif, dan Constraints}{12}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Representasi Neighbor dan State Awal}{12}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Implementasi Kelas-kelas Pendukung}{12}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Implementasi Algoritma Hill-climbing}{12}{section.3.5}%
-\contentsline {section}{\numberline {3.6}Implementasi Algoritma Simulated Annealing}{12}{section.3.6}%
-\contentsline {section}{\numberline {3.7}Implementasi Algoritma Genetic Algorithm}{12}{section.3.7}%
-\contentsline {chapter}{\numberline {4}Hasil Eksperimen dan Analisis}{13}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Eksperimen Algoritma \textit {Hill-climbing }}{13}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}\textit {Steepest Ascent Hill-climbing}}{13}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}\textit {Hill-climbing with Sideways Move}}{13}{subsection.4.1.2}%
-\contentsline {subsection}{\numberline {4.1.3}\textit {Random Restart Hill-climbing}}{13}{subsection.4.1.3}%
-\contentsline {subsection}{\numberline {4.1.4}\textit {Stochastic Hill-climbing}}{13}{subsection.4.1.4}%
-\contentsline {section}{\numberline {4.2}Eksperimen Algoritma \textit {Simulated Annealing}}{13}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Eksperimen Algoritma \textit {Genetic Algorithm}}{13}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Analisis Hasil Eksperimen}{13}{section.4.4}%
-\contentsline {chapter}{\numberline {5}Kesimpulan dan Saran}{14}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Kesimpulan}{14}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Saran}{14}{section.5.2}%
-\contentsline {chapter}{Referensi}{15}{chapter*.3}%
-\contentsline {chapter}{Lampiran}{16}{section*.5}%
-\contentsline {section}{Pembagian Tugas}{16}{section*.6}%
-\contentsline {section}{Form Pengunaan AI}{17}{table.Alph0.1}%
+\contentsline {section}{\numberline {3.2}Representasi State, Fungsi Objektif, dan Constraints}{14}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Representasi State}{14}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Fungsi Objektif}{15}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Constraints}{15}{subsection.3.2.3}%
+\contentsline {section}{\numberline {3.3}Representasi Neighbor dan State Awal}{19}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Pembangkitan State Awal}{19}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Operasi Tetangga}{20}{subsection.3.3.2}%
+\contentsline {section}{\numberline {3.4}Implementasi Kelas-kelas Pendukung}{24}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}truck.py}{24}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}package.py}{25}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}problem.py}{27}{subsection.3.4.3}%
+\contentsline {subsection}{\numberline {3.4.4}placement.py}{27}{subsection.3.4.4}%
+\contentsline {subsection}{\numberline {3.4.5}state.py}{28}{subsection.3.4.5}%
+\contentsline {subsection}{\numberline {3.4.6}reader.py}{30}{subsection.3.4.6}%
+\contentsline {subsection}{\numberline {3.4.7}common.py}{31}{subsection.3.4.7}%
+\contentsline {section}{\numberline {3.5}Implementasi Algoritma Hill-climbing}{33}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}hill\_climb.py}{33}{subsection.3.5.1}%
+\contentsline {section}{\numberline {3.6}Implementasi Algoritma Simulated Annealing}{41}{section.3.6}%
+\contentsline {subsection}{\numberline {3.6.1}simulated\_annealing.py}{41}{subsection.3.6.1}%
+\contentsline {section}{\numberline {3.7}Implementasi Algoritma Genetic Algorithm}{48}{section.3.7}%
+\contentsline {subsection}{\numberline {3.7.1}genetic\_algorithm.py}{48}{subsection.3.7.1}%
+\contentsline {chapter}{\numberline {4}Hasil Eksperimen dan Analisis}{60}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Eksperimen Algoritma \textit {Hill-climbing }}{60}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}\textit {Steepest Ascent Hill-climbing}}{60}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}\textit {Hill-climbing with Sideways Move}}{60}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}\textit {Random Restart Hill-climbing}}{60}{subsection.4.1.3}%
+\contentsline {subsection}{\numberline {4.1.4}\textit {Stochastic Hill-climbing}}{60}{subsection.4.1.4}%
+\contentsline {section}{\numberline {4.2}Eksperimen Algoritma \textit {Simulated Annealing}}{60}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Eksperimen Algoritma \textit {Genetic Algorithm}}{60}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Analisis Hasil Eksperimen}{60}{section.4.4}%
+\contentsline {chapter}{\numberline {5}Kesimpulan dan Saran}{61}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Kesimpulan}{61}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Saran}{61}{section.5.2}%
+\contentsline {chapter}{Referensi}{62}{chapter*.3}%
+\contentsline {chapter}{Lampiran}{63}{section*.5}%
+\contentsline {section}{Pembagian Tugas}{63}{section*.6}%
+\contentsline {section}{Form Pengunaan AI}{64}{table.Alph0.1}%
