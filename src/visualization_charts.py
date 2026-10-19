@@ -44,18 +44,18 @@ def algorithm_view(result):
         )
 
     elif algorithm == "random_restart":
-        searches = pd.DataFrame(extra["restarts"])
-        labels = [
-            f"Pencarian {i}" + (" (terbaik)" if i == extra["best_search"] else "")
-            for i in searches["search_id"]
-        ]
         fig = go.Figure()
-        for field, label in [("initial_value", "Nilai awal"), ("final_value", "Nilai akhir")]:
-            fig.add_bar(x=labels, y=searches[field], name=label)
+        for search_id, part in history.groupby("search_id"):
+            label = f"Pencarian {search_id} ({extra['iterations_per_search'][search_id]} it)"
+            if search_id == extra["best_search"]:
+                label += " (terbaik)"
+            fig.add_scatter(x=part["iteration"], y=part["current_value"], mode="lines+markers", name=label)
+        fig.add_scatter(x=history["iteration"], y=history["best_value"], mode="lines",
+                        name="Terbaik sepanjang pencarian", line={"dash": "dash"})
         fig.update_layout(
-            title=f"{title} | Jumlah pencarian: {extra['num_searches']}",
-            barmode="group",
-            xaxis_title="Pencarian 0 adalah pencarian pertama",
+            title=(f"{title} | Restart: {extra['restart_count']} dari maks {extra['maximum_restart']}"
+                   f" | Total iterasi: {extra['total_iterations']}"),
+            xaxis_title="Iterasi (kumulatif seluruh pencarian)",
             yaxis_title="Nilai state",
         )
 
@@ -64,7 +64,7 @@ def algorithm_view(result):
             rows=3,
             cols=1,
             shared_xaxes=True,
-            subplot_titles=("Nilai state", "Suhu", "Probabilitas penerimaan proposal"),
+            subplot_titles=("Nilai state", "Suhu", "Probabilitas penerimaan min(1, e^(ΔE/T))"),
         )
         for field, label, row in [
             ("current_value", "Nilai saat ini", 1),
@@ -81,7 +81,7 @@ def algorithm_view(result):
         fig.update_yaxes(title_text="Suhu", type="log", row=2, col=1)
         fig.update_yaxes(title_text="Probabilitas", range=[0, 1.05], row=3, col=1)
         fig.update_xaxes(title_text="Iterasi", row=3, col=1)
-        fig.update_layout(title=title, height=750)
+        fig.update_layout(title=f"{title} | Stuck di local optima: {extra.get('stuck_count', 0)} kali", height=750)
 
     elif algorithm == "genetic_algorithm":
         fig = go.Figure()
