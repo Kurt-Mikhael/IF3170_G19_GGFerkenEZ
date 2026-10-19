@@ -1,0 +1,13 @@
+{
+  "truck": {"dimensions": {"w": 3, "l": 2, "h": 3}, "max_capacity": 20},
+  "packages": [
+    {"id": "base", "dimensions": {"w": 3, "l": 2, "h": 1}, "value": 18, "weight": 5, "is_fragile": false, "eta": 0},
+    {"id": "platform", "dimensions": {"w": 2, "l": 2, "h": 1}, "value": 16, "weight": 4, "is_fragile": false, "eta": 0},
+    {"id": "pillar", "dimensions": {"w": 1, "l": 1, "h": 2}, "value": 12, "weight": 2, "is_fragile": false, "eta": 0},
+    {"id": "fragile_wide", "dimensions": {"w": 2, "l": 1, "h": 1}, "value": 30, "weight": 2, "is_fragile": true, "eta": 0},
+    {"id": "fragile_a", "dimensions": {"w": 1, "l": 1, "h": 1}, "value": 15, "weight": 1, "is_fragile": true, "eta": 0},
+    {"id": "fragile_b", "dimensions": {"w": 1, "l": 1, "h": 1}, "value": 14, "weight": 1, "is_fragile": true, "eta": 0},
+    {"id": "support_cube", "dimensions": {"w": 1, "l": 1, "h": 1}, "value": 5, "weight": 1, "is_fragile": false, "eta": 0},
+    {"id": "support_bar", "dimensions": {"w": 2, "l": 1, "h": 1}, "value": 9, "weight": 2, "is_fragile": false, "eta": 0}
+  ]
+}
