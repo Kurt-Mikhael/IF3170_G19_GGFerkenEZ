@@ -1,4 +1,4 @@
-import math
+﻿import math
 import time
 
 from src.algorithms.common import build_result
@@ -34,7 +34,7 @@ class SimulatedAnnealing:
         accepted = 0
         bad_accepted = 0
         bad_rejected = 0
-        # definisi stuck: state dianggap terjebak di local optimum jika selama stuck_patience iterasi berturut-turut tidak ada satu pun tetangga acak yang lebih baik dari state saat ini. Satu episode stuck dihitung sekali dan dianggap lolos ketika akhirnya ditemukan tetangga yang lebih baik.
+        # definisi stuck: state dianggap terjebak selama periode tertentu jika selama stuck_patience iterasi berturut-turut tidak ada satu pun tetangga acak yang lebih baik dari state saat ini. Satu episode stuck dihitung sekali dan dianggap lolos ketika akhirnya ditemukan tetangga yang lebih baik.
         stuck_count = 0
         stuck_iterations = 0
         no_improve_streak = 0

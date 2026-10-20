@@ -1,0 +1,1978 @@
+{
+  "algorithm": "random_restart",
+  "parameters": {
+    "maximum_restart": 3
+  },
+  "initial_state": {
+    "placements": {
+      "crate_big": {
+        "position": null,
+        "orientation": [
+          "x",
+          "y",
+          "z"
+        ]
+      },
+      "crate_flat": {
+        "position": [
+          1,
+          0,
+          0
+        ],
+        "orientation": [
+          "x",
+          "z",
+          "y"
+        ]
+      },
+      "rotate_pole": {
+        "position": [
+          0,
+          0,
+          2
+        ],
+        "orientation": [
+          "z",
+          "y",
+          "x"
+        ]
+      },
+      "tall_post": {
+        "position": [
+          0,
+          1,
+          2
+        ],
+        "orientation": [
+          "x",
+          "z",
+          "y"
+        ]
+      },
+      "plank": {
+        "position": [
+          0,
+          3,
+          1
+        ],
+        "orientation": [
+          "x",
+          "z",
+          "y"
+        ]
+      },
+      "box_upright": {
+        "position": [
+          1,
+          2,
+          0
+        ],
+        "orientation": [
+          "x",
+          "y",
+          "z"
+        ]
+      },
+      "box_square": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "orientation": [
+          "z",
+          "y",
+          "x"
+        ]
+      },
+      "cube_a": {
+        "position": [
+          3,
+          3,
+          0
+        ],
+        "orientation": [
+          "x",
+          "z",
+          "y"
+        ]
+      },
+      "cube_b": {
+        "position": null,
+        "orientation": [
+          "x",
+          "y",
+          "z"
+        ]
+      },
+      "cube_c": {
+        "position": [
+          1,
+          2,
+          2
+        ],
+        "orientation": [
+          "z",
+          "y",
+          "x"
+        ]
+      },
+      "glass_vase": {
+        "position": [
+          3,
+          2,
+          0
+        ],
+        "orientation": [
+          "y",
+          "x",
+          "z"
+        ]
+      },
+      "glass_plate": {
+        "position": null,
+        "orientation": [
+          "x",
+          "y",
+          "z"
+        ]
+      },
+      "egg_tray": {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "orientation": [
+          "x",
+          "z",
+          "y"
+        ]
+      },
+      "heavy_safe": {
+        "position": null,
+        "orientation": [
+          "x",
+          "y",
+          "z"
+        ]
+      },
+      "gold_bar": {
+        "position": [
+          1,
+          3,
+          2
+        ],
+        "orientation": [
+          "y",
+          "x",
+          "z"
+        ]
+      },
+      "trap_too_long": {
+        "position": null,
+        "orientation": [
+          "x",
+          "y",
+          "z"
+        ]
+      }
+    }
+  },
+  "final_state": {
+    "placements": {
+      "crate_big": {
+        "position": null,
+        "orientation": [
+          "x",
+          "y",
+          "z"
+        ]
+      },
+      "crate_flat": {
+        "position": [
+          3,
+          0,
+          1
+        ],
+        "orientation": [
+          "y",
+          "z",
+          "x"
+        ]
+      },
+      "rotate_pole": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "orientation": [
+          "y",
+          "z",
+          "x"
+        ]
+      },
+      "tall_post": {
+        "position": [
+          0,
+          1,
+          0
+        ],
+        "orientation": [
+          "x",
+          "y",
+          "z"
+        ]
+      },
+      "plank": {
+        "position": [
+          0,
+          3,
+          1
+        ],
+        "orientation": [
+          "x",
+          "z",
+          "y"
+        ]
+      },
+      "box_upright": {
+        "position": null,
+        "orientation": [
+          "x",
+          "z",
+          "y"
+        ]
+      },
+      "box_square": {
+        "position": [
+          0,
+          2,
+          0
+        ],
+        "orientation": [
+          "x",
+          "y",
+          "z"
+        ]
+      },
+      "cube_a": {
+        "position": [
+          0,
+          3,
+          2
+        ],
+        "orientation": [
+          "y",
+          "z",
+          "x"
+        ]
+      },
+      "cube_b": {
+        "position": [
+          3,
+          1,
+          0
+        ],
+        "orientation": [
+          "z",
+          "x",
+          "y"
+        ]
+      },
+      "cube_c": {
+        "position": [
+          2,
+          0,
+          1
+        ],
+        "orientation": [
+          "y",
+          "x",
+          "z"
+        ]
+      },
+      "glass_vase": {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "orientation": [
+          "y",
+          "z",
+          "x"
+        ]
+      },
+      "glass_plate": {
+        "position": [
+          1,
+          2,
+          2
+        ],
+        "orientation": [
+          "x",
+          "y",
+          "z"
+        ]
+      },
+      "egg_tray": {
+        "position": [
+          0,
+          0,
+          1
+        ],
+        "orientation": [
+          "x",
+          "y",
+          "z"
+        ]
+      },
+      "heavy_safe": {
+        "position": null,
+        "orientation": [
+          "x",
+          "y",
+          "z"
+        ]
+      },
+      "gold_bar": {
+        "position": [
+          0,
+          2,
+          1
+        ],
+        "orientation": [
+          "x",
+          "z",
+          "y"
+        ]
+      },
+      "trap_too_long": {
+        "position": null,
+        "orientation": [
+          "x",
+          "y",
+          "z"
+        ]
+      }
+    }
+  },
+  "initial_value": 253,
+  "final_value": 271,
+  "iterations": 8,
+  "accepted_moves": 4,
+  "objective_evaluations": 555,
+  "duration_seconds": 0.6900703000064823,
+  "stop_reason": "no_improving_neighbor",
+  "history": [
+    {
+      "iteration": 0,
+      "search_id": 0,
+      "local_iteration": 0,
+      "current_value": 253,
+      "best_value": 253
+    },
+    {
+      "iteration": 1,
+      "search_id": 0,
+      "local_iteration": 1,
+      "current_value": 255,
+      "best_value": 255
+    },
+    {
+      "iteration": 2,
+      "search_id": 0,
+      "local_iteration": 2,
+      "current_value": 255,
+      "best_value": 255
+    },
+    {
+      "iteration": 3,
+      "search_id": 1,
+      "local_iteration": 0,
+      "current_value": 242,
+      "best_value": 255
+    },
+    {
+      "iteration": 4,
+      "search_id": 1,
+      "local_iteration": 1,
+      "current_value": 268,
+      "best_value": 268
+    },
+    {
+      "iteration": 5,
+      "search_id": 1,
+      "local_iteration": 2,
+      "current_value": 268,
+      "best_value": 268
+    },
+    {
+      "iteration": 6,
+      "search_id": 2,
+      "local_iteration": 0,
+      "current_value": 246,
+      "best_value": 268
+    },
+    {
+      "iteration": 7,
+      "search_id": 2,
+      "local_iteration": 1,
+      "current_value": 256,
+      "best_value": 268
+    },
+    {
+      "iteration": 8,
+      "search_id": 2,
+      "local_iteration": 2,
+      "current_value": 271,
+      "best_value": 271
+    },
+    {
+      "iteration": 9,
+      "search_id": 2,
+      "local_iteration": 3,
+      "current_value": 271,
+      "best_value": 271
+    },
+    {
+      "iteration": 10,
+      "search_id": 3,
+      "local_iteration": 0,
+      "current_value": 240,
+      "best_value": 271
+    },
+    {
+      "iteration": 11,
+      "search_id": 3,
+      "local_iteration": 1,
+      "current_value": 240,
+      "best_value": 271
+    }
+  ],
+  "extra": {
+    "maximum_restart": 3,
+    "num_searches": 4,
+    "restart_count": 3,
+    "best_search": 2,
+    "total_iterations": 8,
+    "iterations_per_search": [
+      2,
+      2,
+      3,
+      1
+    ],
+    "restarts": [
+      {
+        "search_id": 0,
+        "initial_state": {
+          "placements": {
+            "crate_big": {
+              "position": null,
+              "orientation": [
+                "x",
+                "y",
+                "z"
+              ]
+            },
+            "crate_flat": {
+              "position": [
+                1,
+                0,
+                0
+              ],
+              "orientation": [
+                "x",
+                "z",
+                "y"
+              ]
+            },
+            "rotate_pole": {
+              "position": [
+                0,
+                0,
+                2
+              ],
+              "orientation": [
+                "z",
+                "y",
+                "x"
+              ]
+            },
+            "tall_post": {
+              "position": [
+                0,
+                1,
+                2
+              ],
+              "orientation": [
+                "x",
+                "z",
+                "y"
+              ]
+            },
+            "plank": {
+              "position": [
+                0,
+                3,
+                1
+              ],
+              "orientation": [
+                "x",
+                "z",
+                "y"
+              ]
+            },
+            "box_upright": {
+              "position": [
+                1,
+                2,
+                0
+              ],
+              "orientation": [
+                "x",
+                "y",
+                "z"
+              ]
+            },
+            "box_square": {
+              "position": [
+                0,
+                0,
+                0
+              ],
+              "orientation": [
+                "z",
+                "y",
+                "x"
+              ]
+            },
+            "cube_a": {
+              "position": [
+                3,
+                3,
+                0
+              ],
+              "orientation": [
+                "x",
+                "z",
+                "y"
+              ]
+            },
+            "cube_b": {
+              "position": null,
+              "orientation": [
+                "x",
+                "y",
+                "z"
+              ]
+            },
+            "cube_c": {
+              "position": [
+                1,
+                2,
+                2
+              ],
+              "orientation": [
+                "z",
+                "y",
+                "x"
+              ]
+            },
+            "glass_vase": {
+              "position": [
+                3,
+                2,
+                0
+              ],
+              "orientation": [
+                "y",
+                "x",
+                "z"
+              ]
+            },
+            "glass_plate": {
+              "position": null,
+              "orientation": [
+                "x",
+                "y",
+                "z"
+              ]
+            },
+            "egg_tray": {
+              "position": [
+                1,
+                1,
+                0
+              ],
+              "orientation": [
+                "x",
+                "z",
+                "y"
+              ]
+            },
+            "heavy_safe": {
+              "position": null,
+              "orientation": [
+                "x",
+                "y",
+                "z"
+              ]
+            },
+            "gold_bar": {
+              "position": [
+                1,
+                3,
+                2
+              ],
+              "orientation": [
+                "y",
+                "x",
+                "z"
+              ]
+            },
+            "trap_too_long": {
+              "position": null,
+              "orientation": [
+                "x",
+                "y",
+                "z"
+              ]
+            }
+          }
+        },
+        "final_state": {
+          "placements": {
+            "crate_big": {
+              "position": null,
+              "orientation": [
+                "x",
+                "y",
+                "z"
+              ]
+            },
+            "crate_flat": {
+              "position": [
+                1,
+                0,
+                0
+              ],
+              "orientation": [
+                "x",
+                "z",
+                "y"
+              ]
+            },
+            "rotate_pole": {
+              "position": [
+                0,
+                0,
+                2
+              ],
+              "orientation": [
+                "z",
+                "y",
+                "x"
+              ]
+            },
+            "tall_post": {
+              "position": [
+                0,
+                1,
+                2
+              ],
+              "orientation": [
+                "x",
+                "z",
+                "y"
+              ]
+            },
+            "plank": {
+              "position": [
+                0,
+                3,
+                1
+              ],
+              "orientation": [
+                "x",
+                "z",
+                "y"
+              ]
+            },
+            "box_upright": {
+              "position": [
+                1,
+                2,
+                0
+              ],
+              "orientation": [
+                "x",
+                "y",
+                "z"
+              ]
+            },
+            "box_square": {
+              "position": [
+                0,
+                0,
+                0
+              ],
+              "orientation": [
+                "z",
+                "y",
+                "x"
+              ]
+            },
+            "cube_a": {
+              "position": [
+                3,
+                3,
+                0
+              ],
+              "orientation": [
+                "x",
+                "z",
+                "y"
+              ]
+            },
+            "cube_b": {
+              "position": [
+                1,
+                2,
+                2
+              ],
+              "orientation": [
+                "x",
+                "y",
+                "z"
+              ]
+            },
+            "cube_c": {
+              "position": null,
+              "orientation": [
+                "z",
+                "y",
+                "x"
+              ]
+            },
+            "glass_vase": {
+              "position": [
+                3,
+                2,
+                0
+              ],
+              "orientation": [
+                "y",
+                "x",
+                "z"
+              ]
+            },
+            "glass_plate": {
+              "position": null,
+              "orientation": [
+                "x",
+                "y",
+                "z"
+              ]
+            },
+            "egg_tray": {
+              "position": [
+                1,
+                1,
+                0
+              ],
+              "orientation": [
+                "x",
+                "z",
+                "y"
+              ]
+            },
+            "heavy_safe": {
+              "position": null,
+              "orientation": [
+                "x",
+                "y",
+                "z"
+              ]
+            },
+            "gold_bar": {
+              "position": [
+                1,
+                3,
+                2
+              ],
+              "orientation": [
+                "y",
+                "x",
+                "z"
+              ]
+            },
+            "trap_too_long": {
+              "position": null,
+              "orientation": [
+                "x",
+                "y",
+                "z"
+              ]
+            }
+          }
+        },
+        "initial_value": 253,
+        "final_value": 255,
+        "iterations": 2,
+        "accepted_moves": 1,
+        "stop_reason": "no_improving_neighbor",
+        "history": [
+          {
+            "iteration": 0,
+            "current_value": 253,
+            "best_value": 253
+          },
+          {
+            "iteration": 1,
+            "current_value": 255,
+            "best_value": 255
+          },
+          {
+            "iteration": 2,
+            "current_value": 255,
+            "best_value": 255
+          }
+        ]
+      },
+      {
+        "search_id": 1,
+        "initial_state": {
+          "placements": {
+            "crate_big": {
+              "position": [
+                1,
+                2,
+                1
+              ],
+              "orientation": [
+                "z",
+                "y",
+                "x"
+              ]
+            },
+            "crate_flat": {
+              "position": null,
+              "orientation": [
+                "x",
+                "y",
+                "z"
+              ]
+            },
+            "rotate_pole": {
+              "position": [
+                0,
+                0,
+                0
+              ],
+              "orientation": [
+                "x",
+                "z",
+                "y"
+              ]
+            },
+            "tall_post": {
+              "position": [
+                2,
+                1,
+                0
+              ],
+              "orientation": [
+                "x",
+                "y",
+                "z"
+              ]
+            },
+            "plank": {
+              "position": [
+                3,
+                0,
+                2
+              ],
+              "orientation": [
+                "y",
+                "z",
+                "x"
+              ]
+            },
+            "box_upright": {
+              "position": [
+                3,
+                0,
+                0
+              ],
+              "orientation": [
+                "z",
+                "x",
+                "y"
+              ]
+            },
+            "box_square": {
+              "position": null,
+              "orientation": [
+                "x",
+                "y",
+                "z"
+              ]
+            },
+            "cube_a": {
+              "position": [
+                0,
+                0,
+                1
+              ],
+              "orientation": [
+                "z",
+                "x",
+                "y"
+              ]
+            },
+            "cube_b": {
+              "position": [
+                0,
+                3,
+                1
+              ],
+              "orientation": [
+                "z",
+                "y",
+                "x"
+              ]
+            },
+            "cube_c": {
+              "position": [
+                1,
+                0,
+                0
+              ],
+              "orientation": [
+                "y",
+                "x",
+                "z"
+              ]
+            },
+            "glass_vase": {
+              "position": null,
+              "orientation": [
+                "x",
+                "y",
+                "z"
+              ]
+            },
+            "glass_plate": {
+              "position": [
+                0,
+                1,
+                1
+              ],
+              "orientation": [
+                "z",
+                "x",
+                "y"
+              ]
+            },
+            "egg_tray": {
+              "position": [
+                2,
+                0,
+                0
+              ],
+              "orientation": [
+                "z",
+                "x",
+                "y"
+              ]
+            },
+            "heavy_safe": {
+              "position": null,
+              "orientation": [
+                "x",
+                "y",
+                "z"
+              ]
+            },
+            "gold_bar": {
+              "position": [
+                1,
+                1,
+                0
+              ],
+              "orientation": [
+                "z",
+                "y",
+                "x"
+              ]
+            },
+            "trap_too_long": {
+              "position": null,
+              "orientation": [
+                "x",
+                "y",
+                "z"
+              ]
+            }
+          }
+        },
+        "final_state": {
+          "placements": {
+            "crate_big": {
+              "position": [
+                1,
+                2,
+                1
+              ],
+              "orientation": [
+                "z",
+                "y",
+                "x"
+              ]
+            },
+            "crate_flat": {
+              "position": null,
+              "orientation": [
+                "x",
+                "y",
+                "z"
+              ]
+            },
+            "rotate_pole": {
+              "position": [
+                0,
+                0,
+                0
+              ],
+              "orientation": [
+                "x",
+                "z",
+                "y"
+              ]
+            },
+            "tall_post": {
+              "position": [
+                2,
+                1,
+                0
+              ],
+              "orientation": [
+                "x",
+                "y",
+                "z"
+              ]
+            },
+            "plank": {
+              "position": [
+                3,
+                0,
+                2
+              ],
+              "orientation": [
+                "y",
+                "z",
+                "x"
+              ]
+            },
+            "box_upright": {
+              "position": [
+                3,
+                0,
+                0
+              ],
+              "orientation": [
+                "z",
+                "x",
+                "y"
+              ]
+            },
+            "box_square": {
+              "position": null,
+              "orientation": [
+                "x",
+                "y",
+                "z"
+              ]
+            },
+            "cube_a": {
+              "position": null,
+              "orientation": [
+                "z",
+                "x",
+                "y"
+              ]
+            },
+            "cube_b": {
+              "position": [
+                0,
+                3,
+                1
+              ],
+              "orientation": [
+                "z",
+                "y",
+                "x"
+              ]
+            },
+            "cube_c": {
+              "position": [
+                1,
+                0,
+                0
+              ],
+              "orientation": [
+                "y",
+                "x",
+                "z"
+              ]
+            },
+            "glass_vase": {
+              "position": [
+                0,
+                0,
+                1
+              ],
+              "orientation": [
+                "x",
+                "y",
+                "z"
+              ]
+            },
+            "glass_plate": {
+              "position": [
+                0,
+                1,
+                1
+              ],
+              "orientation": [
+                "z",
+                "x",
+                "y"
+              ]
+            },
+            "egg_tray": {
+              "position": [
+                2,
+                0,
+                0
+              ],
+              "orientation": [
+                "z",
+                "x",
+                "y"
+              ]
+            },
+            "heavy_safe": {
+              "position": null,
+              "orientation": [
+                "x",
+                "y",
+                "z"
+              ]
+            },
+            "gold_bar": {
+              "position": [
+                1,
+                1,
+                0
+              ],
+              "orientation": [
+                "z",
+                "y",
+                "x"
+              ]
+            },
+            "trap_too_long": {
+              "position": null,
+              "orientation": [
+                "x",
+                "y",
+                "z"
+              ]
+            }
+          }
+        },
+        "initial_value": 242,
+        "final_value": 268,
+        "iterations": 2,
+        "accepted_moves": 1,
+        "stop_reason": "no_improving_neighbor",
+        "history": [
+          {
+            "iteration": 0,
+            "current_value": 242,
+            "best_value": 242
+          },
+          {
+            "iteration": 1,
+            "current_value": 268,
+            "best_value": 268
+          },
+          {
+            "iteration": 2,
+            "current_value": 268,
+            "best_value": 268
+          }
+        ]
+      },
+      {
+        "search_id": 2,
+        "initial_state": {
+          "placements": {
+            "crate_big": {
+              "position": null,
+              "orientation": [
+                "x",
+                "y",
+                "z"
+              ]
+            },
+            "crate_flat": {
+              "position": [
+                3,
+                0,
+                1
+              ],
+              "orientation": [
+                "y",
+                "z",
+                "x"
+              ]
+            },
+            "rotate_pole": {
+              "position": [
+                0,
+                0,
+                0
+              ],
+              "orientation": [
+                "y",
+                "z",
+                "x"
+              ]
+            },
+            "tall_post": {
+              "position": null,
+              "orientation": [
+                "x",
+                "y",
+                "z"
+              ]
+            },
+            "plank": {
+              "position": [
+                0,
+                3,
+                1
+              ],
+              "orientation": [
+                "x",
+                "z",
+                "y"
+              ]
+            },
+            "box_upright": {
+              "position": [
+                1,
+                2,
+                2
+              ],
+              "orientation": [
+                "x",
+                "z",
+                "y"
+              ]
+            },
+            "box_square": {
+              "position": [
+                0,
+                2,
+                0
+              ],
+              "orientation": [
+                "x",
+                "y",
+                "z"
+              ]
+            },
+            "cube_a": {
+              "position": [
+                0,
+                3,
+                2
+              ],
+              "orientation": [
+                "y",
+                "z",
+                "x"
+              ]
+            },
+            "cube_b": {
+              "position": [
+                3,
+                1,
+                0
+              ],
+              "orientation": [
+                "z",
+                "x",
+                "y"
+              ]
+            },
+            "cube_c": {
+              "position": [
+                2,
+                0,
+                1
+              ],
+              "orientation": [
+                "y",
+                "x",
+                "z"
+              ]
+            },
+            "glass_vase": {
+              "position": [
+                1,
+                1,
+                0
+              ],
+              "orientation": [
+                "y",
+                "z",
+                "x"
+              ]
+            },
+            "glass_plate": {
+              "position": null,
+              "orientation": [
+                "x",
+                "y",
+                "z"
+              ]
+            },
+            "egg_tray": {
+              "position": [
+                0,
+                0,
+                1
+              ],
+              "orientation": [
+                "x",
+                "y",
+                "z"
+              ]
+            },
+            "heavy_safe": {
+              "position": null,
+              "orientation": [
+                "x",
+                "y",
+                "z"
+              ]
+            },
+            "gold_bar": {
+              "position": [
+                0,
+                2,
+                1
+              ],
+              "orientation": [
+                "x",
+                "z",
+                "y"
+              ]
+            },
+            "trap_too_long": {
+              "position": null,
+              "orientation": [
+                "x",
+                "y",
+                "z"
+              ]
+            }
+          }
+        },
+        "final_state": {
+          "placements": {
+            "crate_big": {
+              "position": null,
+              "orientation": [
+                "x",
+                "y",
+                "z"
+              ]
+            },
+            "crate_flat": {
+              "position": [
+                3,
+                0,
+                1
+              ],
+              "orientation": [
+                "y",
+                "z",
+                "x"
+              ]
+            },
+            "rotate_pole": {
+              "position": [
+                0,
+                0,
+                0
+              ],
+              "orientation": [
+                "y",
+                "z",
+                "x"
+              ]
+            },
+            "tall_post": {
+              "position": [
+                0,
+                1,
+                0
+              ],
+              "orientation": [
+                "x",
+                "y",
+                "z"
+              ]
+            },
+            "plank": {
+              "position": [
+                0,
+                3,
+                1
+              ],
+              "orientation": [
+                "x",
+                "z",
+                "y"
+              ]
+            },
+            "box_upright": {
+              "position": null,
+              "orientation": [
+                "x",
+                "z",
+                "y"
+              ]
+            },
+            "box_square": {
+              "position": [
+                0,
+                2,
+                0
+              ],
+              "orientation": [
+                "x",
+                "y",
+                "z"
+              ]
+            },
+            "cube_a": {
+              "position": [
+                0,
+                3,
+                2
+              ],
+              "orientation": [
+                "y",
+                "z",
+                "x"
+              ]
+            },
+            "cube_b": {
+              "position": [
+                3,
+                1,
+                0
+              ],
+              "orientation": [
+                "z",
+                "x",
+                "y"
+              ]
+            },
+            "cube_c": {
+              "position": [
+                2,
+                0,
+                1
+              ],
+              "orientation": [
+                "y",
+                "x",
+                "z"
+              ]
+            },
+            "glass_vase": {
+              "position": [
+                1,
+                1,
+                0
+              ],
+              "orientation": [
+                "y",
+                "z",
+                "x"
+              ]
+            },
+            "glass_plate": {
+              "position": [
+                1,
+                2,
+                2
+              ],
+              "orientation": [
+                "x",
+                "y",
+                "z"
+              ]
+            },
+            "egg_tray": {
+              "position": [
+                0,
+                0,
+                1
+              ],
+              "orientation": [
+                "x",
+                "y",
+                "z"
+              ]
+            },
+            "heavy_safe": {
+              "position": null,
+              "orientation": [
+                "x",
+                "y",
+                "z"
+              ]
+            },
+            "gold_bar": {
+              "position": [
+                0,
+                2,
+                1
+              ],
+              "orientation": [
+                "x",
+                "z",
+                "y"
+              ]
+            },
+            "trap_too_long": {
+              "position": null,
+              "orientation": [
+                "x",
+                "y",
+                "z"
+              ]
+            }
+          }
+        },
+        "initial_value": 246,
+        "final_value": 271,
+        "iterations": 3,
+        "accepted_moves": 2,
+        "stop_reason": "no_improving_neighbor",
+        "history": [
+          {
+            "iteration": 0,
+            "current_value": 246,
+            "best_value": 246
+          },
+          {
+            "iteration": 1,
+            "current_value": 256,
+            "best_value": 256
+          },
+          {
+            "iteration": 2,
+            "current_value": 271,
+            "best_value": 271
+          },
+          {
+            "iteration": 3,
+            "current_value": 271,
+            "best_value": 271
+          }
+        ]
+      },
+      {
+        "search_id": 3,
+        "initial_state": {
+          "placements": {
+            "crate_big": {
+              "position": [
+                2,
+                1,
+                1
+              ],
+              "orientation": [
+                "x",
+                "z",
+                "y"
+              ]
+            },
+            "crate_flat": {
+              "position": null,
+              "orientation": [
+                "x",
+                "y",
+                "z"
+              ]
+            },
+            "rotate_pole": {
+              "position": null,
+              "orientation": [
+                "x",
+                "y",
+                "z"
+              ]
+            },
+            "tall_post": {
+              "position": null,
+              "orientation": [
+                "x",
+                "y",
+                "z"
+              ]
+            },
+            "plank": {
+              "position": [
+                1,
+                0,
+                0
+              ],
+              "orientation": [
+                "y",
+                "x",
+                "z"
+              ]
+            },
+            "box_upright": {
+              "position": [
+                1,
+                0,
+                1
+              ],
+              "orientation": [
+                "y",
+                "x",
+                "z"
+              ]
+            },
+            "box_square": {
+              "position": [
+                0,
+                0,
+                0
+              ],
+              "orientation": [
+                "z",
+                "y",
+                "x"
+              ]
+            },
+            "cube_a": {
+              "position": [
+                3,
+                0,
+                0
+              ],
+              "orientation": [
+                "y",
+                "z",
+                "x"
+              ]
+            },
+            "cube_b": {
+              "position": [
+                3,
+                1,
+                0
+              ],
+              "orientation": [
+                "z",
+                "y",
+                "x"
+              ]
+            },
+            "cube_c": {
+              "position": [
+                3,
+                0,
+                1
+              ],
+              "orientation": [
+                "x",
+                "z",
+                "y"
+              ]
+            },
+            "glass_vase": {
+              "position": [
+                0,
+                2,
+                1
+              ],
+              "orientation": [
+                "z",
+                "y",
+                "x"
+              ]
+            },
+            "glass_plate": {
+              "position": [
+                1,
+                3,
+                1
+              ],
+              "orientation": [
+                "x",
+                "z",
+                "y"
+              ]
+            },
+            "egg_tray": {
+              "position": null,
+              "orientation": [
+                "x",
+                "y",
+                "z"
+              ]
+            },
+            "heavy_safe": {
+              "position": null,
+              "orientation": [
+                "x",
+                "y",
+                "z"
+              ]
+            },
+            "gold_bar": {
+              "position": [
+                0,
+                3,
+                0
+              ],
+              "orientation": [
+                "y",
+                "z",
+                "x"
+              ]
+            },
+            "trap_too_long": {
+              "position": null,
+              "orientation": [
+                "x",
+                "y",
+                "z"
+              ]
+            }
+          }
+        },
+        "final_state": {
+          "placements": {
+            "crate_big": {
+              "position": [
+                2,
+                1,
+                1
+              ],
+              "orientation": [
+                "x",
+                "z",
+                "y"
+              ]
+            },
+            "crate_flat": {
+              "position": null,
+              "orientation": [
+                "x",
+                "y",
+                "z"
+              ]
+            },
+            "rotate_pole": {
+              "position": null,
+              "orientation": [
+                "x",
+                "y",
+                "z"
+              ]
+            },
+            "tall_post": {
+              "position": null,
+              "orientation": [
+                "x",
+                "y",
+                "z"
+              ]
+            },
+            "plank": {
+              "position": [
+                1,
+                0,
+                0
+              ],
+              "orientation": [
+                "y",
+                "x",
+                "z"
+              ]
+            },
+            "box_upright": {
+              "position": [
+                1,
+                0,
+                1
+              ],
+              "orientation": [
+                "y",
+                "x",
+                "z"
+              ]
+            },
+            "box_square": {
+              "position": [
+                0,
+                0,
+                0
+              ],
+              "orientation": [
+                "z",
+                "y",
+                "x"
+              ]
+            },
+            "cube_a": {
+              "position": [
+                3,
+                0,
+                0
+              ],
+              "orientation": [
+                "y",
+                "z",
+                "x"
+              ]
+            },
+            "cube_b": {
+              "position": [
+                3,
+                1,
+                0
+              ],
+              "orientation": [
+                "z",
+                "y",
+                "x"
+              ]
+            },
+            "cube_c": {
+              "position": [
+                3,
+                0,
+                1
+              ],
+              "orientation": [
+                "x",
+                "z",
+                "y"
+              ]
+            },
+            "glass_vase": {
+              "position": [
+                0,
+                2,
+                1
+              ],
+              "orientation": [
+                "z",
+                "y",
+                "x"
+              ]
+            },
+            "glass_plate": {
+              "position": [
+                1,
+                3,
+                1
+              ],
+              "orientation": [
+                "x",
+                "z",
+                "y"
+              ]
+            },
+            "egg_tray": {
+              "position": null,
+              "orientation": [
+                "x",
+                "y",
+                "z"
+              ]
+            },
+            "heavy_safe": {
+              "position": null,
+              "orientation": [
+                "x",
+                "y",
+                "z"
+              ]
+            },
+            "gold_bar": {
+              "position": [
+                0,
+                3,
+                0
+              ],
+              "orientation": [
+                "y",
+                "z",
+                "x"
+              ]
+            },
+            "trap_too_long": {
+              "position": null,
+              "orientation": [
+                "x",
+                "y",
+                "z"
+              ]
+            }
+          }
+        },
+        "initial_value": 240,
+        "final_value": 240,
+        "iterations": 1,
+        "accepted_moves": 0,
+        "stop_reason": "no_improving_neighbor",
+        "history": [
+          {
+            "iteration": 0,
+            "current_value": 240,
+            "best_value": 240
+          },
+          {
+            "iteration": 1,
+            "current_value": 240,
+            "best_value": 240
+          }
+        ]
+      }
+    ]
+  },
+  "total_duration_seconds": 0.7576110000009066,
+  "run_id": 3,
+  "seed": 44,
+  "input": "tc1"
+}

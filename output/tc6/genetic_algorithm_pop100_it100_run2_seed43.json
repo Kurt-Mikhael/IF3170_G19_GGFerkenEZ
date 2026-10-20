@@ -33,7 +33,7 @@
   "iterations": 100,
   "accepted_moves": 0,
   "objective_evaluations": 10100,
-  "duration_seconds": 0.32002189999911934,
+  "duration_seconds": 0.18647210000199266,
   "stop_reason": "iteration_limit_reached",
   "history": [
     {
@@ -1958,11 +1958,14 @@
       "crossover_probability": 0.8,
       "mutation_probability": 0.3,
       "elitism": false,
-      "repair_attempts": 20,
+      "crossover": "uniform_inheritance_without_relocation",
+      "overlap_priority": "package_value_then_footprint_area",
+      "invalid_placement": "outside",
+      "initial_placement_attempts": 20,
       "mutation_attempts": 10
     }
   },
-  "total_duration_seconds": 0.32028559999889694,
+  "total_duration_seconds": 0.1866338000036194,
   "run_id": 2,
   "seed": 43,
   "input": "tc6",

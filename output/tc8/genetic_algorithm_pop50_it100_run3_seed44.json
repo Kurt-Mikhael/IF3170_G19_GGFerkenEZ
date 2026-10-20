@@ -183,9 +183,9 @@
   "initial_value": 103,
   "final_value": 103,
   "iterations": 100,
-  "accepted_moves": 1414,
+  "accepted_moves": 1419,
   "objective_evaluations": 5050,
-  "duration_seconds": 0.6065583000017796,
+  "duration_seconds": 0.25923270000203047,
   "stop_reason": "iteration_limit_reached",
   "history": [
     {
@@ -197,601 +197,601 @@
     {
       "iteration": 1,
       "population_max": 103,
-      "population_mean": 74.66,
+      "population_mean": 68.82,
       "best_so_far": 103
     },
     {
       "iteration": 2,
       "population_max": 103,
-      "population_mean": 74.82,
+      "population_mean": 62.52,
       "best_so_far": 103
     },
     {
       "iteration": 3,
       "population_max": 103,
-      "population_mean": 78.28,
+      "population_mean": 60.52,
       "best_so_far": 103
     },
     {
       "iteration": 4,
-      "population_max": 103,
-      "population_mean": 76.86,
+      "population_max": 77,
+      "population_mean": 51.68,
       "best_so_far": 103
     },
     {
       "iteration": 5,
-      "population_max": 103,
-      "population_mean": 78.04,
+      "population_max": 91,
+      "population_mean": 53.24,
       "best_so_far": 103
     },
     {
       "iteration": 6,
-      "population_max": 103,
-      "population_mean": 80.34,
+      "population_max": 73,
+      "population_mean": 51.56,
       "best_so_far": 103
     },
     {
       "iteration": 7,
-      "population_max": 103,
-      "population_mean": 84.18,
+      "population_max": 76,
+      "population_mean": 48.9,
       "best_so_far": 103
     },
     {
       "iteration": 8,
-      "population_max": 103,
-      "population_mean": 79.28,
+      "population_max": 76,
+      "population_mean": 44.3,
       "best_so_far": 103
     },
     {
       "iteration": 9,
-      "population_max": 103,
-      "population_mean": 81.8,
+      "population_max": 73,
+      "population_mean": 45.48,
       "best_so_far": 103
     },
     {
       "iteration": 10,
-      "population_max": 103,
-      "population_mean": 81.86,
+      "population_max": 91,
+      "population_mean": 48.12,
       "best_so_far": 103
     },
     {
       "iteration": 11,
-      "population_max": 103,
-      "population_mean": 81.04,
+      "population_max": 91,
+      "population_mean": 49.6,
       "best_so_far": 103
     },
     {
       "iteration": 12,
-      "population_max": 103,
-      "population_mean": 81.24,
+      "population_max": 96,
+      "population_mean": 51.3,
       "best_so_far": 103
     },
     {
       "iteration": 13,
-      "population_max": 103,
-      "population_mean": 75.14,
+      "population_max": 96,
+      "population_mean": 46.28,
       "best_so_far": 103
     },
     {
       "iteration": 14,
-      "population_max": 103,
-      "population_mean": 78.24,
+      "population_max": 77,
+      "population_mean": 47.74,
       "best_so_far": 103
     },
     {
       "iteration": 15,
-      "population_max": 103,
-      "population_mean": 82.92,
+      "population_max": 77,
+      "population_mean": 50.14,
       "best_so_far": 103
     },
     {
       "iteration": 16,
-      "population_max": 103,
-      "population_mean": 80.62,
+      "population_max": 73,
+      "population_mean": 49.7,
       "best_so_far": 103
     },
     {
       "iteration": 17,
-      "population_max": 103,
-      "population_mean": 79.64,
+      "population_max": 73,
+      "population_mean": 46.52,
       "best_so_far": 103
     },
     {
       "iteration": 18,
-      "population_max": 103,
-      "population_mean": 81.4,
+      "population_max": 73,
+      "population_mean": 50.6,
       "best_so_far": 103
     },
     {
       "iteration": 19,
-      "population_max": 103,
-      "population_mean": 84.24,
+      "population_max": 73,
+      "population_mean": 57.44,
       "best_so_far": 103
     },
     {
       "iteration": 20,
-      "population_max": 103,
-      "population_mean": 85.42,
+      "population_max": 73,
+      "population_mean": 57.62,
       "best_so_far": 103
     },
     {
       "iteration": 21,
-      "population_max": 103,
-      "population_mean": 86.54,
+      "population_max": 73,
+      "population_mean": 53.26,
       "best_so_far": 103
     },
     {
       "iteration": 22,
-      "population_max": 103,
-      "population_mean": 84.34,
+      "population_max": 73,
+      "population_mean": 52.5,
       "best_so_far": 103
     },
     {
       "iteration": 23,
-      "population_max": 103,
-      "population_mean": 83.36,
+      "population_max": 75,
+      "population_mean": 56.94,
       "best_so_far": 103
     },
     {
       "iteration": 24,
-      "population_max": 103,
-      "population_mean": 84.34,
+      "population_max": 73,
+      "population_mean": 58.88,
       "best_so_far": 103
     },
     {
       "iteration": 25,
-      "population_max": 103,
-      "population_mean": 84.98,
+      "population_max": 80,
+      "population_mean": 55.6,
       "best_so_far": 103
     },
     {
       "iteration": 26,
-      "population_max": 103,
-      "population_mean": 86.38,
+      "population_max": 73,
+      "population_mean": 55.98,
       "best_so_far": 103
     },
     {
       "iteration": 27,
-      "population_max": 103,
-      "population_mean": 87.64,
+      "population_max": 73,
+      "population_mean": 55.64,
       "best_so_far": 103
     },
     {
       "iteration": 28,
-      "population_max": 103,
-      "population_mean": 90.38,
+      "population_max": 73,
+      "population_mean": 57.46,
       "best_so_far": 103
     },
     {
       "iteration": 29,
-      "population_max": 103,
-      "population_mean": 90.38,
+      "population_max": 73,
+      "population_mean": 57.4,
       "best_so_far": 103
     },
     {
       "iteration": 30,
-      "population_max": 103,
-      "population_mean": 91.02,
+      "population_max": 73,
+      "population_mean": 60.42,
       "best_so_far": 103
     },
     {
       "iteration": 31,
-      "population_max": 103,
-      "population_mean": 91.52,
+      "population_max": 73,
+      "population_mean": 57.48,
       "best_so_far": 103
     },
     {
       "iteration": 32,
-      "population_max": 103,
-      "population_mean": 92.06,
+      "population_max": 73,
+      "population_mean": 58.92,
       "best_so_far": 103
     },
     {
       "iteration": 33,
-      "population_max": 103,
-      "population_mean": 94.86,
+      "population_max": 73,
+      "population_mean": 59.56,
       "best_so_far": 103
     },
     {
       "iteration": 34,
-      "population_max": 103,
-      "population_mean": 92.72,
+      "population_max": 73,
+      "population_mean": 56.9,
       "best_so_far": 103
     },
     {
       "iteration": 35,
-      "population_max": 103,
-      "population_mean": 94.8,
+      "population_max": 73,
+      "population_mean": 56.2,
       "best_so_far": 103
     },
     {
       "iteration": 36,
-      "population_max": 103,
-      "population_mean": 92.94,
+      "population_max": 73,
+      "population_mean": 56.4,
       "best_so_far": 103
     },
     {
       "iteration": 37,
-      "population_max": 103,
-      "population_mean": 93.78,
+      "population_max": 73,
+      "population_mean": 62.52,
       "best_so_far": 103
     },
     {
       "iteration": 38,
-      "population_max": 103,
-      "population_mean": 95.18,
+      "population_max": 73,
+      "population_mean": 61.72,
       "best_so_far": 103
     },
     {
       "iteration": 39,
-      "population_max": 103,
-      "population_mean": 96.42,
+      "population_max": 73,
+      "population_mean": 59.3,
       "best_so_far": 103
     },
     {
       "iteration": 40,
-      "population_max": 103,
-      "population_mean": 92.94,
+      "population_max": 73,
+      "population_mean": 59.56,
       "best_so_far": 103
     },
     {
       "iteration": 41,
-      "population_max": 103,
-      "population_mean": 93.16,
+      "population_max": 73,
+      "population_mean": 58.02,
       "best_so_far": 103
     },
     {
       "iteration": 42,
-      "population_max": 103,
-      "population_mean": 92.58,
+      "population_max": 77,
+      "population_mean": 59.26,
       "best_so_far": 103
     },
     {
       "iteration": 43,
-      "population_max": 103,
-      "population_mean": 95.4,
+      "population_max": 73,
+      "population_mean": 60.32,
       "best_so_far": 103
     },
     {
       "iteration": 44,
-      "population_max": 103,
-      "population_mean": 95.66,
+      "population_max": 73,
+      "population_mean": 61.88,
       "best_so_far": 103
     },
     {
       "iteration": 45,
-      "population_max": 103,
-      "population_mean": 94.58,
+      "population_max": 73,
+      "population_mean": 62.78,
       "best_so_far": 103
     },
     {
       "iteration": 46,
-      "population_max": 103,
-      "population_mean": 95.38,
+      "population_max": 73,
+      "population_mean": 60.22,
       "best_so_far": 103
     },
     {
       "iteration": 47,
-      "population_max": 103,
-      "population_mean": 93.12,
+      "population_max": 73,
+      "population_mean": 62.54,
       "best_so_far": 103
     },
     {
       "iteration": 48,
-      "population_max": 103,
-      "population_mean": 94.28,
+      "population_max": 73,
+      "population_mean": 62.1,
       "best_so_far": 103
     },
     {
       "iteration": 49,
-      "population_max": 103,
-      "population_mean": 92.62,
+      "population_max": 73,
+      "population_mean": 59.5,
       "best_so_far": 103
     },
     {
       "iteration": 50,
-      "population_max": 103,
-      "population_mean": 94.24,
+      "population_max": 73,
+      "population_mean": 58.42,
       "best_so_far": 103
     },
     {
       "iteration": 51,
-      "population_max": 103,
-      "population_mean": 93.44,
+      "population_max": 73,
+      "population_mean": 52.68,
       "best_so_far": 103
     },
     {
       "iteration": 52,
-      "population_max": 103,
-      "population_mean": 97.06,
+      "population_max": 78,
+      "population_mean": 52.84,
       "best_so_far": 103
     },
     {
       "iteration": 53,
-      "population_max": 103,
-      "population_mean": 97.9,
+      "population_max": 73,
+      "population_mean": 50.52,
       "best_so_far": 103
     },
     {
       "iteration": 54,
-      "population_max": 103,
-      "population_mean": 98.9,
+      "population_max": 76,
+      "population_mean": 52.0,
       "best_so_far": 103
     },
     {
       "iteration": 55,
-      "population_max": 103,
-      "population_mean": 97.4,
+      "population_max": 73,
+      "population_mean": 49.54,
       "best_so_far": 103
     },
     {
       "iteration": 56,
-      "population_max": 103,
-      "population_mean": 98.58,
+      "population_max": 73,
+      "population_mean": 49.12,
       "best_so_far": 103
     },
     {
       "iteration": 57,
-      "population_max": 103,
-      "population_mean": 96.86,
+      "population_max": 73,
+      "population_mean": 48.64,
       "best_so_far": 103
     },
     {
       "iteration": 58,
-      "population_max": 103,
-      "population_mean": 95.9,
+      "population_max": 73,
+      "population_mean": 43.8,
       "best_so_far": 103
     },
     {
       "iteration": 59,
-      "population_max": 103,
-      "population_mean": 95.7,
+      "population_max": 77,
+      "population_mean": 48.18,
       "best_so_far": 103
     },
     {
       "iteration": 60,
-      "population_max": 103,
-      "population_mean": 93.96,
+      "population_max": 80,
+      "population_mean": 50.24,
       "best_so_far": 103
     },
     {
       "iteration": 61,
-      "population_max": 103,
-      "population_mean": 96.14,
+      "population_max": 77,
+      "population_mean": 48.02,
       "best_so_far": 103
     },
     {
       "iteration": 62,
-      "population_max": 103,
-      "population_mean": 94.88,
+      "population_max": 77,
+      "population_mean": 50.5,
       "best_so_far": 103
     },
     {
       "iteration": 63,
-      "population_max": 103,
-      "population_mean": 95.86,
+      "population_max": 77,
+      "population_mean": 49.68,
       "best_so_far": 103
     },
     {
       "iteration": 64,
-      "population_max": 103,
-      "population_mean": 98.16,
+      "population_max": 77,
+      "population_mean": 53.16,
       "best_so_far": 103
     },
     {
       "iteration": 65,
-      "population_max": 103,
-      "population_mean": 98.04,
+      "population_max": 77,
+      "population_mean": 56.9,
       "best_so_far": 103
     },
     {
       "iteration": 66,
-      "population_max": 103,
-      "population_mean": 96.78,
+      "population_max": 77,
+      "population_mean": 57.44,
       "best_so_far": 103
     },
     {
       "iteration": 67,
-      "population_max": 103,
-      "population_mean": 95.04,
+      "population_max": 73,
+      "population_mean": 57.74,
       "best_so_far": 103
     },
     {
       "iteration": 68,
-      "population_max": 103,
-      "population_mean": 96.42,
+      "population_max": 73,
+      "population_mean": 60.74,
       "best_so_far": 103
     },
     {
       "iteration": 69,
-      "population_max": 103,
-      "population_mean": 99.18,
+      "population_max": 73,
+      "population_mean": 64.08,
       "best_so_far": 103
     },
     {
       "iteration": 70,
-      "population_max": 103,
-      "population_mean": 98.46,
+      "population_max": 73,
+      "population_mean": 65.56,
       "best_so_far": 103
     },
     {
       "iteration": 71,
-      "population_max": 103,
-      "population_mean": 98.52,
+      "population_max": 73,
+      "population_mean": 62.48,
       "best_so_far": 103
     },
     {
       "iteration": 72,
-      "population_max": 103,
-      "population_mean": 97.4,
+      "population_max": 73,
+      "population_mean": 66.36,
       "best_so_far": 103
     },
     {
       "iteration": 73,
-      "population_max": 103,
-      "population_mean": 99.76,
+      "population_max": 73,
+      "population_mean": 64.54,
       "best_so_far": 103
     },
     {
       "iteration": 74,
-      "population_max": 103,
-      "population_mean": 99.66,
+      "population_max": 73,
+      "population_mean": 66.4,
       "best_so_far": 103
     },
     {
       "iteration": 75,
-      "population_max": 103,
-      "population_mean": 98.66,
+      "population_max": 73,
+      "population_mean": 63.74,
       "best_so_far": 103
     },
     {
       "iteration": 76,
-      "population_max": 103,
-      "population_mean": 95.56,
+      "population_max": 73,
+      "population_mean": 66.26,
       "best_so_far": 103
     },
     {
       "iteration": 77,
-      "population_max": 103,
-      "population_mean": 94.58,
+      "population_max": 73,
+      "population_mean": 64.64,
       "best_so_far": 103
     },
     {
       "iteration": 78,
-      "population_max": 103,
-      "population_mean": 90.8,
+      "population_max": 73,
+      "population_mean": 62.32,
       "best_so_far": 103
     },
     {
       "iteration": 79,
-      "population_max": 103,
-      "population_mean": 91.68,
+      "population_max": 73,
+      "population_mean": 60.44,
       "best_so_far": 103
     },
     {
       "iteration": 80,
-      "population_max": 103,
-      "population_mean": 94.8,
+      "population_max": 73,
+      "population_mean": 66.9,
       "best_so_far": 103
     },
     {
       "iteration": 81,
-      "population_max": 103,
-      "population_mean": 94.54,
+      "population_max": 73,
+      "population_mean": 64.22,
       "best_so_far": 103
     },
     {
       "iteration": 82,
-      "population_max": 103,
-      "population_mean": 94.54,
+      "population_max": 73,
+      "population_mean": 67.06,
       "best_so_far": 103
     },
     {
       "iteration": 83,
-      "population_max": 103,
-      "population_mean": 92.02,
+      "population_max": 73,
+      "population_mean": 68.14,
       "best_so_far": 103
     },
     {
       "iteration": 84,
-      "population_max": 103,
-      "population_mean": 91.66,
+      "population_max": 76,
+      "population_mean": 63.88,
       "best_so_far": 103
     },
     {
       "iteration": 85,
-      "population_max": 103,
-      "population_mean": 93.6,
+      "population_max": 73,
+      "population_mean": 66.64,
       "best_so_far": 103
     },
     {
       "iteration": 86,
-      "population_max": 103,
-      "population_mean": 94.64,
+      "population_max": 73,
+      "population_mean": 66.64,
       "best_so_far": 103
     },
     {
       "iteration": 87,
-      "population_max": 103,
-      "population_mean": 94.96,
+      "population_max": 73,
+      "population_mean": 64.76,
       "best_so_far": 103
     },
     {
       "iteration": 88,
-      "population_max": 103,
-      "population_mean": 94.48,
+      "population_max": 73,
+      "population_mean": 60.74,
       "best_so_far": 103
     },
     {
       "iteration": 89,
-      "population_max": 103,
-      "population_mean": 93.68,
+      "population_max": 73,
+      "population_mean": 62.26,
       "best_so_far": 103
     },
     {
       "iteration": 90,
-      "population_max": 103,
-      "population_mean": 93.56,
+      "population_max": 73,
+      "population_mean": 64.26,
       "best_so_far": 103
     },
     {
       "iteration": 91,
-      "population_max": 103,
-      "population_mean": 92.46,
+      "population_max": 73,
+      "population_mean": 61.4,
       "best_so_far": 103
     },
     {
       "iteration": 92,
-      "population_max": 103,
-      "population_mean": 90.34,
+      "population_max": 73,
+      "population_mean": 61.42,
       "best_so_far": 103
     },
     {
       "iteration": 93,
-      "population_max": 103,
-      "population_mean": 94.18,
+      "population_max": 73,
+      "population_mean": 63.64,
       "best_so_far": 103
     },
     {
       "iteration": 94,
-      "population_max": 103,
-      "population_mean": 92.9,
+      "population_max": 73,
+      "population_mean": 63.74,
       "best_so_far": 103
     },
     {
       "iteration": 95,
-      "population_max": 103,
-      "population_mean": 96.7,
+      "population_max": 73,
+      "population_mean": 62.52,
       "best_so_far": 103
     },
     {
       "iteration": 96,
-      "population_max": 103,
-      "population_mean": 97.58,
+      "population_max": 73,
+      "population_mean": 60.42,
       "best_so_far": 103
     },
     {
       "iteration": 97,
-      "population_max": 103,
-      "population_mean": 97.78,
+      "population_max": 73,
+      "population_mean": 63.28,
       "best_so_far": 103
     },
     {
       "iteration": 98,
-      "population_max": 103,
-      "population_mean": 98.32,
+      "population_max": 73,
+      "population_mean": 65.68,
       "best_so_far": 103
     },
     {
       "iteration": 99,
-      "population_max": 103,
-      "population_mean": 98.5,
+      "population_max": 73,
+      "population_mean": 65.34,
       "best_so_far": 103
     },
     {
       "iteration": 100,
-      "population_max": 103,
-      "population_mean": 100.56,
+      "population_max": 73,
+      "population_mean": 60.4,
       "best_so_far": 103
     }
   ],
@@ -4900,71 +4900,74 @@
       }
     ],
     "final_population_fitness": [
-      103,
-      103,
-      103,
-      103,
-      103,
-      103,
-      78,
-      103,
-      103,
-      103,
-      103,
-      103,
-      103,
-      103,
-      80,
-      103,
-      103,
-      103,
-      103,
-      103,
-      103,
-      103,
-      85,
-      103,
-      103,
-      103,
-      103,
-      98,
-      103,
-      103,
-      103,
-      103,
-      52,
-      103,
-      103,
-      103,
-      103,
-      103,
-      103,
-      103,
-      103,
-      103,
-      103,
-      103,
-      103,
-      103,
-      103,
-      103,
-      103,
-      103
+      73,
+      68,
+      73,
+      23,
+      50,
+      73,
+      73,
+      73,
+      73,
+      0,
+      50,
+      50,
+      73,
+      73,
+      73,
+      73,
+      73,
+      32,
+      59,
+      73,
+      59,
+      50,
+      50,
+      59,
+      23,
+      73,
+      23,
+      73,
+      73,
+      54,
+      73,
+      73,
+      73,
+      73,
+      73,
+      23,
+      32,
+      73,
+      73,
+      73,
+      73,
+      50,
+      73,
+      50,
+      73,
+      73,
+      48,
+      50,
+      73,
+      73
     ],
     "best_generation": 0,
-    "crossovers": 3938,
-    "mutation_calls": 1518,
-    "accepted_mutations": 1414,
+    "crossovers": 3933,
+    "mutation_calls": 1501,
+    "accepted_mutations": 1419,
     "settings": {
       "selection": "roulette_wheel_with_replacement",
       "crossover_probability": 0.8,
       "mutation_probability": 0.3,
       "elitism": false,
-      "repair_attempts": 20,
+      "crossover": "uniform_inheritance_without_relocation",
+      "overlap_priority": "package_value_then_footprint_area",
+      "invalid_placement": "outside",
+      "initial_placement_attempts": 20,
       "mutation_attempts": 10
     }
   },
-  "total_duration_seconds": 0.6070671000052243,
+  "total_duration_seconds": 0.25954039999487577,
   "run_id": 3,
   "seed": 44,
   "input": "tc8",

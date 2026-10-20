@@ -1,6 +1,6 @@
 \chapter{Hasil Eksperimen dan Analisis}
 
-Bab ini menyajikan hasil pengujian setiap algoritma. Isi setiap penanda \textit{[...]} dengan hasil pengujian aktual dan rujuk grafik yang dihasilkan pada kolom terkait.
+Bab ini menyajikan hasil pengujian setiap algoritma pada \textit{test case} \texttt{tc8}, \texttt{tc9}, dan \texttt{tc10}, beserta analisisnya. Seluruh data diambil dari berkas JSON hasil \textit{run} pada folder output, sedangkan gambar dihasilkan oleh \textit{visualizer} program.
 
 \renewcommand{\arraystretch}{1.15}
 \newcommand{\hasil}[1]{\textit{[#1]}}
@@ -132,7 +132,7 @@ Banyak iterasi hingga berhenti & #6 \\ \hline
 Nilai \textit{objective function} akhir & \hasil{nilai objektif akhir} \\ \hline
 Grafik \textit{objective function} terhadap iterasi & \hasil{nomor gambar/rujukan grafik} \\ \hline
 Grafik $e^{\Delta E/T}$ terhadap iterasi & \hasil{nomor gambar/rujukan grafik} \\ \hline
-Frekuensi \textit{stuck} pada \textit{local optima} & \hasil{jumlah/frekuensi kejadian} \\ \hline
+Frekuensi \textit{stuck} selama pencarian & \hasil{jumlah/frekuensi kejadian} \\ \hline
 Durasi pencarian & \hasil{durasi (detik)} \\ \hline
 \akhirtabel
 }
@@ -145,7 +145,7 @@ Durasi pencarian & \hasil{durasi (detik)} \\ \hline
 Nilai \textit{objective function} akhir & #4 \\ \hline
 Grafik \textit{objective function} terhadap iterasi & \includegraphics[width=\linewidth]{gambar/pengujian/sa/#1/#3_experiment.png} \\ \hline
 Grafik $e^{\Delta E/T}$ terhadap iterasi & Tercakup pada panel ke-4 grafik multi-panel di atas \\ \hline
-Frekuensi \textit{stuck} pada \textit{local optima} & #5 episode \\ \hline
+Frekuensi \textit{stuck} selama pencarian & #5 episode \\ \hline
 Durasi pencarian & #6 detik \\ \hline
 \akhirtabel
 }
@@ -226,7 +226,7 @@ Durasi pencarian & #8 detik \\ \hline
 \percobaanSidewaysGambar{tc8}{2}{run2_seed43}{98}{0.094503}{11}{10}
 \percobaanSidewaysGambar{tc8}{3}{run3_seed44}{96}{0.070576}{11}{10}
 \percobaanSidewaysGambar{tc9}{1}{run1_seed42}{101}{0.130282}{10}{10}
-\percobaanSidewaysGambar{tc9}{2}{run2_seed43}{101}{0.101959}{11}{10}
+\percobaanSidewaysGambar{tc9}{2}{run2_seed43}{101}{0.101959}{10}{10}
 \percobaanSidewaysGambar{tc9}{3}{run3_seed44}{101}{0.099453}{11}{10}
 \percobaanSidewaysGambar{tc10}{1}{run1_seed42}{82}{0.055903}{10}{10}
 \percobaanSidewaysGambar{tc10}{2}{run2_seed43}{87}{0.065628}{10}{10}
@@ -270,62 +270,62 @@ Durasi pencarian & #8 detik \\ \hline
 Setiap konfigurasi dijalankan tiga kali. Konfigurasi populasi 50 dan iterasi 100 dapat muncul pada kedua rangkaian karena merupakan konfigurasi acuan yang sama; hasil tiga \textit{run} yang sama dapat dirujuk pada kedua rangkaian apabila tidak dijalankan ulang.
 
 \subsection{Populasi Tetap, Variasi Banyak Iterasi}
-\percobaanGAGambar{tc8}{Populasi 50, iterasi 50}{1}{pop50_it50_run1_seed42}{103}{50}{50}{0.308149}
-\percobaanGAGambar{tc8}{Populasi 50, iterasi 50}{2}{pop50_it50_run2_seed43}{103}{50}{50}{0.302332}
-\percobaanGAGambar{tc8}{Populasi 50, iterasi 50}{3}{pop50_it50_run3_seed44}{103}{50}{50}{0.337453}
-\percobaanGAGambar{tc8}{Populasi 50, iterasi 100}{1}{pop50_it100_run1_seed42}{103}{50}{100}{0.684268}
-\percobaanGAGambar{tc8}{Populasi 50, iterasi 100}{2}{pop50_it100_run2_seed43}{103}{50}{100}{0.656125}
-\percobaanGAGambar{tc8}{Populasi 50, iterasi 100}{3}{pop50_it100_run3_seed44}{103}{50}{100}{0.606558}
-\percobaanGAGambar{tc8}{Populasi 50, iterasi 200}{1}{pop50_it200_run1_seed42}{103}{50}{200}{1.963922}
-\percobaanGAGambar{tc8}{Populasi 50, iterasi 200}{2}{pop50_it200_run2_seed43}{103}{50}{200}{1.486151}
-\percobaanGAGambar{tc8}{Populasi 50, iterasi 200}{3}{pop50_it200_run3_seed44}{103}{50}{200}{1.417510}
-\percobaanGAGambar{tc9}{Populasi 50, iterasi 50}{1}{pop50_it50_run1_seed42}{114}{50}{50}{0.614781}
-\percobaanGAGambar{tc9}{Populasi 50, iterasi 50}{2}{pop50_it50_run2_seed43}{110}{50}{50}{0.660053}
-\percobaanGAGambar{tc9}{Populasi 50, iterasi 50}{3}{pop50_it50_run3_seed44}{110}{50}{50}{0.634885}
-\percobaanGAGambar{tc9}{Populasi 50, iterasi 100}{1}{pop50_it100_run1_seed42}{114}{50}{100}{1.219158}
-\percobaanGAGambar{tc9}{Populasi 50, iterasi 100}{2}{pop50_it100_run2_seed43}{110}{50}{100}{1.094391}
-\percobaanGAGambar{tc9}{Populasi 50, iterasi 100}{3}{pop50_it100_run3_seed44}{110}{50}{100}{1.047287}
-\percobaanGAGambar{tc9}{Populasi 50, iterasi 200}{1}{pop50_it200_run1_seed42}{114}{50}{200}{1.907098}
-\percobaanGAGambar{tc9}{Populasi 50, iterasi 200}{2}{pop50_it200_run2_seed43}{110}{50}{200}{2.001291}
-\percobaanGAGambar{tc9}{Populasi 50, iterasi 200}{3}{pop50_it200_run3_seed44}{110}{50}{200}{1.882865}
-\percobaanGAGambar{tc10}{Populasi 50, iterasi 50}{1}{pop50_it50_run1_seed42}{97}{50}{50}{0.388107}
-\percobaanGAGambar{tc10}{Populasi 50, iterasi 50}{2}{pop50_it50_run2_seed43}{97}{50}{50}{0.441870}
-\percobaanGAGambar{tc10}{Populasi 50, iterasi 50}{3}{pop50_it50_run3_seed44}{92}{50}{50}{0.526689}
-\percobaanGAGambar{tc10}{Populasi 50, iterasi 100}{1}{pop50_it100_run1_seed42}{97}{50}{100}{0.821721}
-\percobaanGAGambar{tc10}{Populasi 50, iterasi 100}{2}{pop50_it100_run2_seed43}{97}{50}{100}{0.857301}
-\percobaanGAGambar{tc10}{Populasi 50, iterasi 100}{3}{pop50_it100_run3_seed44}{92}{50}{100}{0.809399}
-\percobaanGAGambar{tc10}{Populasi 50, iterasi 200}{1}{pop50_it200_run1_seed42}{97}{50}{200}{1.567163}
-\percobaanGAGambar{tc10}{Populasi 50, iterasi 200}{2}{pop50_it200_run2_seed43}{97}{50}{200}{1.627509}
-\percobaanGAGambar{tc10}{Populasi 50, iterasi 200}{3}{pop50_it200_run3_seed44}{92}{50}{200}{1.655211}
+\percobaanGAGambar{tc8}{Populasi 50, iterasi 50}{1}{pop50_it50_run1_seed42}{103}{50}{50}{0.134032}
+\percobaanGAGambar{tc8}{Populasi 50, iterasi 50}{2}{pop50_it50_run2_seed43}{103}{50}{50}{0.127257}
+\percobaanGAGambar{tc8}{Populasi 50, iterasi 50}{3}{pop50_it50_run3_seed44}{103}{50}{50}{0.131241}
+\percobaanGAGambar{tc8}{Populasi 50, iterasi 100}{1}{pop50_it100_run1_seed42}{103}{50}{100}{0.254834}
+\percobaanGAGambar{tc8}{Populasi 50, iterasi 100}{2}{pop50_it100_run2_seed43}{103}{50}{100}{0.26839}
+\percobaanGAGambar{tc8}{Populasi 50, iterasi 100}{3}{pop50_it100_run3_seed44}{103}{50}{100}{0.259233}
+\percobaanGAGambar{tc8}{Populasi 50, iterasi 200}{1}{pop50_it200_run1_seed42}{103}{50}{200}{0.542108}
+\percobaanGAGambar{tc8}{Populasi 50, iterasi 200}{2}{pop50_it200_run2_seed43}{103}{50}{200}{0.511464}
+\percobaanGAGambar{tc8}{Populasi 50, iterasi 200}{3}{pop50_it200_run3_seed44}{103}{50}{200}{0.560678}
+\percobaanGAGambar{tc9}{Populasi 50, iterasi 50}{1}{pop50_it50_run1_seed42}{114}{50}{50}{0.240946}
+\percobaanGAGambar{tc9}{Populasi 50, iterasi 50}{2}{pop50_it50_run2_seed43}{110}{50}{50}{0.202392}
+\percobaanGAGambar{tc9}{Populasi 50, iterasi 50}{3}{pop50_it50_run3_seed44}{110}{50}{50}{0.267905}
+\percobaanGAGambar{tc9}{Populasi 50, iterasi 100}{1}{pop50_it100_run1_seed42}{114}{50}{100}{0.482106}
+\percobaanGAGambar{tc9}{Populasi 50, iterasi 100}{2}{pop50_it100_run2_seed43}{110}{50}{100}{0.387874}
+\percobaanGAGambar{tc9}{Populasi 50, iterasi 100}{3}{pop50_it100_run3_seed44}{110}{50}{100}{0.372883}
+\percobaanGAGambar{tc9}{Populasi 50, iterasi 200}{1}{pop50_it200_run1_seed42}{114}{50}{200}{0.931361}
+\percobaanGAGambar{tc9}{Populasi 50, iterasi 200}{2}{pop50_it200_run2_seed43}{110}{50}{200}{0.677546}
+\percobaanGAGambar{tc9}{Populasi 50, iterasi 200}{3}{pop50_it200_run3_seed44}{110}{50}{200}{0.765361}
+\percobaanGAGambar{tc10}{Populasi 50, iterasi 50}{1}{pop50_it50_run1_seed42}{97}{50}{50}{0.192227}
+\percobaanGAGambar{tc10}{Populasi 50, iterasi 50}{2}{pop50_it50_run2_seed43}{97}{50}{50}{0.191899}
+\percobaanGAGambar{tc10}{Populasi 50, iterasi 50}{3}{pop50_it50_run3_seed44}{92}{50}{50}{0.186268}
+\percobaanGAGambar{tc10}{Populasi 50, iterasi 100}{1}{pop50_it100_run1_seed42}{97}{50}{100}{0.40251}
+\percobaanGAGambar{tc10}{Populasi 50, iterasi 100}{2}{pop50_it100_run2_seed43}{97}{50}{100}{0.384656}
+\percobaanGAGambar{tc10}{Populasi 50, iterasi 100}{3}{pop50_it100_run3_seed44}{92}{50}{100}{0.38904}
+\percobaanGAGambar{tc10}{Populasi 50, iterasi 200}{1}{pop50_it200_run1_seed42}{97}{50}{200}{0.790031}
+\percobaanGAGambar{tc10}{Populasi 50, iterasi 200}{2}{pop50_it200_run2_seed43}{97}{50}{200}{0.809423}
+\percobaanGAGambar{tc10}{Populasi 50, iterasi 200}{3}{pop50_it200_run3_seed44}{92}{50}{200}{0.831182}
 
 \subsection{Iterasi Tetap, Variasi Jumlah Populasi}
-\percobaanGAGambar{tc8}{Populasi 20, iterasi 100}{1}{pop20_it100_run1_seed42}{103}{20}{100}{0.256599}
-\percobaanGAGambar{tc8}{Populasi 20, iterasi 100}{2}{pop20_it100_run2_seed43}{103}{20}{100}{0.228431}
-\percobaanGAGambar{tc8}{Populasi 20, iterasi 100}{3}{pop20_it100_run3_seed44}{103}{20}{100}{0.298518}
-\percobaanGAGambar{tc8}{Populasi 50, iterasi 100}{1}{pop50_it100_run1_seed42}{103}{50}{100}{0.684268}
-\percobaanGAGambar{tc8}{Populasi 50, iterasi 100}{2}{pop50_it100_run2_seed43}{103}{50}{100}{0.656125}
-\percobaanGAGambar{tc8}{Populasi 50, iterasi 100}{3}{pop50_it100_run3_seed44}{103}{50}{100}{0.606558}
-\percobaanGAGambar{tc8}{Populasi 100, iterasi 100}{1}{pop100_it100_run1_seed42}{103}{100}{100}{1.741821}
-\percobaanGAGambar{tc8}{Populasi 100, iterasi 100}{2}{pop100_it100_run2_seed43}{103}{100}{100}{1.776312}
-\percobaanGAGambar{tc8}{Populasi 100, iterasi 100}{3}{pop100_it100_run3_seed44}{103}{100}{100}{1.591266}
-\percobaanGAGambar{tc9}{Populasi 20, iterasi 100}{1}{pop20_it100_run1_seed42}{110}{20}{100}{0.380015}
-\percobaanGAGambar{tc9}{Populasi 20, iterasi 100}{2}{pop20_it100_run2_seed43}{105}{20}{100}{0.369793}
-\percobaanGAGambar{tc9}{Populasi 20, iterasi 100}{3}{pop20_it100_run3_seed44}{103}{20}{100}{0.340892}
-\percobaanGAGambar{tc9}{Populasi 50, iterasi 100}{1}{pop50_it100_run1_seed42}{114}{50}{100}{1.219158}
-\percobaanGAGambar{tc9}{Populasi 50, iterasi 100}{2}{pop50_it100_run2_seed43}{110}{50}{100}{1.094391}
-\percobaanGAGambar{tc9}{Populasi 50, iterasi 100}{3}{pop50_it100_run3_seed44}{110}{50}{100}{1.047287}
-\percobaanGAGambar{tc9}{Populasi 100, iterasi 100}{1}{pop100_it100_run1_seed42}{114}{100}{100}{2.355519}
-\percobaanGAGambar{tc9}{Populasi 100, iterasi 100}{2}{pop100_it100_run2_seed43}{110}{100}{100}{2.311342}
-\percobaanGAGambar{tc9}{Populasi 100, iterasi 100}{3}{pop100_it100_run3_seed44}{110}{100}{100}{2.464745}
-\percobaanGAGambar{tc10}{Populasi 20, iterasi 100}{1}{pop20_it100_run1_seed42}{92}{20}{100}{0.258467}
-\percobaanGAGambar{tc10}{Populasi 20, iterasi 100}{2}{pop20_it100_run2_seed43}{92}{20}{100}{0.353925}
-\percobaanGAGambar{tc10}{Populasi 20, iterasi 100}{3}{pop20_it100_run3_seed44}{92}{20}{100}{0.361047}
-\percobaanGAGambar{tc10}{Populasi 50, iterasi 100}{1}{pop50_it100_run1_seed42}{97}{50}{100}{0.821721}
-\percobaanGAGambar{tc10}{Populasi 50, iterasi 100}{2}{pop50_it100_run2_seed43}{97}{50}{100}{0.857301}
-\percobaanGAGambar{tc10}{Populasi 50, iterasi 100}{3}{pop50_it100_run3_seed44}{92}{50}{100}{0.809399}
-\percobaanGAGambar{tc10}{Populasi 100, iterasi 100}{1}{pop100_it100_run1_seed42}{97}{100}{100}{1.995256}
-\percobaanGAGambar{tc10}{Populasi 100, iterasi 100}{2}{pop100_it100_run2_seed43}{97}{100}{100}{1.818441}
-\percobaanGAGambar{tc10}{Populasi 100, iterasi 100}{3}{pop100_it100_run3_seed44}{97}{100}{100}{1.809598}
+\percobaanGAGambar{tc8}{Populasi 20, iterasi 100}{1}{pop20_it100_run1_seed42}{103}{20}{100}{0.103802}
+\percobaanGAGambar{tc8}{Populasi 20, iterasi 100}{2}{pop20_it100_run2_seed43}{103}{20}{100}{0.099828}
+\percobaanGAGambar{tc8}{Populasi 20, iterasi 100}{3}{pop20_it100_run3_seed44}{103}{20}{100}{0.103273}
+\percobaanGAGambar{tc8}{Populasi 50, iterasi 100}{1}{pop50_it100_run1_seed42}{103}{50}{100}{0.254834}
+\percobaanGAGambar{tc8}{Populasi 50, iterasi 100}{2}{pop50_it100_run2_seed43}{103}{50}{100}{0.26839}
+\percobaanGAGambar{tc8}{Populasi 50, iterasi 100}{3}{pop50_it100_run3_seed44}{103}{50}{100}{0.259233}
+\percobaanGAGambar{tc8}{Populasi 100, iterasi 100}{1}{pop100_it100_run1_seed42}{103}{100}{100}{0.595717}
+\percobaanGAGambar{tc8}{Populasi 100, iterasi 100}{2}{pop100_it100_run2_seed43}{103}{100}{100}{0.593048}
+\percobaanGAGambar{tc8}{Populasi 100, iterasi 100}{3}{pop100_it100_run3_seed44}{103}{100}{100}{0.671984}
+\percobaanGAGambar{tc9}{Populasi 20, iterasi 100}{1}{pop20_it100_run1_seed42}{103}{20}{100}{0.151308}
+\percobaanGAGambar{tc9}{Populasi 20, iterasi 100}{2}{pop20_it100_run2_seed43}{101}{20}{100}{0.14194}
+\percobaanGAGambar{tc9}{Populasi 20, iterasi 100}{3}{pop20_it100_run3_seed44}{103}{20}{100}{0.209694}
+\percobaanGAGambar{tc9}{Populasi 50, iterasi 100}{1}{pop50_it100_run1_seed42}{114}{50}{100}{0.482106}
+\percobaanGAGambar{tc9}{Populasi 50, iterasi 100}{2}{pop50_it100_run2_seed43}{110}{50}{100}{0.387874}
+\percobaanGAGambar{tc9}{Populasi 50, iterasi 100}{3}{pop50_it100_run3_seed44}{110}{50}{100}{0.372883}
+\percobaanGAGambar{tc9}{Populasi 100, iterasi 100}{1}{pop100_it100_run1_seed42}{114}{100}{100}{0.991931}
+\percobaanGAGambar{tc9}{Populasi 100, iterasi 100}{2}{pop100_it100_run2_seed43}{110}{100}{100}{0.796501}
+\percobaanGAGambar{tc9}{Populasi 100, iterasi 100}{3}{pop100_it100_run3_seed44}{110}{100}{100}{0.910508}
+\percobaanGAGambar{tc10}{Populasi 20, iterasi 100}{1}{pop20_it100_run1_seed42}{92}{20}{100}{0.161459}
+\percobaanGAGambar{tc10}{Populasi 20, iterasi 100}{2}{pop20_it100_run2_seed43}{92}{20}{100}{0.134301}
+\percobaanGAGambar{tc10}{Populasi 20, iterasi 100}{3}{pop20_it100_run3_seed44}{87}{20}{100}{0.147517}
+\percobaanGAGambar{tc10}{Populasi 50, iterasi 100}{1}{pop50_it100_run1_seed42}{97}{50}{100}{0.40251}
+\percobaanGAGambar{tc10}{Populasi 50, iterasi 100}{2}{pop50_it100_run2_seed43}{97}{50}{100}{0.384656}
+\percobaanGAGambar{tc10}{Populasi 50, iterasi 100}{3}{pop50_it100_run3_seed44}{92}{50}{100}{0.38904}
+\percobaanGAGambar{tc10}{Populasi 100, iterasi 100}{1}{pop100_it100_run1_seed42}{97}{100}{100}{0.923661}
+\percobaanGAGambar{tc10}{Populasi 100, iterasi 100}{2}{pop100_it100_run2_seed43}{97}{100}{100}{0.781175}
+\percobaanGAGambar{tc10}{Populasi 100, iterasi 100}{3}{pop100_it100_run3_seed44}{97}{100}{100}{0.745999}
 
 \section{Analisis Hasil Eksperimen}
 
@@ -357,40 +357,42 @@ Tabel berikut merangkum statistik hasil tiga \textit{run} untuk setiap algoritma
  & Random Restart & 101,33 & 98--103 & 2,89 & 0,0817 \\ \cline{2-6}
  & Stochastic HC & 99,67 & 98--103 & 2,89 & 2,2975 \\ \cline{2-6}
  & Simulated Annealing & 103,00 & 103--103 & 0,00 & 0,3364 \\ \cline{2-6}
- & GA: pop 20, it 100 & 103,00 & 103--103 & 0,00 & 0,2612 \\ \cline{2-6}
- & GA: pop 50, it 50 & 103,00 & 103--103 & 0,00 & 0,3160 \\ \cline{2-6}
- & GA: pop 50, it 100 & 103,00 & 103--103 & 0,00 & 0,6490 \\ \cline{2-6}
- & GA: pop 50, it 200 & 103,00 & 103--103 & 0,00 & 1,6225 \\ \cline{2-6}
- & GA: pop 100, it 100 & 103,00 & 103--103 & 0,00 & 1,7031 \\ \hline
+ & GA: pop 20, it 100 & 103,00 & 103--103 & 0,00 & 0,1023 \\ \cline{2-6}
+ & GA: pop 50, it 50 & 103,00 & 103--103 & 0,00 & 0,1308 \\ \cline{2-6}
+ & GA: pop 50, it 100 & 103,00 & 103--103 & 0,00 & 0,2608 \\ \cline{2-6}
+ & GA: pop 50, it 200 & 103,00 & 103--103 & 0,00 & 0,5381 \\ \cline{2-6}
+ & GA: pop 100, it 100 & 103,00 & 103--103 & 0,00 & 0,6202 \\ \hline
 \multirow{10}{*}{\texttt{tc9}} & Steepest Ascent & 99,33 & 96--101 & 2,89 & 0,0094 \\ \cline{2-6}
  & Sideways Move & 101,00 & 101--101 & 0,00 & 0,1106 \\ \cline{2-6}
  & Random Restart & 101,00 & 101--101 & 0,00 & 0,0627 \\ \cline{2-6}
  & Stochastic HC & 99,33 & 96--101 & 2,89 & 12,5682 \\ \cline{2-6}
  & Simulated Annealing & 105,33 & 103--110 & 4,04 & 1,6161 \\ \cline{2-6}
- & GA: pop 20, it 100 & 106,00 & 103--110 & 3,61 & 0,3636 \\ \cline{2-6}
- & GA: pop 50, it 50 & 111,33 & 110--114 & 2,31 & 0,6366 \\ \cline{2-6}
- & GA: pop 50, it 100 & 111,33 & 110--114 & 2,31 & 1,1203 \\ \cline{2-6}
- & GA: pop 50, it 200 & 111,33 & 110--114 & 2,31 & 1,9304 \\ \cline{2-6}
- & GA: pop 100, it 100 & 111,33 & 110--114 & 2,31 & 2,3772 \\ \hline
+ & GA: pop 20, it 100 & 102,33 & 101--103 & 1,15 & 0,1676 \\ \cline{2-6}
+ & GA: pop 50, it 50 & 111,33 & 110--114 & 2,31 & 0,2371 \\ \cline{2-6}
+ & GA: pop 50, it 100 & 111,33 & 110--114 & 2,31 & 0,4143 \\ \cline{2-6}
+ & GA: pop 50, it 200 & 111,33 & 110--114 & 2,31 & 0,7914 \\ \cline{2-6}
+ & GA: pop 100, it 100 & 111,33 & 110--114 & 2,31 & 0,8996 \\ \hline
 \multirow{10}{*}{\texttt{tc10}} & Steepest Ascent & 84,00 & 82--87 & 2,65 & 0,0083 \\ \cline{2-6}
  & Sideways Move & 84,00 & 82--87 & 2,65 & 0,0657 \\ \cline{2-6}
  & Random Restart & 89,33 & 83--97 & 7,09 & 0,0616 \\ \cline{2-6}
  & Stochastic HC & 84,00 & 82--87 & 2,65 & 5,2280 \\ \cline{2-6}
  & Simulated Annealing & 86,00 & 84--87 & 1,73 & 0,4508 \\ \cline{2-6}
- & GA: pop 20, it 100 & 92,00 & 92--92 & 0,00 & 0,3245 \\ \cline{2-6}
- & GA: pop 50, it 50 & 95,33 & 92--97 & 2,89 & 0,4522 \\ \cline{2-6}
- & GA: pop 50, it 100 & 95,33 & 92--97 & 2,89 & 0,8295 \\ \cline{2-6}
- & GA: pop 50, it 200 & 95,33 & 92--97 & 2,89 & 1,6166 \\ \cline{2-6}
- & GA: pop 100, it 100 & 97,00 & 97--97 & 0,00 & 1,8744 \\ \hline
+ & GA: pop 20, it 100 & 90,33 & 87--92 & 2,89 & 0,1478 \\ \cline{2-6}
+ & GA: pop 50, it 50 & 95,33 & 92--97 & 2,89 & 0,1901 \\ \cline{2-6}
+ & GA: pop 50, it 100 & 95,33 & 92--97 & 2,89 & 0,3921 \\ \cline{2-6}
+ & GA: pop 50, it 200 & 95,33 & 92--97 & 2,89 & 0,8102 \\ \cline{2-6}
+ & GA: pop 100, it 100 & 97,00 & 97--97 & 0,00 & 0,8169 \\ \hline
 \end{longtable}
 
 \subsection{Kedekatan terhadap Nilai Terbaik yang Ditemukan}
 
 Nilai terbaik yang ditemukan pada \texttt{tc8} adalah 103. Nilai ini dicapai oleh \textit{Simulated Annealing} pada ketiga \textit{run} ($s = 0{,}00$), serta oleh seluruh konfigurasi \textit{Genetic Algorithm} dengan simpangan baku nol. \textit{Sideways Move} dan \textit{Random Restart} mampu mencapai 103 pada setidaknya satu \textit{run}, namun rata-rata keduanya sedikit di bawah 103 karena beberapa \textit{run} terhenti di optimum lokal yang berbeda. \textit{Steepest Ascent} paling jauh dengan rata-rata 97,33; hal ini konsisten dengan keterbatasan algoritma yang langsung berhenti saat tidak ada tetangga yang lebih baik, tanpa mekanisme keluar dari optimum lokal.
 
-Nilai terbaik yang ditemukan pada \texttt{tc9} adalah 114, yang hanya dicapai satu kali masing-masing oleh \textit{Simulated Annealing} dan berbagai konfigurasi GA pop-50 serta pop-100. Seluruh varian Hill-climbing terperangkap pada rentang 96--101, jauh di bawah nilai 114. Hal ini menunjukkan bahwa \texttt{tc9}, yang memiliki batasan ruang lebih ketat serta penempatan item \textit{fragile}, menciptakan lanskap fungsi objektif yang lebih kompleks, sehingga algoritma berbasis tetangga lokal tidak cukup ekspresif untuk melewati penghalang menuju wilayah solusi yang lebih tinggi.
+Nilai terbaik yang ditemukan pada \texttt{tc9} adalah 114, yang hanya dicapai oleh \textit{run} pertama GA dengan populasi 50 dan 100. \textit{Simulated Annealing} paling tinggi mencapai 110. Seluruh varian Hill-climbing terperangkap pada rentang 96--101, jauh di bawah nilai 114. Hal ini menunjukkan bahwa \texttt{tc9}, yang memiliki batasan ruang lebih ketat serta penempatan item \textit{fragile}, menciptakan lanskap fungsi objektif yang lebih kompleks, sehingga algoritma berbasis tetangga lokal tidak cukup ekspresif untuk melewati penghalang menuju wilayah solusi yang lebih tinggi.
 
-Pada \texttt{tc10}, nilai terbaik yang ditemukan adalah 97, dicapai secara deterministik oleh GA pop-100/it-100 pada ketiga \textit{run} ($s = 0{,}00$) dan oleh satu \textit{run} GA pop-50 dengan berbagai konfigurasi iterasi. \textit{Random Restart} mencapai 97 pada satu \textit{run} ($s = 7{,}09$) namun tidak konsisten. Seluruh varian Hill-climbing dan SA hanya mencapai maksimum 87.
+Pada \texttt{tc10}, nilai terbaik yang ditemukan adalah 97, dicapai oleh GA pop-100/it-100 pada ketiga \textit{run} ($s = 0{,}00$) dan oleh dua dari tiga \textit{run} GA pop-50 pada seluruh variasi iterasi. \textit{Random Restart} mencapai 97 pada satu \textit{run} ($s = 7{,}09$) namun tidak konsisten. Varian Hill-climbing lainnya dan SA hanya mencapai maksimum 87.
+
+Perlu dicatat bahwa pada seluruh 45 \textit{run} GA di ketiga \textit{test case}, individu terbaik selalu ditemukan pada generasi ke-0 (best\_generation $= 0$), sehingga nilai akhir GA selalu sama dengan nilai individu terbaik pada populasi awal. Dengan demikian, kedekatan GA terhadap nilai terbaik ditentukan oleh kualitas populasi awal, bukan oleh proses evolusinya. Penyebabnya dibahas pada \Cref{subsec:ga-param}.
 
 \subsection{Konsistensi Hasil antar-\textit{Run}}
 
@@ -403,7 +405,7 @@ Berdasarkan tabel ringkasan, dapat dilihat pola konsistensi antar-algoritma seba
 
     \item \textbf{\textit{Random Restart}} memiliki simpangan baku tertinggi pada \texttt{tc10} ($s = 7{,}09$). Satu dari tiga \textit{run} berhasil menemukan wilayah 97 melalui \textit{restart} yang berbeda, sementara dua lainnya terhenti lebih awal pada 83 dan 88. Hal ini mencerminkan sifat probabilistik yang dimiliki mekanisme \textit{restart} dengan jumlah terbatas.
 
-    \item \textbf{\textit{Genetic Algorithm}} dengan populasi besar ($\geq 50$) cenderung lebih konsisten. GA pop-100/it-100 mencapai $s = 0{,}00$ pada \texttt{tc10}, menunjukkan bahwa populasi besar menekan efek keacakan melalui keragaman genetik. Sebaliknya, GA pop-20/it-100 pada \texttt{tc9} memiliki $s = 3{,}61$ karena populasi kecil lebih rentan terhadap konvergensi dini.
+    \item \textbf{\textit{Genetic Algorithm}} dengan populasi besar ($\geq 50$) menghasilkan nilai yang lebih tinggi dan cenderung lebih konsisten. GA pop-100/it-100 mencapai $s = 0{,}00$ pada \texttt{tc10}. Karena nilai akhir GA selalu berasal dari populasi awal, konsistensi ini muncul karena populasi awal yang besar memuat lebih banyak \textit{state} acak sehingga peluang memuat \textit{state} bernilai tinggi lebih besar pada setiap \textit{seed}. Sebaliknya, GA pop-20/it-100 menghasilkan rata-rata terendah di antara konfigurasi GA pada \texttt{tc9} ($\overline{f} = 102{,}33$) dan \texttt{tc10} ($\overline{f} = 90{,}33$, $s = 2{,}89$).
 \end{itemize}
 
 \subsection{Perbandingan Durasi dan Biaya Pencarian}
@@ -412,22 +414,21 @@ Hierarki durasi yang konsisten dapat terlihat di seluruh test case:
 \begin{enumerate}
     \item \textit{Steepest Ascent} paling cepat ($\overline{t} < 0{,}02$ detik),
     \item \textit{Sideways Move} dan \textit{Random Restart} (keduanya $< 0{,}15$ detik),
-    \item GA populasi kecil, 
-    \item SA, 
-    \item GA populasi besar, dan terakhir 
+    \item GA dengan populasi atau iterasi kecil (pop-20/it-100 dan pop-50/it-50, 0,10--0,24 detik),
+    \item GA dengan populasi atau iterasi besar (pop-50/it-200 dan pop-100/it-100, 0,54--0,90 detik) serta SA (0,34--1,62 detik) yang durasinya saling bertumpang tindih bergantung \textit{test case}, dan terakhir
     \item \textit{Stochastic HC} yang jauh lebih lambat (2,30--12,57 detik) meskipun nilai akhirnya setara atau lebih rendah dibanding SA.
 \end{enumerate}
 
 Durasi \textit{Stochastic HC} yang relatif lama dapat dijelaskan dari karakteristik pergerakannya. Karena hanya memeriksa satu tetangga acak pada setiap langkah, algoritma ini membutuhkan hingga 10.000 iterasi sebelum berhenti. Sebaliknya, \textit{Steepest Ascent} berhenti sangat cepat (hanya dalam 1--2 iterasi) begitu tidak ada tetangga yang lebih baik di sekelilingnya. Sementara itu, durasi eksekusi \textit{Simulated Annealing} yang berada di atas varian HC deterministik sebanding dengan efektivitasnya dalam menghasilkan solusi dengan nilai objektif yang jauh lebih optimal.
 
-Pada GA, durasi proporsional terhadap jumlah generasi dan ukuran populasi. GA pop-20/it-100 ($\overline{t} \approx 0{,}32$ detik) hampir secepat \textit{Sideways Move}, tetapi sudah menghasilkan nilai 92--110 bergantung test case. GA pop-100/it-100 ($\overline{t} \approx 1{,}87$ detik) merupakan yang paling mahal namun juga yang paling andal untuk test case sulit.
+Pada GA, durasi sebanding dengan jumlah generasi dikali ukuran populasi, karena setiap generasi membentuk dan mengevaluasi population\_size individu baru. GA pop-20/it-100 ($\overline{t} \approx 0{,}10$--$0{,}17$ detik) setara dengan \textit{Sideways Move} dan menghasilkan nilai 87--103 bergantung \textit{test case}. GA pop-100/it-100 ($\overline{t} \approx 0{,}62$--$0{,}90$ detik) merupakan konfigurasi GA termahal bersama pop-50/it-200, namun juga yang paling andal pada \textit{test case} yang lebih sulit.
 
 \subsection{Perilaku Khusus Algoritma \textit{Hill-climbing} dan \textit{Simulated Annealing}}
 
 \begin{itemize}
-    \item \textbf{\textit{Steepest Ascent}}: grafik nilai objektif menunjukkan kenaikan tajam pada satu hingga dua iterasi pertama, lalu berhenti sama sekali. Berhentinya pencarian setelah iterasi ke-1 pada \texttt{tc9} dan \texttt{tc10} mengindikasikan bahwa \textit{state} awal sudah berada di dekat lembah optimum lokal yang dangkal, sehingga tidak ada arah perbaikan yang dapat diambil sejak dini.
+    \item \textbf{\textit{Steepest Ascent}}: grafik nilai objektif menunjukkan kenaikan tajam pada satu hingga dua iterasi pertama, lalu berhenti sama sekali. Berhentinya pencarian setelah iterasi ke-1 pada \texttt{tc9} dan \texttt{tc10} mengindikasikan bahwa \textit{state} awal sudah berada pada atau di dekat puncak optimum lokal yang rendah, sehingga tidak ada arah perbaikan yang dapat diambil sejak dini.
 
-    \item \textbf{\textit{Sideways Move}}: parameter \textit{maximum sideways move} = 10 memungkinkan algoritma bergerak secara lateral. Pada \texttt{tc8}, satu \textit{run} mencapai 103 dengan memanfaatkan 10 langkah lateral berturut-turut (total 12 iterasi), membuktikan bahwa langkah lateral membantu keluar dari dataran optimum lokal. Namun, dua \textit{run} lainnya hanya mencapai 96--98, menunjukkan bahwa langkah lateral tidak selalu berhasil membuka jalan menuju nilai yang lebih baik.
+    \item \textbf{\textit{Sideways Move}}: parameter \textit{maximum sideways move} = 10 memungkinkan algoritma bergerak secara lateral. Pada \texttt{tc8}, satu \textit{run} mencapai 103 dengan memanfaatkan total 10 langkah lateral (12 iterasi), membuktikan bahwa langkah lateral membantu keluar dari dataran optimum lokal. Namun, dua \textit{run} lainnya hanya mencapai 96--98, menunjukkan bahwa langkah lateral tidak selalu berhasil membuka jalan menuju nilai yang lebih baik.
 
     \item \textbf{\textit{Random Restart}}: dengan \textit{maximum restart} = 3, setiap \textit{run} menjalankan empat pencarian lokal. Pada \texttt{tc10}, satu \textit{run} berhasil menemukan nilai 97 melalui salah satu \textit{restart}. Namun dua \textit{run} lainnya tidak mendapat manfaat yang sama, mencerminkan keterbatasan jumlah \textit{restart} dan sifat probabilistik titik awal.
 
@@ -437,19 +438,21 @@ Pada GA, durasi proporsional terhadap jumlah generasi dan ukuran populasi. GA po
 \end{itemize}
 
 \subsection{Pengaruh Parameter pada \textit{Genetic Algorithm}}
+\label{subsec:ga-param}
+
+\paragraph{Peran operator genetik.}
+Pada seluruh 45 \textit{run} GA di \texttt{tc8}, \texttt{tc9}, dan \texttt{tc10}, nilai akhir selalu sama dengan individu terbaik populasi awal (best\_generation $= 0$). Grafik GA juga menunjukkan bahwa rata-rata \textit{fitness} populasi justru turun setelah generasi pertama. Sebagai contoh, pada konfigurasi pop-50/it-100, rata-rata populasi turun dari 79--92 pada generasi ke-0 menjadi 52--83 pada generasi ke-100, dan nilai maksimum populasi pada generasi terakhir umumnya lebih rendah daripada individu terbaik awal (misalnya 73 dibanding 103 pada \texttt{tc8}).
+
+Hal ini disebabkan oleh operator \textit{crossover} yang menjaga validitas (\Cref{sec:ga-impl}). Anak mewarisi posisi paket dari dua orang tua yang susunannya berbeda, sehingga banyak paket warisan saling bertabrakan atau kehilangan penyangga. Paket tersebut dikeluarkan dari truk tanpa dicarikan posisi pengganti, sehingga anak hampir selalu memuat lebih sedikit paket dan bernilai lebih rendah daripada orang tuanya. \textit{Mutation} hanya mengubah satu paket dengan peluang 0,30, sehingga tidak cukup untuk memulihkan paket yang hilang. Karena tidak menggunakan \textit{elitism}, individu terbaik juga tidak dipertahankan pada generasi berikutnya. Dengan demikian, pada implementasi ini kualitas GA terutama ditentukan oleh pengambilan sampel \textit{state} acak pada populasi awal, sedangkan proses evolusi tidak menghasilkan individu yang lebih baik.
 
 \paragraph{Variasi jumlah iterasi (populasi tetap 50).}
-Pada \texttt{tc8}, ketiga variasi iterasi (50, 100, 200) menghasilkan $\overline{f} = 103{,}00$ dengan $s = 0{,}00$, menunjukkan bahwa masalah ini relatif mudah dan solusi optimal sudah ditemukan dalam 50 generasi. Durasi meningkat hampir linier: 0,316 $\to$ 0,649 $\to$ 1,623 detik, mengkonfirmasi bahwa penambahan iterasi tidak memberikan manfaat kualitas untuk \texttt{tc8}.
-
-Pada \texttt{tc9} dan \texttt{tc10}, kenaikan iterasi dari 50 ke 100 atau 200 tidak mengubah rata-rata ($\overline{f}$ tetap 111,33 dan 95,33) dan rentang yang dicapai pun sama (110--114 dan 92--97). Hal ini mengindikasikan bahwa konvergensi populasi terjadi sebelum generasi ke-50; penambahan generasi hanya mempertahankan solusi terbaik yang sudah ditemukan. Grafik nilai maksimum populasi yang mendatar jauh sebelum generasi terakhir mendukung interpretasi ini.
+Pada ketiga \textit{test case}, kenaikan iterasi dari 50 ke 100 dan 200 tidak mengubah nilai akhir ($\overline{f}$ tetap 103,00; 111,33; dan 95,33) maupun rentangnya. Hal ini konsisten dengan temuan di atas: karena individu terbaik selalu berasal dari generasi ke-0, penambahan generasi tidak memberikan manfaat kualitas. Sebaliknya, durasi meningkat hampir linier terhadap jumlah iterasi, misalnya pada \texttt{tc8} 0,131 $\to$ 0,261 $\to$ 0,538 detik.
 
 \paragraph{Variasi jumlah populasi (iterasi tetap 100).}
-Pengaruh ukuran populasi lebih signifikan. Pada \texttt{tc9}, GA pop-20 menghasilkan $\overline{f} = 106{,}00$ dengan $s = 3{,}61$, sedangkan GA pop-50 dan pop-100 keduanya mencapai $\overline{f} = 111{,}33$ dengan $s = 2{,}31$. Populasi 20 individu tidak menyediakan cukup keragaman genetik untuk menjelajahi ruang pencarian yang kompleks.
-
-Pada \texttt{tc10}, pola terlihat sangat jelas. GA pop-20 selalu terkunci pada nilai 92 ($s = 0{,}00$) karena terjebak pada optimum lokal yang sama di setiap \textit{run}. Sementara itu, GA pop-50 mencapai rentang 92--97 ($s = 2{,}89$), dan GA pop-100 secara konsisten mencapai 97 ($s = 0{,}00$). Durasi GA pop-100 ($\overline{t} \approx 1{,}87$ detik) hanya sekitar 5,8$\times$ lebih lambat dibanding pop-20 ($\overline{t} \approx 0{,}32$ detik), namun memberikan peningkatan kualitas solusi yang signifikan, sehingga menjadi pertukaran (\textit{trade-off}) yang menguntungkan.
+Ukuran populasi berpengaruh nyata terhadap hasil karena menentukan banyaknya \textit{state} acak pada populasi awal. Pada \texttt{tc9}, GA pop-20 menghasilkan $\overline{f} = 102{,}33$ ($s = 1{,}15$), sedangkan GA pop-50 dan pop-100 keduanya mencapai $\overline{f} = 111{,}33$ ($s = 2{,}31$). Pada \texttt{tc10}, GA pop-20 menghasilkan rentang 87--92 ($\overline{f} = 90{,}33$), GA pop-50 mencapai 92--97 ($\overline{f} = 95{,}33$), dan GA pop-100 secara konsisten mencapai 97 ($s = 0{,}00$). Pada \texttt{tc8}, seluruh ukuran populasi sudah cukup untuk memuat \textit{state} bernilai 103. Durasi GA pop-100 ($\overline{t} \approx 0{,}62$--$0{,}90$ detik) sekitar 5--6$\times$ lebih lama daripada pop-20 ($\overline{t} \approx 0{,}10$--$0{,}17$ detik), tetapi peningkatan kualitasnya signifikan pada \texttt{tc9} dan \texttt{tc10}.
 
 \subsection{Kesimpulan Analisis}
 
-Dari seluruh eksperimen, karakteristik test case sangat memengaruhi kinerja relatif algoritma. Pada \texttt{tc8} yang relatif sederhana, hampir seluruh algoritma berhasil mencapai nilai terbaik 103 secara konsisten; perbedaan utama hanya terletak pada durasi. Pada \texttt{tc9} dan \texttt{tc10} yang lebih kompleks, SA dan GA terbukti jauh unggul dalam kualitas solusi dibanding seluruh varian Hill-climbing, karena kemampuan keduanya untuk keluar dari optimum lokal melalui mekanisme yang berbeda: SA menggunakan penerimaan probabilistik berbasis suhu, sedangkan GA menggunakan operasi \textit{crossover} dan mutasi pada populasi.
+Dari seluruh eksperimen, karakteristik test case sangat memengaruhi kinerja relatif algoritma. Pada \texttt{tc8} yang relatif sederhana, hampir seluruh algoritma berhasil mencapai nilai terbaik 103 secara konsisten; perbedaan utama hanya terletak pada durasi. Pada \texttt{tc9} dan \texttt{tc10} yang lebih kompleks, SA dan GA unggul dalam kualitas solusi dibanding varian Hill-climbing, tetapi dengan sebab yang berbeda. SA mampu keluar dari optimum lokal melalui penerimaan probabilistik berbasis suhu. GA unggul karena populasi awalnya memuat banyak \textit{state} acak yang dievaluasi sekaligus, sedangkan operasi \textit{crossover} dan mutasi pada implementasi ini tidak pernah menghasilkan individu yang lebih baik daripada populasi awal.
 
-Dari sisi konsistensi, GA dengan populasi besar ($\geq 50$) dan SA pada \texttt{tc8} menunjukkan kestabilan tertinggi. Sebaliknya, \textit{Random Restart} menjadi algoritma paling tidak konsisten karena ketergantungannya pada variasi titik awal dengan jumlah \textit{restart} yang terbatas. Dari sisi efisiensi waktu, \textit{Steepest Ascent} paling cepat namun paling rendah kualitasnya; \textit{Random Restart} menawarkan keseimbangan terbaik di antara varian Hill-climbing. SA merupakan pilihan terbaik apabila kualitas solusi yang tinggi dibutuhkan dalam waktu yang masih terkendali, sedangkan GA pop-100 merupakan pilihan terbaik untuk test case yang paling sulit meski memerlukan waktu lebih lama.
+Dari sisi konsistensi, GA dengan populasi besar ($\geq 50$) dan SA pada \texttt{tc8} menunjukkan kestabilan tertinggi. Sebaliknya, \textit{Random Restart} menjadi algoritma paling tidak konsisten karena ketergantungannya pada variasi titik awal dengan jumlah \textit{restart} yang terbatas. Dari sisi efisiensi waktu, \textit{Steepest Ascent} paling cepat namun paling rendah kualitasnya; \textit{Random Restart} menawarkan keseimbangan terbaik di antara varian Hill-climbing. SA merupakan pilihan terbaik apabila kualitas solusi yang tinggi dibutuhkan dalam waktu yang masih terkendali, sedangkan GA pop-100 menghasilkan nilai tertinggi dan paling konsisten pada test case yang paling sulit dengan durasi yang masih di bawah satu detik.

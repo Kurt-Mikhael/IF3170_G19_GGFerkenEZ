@@ -55,9 +55,9 @@
   "initial_value": 30,
   "final_value": 30,
   "iterations": 50,
-  "accepted_moves": 396,
+  "accepted_moves": 374,
   "objective_evaluations": 2550,
-  "duration_seconds": 0.1440714000054868,
+  "duration_seconds": 0.0929522000005818,
   "stop_reason": "iteration_limit_reached",
   "history": [
     {
@@ -69,163 +69,163 @@
     {
       "iteration": 1,
       "population_max": 30,
-      "population_mean": 20.0,
+      "population_mean": 20.6,
       "best_so_far": 30
     },
     {
       "iteration": 2,
       "population_max": 30,
-      "population_mean": 27.0,
+      "population_mean": 25.8,
       "best_so_far": 30
     },
     {
       "iteration": 3,
       "population_max": 30,
-      "population_mean": 25.4,
+      "population_mean": 24.4,
       "best_so_far": 30
     },
     {
       "iteration": 4,
       "population_max": 30,
-      "population_mean": 25.0,
+      "population_mean": 26.4,
       "best_so_far": 30
     },
     {
       "iteration": 5,
       "population_max": 30,
-      "population_mean": 24.2,
+      "population_mean": 23.0,
       "best_so_far": 30
     },
     {
       "iteration": 6,
       "population_max": 30,
-      "population_mean": 26.2,
+      "population_mean": 25.8,
       "best_so_far": 30
     },
     {
       "iteration": 7,
       "population_max": 30,
-      "population_mean": 25.0,
+      "population_mean": 26.6,
       "best_so_far": 30
     },
     {
       "iteration": 8,
       "population_max": 30,
-      "population_mean": 25.6,
+      "population_mean": 25.8,
       "best_so_far": 30
     },
     {
       "iteration": 9,
       "population_max": 30,
-      "population_mean": 25.8,
+      "population_mean": 26.4,
       "best_so_far": 30
     },
     {
       "iteration": 10,
       "population_max": 30,
-      "population_mean": 23.0,
+      "population_mean": 23.8,
       "best_so_far": 30
     },
     {
       "iteration": 11,
       "population_max": 30,
-      "population_mean": 25.6,
+      "population_mean": 25.2,
       "best_so_far": 30
     },
     {
       "iteration": 12,
       "population_max": 30,
-      "population_mean": 24.2,
+      "population_mean": 26.4,
       "best_so_far": 30
     },
     {
       "iteration": 13,
       "population_max": 30,
-      "population_mean": 24.4,
+      "population_mean": 27.0,
       "best_so_far": 30
     },
     {
       "iteration": 14,
       "population_max": 30,
-      "population_mean": 23.2,
+      "population_mean": 26.2,
       "best_so_far": 30
     },
     {
       "iteration": 15,
       "population_max": 30,
-      "population_mean": 24.0,
+      "population_mean": 25.0,
       "best_so_far": 30
     },
     {
       "iteration": 16,
       "population_max": 30,
-      "population_mean": 24.8,
+      "population_mean": 26.6,
       "best_so_far": 30
     },
     {
       "iteration": 17,
       "population_max": 30,
-      "population_mean": 25.4,
+      "population_mean": 25.6,
       "best_so_far": 30
     },
     {
       "iteration": 18,
       "population_max": 30,
-      "population_mean": 24.8,
+      "population_mean": 25.0,
       "best_so_far": 30
     },
     {
       "iteration": 19,
       "population_max": 30,
-      "population_mean": 26.6,
+      "population_mean": 26.8,
       "best_so_far": 30
     },
     {
       "iteration": 20,
       "population_max": 30,
-      "population_mean": 26.2,
+      "population_mean": 24.6,
       "best_so_far": 30
     },
     {
       "iteration": 21,
       "population_max": 30,
-      "population_mean": 24.4,
+      "population_mean": 25.4,
       "best_so_far": 30
     },
     {
       "iteration": 22,
       "population_max": 30,
-      "population_mean": 25.8,
+      "population_mean": 26.0,
       "best_so_far": 30
     },
     {
       "iteration": 23,
       "population_max": 30,
-      "population_mean": 25.0,
+      "population_mean": 26.4,
       "best_so_far": 30
     },
     {
       "iteration": 24,
       "population_max": 30,
-      "population_mean": 24.0,
+      "population_mean": 27.0,
       "best_so_far": 30
     },
     {
       "iteration": 25,
       "population_max": 30,
-      "population_mean": 25.4,
+      "population_mean": 25.6,
       "best_so_far": 30
     },
     {
       "iteration": 26,
       "population_max": 30,
-      "population_mean": 25.8,
+      "population_mean": 23.8,
       "best_so_far": 30
     },
     {
       "iteration": 27,
       "population_max": 30,
-      "population_mean": 27.4,
+      "population_mean": 25.6,
       "best_so_far": 30
     },
     {
@@ -237,97 +237,97 @@
     {
       "iteration": 29,
       "population_max": 30,
-      "population_mean": 26.4,
+      "population_mean": 25.4,
       "best_so_far": 30
     },
     {
       "iteration": 30,
       "population_max": 30,
-      "population_mean": 26.8,
+      "population_mean": 23.8,
       "best_so_far": 30
     },
     {
       "iteration": 31,
       "population_max": 30,
-      "population_mean": 26.0,
+      "population_mean": 24.8,
       "best_so_far": 30
     },
     {
       "iteration": 32,
       "population_max": 30,
-      "population_mean": 25.6,
+      "population_mean": 26.4,
       "best_so_far": 30
     },
     {
       "iteration": 33,
       "population_max": 30,
-      "population_mean": 24.6,
+      "population_mean": 25.8,
       "best_so_far": 30
     },
     {
       "iteration": 34,
       "population_max": 30,
-      "population_mean": 23.2,
+      "population_mean": 25.8,
       "best_so_far": 30
     },
     {
       "iteration": 35,
       "population_max": 30,
-      "population_mean": 23.2,
+      "population_mean": 25.0,
       "best_so_far": 30
     },
     {
       "iteration": 36,
       "population_max": 30,
-      "population_mean": 24.0,
+      "population_mean": 23.8,
       "best_so_far": 30
     },
     {
       "iteration": 37,
       "population_max": 30,
-      "population_mean": 24.0,
+      "population_mean": 25.6,
       "best_so_far": 30
     },
     {
       "iteration": 38,
       "population_max": 30,
-      "population_mean": 25.0,
+      "population_mean": 26.2,
       "best_so_far": 30
     },
     {
       "iteration": 39,
       "population_max": 30,
-      "population_mean": 25.6,
+      "population_mean": 25.8,
       "best_so_far": 30
     },
     {
       "iteration": 40,
       "population_max": 30,
-      "population_mean": 21.0,
+      "population_mean": 26.0,
       "best_so_far": 30
     },
     {
       "iteration": 41,
       "population_max": 30,
-      "population_mean": 23.4,
+      "population_mean": 25.4,
       "best_so_far": 30
     },
     {
       "iteration": 42,
       "population_max": 30,
-      "population_mean": 25.8,
+      "population_mean": 25.2,
       "best_so_far": 30
     },
     {
       "iteration": 43,
       "population_max": 30,
-      "population_mean": 25.6,
+      "population_mean": 27.6,
       "best_so_far": 30
     },
     {
       "iteration": 44,
       "population_max": 30,
-      "population_mean": 24.8,
+      "population_mean": 26.0,
       "best_so_far": 30
     },
     {
@@ -339,7 +339,7 @@
     {
       "iteration": 46,
       "population_max": 30,
-      "population_mean": 23.6,
+      "population_mean": 25.4,
       "best_so_far": 30
     },
     {
@@ -351,19 +351,19 @@
     {
       "iteration": 48,
       "population_max": 30,
-      "population_mean": 20.4,
+      "population_mean": 24.8,
       "best_so_far": 30
     },
     {
       "iteration": 49,
       "population_max": 30,
-      "population_mean": 23.4,
+      "population_mean": 24.4,
       "best_so_far": 30
     },
     {
       "iteration": 50,
       "population_max": 30,
-      "population_mean": 25.2,
+      "population_mean": 23.6,
       "best_so_far": 30
     }
   ],
@@ -1573,31 +1573,14 @@
     ],
     "final_population_fitness": [
       30,
-      30,
-      30,
-      0,
-      0,
-      0,
-      30,
       10,
       30,
       30,
-      30,
-      30,
-      30,
-      30,
-      30,
-      30,
-      30,
-      30,
-      30,
+      0,
       10,
+      30,
+      30,
       0,
-      30,
-      30,
-      30,
-      30,
-      30,
       30,
       30,
       30,
@@ -1608,8 +1591,8 @@
       30,
       30,
       0,
-      30,
-      30,
+      10,
+      10,
       30,
       30,
       30,
@@ -1620,23 +1603,43 @@
       30,
       30,
       30,
+      10,
+      30,
+      10,
+      30,
+      30,
+      10,
+      10,
+      30,
       0,
+      30,
+      30,
+      30,
+      30,
+      30,
+      30,
+      10,
+      30,
+      30,
       30
     ],
     "best_generation": 0,
-    "crossovers": 1992,
-    "mutation_calls": 736,
-    "accepted_mutations": 396,
+    "crossovers": 1966,
+    "mutation_calls": 743,
+    "accepted_mutations": 374,
     "settings": {
       "selection": "roulette_wheel_with_replacement",
       "crossover_probability": 0.8,
       "mutation_probability": 0.3,
       "elitism": false,
-      "repair_attempts": 20,
+      "crossover": "uniform_inheritance_without_relocation",
+      "overlap_priority": "package_value_then_footprint_area",
+      "invalid_placement": "outside",
+      "initial_placement_attempts": 20,
       "mutation_attempts": 10
     }
   },
-  "total_duration_seconds": 0.1442486000014469,
+  "total_duration_seconds": 0.09307199999602744,
   "run_id": 3,
   "seed": 44,
   "input": "tc4",
