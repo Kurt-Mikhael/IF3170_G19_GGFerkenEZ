@@ -141,8 +141,8 @@ Argumen opsional:
 
 ## Kontributor
 
-| NIM      | Nama                     | Pembagian Tugas |
-| :------- | :----------------------- | :-------------- |
-| 13524062 | Nathan E C Marpaung      |                 |
-| 13524065 | Kurt Mikhael Pruba       |                 |
-| 13524089 | Aurelia Jennifer Gunawan |                 |
+| NIM      | Nama                     | Pembagian Tugas                                                                                                                |
+| :------- | :----------------------- | :----------------------------------------------------------------------------------------------------------------------------- |
+| 13524062 | Nathan E C Marpaung      | 1. Penyusunan representasi problem masalah<br />2. Genetic Algorithm<br />3. Visualisasi                                       |
+| 13524065 | Kurt Mikhael Pruba       | 1. Penyusunan representasi problem masalah<br />2. HC - Steepest Ascent<br />3. HC - Sideways Move<br />4. HC - Random restart |
+| 13524089 | Aurelia Jennifer Gunawan | 1. Penyusunan representasi problem masalah<br />2. Simulated Annealing<br />3. HC - Stochastic                                 |
