@@ -22,8 +22,8 @@ Repository ini berisi implementasi Tugas Besar 1 IF3170 Inteligensi Artifisial, 
   * *Sideways Move*: kayak steepest ascent, tetapi boleh berpindah ke tetangga dengan nilai sama.
   * *Random Restart*: menjalankan steepest ascent berulang kali dari initial state acak hingga banyak restart mencapai batas maksimum, lalu mengambil hasil terbaik.
   * *Stochastic*: memilih satu tetangga acak setiap iterasi dan hanya berpindah jika tetangga tersebut lebih baik.
-* **Simulated Annealing
-  **Algoritma memilih satu tetangga acak setiap iterasi. Tetangga yang lebih baik selalu diterima, sedangkan tetangga yang sama atau lebih buruk diterima dengan probabilitas e^(ΔE/T). Suhu T diturunkan secara geometris hingga mencapai suhu minimum. Program juga mencatat frekuensi *stuck*, yaitu ketika selama sejumlah iterasi berturut-turut tidak ditemukan tetangga yang lebih baik.
+* **Simulated Annealing**
+  Algoritma memilih satu tetangga acak setiap iterasi. Tetangga yang lebih baik selalu diterima, sedangkan tetangga yang sama atau lebih buruk diterima dengan probabilitas e^(ΔE/T). Suhu T diturunkan secara geometris hingga mencapai suhu minimum. Program juga mencatat frekuensi *stuck*, yaitu ketika selama sejumlah iterasi berturut-turut tidak ditemukan tetangga yang lebih baik.
 * **Genetic Algorithm**
   Algoritma yang membentuk populasi state acak, memilih orang tua dengan *roulette wheel selection*, melakukan *crossover* per paket dan *mutation* (tukar, pindah, atau rotasi paket), lalu mengulanginya sebanyak jumlah iterasi (generasi). Eksperimen dilakukan dalam dua rangkaian: populasi sebagai kontrol dengan tiga variasi iterasi, dan iterasi sebagai kontrol dengan tiga variasi populasi.
 
@@ -80,22 +80,9 @@ atau unduh zip proyek ini dan extract folder
 cd IF3170_G19_GGFerkenEZ
 ```
 
-<<<<<<< HEAD
-3. (Opsional, untuk visualisasi) Pasang library yang dibutuhkan:
-
 ```bash
 pip install -r requirements-visualization.txt
 ```
-
-=======
-
->>>>>>> main
->>>>>>>
->>>>>>
->>>>>
->>>>
->>>
->>
 
 ## How to Run
 
