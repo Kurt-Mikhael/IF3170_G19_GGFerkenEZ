@@ -34,6 +34,22 @@ def main():
     ap.add_argument("--ga-population-variants", type=int, nargs=3, default=[20, 50, 100], help="Tiga variasi jumlah populasi (iterasi tetap = --ga-iterations)")
     ap.add_argument("--output-dir", default="output", help="Hasil disimpan di <output-dir>/<nama tc>/")
     args = ap.parse_args()
+    if args.runs < 1:
+        ap.error("--runs harus minimal 1")
+    if args.max_sideways < 0:
+        ap.error("--max-sideways tidak boleh negatif")
+    if args.max_restart < 0:
+        ap.error("--max-restart tidak boleh negatif")
+    if args.max_iterations < 1 or args.sa_max_iterations < 1:
+        ap.error("--max-iterations dan --sa-max-iterations harus minimal 1")
+    if args.sa_initial_temperature <= 0 or args.sa_minimum_temperature <= 0:
+        ap.error("suhu awal dan suhu minimum SA harus lebih dari 0")
+    if args.sa_initial_temperature < args.sa_minimum_temperature:
+        ap.error("--sa-initial-temperature tidak boleh lebih kecil dari --sa-minimum-temperature")
+    if not 0 < args.sa_cooling_rate < 1:
+        ap.error("--sa-cooling-rate harus di antara 0 dan 1 (eksklusif)")
+    if args.sa_stuck_patience < 1:
+        ap.error("--sa-stuck-patience harus minimal 1")
     if args.algorithm in {"genetic_algorithm", "all"}:
         if min([args.ga_population_size] + args.ga_population_variants) < 2:
             ap.error("jumlah populasi GA harus minimal 2")

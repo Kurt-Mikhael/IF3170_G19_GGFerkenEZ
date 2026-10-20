@@ -61,6 +61,9 @@ def iter_valid_neighbors(problem, state):
 def sample_random_neighbor(problem, state, rng, max_attempts=50):
     pkgs = problem.package_map
     ids = list(state.placements)
+    # tanpa paket tidak ada tetangga yang bisa dibangkitkan
+    if not ids:
+        return None
     seen = {state.key()}
     operators = [0, 1, 2]
     rng.shuffle(operators)
