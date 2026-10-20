@@ -90,73 +90,74 @@
 \contentsline {subsection}{\numberline {4.3.1}Populasi Tetap, Variasi Banyak Iterasi}{136}{subsection.4.3.1}%
 \contentsline {subsubsection}{Test case tc8 --- Populasi 50, iterasi 50 --- Percobaan 1}{136}{subsection.4.3.1}%
 \contentsline {subsubsection}{Test case tc8 --- Populasi 50, iterasi 50 --- Percobaan 2}{137}{table.4.46}%
-\contentsline {subsubsection}{Test case tc8 --- Populasi 50, iterasi 50 --- Percobaan 3}{138}{table.4.47}%
-\contentsline {subsubsection}{Test case tc8 --- Populasi 50, iterasi 100 --- Percobaan 1}{139}{table.4.48}%
-\contentsline {subsubsection}{Test case tc8 --- Populasi 50, iterasi 100 --- Percobaan 2}{141}{table.4.49}%
-\contentsline {subsubsection}{Test case tc8 --- Populasi 50, iterasi 100 --- Percobaan 3}{142}{table.4.50}%
-\contentsline {subsubsection}{Test case tc8 --- Populasi 50, iterasi 200 --- Percobaan 1}{143}{table.4.51}%
-\contentsline {subsubsection}{Test case tc8 --- Populasi 50, iterasi 200 --- Percobaan 2}{144}{table.4.52}%
-\contentsline {subsubsection}{Test case tc8 --- Populasi 50, iterasi 200 --- Percobaan 3}{146}{table.4.53}%
-\contentsline {subsubsection}{Test case tc9 --- Populasi 50, iterasi 50 --- Percobaan 1}{147}{table.4.54}%
-\contentsline {subsubsection}{Test case tc9 --- Populasi 50, iterasi 50 --- Percobaan 2}{148}{table.4.55}%
-\contentsline {subsubsection}{Test case tc9 --- Populasi 50, iterasi 50 --- Percobaan 3}{149}{table.4.56}%
-\contentsline {subsubsection}{Test case tc9 --- Populasi 50, iterasi 100 --- Percobaan 1}{151}{table.4.57}%
-\contentsline {subsubsection}{Test case tc9 --- Populasi 50, iterasi 100 --- Percobaan 2}{152}{table.4.58}%
-\contentsline {subsubsection}{Test case tc9 --- Populasi 50, iterasi 100 --- Percobaan 3}{153}{table.4.59}%
-\contentsline {subsubsection}{Test case tc9 --- Populasi 50, iterasi 200 --- Percobaan 1}{154}{table.4.60}%
-\contentsline {subsubsection}{Test case tc9 --- Populasi 50, iterasi 200 --- Percobaan 2}{156}{table.4.61}%
-\contentsline {subsubsection}{Test case tc9 --- Populasi 50, iterasi 200 --- Percobaan 3}{157}{table.4.62}%
-\contentsline {subsubsection}{Test case tc10 --- Populasi 50, iterasi 50 --- Percobaan 1}{158}{table.4.63}%
-\contentsline {subsubsection}{Test case tc10 --- Populasi 50, iterasi 50 --- Percobaan 2}{159}{table.4.64}%
-\contentsline {subsubsection}{Test case tc10 --- Populasi 50, iterasi 50 --- Percobaan 3}{161}{table.4.65}%
-\contentsline {subsubsection}{Test case tc10 --- Populasi 50, iterasi 100 --- Percobaan 1}{162}{table.4.66}%
-\contentsline {subsubsection}{Test case tc10 --- Populasi 50, iterasi 100 --- Percobaan 2}{163}{table.4.67}%
-\contentsline {subsubsection}{Test case tc10 --- Populasi 50, iterasi 100 --- Percobaan 3}{164}{table.4.68}%
-\contentsline {subsubsection}{Test case tc10 --- Populasi 50, iterasi 200 --- Percobaan 1}{166}{table.4.69}%
-\contentsline {subsubsection}{Test case tc10 --- Populasi 50, iterasi 200 --- Percobaan 2}{167}{table.4.70}%
-\contentsline {subsubsection}{Test case tc10 --- Populasi 50, iterasi 200 --- Percobaan 3}{168}{table.4.71}%
-\contentsline {subsection}{\numberline {4.3.2}Iterasi Tetap, Variasi Jumlah Populasi}{169}{subsection.4.3.2}%
-\contentsline {subsubsection}{Test case tc8 --- Populasi 20, iterasi 100 --- Percobaan 1}{169}{subsection.4.3.2}%
-\contentsline {subsubsection}{Test case tc8 --- Populasi 20, iterasi 100 --- Percobaan 2}{171}{table.4.73}%
-\contentsline {subsubsection}{Test case tc8 --- Populasi 20, iterasi 100 --- Percobaan 3}{172}{table.4.74}%
-\contentsline {subsubsection}{Test case tc8 --- Populasi 50, iterasi 100 --- Percobaan 1}{173}{table.4.75}%
-\contentsline {subsubsection}{Test case tc8 --- Populasi 50, iterasi 100 --- Percobaan 2}{174}{table.4.76}%
-\contentsline {subsubsection}{Test case tc8 --- Populasi 50, iterasi 100 --- Percobaan 3}{176}{table.4.77}%
-\contentsline {subsubsection}{Test case tc8 --- Populasi 100, iterasi 100 --- Percobaan 1}{177}{table.4.78}%
-\contentsline {subsubsection}{Test case tc8 --- Populasi 100, iterasi 100 --- Percobaan 2}{178}{table.4.79}%
-\contentsline {subsubsection}{Test case tc8 --- Populasi 100, iterasi 100 --- Percobaan 3}{179}{table.4.80}%
-\contentsline {subsubsection}{Test case tc9 --- Populasi 20, iterasi 100 --- Percobaan 1}{181}{table.4.81}%
-\contentsline {subsubsection}{Test case tc9 --- Populasi 20, iterasi 100 --- Percobaan 2}{182}{table.4.82}%
-\contentsline {subsubsection}{Test case tc9 --- Populasi 20, iterasi 100 --- Percobaan 3}{183}{table.4.83}%
-\contentsline {subsubsection}{Test case tc9 --- Populasi 50, iterasi 100 --- Percobaan 1}{184}{table.4.84}%
-\contentsline {subsubsection}{Test case tc9 --- Populasi 50, iterasi 100 --- Percobaan 2}{186}{table.4.85}%
-\contentsline {subsubsection}{Test case tc9 --- Populasi 50, iterasi 100 --- Percobaan 3}{187}{table.4.86}%
-\contentsline {subsubsection}{Test case tc9 --- Populasi 100, iterasi 100 --- Percobaan 1}{188}{table.4.87}%
-\contentsline {subsubsection}{Test case tc9 --- Populasi 100, iterasi 100 --- Percobaan 2}{189}{table.4.88}%
-\contentsline {subsubsection}{Test case tc9 --- Populasi 100, iterasi 100 --- Percobaan 3}{191}{table.4.89}%
-\contentsline {subsubsection}{Test case tc10 --- Populasi 20, iterasi 100 --- Percobaan 1}{192}{table.4.90}%
-\contentsline {subsubsection}{Test case tc10 --- Populasi 20, iterasi 100 --- Percobaan 2}{193}{table.4.91}%
-\contentsline {subsubsection}{Test case tc10 --- Populasi 20, iterasi 100 --- Percobaan 3}{194}{table.4.92}%
-\contentsline {subsubsection}{Test case tc10 --- Populasi 50, iterasi 100 --- Percobaan 1}{196}{table.4.93}%
-\contentsline {subsubsection}{Test case tc10 --- Populasi 50, iterasi 100 --- Percobaan 2}{197}{table.4.94}%
-\contentsline {subsubsection}{Test case tc10 --- Populasi 50, iterasi 100 --- Percobaan 3}{198}{table.4.95}%
-\contentsline {subsubsection}{Test case tc10 --- Populasi 100, iterasi 100 --- Percobaan 1}{199}{table.4.96}%
-\contentsline {subsubsection}{Test case tc10 --- Populasi 100, iterasi 100 --- Percobaan 2}{201}{table.4.97}%
-\contentsline {subsubsection}{Test case tc10 --- Populasi 100, iterasi 100 --- Percobaan 3}{202}{table.4.98}%
-\contentsline {section}{\numberline {4.4}Analisis Hasil Eksperimen}{203}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Ringkasan Perbandingan Nilai Akhir dan Durasi}{203}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Kedekatan terhadap Nilai Terbaik yang Ditemukan}{205}{subsection.4.4.2}%
-\contentsline {subsection}{\numberline {4.4.3}Konsistensi Hasil antar-\textit {Run}}{205}{subsection.4.4.3}%
-\contentsline {subsection}{\numberline {4.4.4}Perbandingan Durasi dan Biaya Pencarian}{206}{subsection.4.4.4}%
-\contentsline {subsection}{\numberline {4.4.5}Perilaku Khusus Algoritma \textit {Hill-climbing} dan \textit {Simulated Annealing}}{207}{subsection.4.4.5}%
-\contentsline {subsection}{\numberline {4.4.6}Pengaruh Parameter pada \textit {Genetic Algorithm}}{208}{subsection.4.4.6}%
-\contentsline {paragraph}{Variasi jumlah iterasi (populasi tetap 50).}{208}{subsection.4.4.6}%
-\contentsline {paragraph}{Variasi jumlah populasi (iterasi tetap 100).}{208}{subsection.4.4.6}%
-\contentsline {subsection}{\numberline {4.4.7}Kesimpulan Analisis}{208}{subsection.4.4.7}%
-\contentsline {chapter}{\numberline {5}Kesimpulan dan Saran}{210}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Kesimpulan}{210}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Saran}{212}{section.5.2}%
-\contentsline {chapter}{Referensi}{214}{chapter*.3}%
-\contentsline {chapter}{Lampiran}{215}{section*.5}%
-\contentsline {section}{Pembagian Tugas}{215}{section*.6}%
-\contentsline {section}{Form Pengunaan AI}{216}{table.Alph0.1}%
+\contentsline {subsubsection}{Test case tc8 --- Populasi 50, iterasi 50 --- Percobaan 3}{139}{table.4.47}%
+\contentsline {subsubsection}{Test case tc8 --- Populasi 50, iterasi 100 --- Percobaan 1}{141}{table.4.48}%
+\contentsline {subsubsection}{Test case tc8 --- Populasi 50, iterasi 100 --- Percobaan 2}{143}{table.4.49}%
+\contentsline {subsubsection}{Test case tc8 --- Populasi 50, iterasi 100 --- Percobaan 3}{145}{table.4.50}%
+\contentsline {subsubsection}{Test case tc8 --- Populasi 50, iterasi 200 --- Percobaan 1}{147}{table.4.51}%
+\contentsline {subsubsection}{Test case tc8 --- Populasi 50, iterasi 200 --- Percobaan 2}{149}{table.4.52}%
+\contentsline {subsubsection}{Test case tc8 --- Populasi 50, iterasi 200 --- Percobaan 3}{151}{table.4.53}%
+\contentsline {subsubsection}{Test case tc9 --- Populasi 50, iterasi 50 --- Percobaan 1}{153}{table.4.54}%
+\contentsline {subsubsection}{Test case tc9 --- Populasi 50, iterasi 50 --- Percobaan 2}{155}{table.4.55}%
+\contentsline {subsubsection}{Test case tc9 --- Populasi 50, iterasi 50 --- Percobaan 3}{157}{table.4.56}%
+\contentsline {subsubsection}{Test case tc9 --- Populasi 50, iterasi 100 --- Percobaan 1}{159}{table.4.57}%
+\contentsline {subsubsection}{Test case tc9 --- Populasi 50, iterasi 100 --- Percobaan 2}{161}{table.4.58}%
+\contentsline {subsubsection}{Test case tc9 --- Populasi 50, iterasi 100 --- Percobaan 3}{163}{table.4.59}%
+\contentsline {subsubsection}{Test case tc9 --- Populasi 50, iterasi 200 --- Percobaan 1}{165}{table.4.60}%
+\contentsline {subsubsection}{Test case tc9 --- Populasi 50, iterasi 200 --- Percobaan 2}{167}{table.4.61}%
+\contentsline {subsubsection}{Test case tc9 --- Populasi 50, iterasi 200 --- Percobaan 3}{169}{table.4.62}%
+\contentsline {subsubsection}{Test case tc10 --- Populasi 50, iterasi 50 --- Percobaan 1}{171}{table.4.63}%
+\contentsline {subsubsection}{Test case tc10 --- Populasi 50, iterasi 50 --- Percobaan 2}{173}{table.4.64}%
+\contentsline {subsubsection}{Test case tc10 --- Populasi 50, iterasi 50 --- Percobaan 3}{175}{table.4.65}%
+\contentsline {subsubsection}{Test case tc10 --- Populasi 50, iterasi 100 --- Percobaan 1}{177}{table.4.66}%
+\contentsline {subsubsection}{Test case tc10 --- Populasi 50, iterasi 100 --- Percobaan 2}{179}{table.4.67}%
+\contentsline {subsubsection}{Test case tc10 --- Populasi 50, iterasi 100 --- Percobaan 3}{181}{table.4.68}%
+\contentsline {subsubsection}{Test case tc10 --- Populasi 50, iterasi 200 --- Percobaan 1}{183}{table.4.69}%
+\contentsline {subsubsection}{Test case tc10 --- Populasi 50, iterasi 200 --- Percobaan 2}{185}{table.4.70}%
+\contentsline {subsubsection}{Test case tc10 --- Populasi 50, iterasi 200 --- Percobaan 3}{187}{table.4.71}%
+\contentsline {subsection}{\numberline {4.3.2}Iterasi Tetap, Variasi Jumlah Populasi}{189}{subsection.4.3.2}%
+\contentsline {subsubsection}{Test case tc8 --- Populasi 20, iterasi 100 --- Percobaan 1}{189}{subsection.4.3.2}%
+\contentsline {subsubsection}{Test case tc8 --- Populasi 20, iterasi 100 --- Percobaan 2}{191}{table.4.73}%
+\contentsline {subsubsection}{Test case tc8 --- Populasi 20, iterasi 100 --- Percobaan 3}{193}{table.4.74}%
+\contentsline {subsubsection}{Test case tc8 --- Populasi 50, iterasi 100 --- Percobaan 1}{195}{table.4.75}%
+\contentsline {subsubsection}{Test case tc8 --- Populasi 50, iterasi 100 --- Percobaan 2}{197}{table.4.76}%
+\contentsline {subsubsection}{Test case tc8 --- Populasi 50, iterasi 100 --- Percobaan 3}{199}{table.4.77}%
+\contentsline {subsubsection}{Test case tc8 --- Populasi 100, iterasi 100 --- Percobaan 1}{201}{table.4.78}%
+\contentsline {subsubsection}{Test case tc8 --- Populasi 100, iterasi 100 --- Percobaan 2}{203}{table.4.79}%
+\contentsline {subsubsection}{Test case tc8 --- Populasi 100, iterasi 100 --- Percobaan 3}{205}{table.4.80}%
+\contentsline {subsubsection}{Test case tc9 --- Populasi 20, iterasi 100 --- Percobaan 1}{207}{table.4.81}%
+\contentsline {subsubsection}{Test case tc9 --- Populasi 20, iterasi 100 --- Percobaan 2}{209}{table.4.82}%
+\contentsline {subsubsection}{Test case tc9 --- Populasi 20, iterasi 100 --- Percobaan 3}{211}{table.4.83}%
+\contentsline {subsubsection}{Test case tc9 --- Populasi 50, iterasi 100 --- Percobaan 1}{213}{table.4.84}%
+\contentsline {subsubsection}{Test case tc9 --- Populasi 50, iterasi 100 --- Percobaan 2}{215}{table.4.85}%
+\contentsline {subsubsection}{Test case tc9 --- Populasi 50, iterasi 100 --- Percobaan 3}{217}{table.4.86}%
+\contentsline {subsubsection}{Test case tc9 --- Populasi 100, iterasi 100 --- Percobaan 1}{219}{table.4.87}%
+\contentsline {subsubsection}{Test case tc9 --- Populasi 100, iterasi 100 --- Percobaan 2}{221}{table.4.88}%
+\contentsline {subsubsection}{Test case tc9 --- Populasi 100, iterasi 100 --- Percobaan 3}{223}{table.4.89}%
+\contentsline {subsubsection}{Test case tc10 --- Populasi 20, iterasi 100 --- Percobaan 1}{225}{table.4.90}%
+\contentsline {subsubsection}{Test case tc10 --- Populasi 20, iterasi 100 --- Percobaan 2}{227}{table.4.91}%
+\contentsline {subsubsection}{Test case tc10 --- Populasi 20, iterasi 100 --- Percobaan 3}{229}{table.4.92}%
+\contentsline {subsubsection}{Test case tc10 --- Populasi 50, iterasi 100 --- Percobaan 1}{231}{table.4.93}%
+\contentsline {subsubsection}{Test case tc10 --- Populasi 50, iterasi 100 --- Percobaan 2}{233}{table.4.94}%
+\contentsline {subsubsection}{Test case tc10 --- Populasi 50, iterasi 100 --- Percobaan 3}{235}{table.4.95}%
+\contentsline {subsubsection}{Test case tc10 --- Populasi 100, iterasi 100 --- Percobaan 1}{237}{table.4.96}%
+\contentsline {subsubsection}{Test case tc10 --- Populasi 100, iterasi 100 --- Percobaan 2}{239}{table.4.97}%
+\contentsline {subsubsection}{Test case tc10 --- Populasi 100, iterasi 100 --- Percobaan 3}{241}{table.4.98}%
+\contentsline {section}{\numberline {4.4}Analisis Hasil Eksperimen}{243}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Ringkasan Perbandingan Nilai Akhir dan Durasi}{243}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Kedekatan terhadap Nilai Terbaik yang Ditemukan}{245}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}Konsistensi Hasil antar-\textit {Run}}{246}{subsection.4.4.3}%
+\contentsline {subsection}{\numberline {4.4.4}Perbandingan Durasi dan Biaya Pencarian}{247}{subsection.4.4.4}%
+\contentsline {subsection}{\numberline {4.4.5}Perilaku Khusus Algoritma \textit {Hill-climbing} dan \textit {Simulated Annealing}}{247}{subsection.4.4.5}%
+\contentsline {subsection}{\numberline {4.4.6}Pengaruh Parameter pada \textit {Genetic Algorithm}}{248}{subsection.4.4.6}%
+\contentsline {paragraph}{Peran operator genetik.}{248}{subsection.4.4.6}%
+\contentsline {paragraph}{Variasi jumlah iterasi (populasi tetap 50).}{249}{subsection.4.4.6}%
+\contentsline {paragraph}{Variasi jumlah populasi (iterasi tetap 100).}{249}{subsection.4.4.6}%
+\contentsline {subsection}{\numberline {4.4.7}Kesimpulan Analisis}{249}{subsection.4.4.7}%
+\contentsline {chapter}{\numberline {5}Kesimpulan dan Saran}{251}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Kesimpulan}{251}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Saran}{253}{section.5.2}%
+\contentsline {chapter}{Referensi}{255}{chapter*.3}%
+\contentsline {chapter}{Lampiran}{256}{section*.5}%
+\contentsline {section}{Pembagian Tugas}{256}{section*.6}%
+\contentsline {section}{Pernyataan}{257}{table.Alph0.1}%
