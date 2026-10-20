@@ -8,6 +8,7 @@
 - [Prerequisites](#prerequisites)
 - [Setup](#setup)
 - [How to Run](#how-to-run)
+- [Cara Menjalankan Visualizer](#cara-menjalankan-visualizer)
 - [Kontributor](#kontributor)
 
 ## Deskripsi Singkat Repository
@@ -49,6 +50,7 @@ IF3170_G19_GGFerkenEZ
 │   ├── neighbors.py                # pembangkitan tetangga (swap, move, rotate)
 │   ├── objective.py                # objective function
 │   ├── package.py, placement.py, problem.py, reader.py, state.py, truck.py
+│   ├── visualize.py                # membuat visualisasi 3D dan grafik dalam HTML
 │   └── visualization_charts.py     # grafik hasil eksperimen
 ├── test/                           # test case (tc1.json - tc10.json)
 ├── requirements-visualization.txt
@@ -79,6 +81,8 @@ atau unduh zip proyek ini dan extract folder
 ```bash
 cd IF3170_G19_GGFerkenEZ
 ```
+
+Pasang dependensi berikut untuk menggunakan visualizer:
 
 ```bash
 pip install -r requirements-visualization.txt
@@ -126,10 +130,28 @@ Argumen opsional:
 | `--ga-iteration-variants`  | `50 100 200` | tiga variasi banyak iterasi (populasi = kontrol)                                                                                    |
 | `--ga-population-variants` | `20 50 100`  | tiga variasi jumlah populasi (iterasi = kontrol)                                                                                    |
 
+## Cara Menjalankan Visualizer
+
+Visualizer membaca JSON hasil pencarian dan menghasilkan satu berkas HTML interaktif untuk setiap JSON. Jalankan perintah berikut dari root repository setelah hasil algoritma tersedia:
+
+```bash
+python -m src.visualize --input test/tc8.json --results output/tc8
+```
+
+HTML hasilnya disimpan secara default di `output/visualizations/`. Buka berkas `.html` yang dihasilkan pada browser untuk melihat representasi 3D peti kemas, state awal/akhir, dan grafik perjalanan algoritma.
+
+Untuk memvisualisasikan satu JSON tertentu atau menentukan folder keluaran sendiri:
+
+```bash
+python -m src.visualize --input test/tc8.json --results output/tc8/steepest_ascent_run1_seed42.json --output-dir output/visualizations/tc8
+```
+
+Gunakan `python -m src.visualize`, bukan `python src/visualize.py`, agar impor modul proyek berjalan dengan benar.
+
 ## Kontributor
 
 | NIM      | Nama                     | Pembagian Tugas                                                                                                                |
 | :------- | :----------------------- | :----------------------------------------------------------------------------------------------------------------------------- |
-| 13524062 | Nathan E C Marpaung      | 1. Penyusunan representasi problem masalah<br />2. Genetic Algorithm<br />3. Visualisasi                                       |
-| 13524065 | Kurt Mikhael Pruba       | 1. Penyusunan representasi problem masalah<br />2. HC - Steepest Ascent<br />3. HC - Sideways Move<br />4. HC - Random restart |
-| 13524089 | Aurelia Jennifer Gunawan | 1. Penyusunan representasi problem masalah<br />2. Simulated Annealing<br />3. HC - Stochastic                                 |
+| 13524062 | Nathan E C Marpaung      | 1. Implementasi algoritma *Genetic Algorithm*<br />2. Implementasi visualizer<br />3. Implementasi representasi *neighbor* dan state awal<br />4. Penyusunan laporan |
+| 13524065 | Kurt Mikhael Pruba       | 1. Implementasi representasi *state*, fungsi objektif, dan *constraints*<br />2. Implementasi *Steepest Ascent Hill-Climbing*, *Random Restart Hill-Climbing*, dan *Hill-Climbing with Sideways Move*<br />3. Penyusunan laporan |
+| 13524089 | Aurelia Jennifer Gunawan | 1. Implementasi fungsi-fungsi pendukung<br />2. Implementasi *Simulated Annealing*<br />3. Implementasi *Stochastic Hill-Climbing*<br />4. Penyusunan laporan |
